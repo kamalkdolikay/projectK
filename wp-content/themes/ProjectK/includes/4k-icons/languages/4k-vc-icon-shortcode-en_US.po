@@ -1,0 +1,411 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 4k Icons\n"
+"POT-Creation-Date: 2014-10-24 19:06+0800\n"
+"PO-Revision-Date: 2014-10-24 19:06+0800\n"
+"Last-Translator: Benjamin Intal <bfintal@gmail.com>\n"
+"Language-Team: Gambit <bfintal@gmail.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../4k-vc-icon-shortcode.php:127
+#, php-format
+msgid ""
+"You are missing %d required font pack(s) for the 4k Icons plugin, they are "
+"not activated or installed."
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:130
+msgid "Click here to go to the plugins page to install or activate it."
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:162
+msgid "Get Customer Support"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:166
+msgid "Get More Plugins"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:274
+#, php-format
+msgid "Enjoying %s?"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:275
+msgid ""
+"Help us out by rating our plugin 5 stars in CodeCanyon! This will allow us "
+"to create more awesome products and provide top notch customer support."
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:276
+msgid "Rate us 5 stars in CodeCanyon :)"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:277
+msgid "Remind me tomorrow"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:278
+msgid "I&apos;ve already rated!"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:349
+#, php-format
+msgid "Thank you for activating %s!"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:352
+msgid ""
+"Now just edit your pages, add one of more than 4k icons in list, and style "
+"it, all in Visual Composer."
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:354
+msgid ""
+"If you need any support, you can leave us a ticket in our support site. The "
+"link to our support site is also listed in the plugin details for future "
+"reference."
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:355
+msgid "Visit our support site"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:357
+msgid "This notice will go away in a moment"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:387
+msgid "Search icon or pick one below..."
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:398
+msgid "Search Filter"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:399
+msgid "Show all icons (may be a bit slow)"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:401 ../4k-vc-icon-shortcode.php:404
+#: ../4k-vc-icon-shortcode.php:407 ../4k-vc-icon-shortcode.php:410
+#: ../4k-vc-icon-shortcode.php:413 ../4k-vc-icon-shortcode.php:416
+#: ../4k-vc-icon-shortcode.php:419 ../4k-vc-icon-shortcode.php:422
+#: ../4k-vc-icon-shortcode.php:425 ../4k-vc-icon-shortcode.php:428
+#: ../4k-vc-icon-shortcode.php:431 ../4k-vc-icon-shortcode.php:434
+#: ../4k-vc-icon-shortcode.php:437 ../4k-vc-icon-shortcode.php:440
+#: ../4k-vc-icon-shortcode.php:443 ../4k-vc-icon-shortcode.php:446
+#: ../4k-vc-icon-shortcode.php:449 ../4k-vc-icon-shortcode.php:452
+#: ../4k-vc-icon-shortcode.php:455 ../4k-vc-icon-shortcode.php:458
+#: ../4k-vc-icon-shortcode.php:461 ../4k-vc-icon-shortcode.php:464
+#: ../4k-vc-icon-shortcode.php:467 ../4k-vc-icon-shortcode.php:470
+#: ../4k-vc-icon-shortcode.php:473 ../4k-vc-icon-shortcode.php:476
+#: ../4k-vc-icon-shortcode.php:479 ../4k-vc-icon-shortcode.php:482
+#: ../4k-vc-icon-shortcode.php:485 ../4k-vc-icon-shortcode.php:488
+#: ../4k-vc-icon-shortcode.php:491 ../4k-vc-icon-shortcode.php:494
+#: ../4k-vc-icon-shortcode.php:497 ../4k-vc-icon-shortcode.php:500
+#: ../4k-vc-icon-shortcode.php:503 ../4k-vc-icon-shortcode.php:506
+#: ../4k-vc-icon-shortcode.php:509 ../4k-vc-icon-shortcode.php:512
+#: ../4k-vc-icon-shortcode.php:515 ../4k-vc-icon-shortcode.php:518
+#: ../4k-vc-icon-shortcode.php:521 ../4k-vc-icon-shortcode.php:524
+#: ../4k-vc-icon-shortcode.php:527 ../4k-vc-icon-shortcode.php:530
+#: ../4k-vc-icon-shortcode.php:533 ../4k-vc-icon-shortcode.php:536
+#: ../4k-vc-icon-shortcode.php:539 ../4k-vc-icon-shortcode.php:542
+#: ../4k-vc-icon-shortcode.php:545 ../4k-vc-icon-shortcode.php:548
+#: ../4k-vc-icon-shortcode.php:551 ../4k-vc-icon-shortcode.php:554
+#: ../4k-vc-icon-shortcode.php:557 ../4k-vc-icon-shortcode.php:560
+#: ../4k-vc-icon-shortcode.php:563 ../4k-vc-icon-shortcode.php:566
+#: ../4k-vc-icon-shortcode.php:569 ../4k-vc-icon-shortcode.php:572
+#, php-format
+msgid "%s by %s"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:594
+msgid "4k Icon"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:595
+msgid "Awesome styleable icon"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:602
+msgid "Choose your icon"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:605
+msgid ""
+"Choose an icon. Type in the text box above to search for a specific icon. "
+"Use the drop down above to filter or show icons from specific icon sets."
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:609
+msgid "Icon Color"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:612
+msgid "Pick a color for your icon."
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:616
+msgid "Icon Size"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:619
+msgid "The size of your icon in pixels."
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:623
+msgid "Background Shape"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:626
+msgid "No background shape"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:627
+msgid "Circle"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:628
+msgid "Square"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:629
+msgid "Rounded-Square"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:631
+msgid ""
+"Select a background shape for your icon. <em>(Changes may not be visible in "
+"the frontend editor)</em>"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:635
+msgid "Background Shape Type"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:638
+msgid "Normal, solid background"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:639
+msgid "Solid background with a dark bottom border"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:640
+msgid "Thin bordered background"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:641
+msgid "Thick bordered background"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:643
+msgid ""
+"Select a type of background shape for your icon. This is only applied when "
+"there are no hover effects."
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:651
+msgid "Background Shape Border Radius"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:654
+msgid "The border radius of the background shape in pixels."
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:662
+msgid "Background Shape Color"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:665
+msgid "Pick a color for your icon's background shape."
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:673
+msgid "Shape Size"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:676
+msgid "The size for your icon's background shape in pixels."
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:684
+msgid "Hover Effect"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:687
+msgid "No hover effect"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:688
+msgid "Faint background shape that solidifies on hover with an outline"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:689
+msgid ""
+"Solid background shape that gets smaller when hovered on and shows a border"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:690
+msgid ""
+"Solid background shape, that flips vertically when hovered with inverted "
+"colors"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:691
+msgid ""
+"Solid background shape, that flips horizontally when hovered with inverted "
+"colors"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:692
+msgid ""
+"Solid background shape, icon swipes down on hover and gets replaced with "
+"inverted colors"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:693
+msgid ""
+"Solid background shape, icon swipes up on hover and gets replaced with "
+"inverted colors"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:694
+msgid ""
+"Solid background shape, icon swipes left on hover and gets replaced with "
+"inverted colors"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:695
+msgid ""
+"Solid background shape, icon swipes right on hover and gets replaced with "
+"inverted colors"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:696
+msgid ""
+"Outlined background shape that gets filled up from the bottom when hovered"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:697
+msgid "Border background shape that gets filled up from the edges when hovered"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:698
+msgid ""
+"Border background shape that gets smaller with another thicker border when "
+"hovered"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:700
+msgid ""
+"The hover effect to play when the mouse hovers over the icon. <em>(Changes "
+"may not be visible in the frontend editor)</em>"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:708
+msgid "Hover Effect Trigger"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:711
+msgid "When the mouse hovers over the icon"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:712
+msgid "When the mouse hovers over the icon's container"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:713 ../4k-vc-icon-shortcode.php:714
+#: ../4k-vc-icon-shortcode.php:715
+#, php-format
+msgid "When the mouse hovers over the icon's container (%d containers outward)"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:716
+msgid "When the mouse hovers over the row"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:718
+msgid ""
+"Choose the element which would trigger the hover effect. You may need to "
+"play around this value depending on your hover effect since some may have "
+"additional containers for the effect. <em>(Changes may not be visible in the "
+"frontend editor)</em>"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:726
+msgid "Link to go to When Icon is Clicked"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:729
+msgid "Enter a URL here to make your icon a link."
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:733
+msgid "Open The Link in a New Window?"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:736
+msgid "Check this to open the link above in a new window"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:746
+msgid "Icon Float"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:749
+msgid "Don't float"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:750
+msgid "Float left"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:751
+msgid "Float right"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:753
+msgid "The float rule of the icon."
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:757
+msgid "Overflow the Next Content?"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:760
+msgid ""
+"If the next content box is a single text block, you can check this field in "
+"order for the icon to occupy the whole height (not like when floated). This "
+"only applies when you have the float field set to left or right."
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:770
+msgid "Icon Margin"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:773
+msgid ""
+"The margin in pixels. By default this margin will be placed on the bottom of "
+"your icon. If floated left or right, this margin will also be used on the "
+"side the icon meets your content."
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:777
+msgid "Class name"
+msgstr ""
+
+#: ../4k-vc-icon-shortcode.php:780
+msgid ""
+"You can add an extra class name to this icon if you want to add custom CSS "
+"styles to it."
+msgstr ""

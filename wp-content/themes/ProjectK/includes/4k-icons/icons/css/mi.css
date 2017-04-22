@@ -1,0 +1,190 @@
+@font-face {
+	font-family: 'mi';
+	src:url('../4k-icons-pack03/icons/fonts/mi.eot');
+	src:url('../4k-icons-pack03/icons/fonts/mi.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack03/icons/fonts/mi.woff') format('woff'),
+		url('../4k-icons-pack03/icons/fonts/mi.ttf') format('truetype'),
+		url('../4k-icons-pack03/icons/fonts/mi.svg#mi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'mi';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="mi-"] {
+*/
+.mi-earth, .mi-clock, .mi-minus, .mi-plus, .mi-cancel, .mi-question, .mi-comment, .mi-chat, .mi-speaker, .mi-heart, .mi-list, .mi-edit, .mi-trash, .mi-briefcase, .mi-newspaper, .mi-calendar, .mi-inbox, .mi-facebook, .mi-google-plus, .mi-instagram, .mi-contrast, .mi-brightness, .mi-user, .mi-users, .mi-sent, .mi-archive, .mi-desktop, .mi-reply, .mi-popup, .mi-grid, .mi-email, .mi-tag, .mi-film, .mi-share, .mi-picture, .mi-frame, .mi-wand, .mi-mobile, .mi-crop, .mi-marquee, .mi-locked, .mi-pin, .mi-zoom-in, .mi-zoom-out, .mi-search, .mi-home, .mi-cart, .mi-camera, .mi-compass, .mi-cloud {
+	font-family: 'mi';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.mi-earth:before {
+	content: "\e000";
+}
+.mi-clock:before {
+	content: "\e001";
+}
+.mi-minus:before {
+	content: "\e002";
+}
+.mi-plus:before {
+	content: "\e003";
+}
+.mi-cancel:before {
+	content: "\e004";
+}
+.mi-question:before {
+	content: "\e005";
+}
+.mi-comment:before {
+	content: "\e006";
+}
+.mi-chat:before {
+	content: "\e007";
+}
+.mi-speaker:before {
+	content: "\e008";
+}
+.mi-heart:before {
+	content: "\e009";
+}
+.mi-list:before {
+	content: "\e00a";
+}
+.mi-edit:before {
+	content: "\e00b";
+}
+.mi-trash:before {
+	content: "\e00c";
+}
+.mi-briefcase:before {
+	content: "\e00d";
+}
+.mi-newspaper:before {
+	content: "\e00e";
+}
+.mi-calendar:before {
+	content: "\e00f";
+}
+.mi-inbox:before {
+	content: "\e010";
+}
+.mi-facebook:before {
+	content: "\e011";
+}
+.mi-google-plus:before {
+	content: "\e012";
+}
+.mi-instagram:before {
+	content: "\e013";
+}
+.mi-contrast:before {
+	content: "\e014";
+}
+.mi-brightness:before {
+	content: "\e015";
+}
+.mi-user:before {
+	content: "\e016";
+}
+.mi-users:before {
+	content: "\e017";
+}
+.mi-sent:before {
+	content: "\e018";
+}
+.mi-archive:before {
+	content: "\e019";
+}
+.mi-desktop:before {
+	content: "\e01a";
+}
+.mi-reply:before {
+	content: "\e01b";
+}
+.mi-popup:before {
+	content: "\e01c";
+}
+.mi-grid:before {
+	content: "\e01d";
+}
+.mi-email:before {
+	content: "\e01e";
+}
+.mi-tag:before {
+	content: "\e01f";
+}
+.mi-film:before {
+	content: "\e020";
+}
+.mi-share:before {
+	content: "\e021";
+}
+.mi-picture:before {
+	content: "\e022";
+}
+.mi-frame:before {
+	content: "\e023";
+}
+.mi-wand:before {
+	content: "\e024";
+}
+.mi-mobile:before {
+	content: "\e025";
+}
+.mi-crop:before {
+	content: "\e026";
+}
+.mi-marquee:before {
+	content: "\e027";
+}
+.mi-locked:before {
+	content: "\e028";
+}
+.mi-pin:before {
+	content: "\e029";
+}
+.mi-zoom-in:before {
+	content: "\e02a";
+}
+.mi-zoom-out:before {
+	content: "\e02b";
+}
+.mi-search:before {
+	content: "\e02c";
+}
+.mi-home:before {
+	content: "\e02d";
+}
+.mi-cart:before {
+	content: "\e02e";
+}
+.mi-camera:before {
+	content: "\e02f";
+}
+.mi-compass:before {
+	content: "\e030";
+}
+.mi-cloud:before {
+	content: "\e031";
+}

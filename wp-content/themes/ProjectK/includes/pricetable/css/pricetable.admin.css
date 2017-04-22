@@ -1,0 +1,111 @@
+/* @group Placeholders */
+
+label.placeholder {
+	cursor: text;
+	padding: 4px 4px 4px 4px;
+	color: #999999;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+	color:#999999;
+}
+input:placeholder, textarea:placeholder {
+	color:#999999;
+}
+
+/* @end */
+
+.price-columns{
+	overflow: auto;
+}
+
+/* @group icons */
+
+.price-columns .column-handle,
+.price-columns .feature-handle{
+	float: right;
+	cursor: move;
+}
+
+.price-columns .ui-icon {
+	float: right;
+	margin-left: 5px;
+}
+
+
+
+/* @end */
+
+.price-columns .column{
+	border: 1px solid #CCC;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+
+	background: #eee;
+	padding: 4px;
+	width: 200px;
+	margin: 0 4px 4px 4px;
+	float: left;
+}
+
+.price-columns label{
+	margin-top:0.5em;
+}
+
+.price-columns input{
+	width: 100%;
+}
+
+.price-columns .feature{
+	margin-top: 1em;
+	padding-top: 1em;
+	border-top:1px solid #CCC;
+	background: #eee;
+}
+
+.price-columns .feature textarea{
+	width:100%;
+}
+
+.price-columns small.description{
+	display: block;
+	margin: 0 4px 8px 4px;
+}
+
+.price-columns h4 a{
+	display: block;
+	float: right;
+	font-weight: normal;
+}
+
+.price-columns label{
+	display: inline-block;
+	margin-right: 5px;
+}
+
+/* @group Type */
+
+.price-columns .type{
+	font-size: 11px;
+}
+
+.price-columns .type input{
+	width: auto;
+}
+
+/* @end */
+
+.price-columns .addnew {
+	border: 2px dashed #CCC;
+	text-align: center;
+	padding: 7em 0;
+	height: 100%;
+	font-size: 25px;
+	color: #999;
+	cursor: pointer;
+}
+
+.price-columns .addnew:hover{
+	border-color: #999;
+}

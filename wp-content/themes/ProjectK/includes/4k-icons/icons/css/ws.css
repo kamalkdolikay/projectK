@@ -1,0 +1,126 @@
+@font-face {
+	font-family: 'ws';
+	src:url('../4k-icons-pack05/icons/fonts/ws.eot');
+	src:url('../4k-icons-pack05/icons/fonts/ws.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack05/icons/fonts/ws.woff') format('woff'),
+		url('../4k-icons-pack05/icons/fonts/ws.ttf') format('truetype'),
+		url('../4k-icons-pack05/icons/fonts/ws.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'ws';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.ws-search, .ws-odnoklassniki-rect, .ws-heart, .ws-heart-empty, .ws-star, .ws-user, .ws-video, .ws-picture, .ws-th-large, .ws-th, .ws-th-list, .ws-ok, .ws-ok-circle, .ws-cancel, .ws-cancel-circle, .ws-plus-circle, .ws-minus-circle, .ws-link, .ws-attach, .ws-lock, .ws-lock-open, .ws-tag, .ws-reply, .ws-reply-all, .ws-forward, .ws-code, .ws-retweet, .ws-comment, .ws-comment-alt, .ws-chat, .ws-attention, .ws-location, .ws-doc, .ws-docs-landscape, .ws-folder, .ws-archive, .ws-rss, .ws-rss-alt, .ws-cog, .ws-logout, .ws-clock, .ws-block, .ws-mail, .ws-resize-full-circle, .ws-popup, .ws-left-open, .ws-right-open, .ws-down-circle, .ws-left-circle, .ws-right-circle, .ws-up-circle, .ws-down-dir, .ws-right-dir, .ws-down-micro, .ws-up-micro, .ws-cw-circle, .ws-arrows-cw, .ws-updown-circle, .ws-target, .ws-signal, .ws-progress-0, .ws-progress-1, .ws-progress-2, .ws-progress-3, .ws-progress-4, .ws-progress-5, .ws-progress-6, .ws-progress-7, .ws-font, .ws-list, .ws-list-numbered, .ws-indent-left, .ws-indent-right, .ws-cloud, .ws-terminal, .ws-facebook-rect, .ws-twitter-bird, .ws-vimeo-rect, .ws-tumblr-rect, .ws-googleplus-rect, .ws-linkedin-rect, .ws-skype, .ws-vkontakte-rect, .ws-youtube, .ws-resize-full {
+	font-family: 'ws';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.ws-search:before { content: '\e800'; }
+.ws-odnoklassniki-rect:before { content: '\e854'; }
+.ws-heart:before { content: '\e802'; }
+.ws-heart-empty:before { content: '\e803'; }
+.ws-star:before { content: '\e804'; }
+.ws-user:before { content: '\e805'; }
+.ws-video:before { content: '\e806'; }
+.ws-picture:before { content: '\e807'; }
+.ws-th-large:before { content: '\e808'; }
+.ws-th:before { content: '\e809'; }
+.ws-th-list:before { content: '\e80a'; }
+.ws-ok:before { content: '\e80b'; }
+.ws-ok-circle:before { content: '\e80c'; }
+.ws-cancel:before { content: '\e80d'; }
+.ws-cancel-circle:before { content: '\e80e'; }
+.ws-plus-circle:before { content: '\e80f'; }
+.ws-minus-circle:before { content: '\e810'; }
+.ws-link:before { content: '\e811'; }
+.ws-attach:before { content: '\e812'; }
+.ws-lock:before { content: '\e813'; }
+.ws-lock-open:before { content: '\e814'; }
+.ws-tag:before { content: '\e815'; }
+.ws-reply:before { content: '\e816'; }
+.ws-reply-all:before { content: '\e817'; }
+.ws-forward:before { content: '\e818'; }
+.ws-code:before { content: '\e819'; }
+.ws-retweet:before { content: '\e81a'; }
+.ws-comment:before { content: '\e81b'; }
+.ws-comment-alt:before { content: '\e81c'; }
+.ws-chat:before { content: '\e81d'; }
+.ws-attention:before { content: '\e81e'; }
+.ws-location:before { content: '\e81f'; }
+.ws-doc:before { content: '\e820'; }
+.ws-docs-landscape:before { content: '\e821'; }
+.ws-folder:before { content: '\e822'; }
+.ws-archive:before { content: '\e823'; }
+.ws-rss:before { content: '\e824'; }
+.ws-rss-alt:before { content: '\e825'; }
+.ws-cog:before { content: '\e826'; }
+.ws-logout:before { content: '\e827'; }
+.ws-clock:before { content: '\e828'; }
+.ws-block:before { content: '\e829'; }
+.ws-mail:before { content: '\e801'; }
+.ws-resize-full-circle:before { content: '\e82b'; }
+.ws-popup:before { content: '\e82c'; }
+.ws-left-open:before { content: '\e82d'; }
+.ws-right-open:before { content: '\e82e'; }
+.ws-down-circle:before { content: '\e82f'; }
+.ws-left-circle:before { content: '\e830'; }
+.ws-right-circle:before { content: '\e831'; }
+.ws-up-circle:before { content: '\e832'; }
+.ws-down-dir:before { content: '\e833'; }
+.ws-right-dir:before { content: '\e834'; }
+.ws-down-micro:before { content: '\e835'; }
+.ws-up-micro:before { content: '\e836'; }
+.ws-cw-circle:before { content: '\e837'; }
+.ws-arrows-cw:before { content: '\e838'; }
+.ws-updown-circle:before { content: '\e839'; }
+.ws-target:before { content: '\e83a'; }
+.ws-signal:before { content: '\e83b'; }
+.ws-progress-0:before { content: '\e83c'; }
+.ws-progress-1:before { content: '\e83d'; }
+.ws-progress-2:before { content: '\e83e'; }
+.ws-progress-3:before { content: '\e83f'; }
+.ws-progress-4:before { content: '\e840'; }
+.ws-progress-5:before { content: '\e841'; }
+.ws-progress-6:before { content: '\e842'; }
+.ws-progress-7:before { content: '\e843'; }
+.ws-font:before { content: '\e844'; }
+.ws-list:before { content: '\e845'; }
+.ws-list-numbered:before { content: '\e846'; }
+.ws-indent-left:before { content: '\e847'; }
+.ws-indent-right:before { content: '\e848'; }
+.ws-cloud:before { content: '\e849'; }
+.ws-terminal:before { content: '\e84a'; }
+.ws-facebook-rect:before { content: '\e84b'; }
+.ws-twitter-bird:before { content: '\e84c'; }
+.ws-vimeo-rect:before { content: '\e84d'; }
+.ws-tumblr-rect:before { content: '\e84e'; }
+.ws-googleplus-rect:before { content: '\e84f'; }
+.ws-linkedin-rect:before { content: '\e850'; }
+.ws-skype:before { content: '\e851'; }
+.ws-vkontakte-rect:before { content: '\e852'; }
+.ws-youtube:before { content: '\e853'; }
+.ws-resize-full:before { content: '\e82a'; }

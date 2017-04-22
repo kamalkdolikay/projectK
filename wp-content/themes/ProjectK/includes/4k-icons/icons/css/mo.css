@@ -1,0 +1,241 @@
+@font-face {
+	font-family: 'mo';
+	src:url('../4k-icons-pack04/icons/fonts/mo.eot');
+	src:url('../4k-icons-pack04/icons/fonts/mo.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack04/icons/fonts/mo.woff') format('woff'),
+		url('../4k-icons-pack04/icons/fonts/mo.ttf') format('truetype'),
+		url('../4k-icons-pack04/icons/fonts/mo.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'mo';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.mo-3g1, .mo-write5, .mo-4gb, .mo-add76, .mo-arroba5, .mo-arrows70, .mo-auricular10, .mo-auricular11, .mo-auricular7, .mo-auricular8, .mo-auricular9, .mo-battery89, .mo-bell19, .mo-bluetooth11, .mo-call18, .mo-call19, .mo-calling1, .mo-camera55, .mo-card19, .mo-card20, .mo-card21, .mo-card22, .mo-chat30, .mo-chat31, .mo-chat32, .mo-chat33, .mo-chatting1, .mo-code15, .mo-cogwheel12, .mo-connection12, .mo-contact9, .mo-electric40, .mo-electric41, .mo-electrical3, .mo-email30, .mo-emails1, .mo-exchanging, .mo-finger7, .mo-four43, .mo-full23, .mo-full24, .mo-gps8, .mo-hand96, .mo-hand97, .mo-hanging7, .mo-home91, .mo-hour, .mo-image62, .mo-incoming10, .mo-incoming11, .mo-incoming12, .mo-incoming13, .mo-incoming9, .mo-listening2, .mo-locked5, .mo-locked6, .mo-low22, .mo-magnifier15, .mo-male163, .mo-mobile103, .mo-mobile104, .mo-mobile108, .mo-mobile110, .mo-mobile113, .mo-mobile114, .mo-mobile115, .mo-mobile116, .mo-mobile117, .mo-mobile120, .mo-mobile121, .mo-mobile122, .mo-mobile124, .mo-mobile125, .mo-mobile126, .mo-mobile127, .mo-mobile128, .mo-mobile129, .mo-mobile130, .mo-mobile131, .mo-mobile132, .mo-mobile134, .mo-mobile135, .mo-mobile136, .mo-mobile137, .mo-mobile138, .mo-mobile139, .mo-mobile140, .mo-mobile141, .mo-mobile142, .mo-mobile143, .mo-mobile146, .mo-mobile147, .mo-mobile148, .mo-mobile149, .mo-mobile151, .mo-mobile152, .mo-mobile153, .mo-mobile154, .mo-mobile158, .mo-mobile159, .mo-4g1, .mo-mobile162, .mo-mobile164, .mo-mobile166, .mo-mobile168, .mo-mobile169, .mo-mobile171, .mo-mobile172, .mo-mobile44, .mo-mobile45, .mo-mobile47, .mo-mobile48, .mo-mobile49, .mo-mobile50, .mo-mobile51, .mo-mobile52, .mo-mobile53, .mo-mobile55, .mo-mobile56, .mo-mobile57, .mo-mobile58, .mo-mobile60, .mo-mobile62, .mo-mobile63, .mo-mobile64, .mo-mobile65, .mo-mobile66, .mo-mobile67, .mo-mobile68, .mo-mobile69, .mo-mobile70, .mo-mobile71, .mo-mobile72, .mo-mobile73, .mo-mobile74, .mo-mobile75, .mo-mobile76, .mo-mobile77, .mo-mobile78, .mo-mobile80, .mo-mobile81, .mo-mobile82, .mo-mobile83, .mo-mobile84, .mo-mobile86, .mo-mobile87, .mo-mobile90, .mo-mobile91, .mo-mobile92, .mo-mobile93, .mo-mobile94, .mo-mobile95, .mo-musical64, .mo-mute11, .mo-mute12, .mo-no46, .mo-no47, .mo-no48, .mo-no49, .mo-outgoing4, .mo-outgoing5, .mo-outgoing6, .mo-password2, .mo-phone77, .mo-phone79, .mo-phone80, .mo-phone81, .mo-plug14, .mo-plug15, .mo-power52, .mo-protected3, .mo-protected4, .mo-qr4, .mo-question26, .mo-retweet4, .mo-retweet5, .mo-ring13, .mo-rotating14, .mo-sad10, .mo-security25, .mo-sending1, .mo-show, .mo-signal35, .mo-signal36, .mo-signal37, .mo-silence, .mo-star103, .mo-symbol3, .mo-two149, .mo-unlocked13, .mo-unlocked14, .mo-unlocking, .mo-unlocking1, .mo-up29, .mo-up30, .mo-usb22, .mo-verified5, .mo-vibrant, .mo-voice16, .mo-mobile161 {
+	font-family: 'mo';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.mo-3g1:before { content: '\e800'; }
+.mo-write5:before { content: '\e8c7'; }
+.mo-4gb:before { content: '\e802'; }
+.mo-add76:before { content: '\e803'; }
+.mo-arroba5:before { content: '\e804'; }
+.mo-arrows70:before { content: '\e805'; }
+.mo-auricular10:before { content: '\e806'; }
+.mo-auricular11:before { content: '\e807'; }
+.mo-auricular7:before { content: '\e808'; }
+.mo-auricular8:before { content: '\e809'; }
+.mo-auricular9:before { content: '\e80a'; }
+.mo-battery89:before { content: '\e80b'; }
+.mo-bell19:before { content: '\e80c'; }
+.mo-bluetooth11:before { content: '\e80d'; }
+.mo-call18:before { content: '\e80e'; }
+.mo-call19:before { content: '\e80f'; }
+.mo-calling1:before { content: '\e810'; }
+.mo-camera55:before { content: '\e811'; }
+.mo-card19:before { content: '\e812'; }
+.mo-card20:before { content: '\e813'; }
+.mo-card21:before { content: '\e814'; }
+.mo-card22:before { content: '\e815'; }
+.mo-chat30:before { content: '\e816'; }
+.mo-chat31:before { content: '\e817'; }
+.mo-chat32:before { content: '\e818'; }
+.mo-chat33:before { content: '\e819'; }
+.mo-chatting1:before { content: '\e81a'; }
+.mo-code15:before { content: '\e81b'; }
+.mo-cogwheel12:before { content: '\e81c'; }
+.mo-connection12:before { content: '\e81d'; }
+.mo-contact9:before { content: '\e81e'; }
+.mo-electric40:before { content: '\e81f'; }
+.mo-electric41:before { content: '\e820'; }
+.mo-electrical3:before { content: '\e821'; }
+.mo-email30:before { content: '\e822'; }
+.mo-emails1:before { content: '\e823'; }
+.mo-exchanging:before { content: '\e824'; }
+.mo-finger7:before { content: '\e825'; }
+.mo-four43:before { content: '\e826'; }
+.mo-full23:before { content: '\e827'; }
+.mo-full24:before { content: '\e828'; }
+.mo-gps8:before { content: '\e829'; }
+.mo-hand96:before { content: '\e82a'; }
+.mo-hand97:before { content: '\e82b'; }
+.mo-hanging7:before { content: '\e82c'; }
+.mo-home91:before { content: '\e82d'; }
+.mo-hour:before { content: '\e82e'; }
+.mo-image62:before { content: '\e82f'; }
+.mo-incoming10:before { content: '\e830'; }
+.mo-incoming11:before { content: '\e831'; }
+.mo-incoming12:before { content: '\e832'; }
+.mo-incoming13:before { content: '\e833'; }
+.mo-incoming9:before { content: '\e834'; }
+.mo-listening2:before { content: '\e835'; }
+.mo-locked5:before { content: '\e836'; }
+.mo-locked6:before { content: '\e837'; }
+.mo-low22:before { content: '\e838'; }
+.mo-magnifier15:before { content: '\e839'; }
+.mo-male163:before { content: '\e83a'; }
+.mo-mobile103:before { content: '\e83b'; }
+.mo-mobile104:before { content: '\e83c'; }
+.mo-mobile108:before { content: '\e83d'; }
+.mo-mobile110:before { content: '\e83e'; }
+.mo-mobile113:before { content: '\e83f'; }
+.mo-mobile114:before { content: '\e840'; }
+.mo-mobile115:before { content: '\e841'; }
+.mo-mobile116:before { content: '\e842'; }
+.mo-mobile117:before { content: '\e843'; }
+.mo-mobile120:before { content: '\e844'; }
+.mo-mobile121:before { content: '\e845'; }
+.mo-mobile122:before { content: '\e846'; }
+.mo-mobile124:before { content: '\e847'; }
+.mo-mobile125:before { content: '\e848'; }
+.mo-mobile126:before { content: '\e849'; }
+.mo-mobile127:before { content: '\e84a'; }
+.mo-mobile128:before { content: '\e84b'; }
+.mo-mobile129:before { content: '\e84c'; }
+.mo-mobile130:before { content: '\e84d'; }
+.mo-mobile131:before { content: '\e84e'; }
+.mo-mobile132:before { content: '\e84f'; }
+.mo-mobile134:before { content: '\e850'; }
+.mo-mobile135:before { content: '\e851'; }
+.mo-mobile136:before { content: '\e852'; }
+.mo-mobile137:before { content: '\e853'; }
+.mo-mobile138:before { content: '\e854'; }
+.mo-mobile139:before { content: '\e855'; }
+.mo-mobile140:before { content: '\e856'; }
+.mo-mobile141:before { content: '\e857'; }
+.mo-mobile142:before { content: '\e858'; }
+.mo-mobile143:before { content: '\e859'; }
+.mo-mobile146:before { content: '\e85a'; }
+.mo-mobile147:before { content: '\e85b'; }
+.mo-mobile148:before { content: '\e85c'; }
+.mo-mobile149:before { content: '\e85d'; }
+.mo-mobile151:before { content: '\e85e'; }
+.mo-mobile152:before { content: '\e85f'; }
+.mo-mobile153:before { content: '\e860'; }
+.mo-mobile154:before { content: '\e861'; }
+.mo-mobile158:before { content: '\e862'; }
+.mo-mobile159:before { content: '\e863'; }
+.mo-4g1:before { content: '\e801'; }
+.mo-mobile162:before { content: '\e865'; }
+.mo-mobile164:before { content: '\e866'; }
+.mo-mobile166:before { content: '\e867'; }
+.mo-mobile168:before { content: '\e868'; }
+.mo-mobile169:before { content: '\e869'; }
+.mo-mobile171:before { content: '\e86a'; }
+.mo-mobile172:before { content: '\e86b'; }
+.mo-mobile44:before { content: '\e86c'; }
+.mo-mobile45:before { content: '\e86d'; }
+.mo-mobile47:before { content: '\e86e'; }
+.mo-mobile48:before { content: '\e86f'; }
+.mo-mobile49:before { content: '\e870'; }
+.mo-mobile50:before { content: '\e871'; }
+.mo-mobile51:before { content: '\e872'; }
+.mo-mobile52:before { content: '\e873'; }
+.mo-mobile53:before { content: '\e874'; }
+.mo-mobile55:before { content: '\e875'; }
+.mo-mobile56:before { content: '\e876'; }
+.mo-mobile57:before { content: '\e877'; }
+.mo-mobile58:before { content: '\e878'; }
+.mo-mobile60:before { content: '\e879'; }
+.mo-mobile62:before { content: '\e87a'; }
+.mo-mobile63:before { content: '\e87b'; }
+.mo-mobile64:before { content: '\e87c'; }
+.mo-mobile65:before { content: '\e87d'; }
+.mo-mobile66:before { content: '\e87e'; }
+.mo-mobile67:before { content: '\e87f'; }
+.mo-mobile68:before { content: '\e880'; }
+.mo-mobile69:before { content: '\e881'; }
+.mo-mobile70:before { content: '\e882'; }
+.mo-mobile71:before { content: '\e883'; }
+.mo-mobile72:before { content: '\e884'; }
+.mo-mobile73:before { content: '\e885'; }
+.mo-mobile74:before { content: '\e886'; }
+.mo-mobile75:before { content: '\e887'; }
+.mo-mobile76:before { content: '\e888'; }
+.mo-mobile77:before { content: '\e889'; }
+.mo-mobile78:before { content: '\e88a'; }
+.mo-mobile80:before { content: '\e88b'; }
+.mo-mobile81:before { content: '\e88c'; }
+.mo-mobile82:before { content: '\e88d'; }
+.mo-mobile83:before { content: '\e88e'; }
+.mo-mobile84:before { content: '\e88f'; }
+.mo-mobile86:before { content: '\e890'; }
+.mo-mobile87:before { content: '\e891'; }
+.mo-mobile90:before { content: '\e892'; }
+.mo-mobile91:before { content: '\e893'; }
+.mo-mobile92:before { content: '\e894'; }
+.mo-mobile93:before { content: '\e895'; }
+.mo-mobile94:before { content: '\e896'; }
+.mo-mobile95:before { content: '\e897'; }
+.mo-musical64:before { content: '\e898'; }
+.mo-mute11:before { content: '\e899'; }
+.mo-mute12:before { content: '\e89a'; }
+.mo-no46:before { content: '\e89b'; }
+.mo-no47:before { content: '\e89c'; }
+.mo-no48:before { content: '\e89d'; }
+.mo-no49:before { content: '\e89e'; }
+.mo-outgoing4:before { content: '\e89f'; }
+.mo-outgoing5:before { content: '\e8a0'; }
+.mo-outgoing6:before { content: '\e8a1'; }
+.mo-password2:before { content: '\e8a2'; }
+.mo-phone77:before { content: '\e8a3'; }
+.mo-phone79:before { content: '\e8a4'; }
+.mo-phone80:before { content: '\e8a5'; }
+.mo-phone81:before { content: '\e8a6'; }
+.mo-plug14:before { content: '\e8a7'; }
+.mo-plug15:before { content: '\e8a8'; }
+.mo-power52:before { content: '\e8a9'; }
+.mo-protected3:before { content: '\e8aa'; }
+.mo-protected4:before { content: '\e8ab'; }
+.mo-qr4:before { content: '\e8ac'; }
+.mo-question26:before { content: '\e8ad'; }
+.mo-retweet4:before { content: '\e8ae'; }
+.mo-retweet5:before { content: '\e8af'; }
+.mo-ring13:before { content: '\e8b0'; }
+.mo-rotating14:before { content: '\e8b1'; }
+.mo-sad10:before { content: '\e8b2'; }
+.mo-security25:before { content: '\e8b3'; }
+.mo-sending1:before { content: '\e8b4'; }
+.mo-show:before { content: '\e8b5'; }
+.mo-signal35:before { content: '\e8b6'; }
+.mo-signal36:before { content: '\e8b7'; }
+.mo-signal37:before { content: '\e8b8'; }
+.mo-silence:before { content: '\e8b9'; }
+.mo-star103:before { content: '\e8ba'; }
+.mo-symbol3:before { content: '\e8bb'; }
+.mo-two149:before { content: '\e8bc'; }
+.mo-unlocked13:before { content: '\e8bd'; }
+.mo-unlocked14:before { content: '\e8be'; }
+.mo-unlocking:before { content: '\e8bf'; }
+.mo-unlocking1:before { content: '\e8c0'; }
+.mo-up29:before { content: '\e8c1'; }
+.mo-up30:before { content: '\e8c2'; }
+.mo-usb22:before { content: '\e8c3'; }
+.mo-verified5:before { content: '\e8c4'; }
+.mo-vibrant:before { content: '\e8c5'; }
+.mo-voice16:before { content: '\e8c6'; }
+.mo-mobile161:before { content: '\e864'; }

@@ -1,0 +1,132 @@
+@font-face {
+	font-family: 'mp';
+	src:url('../4k-icons-pack04/icons/fonts/mp.eot');
+	src:url('../4k-icons-pack04/icons/fonts/mp.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack04/icons/fonts/mp.woff') format('woff'),
+		url('../4k-icons-pack04/icons/fonts/mp.ttf') format('truetype'),
+		url('../4k-icons-pack04/icons/fonts/mp.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'mp';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.mp-search-1, .mp-youtube, .mp-heart-1, .mp-star-1, .mp-user-1, .mp-user-woman, .mp-user-pair, .mp-video-alt, .mp-videocam, .mp-videocam-alt, .mp-camera-1, .mp-th, .mp-th-list, .mp-ok, .mp-cancel-1, .mp-cancel-circle, .mp-plus-1, .mp-home-1, .mp-lock-1, .mp-lock-open-1, .mp-eye-1, .mp-tag-1, .mp-thumbs-up-1, .mp-thumbs-down-1, .mp-download-1, .mp-export-1, .mp-pencil-1, .mp-pencil-alt, .mp-edit, .mp-chat-1, .mp-print-1, .mp-bell-1, .mp-attention-1, .mp-info-1, .mp-question, .mp-location-1, .mp-trash-1, .mp-doc-1, .mp-article, .mp-article-alt, .mp-rss-1, .mp-wrench, .mp-basket-1, .mp-basket-alt, .mp-calendar-1, .mp-mail-1, .mp-volume-off, .mp-volume-down, .mp-volume-up, .mp-bullhorn, .mp-clock-1, .mp-clock-alt, .mp-stop-1, .mp-resize-full-1, .mp-resize-small-1, .mp-zoom-in, .mp-zoom-out, .mp-popup-1, .mp-down-dir-1, .mp-left-dir-1, .mp-right-dir-1, .mp-up-dir-1, .mp-down-1, .mp-up-1, .mp-cw-1, .mp-signal-1, .mp-award, .mp-mobile-1, .mp-mobile-alt, .mp-tablet, .mp-ipod, .mp-cd-1, .mp-grid, .mp-book-1, .mp-easel, .mp-globe-1, .mp-chart, .mp-chart-bar-1, .mp-chart-pie-1, .mp-dollar, .mp-at, .mp-colon, .mp-semicolon, .mp-squares, .mp-money, .mp-facebook-1, .mp-facebook-rect, .mp-twitter-1, .mp-twitter-bird, .mp-twitter-rect, .mp-calendar-alt {
+	font-family: 'mp';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.mp-search-1:before { content: '\e91c'; }
+.mp-youtube:before { content: '\e976'; }
+.mp-heart-1:before { content: '\e91e'; }
+.mp-star-1:before { content: '\e91f'; }
+.mp-user-1:before { content: '\e920'; }
+.mp-user-woman:before { content: '\e921'; }
+.mp-user-pair:before { content: '\e922'; }
+.mp-video-alt:before { content: '\e923'; }
+.mp-videocam:before { content: '\e924'; }
+.mp-videocam-alt:before { content: '\e925'; }
+.mp-camera-1:before { content: '\e926'; }
+.mp-th:before { content: '\e927'; }
+.mp-th-list:before { content: '\e928'; }
+.mp-ok:before { content: '\e929'; }
+.mp-cancel-1:before { content: '\e92a'; }
+.mp-cancel-circle:before { content: '\e92b'; }
+.mp-plus-1:before { content: '\e92c'; }
+.mp-home-1:before { content: '\e92d'; }
+.mp-lock-1:before { content: '\e92e'; }
+.mp-lock-open-1:before { content: '\e92f'; }
+.mp-eye-1:before { content: '\e930'; }
+.mp-tag-1:before { content: '\e931'; }
+.mp-thumbs-up-1:before { content: '\e932'; }
+.mp-thumbs-down-1:before { content: '\e933'; }
+.mp-download-1:before { content: '\e934'; }
+.mp-export-1:before { content: '\e935'; }
+.mp-pencil-1:before { content: '\e936'; }
+.mp-pencil-alt:before { content: '\e937'; }
+.mp-edit:before { content: '\e938'; }
+.mp-chat-1:before { content: '\e939'; }
+.mp-print-1:before { content: '\e93a'; }
+.mp-bell-1:before { content: '\e93b'; }
+.mp-attention-1:before { content: '\e93c'; }
+.mp-info-1:before { content: '\e93d'; }
+.mp-question:before { content: '\e93e'; }
+.mp-location-1:before { content: '\e93f'; }
+.mp-trash-1:before { content: '\e940'; }
+.mp-doc-1:before { content: '\e941'; }
+.mp-article:before { content: '\e942'; }
+.mp-article-alt:before { content: '\e943'; }
+.mp-rss-1:before { content: '\e944'; }
+.mp-wrench:before { content: '\e945'; }
+.mp-basket-1:before { content: '\e946'; }
+.mp-basket-alt:before { content: '\e947'; }
+.mp-calendar-1:before { content: '\e948'; }
+.mp-mail-1:before { content: '\e91d'; }
+.mp-volume-off:before { content: '\e94a'; }
+.mp-volume-down:before { content: '\e94b'; }
+.mp-volume-up:before { content: '\e94c'; }
+.mp-bullhorn:before { content: '\e94d'; }
+.mp-clock-1:before { content: '\e94e'; }
+.mp-clock-alt:before { content: '\e94f'; }
+.mp-stop-1:before { content: '\e950'; }
+.mp-resize-full-1:before { content: '\e951'; }
+.mp-resize-small-1:before { content: '\e952'; }
+.mp-zoom-in:before { content: '\e953'; }
+.mp-zoom-out:before { content: '\e954'; }
+.mp-popup-1:before { content: '\e955'; }
+.mp-down-dir-1:before { content: '\e956'; }
+.mp-left-dir-1:before { content: '\e957'; }
+.mp-right-dir-1:before { content: '\e958'; }
+.mp-up-dir-1:before { content: '\e959'; }
+.mp-down-1:before { content: '\e95a'; }
+.mp-up-1:before { content: '\e95b'; }
+.mp-cw-1:before { content: '\e95c'; }
+.mp-signal-1:before { content: '\e95d'; }
+.mp-award:before { content: '\e95e'; }
+.mp-mobile-1:before { content: '\e95f'; }
+.mp-mobile-alt:before { content: '\e960'; }
+.mp-tablet:before { content: '\e961'; }
+.mp-ipod:before { content: '\e962'; }
+.mp-cd-1:before { content: '\e963'; }
+.mp-grid:before { content: '\e964'; }
+.mp-book-1:before { content: '\e965'; }
+.mp-easel:before { content: '\e966'; }
+.mp-globe-1:before { content: '\e967'; }
+.mp-chart:before { content: '\e968'; }
+.mp-chart-bar-1:before { content: '\e969'; }
+.mp-chart-pie-1:before { content: '\e96a'; }
+.mp-dollar:before { content: '\e96b'; }
+.mp-at:before { content: '\e96c'; }
+.mp-colon:before { content: '\e96d'; }
+.mp-semicolon:before { content: '\e96e'; }
+.mp-squares:before { content: '\e96f'; }
+.mp-money:before { content: '\e970'; }
+.mp-facebook-1:before { content: '\e971'; }
+.mp-facebook-rect:before { content: '\e972'; }
+.mp-twitter-1:before { content: '\e973'; }
+.mp-twitter-bird:before { content: '\e974'; }
+.mp-twitter-rect:before { content: '\e975'; }
+.mp-calendar-alt:before { content: '\e949'; }

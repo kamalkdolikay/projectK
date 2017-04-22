@@ -1,0 +1,143 @@
+@font-face {
+	font-family: 'wl';
+	src:url('../4k-icons-pack05/icons/fonts/wl.eot');
+	src:url('../4k-icons-pack05/icons/fonts/wl.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack05/icons/fonts/wl.woff') format('woff'),
+		url('../4k-icons-pack05/icons/fonts/wl.ttf') format('truetype'),
+		url('../4k-icons-pack05/icons/fonts/wl.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'wl';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.wl-3docean, .wl-youthedesigner1, .wl-activeden, .wl-activeden1, .wl-appstorm, .wl-appstorm1, .wl-audiojungle, .wl-audiojungle1, .wl-codecanyon, .wl-codecanyon1, .wl-codrops, .wl-codrops1, .wl-coliss, .wl-coliss1, .wl-creative5, .wl-creative6, .wl-creattica, .wl-cssmania, .wl-cssmatic, .wl-desarrolloweb, .wl-desarrolloweb1, .wl-desarrolloweb2, .wl-designbeep, .wl-designer, .wl-diego, .wl-dr, .wl-drwebde, .wl-elegant10, .wl-envato, .wl-envato1, .wl-flaticon, .wl-football10, .wl-freepik2, .wl-freepik3, .wl-freepikcom, .wl-genbeta, .wl-genbeta1, .wl-graphicriver, .wl-graphicriver1, .wl-hongkiat, .wl-inkydeals, .wl-inkydeals1, .wl-inspiredmag, .wl-inspiremag, .wl-instant, .wl-instant1, .wl-isopixel, .wl-istockphoto, .wl-microlancer, .wl-microlancer1, .wl-microsiervos, .wl-3docean1, .wl-mojo, .wl-moz, .wl-noupe, .wl-page53, .wl-photodune, .wl-photodune1, .wl-pixabay, .wl-pixeden, .wl-pixeden1, .wl-psd1, .wl-resultados, .wl-sitepoint, .wl-sitepoint1, .wl-smashing, .wl-smashing1, .wl-smashing2, .wl-speckyboy, .wl-spyrestudios, .wl-stockvault, .wl-stockvault1, .wl-taringa, .wl-template, .wl-templatemonster, .wl-themeforest, .wl-themeforest1, .wl-thumbrio, .wl-ultralinx, .wl-vandelay, .wl-vecteezy, .wl-vector12, .wl-videohive, .wl-videohive1, .wl-web13, .wl-web14, .wl-web15, .wl-web16, .wl-web17, .wl-web18, .wl-web19, .wl-webappers, .wl-weblogs, .wl-weblogs1, .wl-woothemes, .wl-woothemes1, .wl-wwwhats, .wl-wwwhatsnew, .wl-xataka, .wl-xataka1, .wl-youthedesigner, .wl-microsiervos1 {
+	font-family: 'wl';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.wl-3docean:before { content: '\e800'; }
+.wl-youthedesigner1:before { content: '\e865'; }
+.wl-activeden:before { content: '\e802'; }
+.wl-activeden1:before { content: '\e803'; }
+.wl-appstorm:before { content: '\e804'; }
+.wl-appstorm1:before { content: '\e805'; }
+.wl-audiojungle:before { content: '\e806'; }
+.wl-audiojungle1:before { content: '\e807'; }
+.wl-codecanyon:before { content: '\e808'; }
+.wl-codecanyon1:before { content: '\e809'; }
+.wl-codrops:before { content: '\e80a'; }
+.wl-codrops1:before { content: '\e80b'; }
+.wl-coliss:before { content: '\e80c'; }
+.wl-coliss1:before { content: '\e80d'; }
+.wl-creative5:before { content: '\e80e'; }
+.wl-creative6:before { content: '\e80f'; }
+.wl-creattica:before { content: '\e810'; }
+.wl-cssmania:before { content: '\e811'; }
+.wl-cssmatic:before { content: '\e812'; }
+.wl-desarrolloweb:before { content: '\e813'; }
+.wl-desarrolloweb1:before { content: '\e814'; }
+.wl-desarrolloweb2:before { content: '\e815'; }
+.wl-designbeep:before { content: '\e816'; }
+.wl-designer:before { content: '\e817'; }
+.wl-diego:before { content: '\e818'; }
+.wl-dr:before { content: '\e819'; }
+.wl-drwebde:before { content: '\e81a'; }
+.wl-elegant10:before { content: '\e81b'; }
+.wl-envato:before { content: '\e81c'; }
+.wl-envato1:before { content: '\e81d'; }
+.wl-flaticon:before { content: '\e81e'; }
+.wl-football10:before { content: '\e81f'; }
+.wl-freepik2:before { content: '\e820'; }
+.wl-freepik3:before { content: '\e821'; }
+.wl-freepikcom:before { content: '\e822'; }
+.wl-genbeta:before { content: '\e823'; }
+.wl-genbeta1:before { content: '\e824'; }
+.wl-graphicriver:before { content: '\e825'; }
+.wl-graphicriver1:before { content: '\e826'; }
+.wl-hongkiat:before { content: '\e827'; }
+.wl-inkydeals:before { content: '\e828'; }
+.wl-inkydeals1:before { content: '\e829'; }
+.wl-inspiredmag:before { content: '\e82a'; }
+.wl-inspiremag:before { content: '\e82b'; }
+.wl-instant:before { content: '\e82c'; }
+.wl-instant1:before { content: '\e82d'; }
+.wl-isopixel:before { content: '\e82e'; }
+.wl-istockphoto:before { content: '\e82f'; }
+.wl-microlancer:before { content: '\e830'; }
+.wl-microlancer1:before { content: '\e831'; }
+.wl-microsiervos:before { content: '\e832'; }
+.wl-3docean1:before { content: '\e801'; }
+.wl-mojo:before { content: '\e834'; }
+.wl-moz:before { content: '\e835'; }
+.wl-noupe:before { content: '\e836'; }
+.wl-page53:before { content: '\e837'; }
+.wl-photodune:before { content: '\e838'; }
+.wl-photodune1:before { content: '\e839'; }
+.wl-pixabay:before { content: '\e83a'; }
+.wl-pixeden:before { content: '\e83b'; }
+.wl-pixeden1:before { content: '\e83c'; }
+.wl-psd1:before { content: '\e83d'; }
+.wl-resultados:before { content: '\e83e'; }
+.wl-sitepoint:before { content: '\e83f'; }
+.wl-sitepoint1:before { content: '\e840'; }
+.wl-smashing:before { content: '\e841'; }
+.wl-smashing1:before { content: '\e842'; }
+.wl-smashing2:before { content: '\e843'; }
+.wl-speckyboy:before { content: '\e844'; }
+.wl-spyrestudios:before { content: '\e845'; }
+.wl-stockvault:before { content: '\e846'; }
+.wl-stockvault1:before { content: '\e847'; }
+.wl-taringa:before { content: '\e848'; }
+.wl-template:before { content: '\e849'; }
+.wl-templatemonster:before { content: '\e84a'; }
+.wl-themeforest:before { content: '\e84b'; }
+.wl-themeforest1:before { content: '\e84c'; }
+.wl-thumbrio:before { content: '\e84d'; }
+.wl-ultralinx:before { content: '\e84e'; }
+.wl-vandelay:before { content: '\e84f'; }
+.wl-vecteezy:before { content: '\e850'; }
+.wl-vector12:before { content: '\e851'; }
+.wl-videohive:before { content: '\e852'; }
+.wl-videohive1:before { content: '\e853'; }
+.wl-web13:before { content: '\e854'; }
+.wl-web14:before { content: '\e855'; }
+.wl-web15:before { content: '\e856'; }
+.wl-web16:before { content: '\e857'; }
+.wl-web17:before { content: '\e858'; }
+.wl-web18:before { content: '\e859'; }
+.wl-web19:before { content: '\e85a'; }
+.wl-webappers:before { content: '\e85b'; }
+.wl-weblogs:before { content: '\e85c'; }
+.wl-weblogs1:before { content: '\e85d'; }
+.wl-woothemes:before { content: '\e85e'; }
+.wl-woothemes1:before { content: '\e85f'; }
+.wl-wwwhats:before { content: '\e860'; }
+.wl-wwwhatsnew:before { content: '\e861'; }
+.wl-xataka:before { content: '\e862'; }
+.wl-xataka1:before { content: '\e863'; }
+.wl-youthedesigner:before { content: '\e864'; }
+.wl-microsiervos1:before { content: '\e833'; }

@@ -1,0 +1,247 @@
+@font-face {
+	font-family: 'ct';
+	src:url('../4k-icons-pack01/icons/fonts/ct.eot');
+	src:url('../4k-icons-pack01/icons/fonts/ct.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack01/icons/fonts/ct.woff') format('woff'),
+		url('../4k-icons-pack01/icons/fonts/ct.ttf') format('truetype'),
+		url('../4k-icons-pack01/icons/fonts/ct.svg#ct') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'ct';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="ct-"] {
+*/
+.ct-arrow-right, .ct-arrow-left, .ct-arrow-up, .ct-arrow-down, .ct-plus, .ct-minus, .ct-stats, .ct-broadcast, .ct-alert, .ct-comment, .ct-chat, .ct-bookmark, .ct-locked, .ct-unlock, .ct-film, .ct-camera, .ct-popout, .ct-printer, .ct-battery-full, .ct-battery-low, .ct-battery, .ct-hash, .ct-trashcan, .ct-crop, .ct-grid, .ct-frame, .ct-board, .ct-shrink, .ct-expand, .ct-tree, .ct-paper-plane, .ct-enter, .ct-download, .ct-mobile, .ct-mobile-2, .ct-screen, .ct-stats-2, .ct-camera-2, .ct-painting, .ct-painting-2, .ct-reload, .ct-credit-card, .ct-vcard, .ct-apple, .ct-cart, .ct-pause, .ct-play, .ct-next, .ct-previous, .ct-user, .ct-heart, .ct-heart-2, .ct-marker, .ct-list, .ct-file, .ct-next-2, .ct-previous-2, .ct-record, .ct-frame-2, .ct-plus-2, .ct-thumbs-up, .ct-printer-2, .ct-eject, .ct-disk, .ct-minus-2, .ct-checkbox-checked, .ct-popout-2, .ct-equalizer, .ct-desktop {
+	font-family: 'ct';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.ct-arrow-right:before {
+	content: "\e000";
+}
+.ct-arrow-left:before {
+	content: "\e001";
+}
+.ct-arrow-up:before {
+	content: "\e002";
+}
+.ct-arrow-down:before {
+	content: "\e003";
+}
+.ct-plus:before {
+	content: "\e004";
+}
+.ct-minus:before {
+	content: "\e005";
+}
+.ct-stats:before {
+	content: "\e006";
+}
+.ct-broadcast:before {
+	content: "\e007";
+}
+.ct-alert:before {
+	content: "\e015";
+}
+.ct-comment:before {
+	content: "\e016";
+}
+.ct-chat:before {
+	content: "\e017";
+}
+.ct-bookmark:before {
+	content: "\e018";
+}
+.ct-locked:before {
+	content: "\e019";
+}
+.ct-unlock:before {
+	content: "\e01a";
+}
+.ct-film:before {
+	content: "\e01b";
+}
+.ct-camera:before {
+	content: "\e01c";
+}
+.ct-popout:before {
+	content: "\e02a";
+}
+.ct-printer:before {
+	content: "\e02b";
+}
+.ct-battery-full:before {
+	content: "\e02c";
+}
+.ct-battery-low:before {
+	content: "\e02d";
+}
+.ct-battery:before {
+	content: "\e02e";
+}
+.ct-hash:before {
+	content: "\e02f";
+}
+.ct-trashcan:before {
+	content: "\e030";
+}
+.ct-crop:before {
+	content: "\e031";
+}
+.ct-grid:before {
+	content: "\e03f";
+}
+.ct-frame:before {
+	content: "\e040";
+}
+.ct-board:before {
+	content: "\e041";
+}
+.ct-shrink:before {
+	content: "\e042";
+}
+.ct-expand:before {
+	content: "\e043";
+}
+.ct-tree:before {
+	content: "\e044";
+}
+.ct-paper-plane:before {
+	content: "\e045";
+}
+.ct-enter:before {
+	content: "\e008";
+}
+.ct-download:before {
+	content: "\e009";
+}
+.ct-mobile:before {
+	content: "\e00a";
+}
+.ct-mobile-2:before {
+	content: "\e00b";
+}
+.ct-screen:before {
+	content: "\e00c";
+}
+.ct-stats-2:before {
+	content: "\e00d";
+}
+.ct-camera-2:before {
+	content: "\e01d";
+}
+.ct-painting:before {
+	content: "\e01e";
+}
+.ct-painting-2:before {
+	content: "\e01f";
+}
+.ct-reload:before {
+	content: "\e020";
+}
+.ct-credit-card:before {
+	content: "\e021";
+}
+.ct-vcard:before {
+	content: "\e022";
+}
+.ct-apple:before {
+	content: "\e032";
+}
+.ct-cart:before {
+	content: "\e033";
+}
+.ct-pause:before {
+	content: "\e034";
+}
+.ct-play:before {
+	content: "\e035";
+}
+.ct-next:before {
+	content: "\e036";
+}
+.ct-previous:before {
+	content: "\e037";
+}
+.ct-user:before {
+	content: "\e00e";
+}
+.ct-heart:before {
+	content: "\e00f";
+}
+.ct-heart-2:before {
+	content: "\e010";
+}
+.ct-marker:before {
+	content: "\e023";
+}
+.ct-list:before {
+	content: "\e024";
+}
+.ct-file:before {
+	content: "\e025";
+}
+.ct-next-2:before {
+	content: "\e038";
+}
+.ct-previous-2:before {
+	content: "\e039";
+}
+.ct-record:before {
+	content: "\e03a";
+}
+.ct-frame-2:before {
+	content: "\e011";
+}
+.ct-plus-2:before {
+	content: "\e012";
+}
+.ct-thumbs-up:before {
+	content: "\e026";
+}
+.ct-printer-2:before {
+	content: "\e027";
+}
+.ct-eject:before {
+	content: "\e03b";
+}
+.ct-disk:before {
+	content: "\e03c";
+}
+.ct-minus-2:before {
+	content: "\e013";
+}
+.ct-checkbox-checked:before {
+	content: "\e014";
+}
+.ct-popout-2:before {
+	content: "\e029";
+}
+.ct-equalizer:before {
+	content: "\e03d";
+}
+.ct-desktop:before {
+	content: "\e03e";
+}

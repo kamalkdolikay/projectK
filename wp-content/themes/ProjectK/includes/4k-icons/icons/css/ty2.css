@@ -1,0 +1,349 @@
+@font-face {
+	font-family: 'ty2';
+	src:url('../4k-icons-pack04/icons/fonts/ty2.eot');
+	src:url('../4k-icons-pack04/icons/fonts/ty2.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack04/icons/fonts/ty2.woff') format('woff'),
+		url('../4k-icons-pack04/icons/fonts/ty2.ttf') format('truetype'),
+		url('../4k-icons-pack04/icons/fonts/ty2.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'ty2';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.ty2-music-outline, .ty2-vimeo, .ty2-search-outline, .ty2-search, .ty2-mail, .ty2-heart, .ty2-heart-filled, .ty2-star, .ty2-star-filled, .ty2-user-outline, .ty2-user, .ty2-users-outline, .ty2-users, .ty2-user-add-outline, .ty2-user-add, .ty2-user-delete-outline, .ty2-user-delete, .ty2-video, .ty2-videocam-outline, .ty2-videocam, .ty2-picture-outline, .ty2-picture, .ty2-camera-outline, .ty2-camera, .ty2-th-outline, .ty2-th, .ty2-th-large-outline, .ty2-th-large, .ty2-th-list-outline, .ty2-th-list, .ty2-ok-outline, .ty2-ok, .ty2-cancel-outline, .ty2-cancel, .ty2-cancel-alt, .ty2-cancel-alt-filled, .ty2-cancel-circled-outline, .ty2-cancel-circled, .ty2-plus-outline, .ty2-plus, .ty2-minus-outline, .ty2-minus, .ty2-divide-outline, .ty2-divide, .ty2-eq-outline, .ty2-eq, .ty2-info-outline, .ty2-info, .ty2-home-outline, .ty2-home, .ty2-link-outline, .ty2-link, .ty2-attach-outline, .ty2-attach, .ty2-lock, .ty2-lock-filled, .ty2-lock-open, .ty2-lock-open-filled, .ty2-pin-outline, .ty2-pin, .ty2-eye-outline, .ty2-eye, .ty2-tag, .ty2-tags, .ty2-bookmark, .ty2-flag, .ty2-flag-filled, .ty2-thumbs-up, .ty2-thumbs-down, .ty2-download-outline, .ty2-download, .ty2-upload-outline, .ty2-upload, .ty2-upload-cloud-outline, .ty2-upload-cloud, .ty2-reply-outline, .ty2-reply, .ty2-forward-outline, .ty2-forward, .ty2-code-outline, .ty2-code, .ty2-export-outline, .ty2-export, .ty2-pencil, .ty2-pen, .ty2-feather, .ty2-edit, .ty2-print, .ty2-comment, .ty2-chat, .ty2-chat-alt, .ty2-bell, .ty2-attention, .ty2-attention-filled, .ty2-warning-empty, .ty2-warning, .ty2-contacts, .ty2-vcard, .ty2-address, .ty2-location-outline, .ty2-location, .ty2-map, .ty2-direction-outline, .ty2-direction, .ty2-compass, .ty2-trash, .ty2-doc, .ty2-doc-text, .ty2-doc-add, .ty2-doc-remove, .ty2-news, .ty2-folder, .ty2-folder-add, .ty2-folder-delete, .ty2-archive, .ty2-box, .ty2-rss-outline, .ty2-rss, .ty2-phone-outline, .ty2-phone, .ty2-menu-outline, .ty2-menu, .ty2-cog-outline, .ty2-cog, .ty2-wrench-outline, .ty2-wrench, .ty2-basket, .ty2-calendar-outlilne, .ty2-calendar, .ty2-mic-outline, .ty2-mic, .ty2-volume-off, .ty2-volume-low, .ty2-volume-middle, .ty2-volume-high, .ty2-headphones, .ty2-clock, .ty2-wristwatch, .ty2-stopwatch, .ty2-lightbulb, .ty2-block-outline, .ty2-block, .ty2-resize-full-outline, .ty2-resize-full, .ty2-resize-normal-outline, .ty2-resize-normal, .ty2-move-outline, .ty2-move, .ty2-popup, .ty2-zoom-in-outline, .ty2-zoom-in, .ty2-zoom-out-outline, .ty2-zoom-out, .ty2-popup-1, .ty2-music, .ty2-left-open, .ty2-right-open-outline, .ty2-right-open, .ty2-down, .ty2-left, .ty2-right, .ty2-up, .ty2-down-outline, .ty2-left-outline, .ty2-right-outline, .ty2-up-outline, .ty2-down-small, .ty2-left-small, .ty2-right-small, .ty2-up-small, .ty2-cw-outline, .ty2-cw, .ty2-arrows-cw-outline, .ty2-arrows-cw, .ty2-loop-outline, .ty2-loop, .ty2-loop-alt-outline, .ty2-loop-alt, .ty2-shuffle, .ty2-play-outline, .ty2-play, .ty2-stop-outline, .ty2-stop, .ty2-pause-outline, .ty2-pause, .ty2-fast-fw-outline, .ty2-fast-fw, .ty2-rewind-outline, .ty2-rewind, .ty2-record-outline, .ty2-record, .ty2-eject-outline, .ty2-eject, .ty2-eject-alt-outline, .ty2-eject-alt, .ty2-bat1, .ty2-bat2, .ty2-bat3, .ty2-bat4, .ty2-bat-charge, .ty2-plug, .ty2-target-outline, .ty2-target, .ty2-wifi-outline, .ty2-wifi, .ty2-desktop, .ty2-laptop, .ty2-tablet, .ty2-mobile, .ty2-contrast, .ty2-globe-outline, .ty2-globe, .ty2-globe-alt-outline, .ty2-globe-alt, .ty2-sun, .ty2-sun-filled, .ty2-cloud, .ty2-flash-outline, .ty2-flash, .ty2-moon, .ty2-waves-outline, .ty2-waves, .ty2-rain, .ty2-cloud-sun, .ty2-drizzle, .ty2-snow, .ty2-cloud-flash, .ty2-cloud-wind, .ty2-wind, .ty2-plane-outline, .ty2-plane, .ty2-leaf, .ty2-lifebuoy, .ty2-briefcase, .ty2-brush, .ty2-pipette, .ty2-power-outline, .ty2-power, .ty2-check-outline, .ty2-check, .ty2-gift, .ty2-temperatire, .ty2-chart-outline, .ty2-chart, .ty2-chart-alt-outline, .ty2-chart-alt, .ty2-chart-bar-outline, .ty2-chart-bar, .ty2-chart-pie-outline, .ty2-chart-pie, .ty2-ticket, .ty2-credit-card, .ty2-clipboard, .ty2-database, .ty2-key-outline, .ty2-key, .ty2-flow-split, .ty2-flow-merge, .ty2-flow-parallel, .ty2-flow-cross, .ty2-certificate-outline, .ty2-certificate, .ty2-scissors-outline, .ty2-scissors, .ty2-flask, .ty2-wine, .ty2-coffee, .ty2-beer, .ty2-anchor-outline, .ty2-anchor, .ty2-puzzle-outline, .ty2-puzzle, .ty2-tree, .ty2-calculator, .ty2-infinity-outline, .ty2-infinity, .ty2-pi-outline, .ty2-pi, .ty2-at, .ty2-at-circled, .ty2-looped-square-outline, .ty2-looped-square-interest, .ty2-sort-alphabet-outline, .ty2-sort-alphabet, .ty2-sort-numeric-outline, .ty2-sort-numeric, .ty2-dribbble-circled, .ty2-dribbble, .ty2-facebook-circled, .ty2-facebook, .ty2-flickr-circled, .ty2-flickr, .ty2-github-circled, .ty2-github, .ty2-lastfm-circled, .ty2-lastfm, .ty2-linkedin-circled, .ty2-linkedin, .ty2-pinterest-circled, .ty2-pinterest, .ty2-skype-outline, .ty2-skype, .ty2-tumbler-circled, .ty2-tumbler, .ty2-twitter-circled, .ty2-twitter, .ty2-vimeo-circled, .ty2-left-open-outline {
+	font-family: 'ty2';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.ty2-music-outline:before { content: '\e800'; }
+.ty2-vimeo:before { content: '\e933'; }
+.ty2-search-outline:before { content: '\e802'; }
+.ty2-search:before { content: '\e803'; }
+.ty2-mail:before { content: '\e804'; }
+.ty2-heart:before { content: '\e805'; }
+.ty2-heart-filled:before { content: '\e806'; }
+.ty2-star:before { content: '\e807'; }
+.ty2-star-filled:before { content: '\e808'; }
+.ty2-user-outline:before { content: '\e809'; }
+.ty2-user:before { content: '\e80a'; }
+.ty2-users-outline:before { content: '\e80b'; }
+.ty2-users:before { content: '\e80c'; }
+.ty2-user-add-outline:before { content: '\e80d'; }
+.ty2-user-add:before { content: '\e80e'; }
+.ty2-user-delete-outline:before { content: '\e80f'; }
+.ty2-user-delete:before { content: '\e810'; }
+.ty2-video:before { content: '\e811'; }
+.ty2-videocam-outline:before { content: '\e812'; }
+.ty2-videocam:before { content: '\e813'; }
+.ty2-picture-outline:before { content: '\e814'; }
+.ty2-picture:before { content: '\e815'; }
+.ty2-camera-outline:before { content: '\e816'; }
+.ty2-camera:before { content: '\e817'; }
+.ty2-th-outline:before { content: '\e818'; }
+.ty2-th:before { content: '\e819'; }
+.ty2-th-large-outline:before { content: '\e81a'; }
+.ty2-th-large:before { content: '\e81b'; }
+.ty2-th-list-outline:before { content: '\e81c'; }
+.ty2-th-list:before { content: '\e81d'; }
+.ty2-ok-outline:before { content: '\e81e'; }
+.ty2-ok:before { content: '\e81f'; }
+.ty2-cancel-outline:before { content: '\e820'; }
+.ty2-cancel:before { content: '\e821'; }
+.ty2-cancel-alt:before { content: '\e822'; }
+.ty2-cancel-alt-filled:before { content: '\e823'; }
+.ty2-cancel-circled-outline:before { content: '\e824'; }
+.ty2-cancel-circled:before { content: '\e825'; }
+.ty2-plus-outline:before { content: '\e826'; }
+.ty2-plus:before { content: '\e827'; }
+.ty2-minus-outline:before { content: '\e828'; }
+.ty2-minus:before { content: '\e829'; }
+.ty2-divide-outline:before { content: '\e82a'; }
+.ty2-divide:before { content: '\e82b'; }
+.ty2-eq-outline:before { content: '\e82c'; }
+.ty2-eq:before { content: '\e82d'; }
+.ty2-info-outline:before { content: '\e82e'; }
+.ty2-info:before { content: '\e82f'; }
+.ty2-home-outline:before { content: '\e830'; }
+.ty2-home:before { content: '\e831'; }
+.ty2-link-outline:before { content: '\e832'; }
+.ty2-link:before { content: '\e833'; }
+.ty2-attach-outline:before { content: '\e834'; }
+.ty2-attach:before { content: '\e835'; }
+.ty2-lock:before { content: '\e836'; }
+.ty2-lock-filled:before { content: '\e837'; }
+.ty2-lock-open:before { content: '\e838'; }
+.ty2-lock-open-filled:before { content: '\e839'; }
+.ty2-pin-outline:before { content: '\e83a'; }
+.ty2-pin:before { content: '\e83b'; }
+.ty2-eye-outline:before { content: '\e83c'; }
+.ty2-eye:before { content: '\e83d'; }
+.ty2-tag:before { content: '\e83e'; }
+.ty2-tags:before { content: '\e83f'; }
+.ty2-bookmark:before { content: '\e840'; }
+.ty2-flag:before { content: '\e841'; }
+.ty2-flag-filled:before { content: '\e842'; }
+.ty2-thumbs-up:before { content: '\e843'; }
+.ty2-thumbs-down:before { content: '\e844'; }
+.ty2-download-outline:before { content: '\e845'; }
+.ty2-download:before { content: '\e846'; }
+.ty2-upload-outline:before { content: '\e847'; }
+.ty2-upload:before { content: '\e848'; }
+.ty2-upload-cloud-outline:before { content: '\e849'; }
+.ty2-upload-cloud:before { content: '\e84a'; }
+.ty2-reply-outline:before { content: '\e84b'; }
+.ty2-reply:before { content: '\e84c'; }
+.ty2-forward-outline:before { content: '\e84d'; }
+.ty2-forward:before { content: '\e84e'; }
+.ty2-code-outline:before { content: '\e84f'; }
+.ty2-code:before { content: '\e850'; }
+.ty2-export-outline:before { content: '\e851'; }
+.ty2-export:before { content: '\e852'; }
+.ty2-pencil:before { content: '\e853'; }
+.ty2-pen:before { content: '\e854'; }
+.ty2-feather:before { content: '\e855'; }
+.ty2-edit:before { content: '\e856'; }
+.ty2-print:before { content: '\e857'; }
+.ty2-comment:before { content: '\e858'; }
+.ty2-chat:before { content: '\e859'; }
+.ty2-chat-alt:before { content: '\e85a'; }
+.ty2-bell:before { content: '\e85b'; }
+.ty2-attention:before { content: '\e85c'; }
+.ty2-attention-filled:before { content: '\e85d'; }
+.ty2-warning-empty:before { content: '\e85e'; }
+.ty2-warning:before { content: '\e85f'; }
+.ty2-contacts:before { content: '\e860'; }
+.ty2-vcard:before { content: '\e861'; }
+.ty2-address:before { content: '\e862'; }
+.ty2-location-outline:before { content: '\e863'; }
+.ty2-location:before { content: '\e864'; }
+.ty2-map:before { content: '\e865'; }
+.ty2-direction-outline:before { content: '\e866'; }
+.ty2-direction:before { content: '\e867'; }
+.ty2-compass:before { content: '\e868'; }
+.ty2-trash:before { content: '\e869'; }
+.ty2-doc:before { content: '\e86a'; }
+.ty2-doc-text:before { content: '\e86b'; }
+.ty2-doc-add:before { content: '\e86c'; }
+.ty2-doc-remove:before { content: '\e86d'; }
+.ty2-news:before { content: '\e86e'; }
+.ty2-folder:before { content: '\e86f'; }
+.ty2-folder-add:before { content: '\e870'; }
+.ty2-folder-delete:before { content: '\e871'; }
+.ty2-archive:before { content: '\e872'; }
+.ty2-box:before { content: '\e873'; }
+.ty2-rss-outline:before { content: '\e874'; }
+.ty2-rss:before { content: '\e875'; }
+.ty2-phone-outline:before { content: '\e876'; }
+.ty2-phone:before { content: '\e877'; }
+.ty2-menu-outline:before { content: '\e878'; }
+.ty2-menu:before { content: '\e879'; }
+.ty2-cog-outline:before { content: '\e87a'; }
+.ty2-cog:before { content: '\e87b'; }
+.ty2-wrench-outline:before { content: '\e87c'; }
+.ty2-wrench:before { content: '\e87d'; }
+.ty2-basket:before { content: '\e87e'; }
+.ty2-calendar-outlilne:before { content: '\e87f'; }
+.ty2-calendar:before { content: '\e880'; }
+.ty2-mic-outline:before { content: '\e881'; }
+.ty2-mic:before { content: '\e882'; }
+.ty2-volume-off:before { content: '\e883'; }
+.ty2-volume-low:before { content: '\e884'; }
+.ty2-volume-middle:before { content: '\e885'; }
+.ty2-volume-high:before { content: '\e886'; }
+.ty2-headphones:before { content: '\e887'; }
+.ty2-clock:before { content: '\e888'; }
+.ty2-wristwatch:before { content: '\e889'; }
+.ty2-stopwatch:before { content: '\e88a'; }
+.ty2-lightbulb:before { content: '\e88b'; }
+.ty2-block-outline:before { content: '\e88c'; }
+.ty2-block:before { content: '\e88d'; }
+.ty2-resize-full-outline:before { content: '\e88e'; }
+.ty2-resize-full:before { content: '\e88f'; }
+.ty2-resize-normal-outline:before { content: '\e890'; }
+.ty2-resize-normal:before { content: '\e891'; }
+.ty2-move-outline:before { content: '\e892'; }
+.ty2-move:before { content: '\e893'; }
+.ty2-popup:before { content: '\e894'; }
+.ty2-zoom-in-outline:before { content: '\e895'; }
+.ty2-zoom-in:before { content: '\e896'; }
+.ty2-zoom-out-outline:before { content: '\e897'; }
+.ty2-zoom-out:before { content: '\e898'; }
+.ty2-popup-1:before { content: '\e899'; }
+.ty2-music:before { content: '\e801'; }
+.ty2-left-open:before { content: '\e89b'; }
+.ty2-right-open-outline:before { content: '\e89c'; }
+.ty2-right-open:before { content: '\e89d'; }
+.ty2-down:before { content: '\e89e'; }
+.ty2-left:before { content: '\e89f'; }
+.ty2-right:before { content: '\e8a0'; }
+.ty2-up:before { content: '\e8a1'; }
+.ty2-down-outline:before { content: '\e8a2'; }
+.ty2-left-outline:before { content: '\e8a3'; }
+.ty2-right-outline:before { content: '\e8a4'; }
+.ty2-up-outline:before { content: '\e8a5'; }
+.ty2-down-small:before { content: '\e8a6'; }
+.ty2-left-small:before { content: '\e8a7'; }
+.ty2-right-small:before { content: '\e8a8'; }
+.ty2-up-small:before { content: '\e8a9'; }
+.ty2-cw-outline:before { content: '\e8aa'; }
+.ty2-cw:before { content: '\e8ab'; }
+.ty2-arrows-cw-outline:before { content: '\e8ac'; }
+.ty2-arrows-cw:before { content: '\e8ad'; }
+.ty2-loop-outline:before { content: '\e8ae'; }
+.ty2-loop:before { content: '\e8af'; }
+.ty2-loop-alt-outline:before { content: '\e8b0'; }
+.ty2-loop-alt:before { content: '\e8b1'; }
+.ty2-shuffle:before { content: '\e8b2'; }
+.ty2-play-outline:before { content: '\e8b3'; }
+.ty2-play:before { content: '\e8b4'; }
+.ty2-stop-outline:before { content: '\e8b5'; }
+.ty2-stop:before { content: '\e8b6'; }
+.ty2-pause-outline:before { content: '\e8b7'; }
+.ty2-pause:before { content: '\e8b8'; }
+.ty2-fast-fw-outline:before { content: '\e8b9'; }
+.ty2-fast-fw:before { content: '\e8ba'; }
+.ty2-rewind-outline:before { content: '\e8bb'; }
+.ty2-rewind:before { content: '\e8bc'; }
+.ty2-record-outline:before { content: '\e8bd'; }
+.ty2-record:before { content: '\e8be'; }
+.ty2-eject-outline:before { content: '\e8bf'; }
+.ty2-eject:before { content: '\e8c0'; }
+.ty2-eject-alt-outline:before { content: '\e8c1'; }
+.ty2-eject-alt:before { content: '\e8c2'; }
+.ty2-bat1:before { content: '\e8c3'; }
+.ty2-bat2:before { content: '\e8c4'; }
+.ty2-bat3:before { content: '\e8c5'; }
+.ty2-bat4:before { content: '\e8c6'; }
+.ty2-bat-charge:before { content: '\e8c7'; }
+.ty2-plug:before { content: '\e8c8'; }
+.ty2-target-outline:before { content: '\e8c9'; }
+.ty2-target:before { content: '\e8ca'; }
+.ty2-wifi-outline:before { content: '\e8cb'; }
+.ty2-wifi:before { content: '\e8cc'; }
+.ty2-desktop:before { content: '\e8cd'; }
+.ty2-laptop:before { content: '\e8ce'; }
+.ty2-tablet:before { content: '\e8cf'; }
+.ty2-mobile:before { content: '\e8d0'; }
+.ty2-contrast:before { content: '\e8d1'; }
+.ty2-globe-outline:before { content: '\e8d2'; }
+.ty2-globe:before { content: '\e8d3'; }
+.ty2-globe-alt-outline:before { content: '\e8d4'; }
+.ty2-globe-alt:before { content: '\e8d5'; }
+.ty2-sun:before { content: '\e8d6'; }
+.ty2-sun-filled:before { content: '\e8d7'; }
+.ty2-cloud:before { content: '\e8d8'; }
+.ty2-flash-outline:before { content: '\e8d9'; }
+.ty2-flash:before { content: '\e8da'; }
+.ty2-moon:before { content: '\e8db'; }
+.ty2-waves-outline:before { content: '\e8dc'; }
+.ty2-waves:before { content: '\e8dd'; }
+.ty2-rain:before { content: '\e8de'; }
+.ty2-cloud-sun:before { content: '\e8df'; }
+.ty2-drizzle:before { content: '\e8e0'; }
+.ty2-snow:before { content: '\e8e1'; }
+.ty2-cloud-flash:before { content: '\e8e2'; }
+.ty2-cloud-wind:before { content: '\e8e3'; }
+.ty2-wind:before { content: '\e8e4'; }
+.ty2-plane-outline:before { content: '\e8e5'; }
+.ty2-plane:before { content: '\e8e6'; }
+.ty2-leaf:before { content: '\e8e7'; }
+.ty2-lifebuoy:before { content: '\e8e8'; }
+.ty2-briefcase:before { content: '\e8e9'; }
+.ty2-brush:before { content: '\e8ea'; }
+.ty2-pipette:before { content: '\e8eb'; }
+.ty2-power-outline:before { content: '\e8ec'; }
+.ty2-power:before { content: '\e8ed'; }
+.ty2-check-outline:before { content: '\e8ee'; }
+.ty2-check:before { content: '\e8ef'; }
+.ty2-gift:before { content: '\e8f0'; }
+.ty2-temperatire:before { content: '\e8f1'; }
+.ty2-chart-outline:before { content: '\e8f2'; }
+.ty2-chart:before { content: '\e8f3'; }
+.ty2-chart-alt-outline:before { content: '\e8f4'; }
+.ty2-chart-alt:before { content: '\e8f5'; }
+.ty2-chart-bar-outline:before { content: '\e8f6'; }
+.ty2-chart-bar:before { content: '\e8f7'; }
+.ty2-chart-pie-outline:before { content: '\e8f8'; }
+.ty2-chart-pie:before { content: '\e8f9'; }
+.ty2-ticket:before { content: '\e8fa'; }
+.ty2-credit-card:before { content: '\e8fb'; }
+.ty2-clipboard:before { content: '\e8fc'; }
+.ty2-database:before { content: '\e8fd'; }
+.ty2-key-outline:before { content: '\e8fe'; }
+.ty2-key:before { content: '\e8ff'; }
+.ty2-flow-split:before { content: '\e900'; }
+.ty2-flow-merge:before { content: '\e901'; }
+.ty2-flow-parallel:before { content: '\e902'; }
+.ty2-flow-cross:before { content: '\e903'; }
+.ty2-certificate-outline:before { content: '\e904'; }
+.ty2-certificate:before { content: '\e905'; }
+.ty2-scissors-outline:before { content: '\e906'; }
+.ty2-scissors:before { content: '\e907'; }
+.ty2-flask:before { content: '\e908'; }
+.ty2-wine:before { content: '\e909'; }
+.ty2-coffee:before { content: '\e90a'; }
+.ty2-beer:before { content: '\e90b'; }
+.ty2-anchor-outline:before { content: '\e90c'; }
+.ty2-anchor:before { content: '\e90d'; }
+.ty2-puzzle-outline:before { content: '\e90e'; }
+.ty2-puzzle:before { content: '\e90f'; }
+.ty2-tree:before { content: '\e910'; }
+.ty2-calculator:before { content: '\e911'; }
+.ty2-infinity-outline:before { content: '\e912'; }
+.ty2-infinity:before { content: '\e913'; }
+.ty2-pi-outline:before { content: '\e914'; }
+.ty2-pi:before { content: '\e915'; }
+.ty2-at:before { content: '\e916'; }
+.ty2-at-circled:before { content: '\e917'; }
+.ty2-looped-square-outline:before { content: '\e918'; }
+.ty2-looped-square-interest:before { content: '\e919'; }
+.ty2-sort-alphabet-outline:before { content: '\e91a'; }
+.ty2-sort-alphabet:before { content: '\e91b'; }
+.ty2-sort-numeric-outline:before { content: '\e91c'; }
+.ty2-sort-numeric:before { content: '\e91d'; }
+.ty2-dribbble-circled:before { content: '\e91e'; }
+.ty2-dribbble:before { content: '\e91f'; }
+.ty2-facebook-circled:before { content: '\e920'; }
+.ty2-facebook:before { content: '\e921'; }
+.ty2-flickr-circled:before { content: '\e922'; }
+.ty2-flickr:before { content: '\e923'; }
+.ty2-github-circled:before { content: '\e924'; }
+.ty2-github:before { content: '\e925'; }
+.ty2-lastfm-circled:before { content: '\e926'; }
+.ty2-lastfm:before { content: '\e927'; }
+.ty2-linkedin-circled:before { content: '\e928'; }
+.ty2-linkedin:before { content: '\e929'; }
+.ty2-pinterest-circled:before { content: '\e92a'; }
+.ty2-pinterest:before { content: '\e92b'; }
+.ty2-skype-outline:before { content: '\e92c'; }
+.ty2-skype:before { content: '\e92d'; }
+.ty2-tumbler-circled:before { content: '\e92e'; }
+.ty2-tumbler:before { content: '\e92f'; }
+.ty2-twitter-circled:before { content: '\e930'; }
+.ty2-twitter:before { content: '\e931'; }
+.ty2-vimeo-circled:before { content: '\e932'; }
+.ty2-left-open-outline:before { content: '\e89a'; }

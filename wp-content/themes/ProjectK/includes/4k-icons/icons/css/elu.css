@@ -1,0 +1,312 @@
+@font-face {
+	font-family: 'elu';
+	src:url('../4k-icons-pack02/icons/fonts/elu.eot');
+	src:url('../4k-icons-pack02/icons/fonts/elu.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack02/icons/fonts/elu.woff') format('woff'),
+		url('../4k-icons-pack02/icons/fonts/elu.ttf') format('truetype'),
+		url('../4k-icons-pack02/icons/fonts/elu.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'elu';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.elu-glass, .elu-youtube, .elu-search, .elu-search-circled, .elu-mail, .elu-mail-circled, .elu-heart, .elu-heart-circled, .elu-heart-empty, .elu-star, .elu-star-circled, .elu-star-empty, .elu-user, .elu-group, .elu-group-circled, .elu-torso, .elu-video, .elu-video-circled, .elu-video-alt, .elu-videocam, .elu-video-chat, .elu-picture, .elu-camera, .elu-photo, .elu-photo-circled, .elu-th-large, .elu-th, .elu-th-list, .elu-view-mode, .elu-ok, .elu-ok-circled, .elu-ok-circled2, .elu-cancel, .elu-cancel-circled, .elu-cancel-circled2, .elu-plus, .elu-plus-circled, .elu-minus, .elu-minus-circled, .elu-help, .elu-help-circled, .elu-info-circled, .elu-home, .elu-home-circled, .elu-website, .elu-website-circled, .elu-attach, .elu-attach-circled, .elu-lock, .elu-lock-circled, .elu-lock-open, .elu-lock-open-alt, .elu-eye, .elu-eye-off, .elu-tag, .elu-tags, .elu-bookmark, .elu-bookmark-empty, .elu-flag, .elu-flag-circled, .elu-thumbs-up, .elu-thumbs-down, .elu-download, .elu-download-alt, .elu-upload, .elu-share, .elu-quote, .elu-quote-circled, .elu-export, .elu-pencil, .elu-pencil-circled, .elu-edit, .elu-edit-circled, .elu-edit-alt, .elu-print, .elu-retweet, .elu-comment, .elu-comment-alt, .elu-bell, .elu-warning, .elu-exclamation, .elu-error, .elu-error-alt, .elu-location, .elu-location-circled, .elu-compass, .elu-compass-circled, .elu-trash, .elu-trash-circled, .elu-doc, .elu-doc-circled, .elu-doc-new, .elu-doc-new-circled, .elu-folder, .elu-folder-circled, .elu-folder-close, .elu-folder-open, .elu-rss, .elu-phone, .elu-phone-circled, .elu-cog, .elu-cog-circled, .elu-cogs, .elu-wrench, .elu-wrench-circled, .elu-basket, .elu-basket-circled, .elu-calendar, .elu-calendar-circled, .elu-mic, .elu-mic-circled, .elu-volume-off, .elu-volume-down, .elu-volume, .elu-volume-up, .elu-headphones, .elu-clock, .elu-clock-circled, .elu-lightbulb, .elu-lightbulb-alt, .elu-block, .elu-resize-full, .elu-resize-full-alt, .elu-resize-small, .elu-resize-vertical, .elu-resize-horizontal, .elu-move, .elu-zoom-in, .elu-zoom-out, .elu-down-open, .elu-left-open, .elu-right-open, .elu-up-open, .elu-down, .elu-left, .elu-music, .elu-up, .elu-down-circled, .elu-left-circled, .elu-right-circled, .elu-up-circled, .elu-down-hand, .elu-left-hand, .elu-right-hand, .elu-up-hand, .elu-cw, .elu-cw-circled, .elu-arrows-cw, .elu-shuffle, .elu-play, .elu-play-circled, .elu-play-circled2, .elu-stop, .elu-stop-circled, .elu-pause, .elu-pause-circled, .elu-record, .elu-eject, .elu-backward, .elu-backward-circled, .elu-fast-backward, .elu-fast-forward, .elu-forward, .elu-forward-circled, .elu-step-backward, .elu-step-forward, .elu-target, .elu-signal, .elu-desktop, .elu-desktop-circled, .elu-laptop, .elu-laptop-circled, .elu-network, .elu-inbox, .elu-inbox-circled, .elu-inbox-alt, .elu-globe, .elu-globe-alt, .elu-cloud, .elu-cloud-circled, .elu-flight, .elu-leaf, .elu-font, .elu-fontsize, .elu-bold, .elu-italic, .elu-text-height, .elu-text-width, .elu-align-left, .elu-align-center, .elu-align-right, .elu-align-justify, .elu-list, .elu-indent-left, .elu-indent-right, .elu-briefcase, .elu-off, .elu-road, .elu-qrcode, .elu-barcode, .elu-braille, .elu-book, .elu-adjust, .elu-tint, .elu-check, .elu-check-empty, .elu-asterisk, .elu-gift, .elu-fire, .elu-magnet, .elu-chart, .elu-chart-circled, .elu-credit-card, .elu-megaphone, .elu-clipboard, .elu-hdd, .elu-key, .elu-certificate, .elu-tasks, .elu-filter, .elu-gauge, .elu-smiley, .elu-smiley-circled, .elu-address-book, .elu-address-book-alt, .elu-asl, .elu-glasses, .elu-hearing-impaired, .elu-iphone-home, .elu-person, .elu-adult, .elu-child, .elu-blind, .elu-guidedog, .elu-accessibility, .elu-universal-access, .elu-male, .elu-female, .elu-behance, .elu-blogger, .elu-cc, .elu-css, .elu-delicious, .elu-deviantart, .elu-digg, .elu-dribbble, .elu-facebook, .elu-flickr, .elu-foursquare, .elu-friendfeed, .elu-friendfeed-rect, .elu-github, .elu-github-text, .elu-googleplus, .elu-instagram, .elu-linkedin, .elu-path, .elu-picasa, .elu-pinterest, .elu-reddit, .elu-skype, .elu-slideshare, .elu-stackoverflow, .elu-stumbleupon, .elu-twitter, .elu-tumblr, .elu-vimeo, .elu-vkontakte, .elu-w3c, .elu-wordpress, .elu-right {
+	font-family: 'elu';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.elu-glass:before { content: '\e800'; }
+.elu-youtube:before { content: '\e90e'; }
+.elu-search:before { content: '\e802'; }
+.elu-search-circled:before { content: '\e803'; }
+.elu-mail:before { content: '\e804'; }
+.elu-mail-circled:before { content: '\e805'; }
+.elu-heart:before { content: '\e806'; }
+.elu-heart-circled:before { content: '\e807'; }
+.elu-heart-empty:before { content: '\e808'; }
+.elu-star:before { content: '\e809'; }
+.elu-star-circled:before { content: '\e80a'; }
+.elu-star-empty:before { content: '\e80b'; }
+.elu-user:before { content: '\e80c'; }
+.elu-group:before { content: '\e80d'; }
+.elu-group-circled:before { content: '\e80e'; }
+.elu-torso:before { content: '\e80f'; }
+.elu-video:before { content: '\e810'; }
+.elu-video-circled:before { content: '\e811'; }
+.elu-video-alt:before { content: '\e812'; }
+.elu-videocam:before { content: '\e813'; }
+.elu-video-chat:before { content: '\e814'; }
+.elu-picture:before { content: '\e815'; }
+.elu-camera:before { content: '\e816'; }
+.elu-photo:before { content: '\e817'; }
+.elu-photo-circled:before { content: '\e818'; }
+.elu-th-large:before { content: '\e819'; }
+.elu-th:before { content: '\e81a'; }
+.elu-th-list:before { content: '\e81b'; }
+.elu-view-mode:before { content: '\e81c'; }
+.elu-ok:before { content: '\e81d'; }
+.elu-ok-circled:before { content: '\e81e'; }
+.elu-ok-circled2:before { content: '\e81f'; }
+.elu-cancel:before { content: '\e820'; }
+.elu-cancel-circled:before { content: '\e821'; }
+.elu-cancel-circled2:before { content: '\e822'; }
+.elu-plus:before { content: '\e823'; }
+.elu-plus-circled:before { content: '\e824'; }
+.elu-minus:before { content: '\e825'; }
+.elu-minus-circled:before { content: '\e826'; }
+.elu-help:before { content: '\e827'; }
+.elu-help-circled:before { content: '\e828'; }
+.elu-info-circled:before { content: '\e829'; }
+.elu-home:before { content: '\e82a'; }
+.elu-home-circled:before { content: '\e82b'; }
+.elu-website:before { content: '\e82c'; }
+.elu-website-circled:before { content: '\e82d'; }
+.elu-attach:before { content: '\e82e'; }
+.elu-attach-circled:before { content: '\e82f'; }
+.elu-lock:before { content: '\e830'; }
+.elu-lock-circled:before { content: '\e831'; }
+.elu-lock-open:before { content: '\e832'; }
+.elu-lock-open-alt:before { content: '\e833'; }
+.elu-eye:before { content: '\e834'; }
+.elu-eye-off:before { content: '\e835'; }
+.elu-tag:before { content: '\e836'; }
+.elu-tags:before { content: '\e837'; }
+.elu-bookmark:before { content: '\e838'; }
+.elu-bookmark-empty:before { content: '\e839'; }
+.elu-flag:before { content: '\e83a'; }
+.elu-flag-circled:before { content: '\e83b'; }
+.elu-thumbs-up:before { content: '\e83c'; }
+.elu-thumbs-down:before { content: '\e83d'; }
+.elu-download:before { content: '\e83e'; }
+.elu-download-alt:before { content: '\e83f'; }
+.elu-upload:before { content: '\e840'; }
+.elu-share:before { content: '\e841'; }
+.elu-quote:before { content: '\e842'; }
+.elu-quote-circled:before { content: '\e843'; }
+.elu-export:before { content: '\e844'; }
+.elu-pencil:before { content: '\e845'; }
+.elu-pencil-circled:before { content: '\e846'; }
+.elu-edit:before { content: '\e847'; }
+.elu-edit-circled:before { content: '\e848'; }
+.elu-edit-alt:before { content: '\e849'; }
+.elu-print:before { content: '\e84a'; }
+.elu-retweet:before { content: '\e84b'; }
+.elu-comment:before { content: '\e84c'; }
+.elu-comment-alt:before { content: '\e84d'; }
+.elu-bell:before { content: '\e84e'; }
+.elu-warning:before { content: '\e84f'; }
+.elu-exclamation:before { content: '\e850'; }
+.elu-error:before { content: '\e851'; }
+.elu-error-alt:before { content: '\e852'; }
+.elu-location:before { content: '\e853'; }
+.elu-location-circled:before { content: '\e854'; }
+.elu-compass:before { content: '\e855'; }
+.elu-compass-circled:before { content: '\e856'; }
+.elu-trash:before { content: '\e857'; }
+.elu-trash-circled:before { content: '\e858'; }
+.elu-doc:before { content: '\e859'; }
+.elu-doc-circled:before { content: '\e85a'; }
+.elu-doc-new:before { content: '\e85b'; }
+.elu-doc-new-circled:before { content: '\e85c'; }
+.elu-folder:before { content: '\e85d'; }
+.elu-folder-circled:before { content: '\e85e'; }
+.elu-folder-close:before { content: '\e85f'; }
+.elu-folder-open:before { content: '\e860'; }
+.elu-rss:before { content: '\e861'; }
+.elu-phone:before { content: '\e862'; }
+.elu-phone-circled:before { content: '\e863'; }
+.elu-cog:before { content: '\e864'; }
+.elu-cog-circled:before { content: '\e865'; }
+.elu-cogs:before { content: '\e866'; }
+.elu-wrench:before { content: '\e867'; }
+.elu-wrench-circled:before { content: '\e868'; }
+.elu-basket:before { content: '\e869'; }
+.elu-basket-circled:before { content: '\e86a'; }
+.elu-calendar:before { content: '\e86b'; }
+.elu-calendar-circled:before { content: '\e86c'; }
+.elu-mic:before { content: '\e86d'; }
+.elu-mic-circled:before { content: '\e86e'; }
+.elu-volume-off:before { content: '\e86f'; }
+.elu-volume-down:before { content: '\e870'; }
+.elu-volume:before { content: '\e871'; }
+.elu-volume-up:before { content: '\e872'; }
+.elu-headphones:before { content: '\e873'; }
+.elu-clock:before { content: '\e874'; }
+.elu-clock-circled:before { content: '\e875'; }
+.elu-lightbulb:before { content: '\e876'; }
+.elu-lightbulb-alt:before { content: '\e877'; }
+.elu-block:before { content: '\e878'; }
+.elu-resize-full:before { content: '\e879'; }
+.elu-resize-full-alt:before { content: '\e87a'; }
+.elu-resize-small:before { content: '\e87b'; }
+.elu-resize-vertical:before { content: '\e87c'; }
+.elu-resize-horizontal:before { content: '\e87d'; }
+.elu-move:before { content: '\e87e'; }
+.elu-zoom-in:before { content: '\e87f'; }
+.elu-zoom-out:before { content: '\e880'; }
+.elu-down-open:before { content: '\e881'; }
+.elu-left-open:before { content: '\e882'; }
+.elu-right-open:before { content: '\e883'; }
+.elu-up-open:before { content: '\e884'; }
+.elu-down:before { content: '\e885'; }
+.elu-left:before { content: '\e886'; }
+.elu-music:before { content: '\e801'; }
+.elu-up:before { content: '\e888'; }
+.elu-down-circled:before { content: '\e889'; }
+.elu-left-circled:before { content: '\e88a'; }
+.elu-right-circled:before { content: '\e88b'; }
+.elu-up-circled:before { content: '\e88c'; }
+.elu-down-hand:before { content: '\e88d'; }
+.elu-left-hand:before { content: '\e88e'; }
+.elu-right-hand:before { content: '\e88f'; }
+.elu-up-hand:before { content: '\e890'; }
+.elu-cw:before { content: '\e891'; }
+.elu-cw-circled:before { content: '\e892'; }
+.elu-arrows-cw:before { content: '\e893'; }
+.elu-shuffle:before { content: '\e894'; }
+.elu-play:before { content: '\e895'; }
+.elu-play-circled:before { content: '\e896'; }
+.elu-play-circled2:before { content: '\e897'; }
+.elu-stop:before { content: '\e898'; }
+.elu-stop-circled:before { content: '\e899'; }
+.elu-pause:before { content: '\e89a'; }
+.elu-pause-circled:before { content: '\e89b'; }
+.elu-record:before { content: '\e89c'; }
+.elu-eject:before { content: '\e89d'; }
+.elu-backward:before { content: '\e89e'; }
+.elu-backward-circled:before { content: '\e89f'; }
+.elu-fast-backward:before { content: '\e8a0'; }
+.elu-fast-forward:before { content: '\e8a1'; }
+.elu-forward:before { content: '\e8a2'; }
+.elu-forward-circled:before { content: '\e8a3'; }
+.elu-step-backward:before { content: '\e8a4'; }
+.elu-step-forward:before { content: '\e8a5'; }
+.elu-target:before { content: '\e8a6'; }
+.elu-signal:before { content: '\e8a7'; }
+.elu-desktop:before { content: '\e8a8'; }
+.elu-desktop-circled:before { content: '\e8a9'; }
+.elu-laptop:before { content: '\e8aa'; }
+.elu-laptop-circled:before { content: '\e8ab'; }
+.elu-network:before { content: '\e8ac'; }
+.elu-inbox:before { content: '\e8ad'; }
+.elu-inbox-circled:before { content: '\e8ae'; }
+.elu-inbox-alt:before { content: '\e8af'; }
+.elu-globe:before { content: '\e8b0'; }
+.elu-globe-alt:before { content: '\e8b1'; }
+.elu-cloud:before { content: '\e8b2'; }
+.elu-cloud-circled:before { content: '\e8b3'; }
+.elu-flight:before { content: '\e8b4'; }
+.elu-leaf:before { content: '\e8b5'; }
+.elu-font:before { content: '\e8b6'; }
+.elu-fontsize:before { content: '\e8b7'; }
+.elu-bold:before { content: '\e8b8'; }
+.elu-italic:before { content: '\e8b9'; }
+.elu-text-height:before { content: '\e8ba'; }
+.elu-text-width:before { content: '\e8bb'; }
+.elu-align-left:before { content: '\e8bc'; }
+.elu-align-center:before { content: '\e8bd'; }
+.elu-align-right:before { content: '\e8be'; }
+.elu-align-justify:before { content: '\e8bf'; }
+.elu-list:before { content: '\e8c0'; }
+.elu-indent-left:before { content: '\e8c1'; }
+.elu-indent-right:before { content: '\e8c2'; }
+.elu-briefcase:before { content: '\e8c3'; }
+.elu-off:before { content: '\e8c4'; }
+.elu-road:before { content: '\e8c5'; }
+.elu-qrcode:before { content: '\e8c6'; }
+.elu-barcode:before { content: '\e8c7'; }
+.elu-braille:before { content: '\e8c8'; }
+.elu-book:before { content: '\e8c9'; }
+.elu-adjust:before { content: '\e8ca'; }
+.elu-tint:before { content: '\e8cb'; }
+.elu-check:before { content: '\e8cc'; }
+.elu-check-empty:before { content: '\e8cd'; }
+.elu-asterisk:before { content: '\e8ce'; }
+.elu-gift:before { content: '\e8cf'; }
+.elu-fire:before { content: '\e8d0'; }
+.elu-magnet:before { content: '\e8d1'; }
+.elu-chart:before { content: '\e8d2'; }
+.elu-chart-circled:before { content: '\e8d3'; }
+.elu-credit-card:before { content: '\e8d4'; }
+.elu-megaphone:before { content: '\e8d5'; }
+.elu-clipboard:before { content: '\e8d6'; }
+.elu-hdd:before { content: '\e8d7'; }
+.elu-key:before { content: '\e8d8'; }
+.elu-certificate:before { content: '\e8d9'; }
+.elu-tasks:before { content: '\e8da'; }
+.elu-filter:before { content: '\e8db'; }
+.elu-gauge:before { content: '\e8dc'; }
+.elu-smiley:before { content: '\e8dd'; }
+.elu-smiley-circled:before { content: '\e8de'; }
+.elu-address-book:before { content: '\e8df'; }
+.elu-address-book-alt:before { content: '\e8e0'; }
+.elu-asl:before { content: '\e8e1'; }
+.elu-glasses:before { content: '\e8e2'; }
+.elu-hearing-impaired:before { content: '\e8e3'; }
+.elu-iphone-home:before { content: '\e8e4'; }
+.elu-person:before { content: '\e8e5'; }
+.elu-adult:before { content: '\e8e6'; }
+.elu-child:before { content: '\e8e7'; }
+.elu-blind:before { content: '\e8e8'; }
+.elu-guidedog:before { content: '\e8e9'; }
+.elu-accessibility:before { content: '\e8ea'; }
+.elu-universal-access:before { content: '\e8eb'; }
+.elu-male:before { content: '\e8ec'; }
+.elu-female:before { content: '\e8ed'; }
+.elu-behance:before { content: '\e8ee'; }
+.elu-blogger:before { content: '\e8ef'; }
+.elu-cc:before { content: '\e8f0'; }
+.elu-css:before { content: '\e8f1'; }
+.elu-delicious:before { content: '\e8f2'; }
+.elu-deviantart:before { content: '\e8f3'; }
+.elu-digg:before { content: '\e8f4'; }
+.elu-dribbble:before { content: '\e8f5'; }
+.elu-facebook:before { content: '\e8f6'; }
+.elu-flickr:before { content: '\e8f7'; }
+.elu-foursquare:before { content: '\e8f8'; }
+.elu-friendfeed:before { content: '\e8f9'; }
+.elu-friendfeed-rect:before { content: '\e8fa'; }
+.elu-github:before { content: '\e8fb'; }
+.elu-github-text:before { content: '\e8fc'; }
+.elu-googleplus:before { content: '\e8fd'; }
+.elu-instagram:before { content: '\e8fe'; }
+.elu-linkedin:before { content: '\e8ff'; }
+.elu-path:before { content: '\e900'; }
+.elu-picasa:before { content: '\e901'; }
+.elu-pinterest:before { content: '\e902'; }
+.elu-reddit:before { content: '\e903'; }
+.elu-skype:before { content: '\e904'; }
+.elu-slideshare:before { content: '\e905'; }
+.elu-stackoverflow:before { content: '\e906'; }
+.elu-stumbleupon:before { content: '\e907'; }
+.elu-twitter:before { content: '\e908'; }
+.elu-tumblr:before { content: '\e909'; }
+.elu-vimeo:before { content: '\e90a'; }
+.elu-vkontakte:before { content: '\e90b'; }
+.elu-w3c:before { content: '\e90c'; }
+.elu-wordpress:before { content: '\e90d'; }
+.elu-right:before { content: '\e887'; }

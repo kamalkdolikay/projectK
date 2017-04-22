@@ -1,0 +1,310 @@
+@font-face {
+	font-family: 'ty';
+	src:url('../4k-icons-pack04/icons/fonts/ty.eot');
+	src:url('../4k-icons-pack04/icons/fonts/ty.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack04/icons/fonts/ty.woff') format('woff'),
+		url('../4k-icons-pack04/icons/fonts/ty.ttf') format('truetype'),
+		url('../4k-icons-pack04/icons/fonts/ty.svg#ty') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'ty';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="ty-"] {
+*/
+.ty-battery-low, .ty-battery, .ty-battery-full, .ty-battery-charging, .ty-plus, .ty-cross, .ty-arrow-right, .ty-arrow-left, .ty-pencil, .ty-search, .ty-grid, .ty-list, .ty-star, .ty-heart, .ty-back, .ty-forward, .ty-map-marker, .ty-phone, .ty-home, .ty-camera, .ty-arrow-left-2, .ty-arrow-right-2, .ty-arrow-up, .ty-arrow-down, .ty-refresh, .ty-refresh-2, .ty-escape, .ty-repeat, .ty-loop, .ty-shuffle, .ty-feed, .ty-cog, .ty-wrench, .ty-bars, .ty-chart, .ty-stats, .ty-eye, .ty-zoom-out, .ty-zoom-in, .ty-export, .ty-user, .ty-users, .ty-microphone, .ty-mail, .ty-comment, .ty-trashcan, .ty-delete, .ty-infinity, .ty-key, .ty-globe, .ty-thumbs-up, .ty-thumbs-down, .ty-tag, .ty-views, .ty-warning, .ty-beta, .ty-unlocked, .ty-locked, .ty-eject, .ty-move, .ty-expand, .ty-cancel, .ty-electricity, .ty-compass, .ty-location, .ty-directions, .ty-pin, .ty-mute, .ty-volume, .ty-globe-2, .ty-pencil-2, .ty-minus, .ty-equals, .ty-list-2, .ty-flag, .ty-info, .ty-question, .ty-chat, .ty-clock, .ty-calendar, .ty-sun, .ty-contrast, .ty-mobile, .ty-download, .ty-puzzle, .ty-music, .ty-scissors, .ty-bookmark, .ty-anchor, .ty-checkmark {
+	font-family: 'ty';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.ty-battery-low:before {
+	content: "\e000";
+}
+.ty-battery:before {
+	content: "\e001";
+}
+.ty-battery-full:before {
+	content: "\e002";
+}
+.ty-battery-charging:before {
+	content: "\e003";
+}
+.ty-plus:before {
+	content: "\e004";
+}
+.ty-cross:before {
+	content: "\e005";
+}
+.ty-arrow-right:before {
+	content: "\e006";
+}
+.ty-arrow-left:before {
+	content: "\e007";
+}
+.ty-pencil:before {
+	content: "\e008";
+}
+.ty-search:before {
+	content: "\e009";
+}
+.ty-grid:before {
+	content: "\e00a";
+}
+.ty-list:before {
+	content: "\e00b";
+}
+.ty-star:before {
+	content: "\e00c";
+}
+.ty-heart:before {
+	content: "\e00d";
+}
+.ty-back:before {
+	content: "\e00e";
+}
+.ty-forward:before {
+	content: "\e00f";
+}
+.ty-map-marker:before {
+	content: "\e010";
+}
+.ty-phone:before {
+	content: "\e011";
+}
+.ty-home:before {
+	content: "\e012";
+}
+.ty-camera:before {
+	content: "\e013";
+}
+.ty-arrow-left-2:before {
+	content: "\e014";
+}
+.ty-arrow-right-2:before {
+	content: "\e015";
+}
+.ty-arrow-up:before {
+	content: "\e016";
+}
+.ty-arrow-down:before {
+	content: "\e017";
+}
+.ty-refresh:before {
+	content: "\e018";
+}
+.ty-refresh-2:before {
+	content: "\e019";
+}
+.ty-escape:before {
+	content: "\e01a";
+}
+.ty-repeat:before {
+	content: "\e01b";
+}
+.ty-loop:before {
+	content: "\e01c";
+}
+.ty-shuffle:before {
+	content: "\e01d";
+}
+.ty-feed:before {
+	content: "\e01e";
+}
+.ty-cog:before {
+	content: "\e01f";
+}
+.ty-wrench:before {
+	content: "\e020";
+}
+.ty-bars:before {
+	content: "\e021";
+}
+.ty-chart:before {
+	content: "\e022";
+}
+.ty-stats:before {
+	content: "\e023";
+}
+.ty-eye:before {
+	content: "\e024";
+}
+.ty-zoom-out:before {
+	content: "\e025";
+}
+.ty-zoom-in:before {
+	content: "\e026";
+}
+.ty-export:before {
+	content: "\e027";
+}
+.ty-user:before {
+	content: "\e028";
+}
+.ty-users:before {
+	content: "\e029";
+}
+.ty-microphone:before {
+	content: "\e02a";
+}
+.ty-mail:before {
+	content: "\e02b";
+}
+.ty-comment:before {
+	content: "\e02c";
+}
+.ty-trashcan:before {
+	content: "\e02d";
+}
+.ty-delete:before {
+	content: "\e02e";
+}
+.ty-infinity:before {
+	content: "\e02f";
+}
+.ty-key:before {
+	content: "\e030";
+}
+.ty-globe:before {
+	content: "\e031";
+}
+.ty-thumbs-up:before {
+	content: "\e032";
+}
+.ty-thumbs-down:before {
+	content: "\e033";
+}
+.ty-tag:before {
+	content: "\e034";
+}
+.ty-views:before {
+	content: "\e035";
+}
+.ty-warning:before {
+	content: "\e036";
+}
+.ty-beta:before {
+	content: "\e037";
+}
+.ty-unlocked:before {
+	content: "\e038";
+}
+.ty-locked:before {
+	content: "\e039";
+}
+.ty-eject:before {
+	content: "\e03a";
+}
+.ty-move:before {
+	content: "\e03b";
+}
+.ty-expand:before {
+	content: "\e03c";
+}
+.ty-cancel:before {
+	content: "\e03d";
+}
+.ty-electricity:before {
+	content: "\e03e";
+}
+.ty-compass:before {
+	content: "\e03f";
+}
+.ty-location:before {
+	content: "\e040";
+}
+.ty-directions:before {
+	content: "\e041";
+}
+.ty-pin:before {
+	content: "\e042";
+}
+.ty-mute:before {
+	content: "\e043";
+}
+.ty-volume:before {
+	content: "\e044";
+}
+.ty-globe-2:before {
+	content: "\e045";
+}
+.ty-pencil-2:before {
+	content: "\e046";
+}
+.ty-minus:before {
+	content: "\e047";
+}
+.ty-equals:before {
+	content: "\e048";
+}
+.ty-list-2:before {
+	content: "\e049";
+}
+.ty-flag:before {
+	content: "\e04a";
+}
+.ty-info:before {
+	content: "\e04b";
+}
+.ty-question:before {
+	content: "\e04c";
+}
+.ty-chat:before {
+	content: "\e04d";
+}
+.ty-clock:before {
+	content: "\e04e";
+}
+.ty-calendar:before {
+	content: "\e04f";
+}
+.ty-sun:before {
+	content: "\e050";
+}
+.ty-contrast:before {
+	content: "\e051";
+}
+.ty-mobile:before {
+	content: "\e052";
+}
+.ty-download:before {
+	content: "\e053";
+}
+.ty-puzzle:before {
+	content: "\e054";
+}
+.ty-music:before {
+	content: "\e055";
+}
+.ty-scissors:before {
+	content: "\e056";
+}
+.ty-bookmark:before {
+	content: "\e057";
+}
+.ty-anchor:before {
+	content: "\e058";
+}
+.ty-checkmark:before {
+	content: "\e059";
+}

@@ -1,0 +1,144 @@
+@font-face {
+	font-family: 'zo';
+	src:url('../4k-icons-pack05/icons/fonts/zo.eot');
+	src:url('../4k-icons-pack05/icons/fonts/zo.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack05/icons/fonts/zo.woff') format('woff'),
+		url('../4k-icons-pack05/icons/fonts/zo.ttf') format('truetype'),
+		url('../4k-icons-pack05/icons/fonts/zo.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'zo';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.zo-duckduckgo, .zo-lkdto, .zo-delicious, .zo-paypal, .zo-flattr, .zo-android, .zo-eventful, .zo-smashmag, .zo-gplus, .zo-wikipedia, .zo-lanyrd, .zo-calendar, .zo-stumbleupon, .zo-fivehundredpx, .zo-pinterest, .zo-bitcoin, .zo-w3c, .zo-foursquare, .zo-html5, .zo-ie, .zo-call, .zo-grooveshark, .zo-ninetyninedesigns, .zo-forrst, .zo-digg, .zo-spotify, .zo-reddit, .zo-guest, .zo-gowalla, .zo-appstore, .zo-blogger, .zo-cc, .zo-dribbble, .zo-evernote, .zo-flickr, .zo-google, .zo-viadeo, .zo-instapaper, .zo-weibo, .zo-klout, .zo-linkedin, .zo-meetup, .zo-vk, .zo-plancast, .zo-disqus, .zo-rss, .zo-skype, .zo-twitter, .zo-youtube, .zo-vimeo, .zo-windows, .zo-aim, .zo-yahoo, .zo-chrome, .zo-email, .zo-macstore, .zo-myspace, .zo-podcast, .zo-amazon, .zo-steam, .zo-cloudapp, .zo-dropbox, .zo-ebay, .zo-facebook, .zo-github, .zo-github-circled, .zo-googleplay, .zo-itunes, .zo-plurk, .zo-songkick, .zo-lastfm, .zo-gmail, .zo-pinboard, .zo-openid, .zo-quora, .zo-soundcloud, .zo-tumblr, .zo-eventasaurus, .zo-wordpress, .zo-yelp, .zo-intensedebate, .zo-eventbrite, .zo-scribd, .zo-posterous, .zo-stripe, .zo-opentable, .zo-cart, .zo-print, .zo-angellist, .zo-instagram, .zo-dwolla, .zo-appnet, .zo-statusnet, .zo-acrobat, .zo-drupal, .zo-buffer, .zo-pocket, .zo-bitbucket, .zo-lego, .zo-login, .zo-stackoverflow, .zo-hackernews, .zo-xing {
+	font-family: 'zo';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.zo-duckduckgo:before { content: '\e800'; }
+.zo-lkdto:before { content: '\e866'; }
+.zo-delicious:before { content: '\e802'; }
+.zo-paypal:before { content: '\e803'; }
+.zo-flattr:before { content: '\e804'; }
+.zo-android:before { content: '\e805'; }
+.zo-eventful:before { content: '\e806'; }
+.zo-smashmag:before { content: '\e807'; }
+.zo-gplus:before { content: '\e808'; }
+.zo-wikipedia:before { content: '\e809'; }
+.zo-lanyrd:before { content: '\e80a'; }
+.zo-calendar:before { content: '\e80b'; }
+.zo-stumbleupon:before { content: '\e80c'; }
+.zo-fivehundredpx:before { content: '\e80d'; }
+.zo-pinterest:before { content: '\e80e'; }
+.zo-bitcoin:before { content: '\e80f'; }
+.zo-w3c:before { content: '\e810'; }
+.zo-foursquare:before { content: '\e811'; }
+.zo-html5:before { content: '\e812'; }
+.zo-ie:before { content: '\e813'; }
+.zo-call:before { content: '\e814'; }
+.zo-grooveshark:before { content: '\e815'; }
+.zo-ninetyninedesigns:before { content: '\e816'; }
+.zo-forrst:before { content: '\e817'; }
+.zo-digg:before { content: '\e818'; }
+.zo-spotify:before { content: '\e819'; }
+.zo-reddit:before { content: '\e81a'; }
+.zo-guest:before { content: '\e81b'; }
+.zo-gowalla:before { content: '\e81c'; }
+.zo-appstore:before { content: '\e81d'; }
+.zo-blogger:before { content: '\e81e'; }
+.zo-cc:before { content: '\e81f'; }
+.zo-dribbble:before { content: '\e820'; }
+.zo-evernote:before { content: '\e821'; }
+.zo-flickr:before { content: '\e822'; }
+.zo-google:before { content: '\e823'; }
+.zo-viadeo:before { content: '\e824'; }
+.zo-instapaper:before { content: '\e825'; }
+.zo-weibo:before { content: '\e826'; }
+.zo-klout:before { content: '\e827'; }
+.zo-linkedin:before { content: '\e828'; }
+.zo-meetup:before { content: '\e829'; }
+.zo-vk:before { content: '\e82a'; }
+.zo-plancast:before { content: '\e82b'; }
+.zo-disqus:before { content: '\e82c'; }
+.zo-rss:before { content: '\e82d'; }
+.zo-skype:before { content: '\e82e'; }
+.zo-twitter:before { content: '\e82f'; }
+.zo-youtube:before { content: '\e830'; }
+.zo-vimeo:before { content: '\e831'; }
+.zo-windows:before { content: '\e832'; }
+.zo-aim:before { content: '\e801'; }
+.zo-yahoo:before { content: '\e834'; }
+.zo-chrome:before { content: '\e835'; }
+.zo-email:before { content: '\e836'; }
+.zo-macstore:before { content: '\e837'; }
+.zo-myspace:before { content: '\e838'; }
+.zo-podcast:before { content: '\e839'; }
+.zo-amazon:before { content: '\e83a'; }
+.zo-steam:before { content: '\e83b'; }
+.zo-cloudapp:before { content: '\e83c'; }
+.zo-dropbox:before { content: '\e83d'; }
+.zo-ebay:before { content: '\e83e'; }
+.zo-facebook:before { content: '\e83f'; }
+.zo-github:before { content: '\e840'; }
+.zo-github-circled:before { content: '\e841'; }
+.zo-googleplay:before { content: '\e842'; }
+.zo-itunes:before { content: '\e843'; }
+.zo-plurk:before { content: '\e844'; }
+.zo-songkick:before { content: '\e845'; }
+.zo-lastfm:before { content: '\e846'; }
+.zo-gmail:before { content: '\e847'; }
+.zo-pinboard:before { content: '\e848'; }
+.zo-openid:before { content: '\e849'; }
+.zo-quora:before { content: '\e84a'; }
+.zo-soundcloud:before { content: '\e84b'; }
+.zo-tumblr:before { content: '\e84c'; }
+.zo-eventasaurus:before { content: '\e84d'; }
+.zo-wordpress:before { content: '\e84e'; }
+.zo-yelp:before { content: '\e84f'; }
+.zo-intensedebate:before { content: '\e850'; }
+.zo-eventbrite:before { content: '\e851'; }
+.zo-scribd:before { content: '\e852'; }
+.zo-posterous:before { content: '\e853'; }
+.zo-stripe:before { content: '\e854'; }
+.zo-opentable:before { content: '\e855'; }
+.zo-cart:before { content: '\e856'; }
+.zo-print:before { content: '\e857'; }
+.zo-angellist:before { content: '\e858'; }
+.zo-instagram:before { content: '\e859'; }
+.zo-dwolla:before { content: '\e85a'; }
+.zo-appnet:before { content: '\e85b'; }
+.zo-statusnet:before { content: '\e85c'; }
+.zo-acrobat:before { content: '\e85d'; }
+.zo-drupal:before { content: '\e85e'; }
+.zo-buffer:before { content: '\e85f'; }
+.zo-pocket:before { content: '\e860'; }
+.zo-bitbucket:before { content: '\e861'; }
+.zo-lego:before { content: '\e862'; }
+.zo-login:before { content: '\e863'; }
+.zo-stackoverflow:before { content: '\e864'; }
+.zo-hackernews:before { content: '\e865'; }
+.zo-xing:before { content: '\e833'; }

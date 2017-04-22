@@ -1,0 +1,364 @@
+@font-face {
+	font-family: 'bc';
+	src:url('../4k-icons-pack01/icons/fonts/bc.eot');
+	src:url('../4k-icons-pack01/icons/fonts/bc.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack01/icons/fonts/bc.woff') format('woff'),
+		url('../4k-icons-pack01/icons/fonts/bc.ttf') format('truetype'),
+		url('../4k-icons-pack01/icons/fonts/bc.svg#bc') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'bc';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="bc-"] {
+*/
+.bc-code, .bc-battery, .bc-target, .bc-winsows, .bc-atom, .bc-credit-card, .bc-database, .bc-button, .bc-disk, .bc-lamp, .bc-camera, .bc-bookmark, .bc-shit, .bc-smiley, .bc-stop, .bc-address-book, .bc-diary, .bc-trophy, .bc-filter, .bc-floppy, .bc-crop, .bc-keyboard, .bc-paperclip, .bc-forward, .bc-target-2, .bc-stats, .bc-volume, .bc-volume-2, .bc-grid, .bc-list, .bc-compass, .bc-ampersand, .bc-bolt, .bc-trashcan, .bc-ipod, .bc-flag, .bc-basket, .bc-coffee, .bc-alarm, .bc-cone, .bc-gift, .bc-skype, .bc-cancel, .bc-checkmark, .bc-move, .bc-headphones, .bc-thumbs-down, .bc-thumbs-up, .bc-pointer, .bc-star, .bc-phone, .bc-tag, .bc-location, .bc-refresh, .bc-mouse, .bc-droplet, .bc-mobile, .bc-monitor, .bc-window, .bc-calendar, .bc-wrench, .bc-bookmark-2, .bc-heart, .bc-eye, .bc-info, .bc-location-2, .bc-earth, .bc-home, .bc-type, .bc-film, .bc-console, .bc-bug, .bc-pause, .bc-play, .bc-target-3, .bc-blocked, .bc-feed, .bc-forrst, .bc-dribbble, .bc-search, .bc-camera-2, .bc-folder, .bc-picture, .bc-minus, .bc-plus, .bc-file, .bc-apple, .bc-chart, .bc-key, .bc-star-2, .bc-switch, .bc-frame, .bc-pencil, .bc-twitter, .bc-music, .bc-cog, .bc-user, .bc-clock, .bc-contrast, .bc-cart, .bc-briefcase, .bc-envelope, .bc-mic, .bc-comment, .bc-inbox, .bc-locked, .bc-cloud, .bc-warning {
+	font-family: 'bc';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.bc-code:before {
+	content: "\e06b";
+}
+.bc-battery:before {
+	content: "\e06a";
+}
+.bc-target:before {
+	content: "\e069";
+}
+.bc-winsows:before {
+	content: "\e068";
+}
+.bc-atom:before {
+	content: "\e067";
+}
+.bc-credit-card:before {
+	content: "\e066";
+}
+.bc-database:before {
+	content: "\e065";
+}
+.bc-button:before {
+	content: "\e064";
+}
+.bc-disk:before {
+	content: "\e063";
+}
+.bc-lamp:before {
+	content: "\e062";
+}
+.bc-camera:before {
+	content: "\e061";
+}
+.bc-bookmark:before {
+	content: "\e060";
+}
+.bc-shit:before {
+	content: "\e05f";
+}
+.bc-smiley:before {
+	content: "\e05e";
+}
+.bc-stop:before {
+	content: "\e05d";
+}
+.bc-address-book:before {
+	content: "\e05c";
+}
+.bc-diary:before {
+	content: "\e05b";
+}
+.bc-trophy:before {
+	content: "\e05a";
+}
+.bc-filter:before {
+	content: "\e059";
+}
+.bc-floppy:before {
+	content: "\e058";
+}
+.bc-crop:before {
+	content: "\e057";
+}
+.bc-keyboard:before {
+	content: "\e056";
+}
+.bc-paperclip:before {
+	content: "\e055";
+}
+.bc-forward:before {
+	content: "\e054";
+}
+.bc-target-2:before {
+	content: "\e053";
+}
+.bc-stats:before {
+	content: "\e052";
+}
+.bc-volume:before {
+	content: "\e051";
+}
+.bc-volume-2:before {
+	content: "\e050";
+}
+.bc-grid:before {
+	content: "\e04f";
+}
+.bc-list:before {
+	content: "\e04e";
+}
+.bc-compass:before {
+	content: "\e04d";
+}
+.bc-ampersand:before {
+	content: "\e04c";
+}
+.bc-bolt:before {
+	content: "\e04b";
+}
+.bc-trashcan:before {
+	content: "\e04a";
+}
+.bc-ipod:before {
+	content: "\e049";
+}
+.bc-flag:before {
+	content: "\e048";
+}
+.bc-basket:before {
+	content: "\e047";
+}
+.bc-coffee:before {
+	content: "\e046";
+}
+.bc-alarm:before {
+	content: "\e045";
+}
+.bc-cone:before {
+	content: "\e044";
+}
+.bc-gift:before {
+	content: "\e043";
+}
+.bc-skype:before {
+	content: "\e042";
+}
+.bc-cancel:before {
+	content: "\e041";
+}
+.bc-checkmark:before {
+	content: "\e040";
+}
+.bc-move:before {
+	content: "\e03f";
+}
+.bc-headphones:before {
+	content: "\e03e";
+}
+.bc-thumbs-down:before {
+	content: "\e03d";
+}
+.bc-thumbs-up:before {
+	content: "\e03c";
+}
+.bc-pointer:before {
+	content: "\e03b";
+}
+.bc-star:before {
+	content: "\e03a";
+}
+.bc-phone:before {
+	content: "\e039";
+}
+.bc-tag:before {
+	content: "\e038";
+}
+.bc-location:before {
+	content: "\e037";
+}
+.bc-refresh:before {
+	content: "\e036";
+}
+.bc-mouse:before {
+	content: "\e035";
+}
+.bc-droplet:before {
+	content: "\e034";
+}
+.bc-mobile:before {
+	content: "\e033";
+}
+.bc-monitor:before {
+	content: "\e032";
+}
+.bc-window:before {
+	content: "\e031";
+}
+.bc-calendar:before {
+	content: "\e030";
+}
+.bc-wrench:before {
+	content: "\e02f";
+}
+.bc-bookmark-2:before {
+	content: "\e02e";
+}
+.bc-heart:before {
+	content: "\e02d";
+}
+.bc-eye:before {
+	content: "\e02c";
+}
+.bc-info:before {
+	content: "\e02b";
+}
+.bc-location-2:before {
+	content: "\e02a";
+}
+.bc-earth:before {
+	content: "\e029";
+}
+.bc-home:before {
+	content: "\e028";
+}
+.bc-type:before {
+	content: "\e027";
+}
+.bc-film:before {
+	content: "\e026";
+}
+.bc-console:before {
+	content: "\e025";
+}
+.bc-bug:before {
+	content: "\e024";
+}
+.bc-pause:before {
+	content: "\e023";
+}
+.bc-play:before {
+	content: "\e022";
+}
+.bc-target-3:before {
+	content: "\e021";
+}
+.bc-blocked:before {
+	content: "\e020";
+}
+.bc-feed:before {
+	content: "\e01f";
+}
+.bc-forrst:before {
+	content: "\e01e";
+}
+.bc-dribbble:before {
+	content: "\e01d";
+}
+.bc-search:before {
+	content: "\e01c";
+}
+.bc-camera-2:before {
+	content: "\e01b";
+}
+.bc-folder:before {
+	content: "\e01a";
+}
+.bc-picture:before {
+	content: "\e019";
+}
+.bc-minus:before {
+	content: "\e018";
+}
+.bc-plus:before {
+	content: "\e017";
+}
+.bc-file:before {
+	content: "\e016";
+}
+.bc-apple:before {
+	content: "\e015";
+}
+.bc-chart:before {
+	content: "\e014";
+}
+.bc-key:before {
+	content: "\e013";
+}
+.bc-star-2:before {
+	content: "\e012";
+}
+.bc-switch:before {
+	content: "\e011";
+}
+.bc-frame:before {
+	content: "\e010";
+}
+.bc-pencil:before {
+	content: "\e00f";
+}
+.bc-twitter:before {
+	content: "\e00e";
+}
+.bc-music:before {
+	content: "\e00d";
+}
+.bc-cog:before {
+	content: "\e00c";
+}
+.bc-user:before {
+	content: "\e00b";
+}
+.bc-clock:before {
+	content: "\e00a";
+}
+.bc-contrast:before {
+	content: "\e009";
+}
+.bc-cart:before {
+	content: "\e008";
+}
+.bc-briefcase:before {
+	content: "\e007";
+}
+.bc-envelope:before {
+	content: "\e006";
+}
+.bc-mic:before {
+	content: "\e005";
+}
+.bc-comment:before {
+	content: "\e004";
+}
+.bc-inbox:before {
+	content: "\e003";
+}
+.bc-locked:before {
+	content: "\e002";
+}
+.bc-cloud:before {
+	content: "\e001";
+}
+.bc-warning:before {
+	content: "\e000";
+}

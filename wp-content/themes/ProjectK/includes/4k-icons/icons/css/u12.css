@@ -1,0 +1,131 @@
+@font-face {
+	font-family: 'u12';
+	src:url('../4k-icons-pack04/icons/fonts/u12.eot');
+	src:url('../4k-icons-pack04/icons/fonts/u12.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack04/icons/fonts/u12.woff') format('woff'),
+		url('../4k-icons-pack04/icons/fonts/u12.ttf') format('truetype'),
+		url('../4k-icons-pack04/icons/fonts/u12.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'u12';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.u12-airplane7, .u12-wrench8, .u12-arrow159, .u12-arrow160, .u12-arrow164, .u12-arrows11, .u12-bag14, .u12-ball10, .u12-bank, .u12-bar6, .u12-barometer1, .u12-blank4, .u12-calendar31, .u12-calendar34, .u12-caret1, .u12-check15, .u12-cinema9, .u12-circular26, .u12-clipboard20, .u12-clipboard23, .u12-closed14, .u12-clothes5, .u12-compact2, .u12-computer27, .u12-cross26, .u12-cut9, .u12-cylindrical, .u12-diskette5, .u12-dollar14, .u12-easel, .u12-email16, .u12-flag19, .u12-front5, .u12-full16, .u12-game9, .u12-gift16, .u12-graph12, .u12-greek6, .u12-grocery2, .u12-hard5, .u12-heart46, .u12-human8, .u12-labels, .u12-lock21, .u12-low11, .u12-archive10, .u12-map12, .u12-mountain5, .u12-open42, .u12-open43, .u12-open44, .u12-painting4, .u12-paper31, .u12-personal2, .u12-personal3, .u12-photo21, .u12-picnic2, .u12-power15, .u12-radio8, .u12-recycle14, .u12-round7, .u12-rounded17, .u12-rounded18, .u12-rounded19, .u12-rounded8, .u12-rounded9, .u12-ships, .u12-small87, .u12-sound11, .u12-speech25, .u12-speech26, .u12-sphere, .u12-star41, .u12-suitcase14, .u12-table12, .u12-target12, .u12-target13, .u12-teacup, .u12-telephone51, .u12-thermometer13, .u12-three27, .u12-thunderbolt, .u12-tree12, .u12-tshirt6, .u12-voice2, .u12-white22, .u12-white27, .u12-white30, .u12-white34, .u12-magnifying14 {
+	font-family: 'u12';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.u12-airplane7:before { content: '\e800'; }
+.u12-wrench8:before { content: '\e859'; }
+.u12-arrow159:before { content: '\e802'; }
+.u12-arrow160:before { content: '\e803'; }
+.u12-arrow164:before { content: '\e804'; }
+.u12-arrows11:before { content: '\e805'; }
+.u12-bag14:before { content: '\e806'; }
+.u12-ball10:before { content: '\e807'; }
+.u12-bank:before { content: '\e808'; }
+.u12-bar6:before { content: '\e809'; }
+.u12-barometer1:before { content: '\e80a'; }
+.u12-blank4:before { content: '\e80b'; }
+.u12-calendar31:before { content: '\e80c'; }
+.u12-calendar34:before { content: '\e80d'; }
+.u12-caret1:before { content: '\e80e'; }
+.u12-check15:before { content: '\e80f'; }
+.u12-cinema9:before { content: '\e810'; }
+.u12-circular26:before { content: '\e811'; }
+.u12-clipboard20:before { content: '\e812'; }
+.u12-clipboard23:before { content: '\e813'; }
+.u12-closed14:before { content: '\e814'; }
+.u12-clothes5:before { content: '\e815'; }
+.u12-compact2:before { content: '\e816'; }
+.u12-computer27:before { content: '\e817'; }
+.u12-cross26:before { content: '\e818'; }
+.u12-cut9:before { content: '\e819'; }
+.u12-cylindrical:before { content: '\e81a'; }
+.u12-diskette5:before { content: '\e81b'; }
+.u12-dollar14:before { content: '\e81c'; }
+.u12-easel:before { content: '\e81d'; }
+.u12-email16:before { content: '\e81e'; }
+.u12-flag19:before { content: '\e81f'; }
+.u12-front5:before { content: '\e820'; }
+.u12-full16:before { content: '\e821'; }
+.u12-game9:before { content: '\e822'; }
+.u12-gift16:before { content: '\e823'; }
+.u12-graph12:before { content: '\e824'; }
+.u12-greek6:before { content: '\e825'; }
+.u12-grocery2:before { content: '\e826'; }
+.u12-hard5:before { content: '\e827'; }
+.u12-heart46:before { content: '\e828'; }
+.u12-human8:before { content: '\e829'; }
+.u12-labels:before { content: '\e82a'; }
+.u12-lock21:before { content: '\e82b'; }
+.u12-low11:before { content: '\e82c'; }
+.u12-archive10:before { content: '\e801'; }
+.u12-map12:before { content: '\e82e'; }
+.u12-mountain5:before { content: '\e82f'; }
+.u12-open42:before { content: '\e830'; }
+.u12-open43:before { content: '\e831'; }
+.u12-open44:before { content: '\e832'; }
+.u12-painting4:before { content: '\e833'; }
+.u12-paper31:before { content: '\e834'; }
+.u12-personal2:before { content: '\e835'; }
+.u12-personal3:before { content: '\e836'; }
+.u12-photo21:before { content: '\e837'; }
+.u12-picnic2:before { content: '\e838'; }
+.u12-power15:before { content: '\e839'; }
+.u12-radio8:before { content: '\e83a'; }
+.u12-recycle14:before { content: '\e83b'; }
+.u12-round7:before { content: '\e83c'; }
+.u12-rounded17:before { content: '\e83d'; }
+.u12-rounded18:before { content: '\e83e'; }
+.u12-rounded19:before { content: '\e83f'; }
+.u12-rounded8:before { content: '\e840'; }
+.u12-rounded9:before { content: '\e841'; }
+.u12-ships:before { content: '\e842'; }
+.u12-small87:before { content: '\e843'; }
+.u12-sound11:before { content: '\e844'; }
+.u12-speech25:before { content: '\e845'; }
+.u12-speech26:before { content: '\e846'; }
+.u12-sphere:before { content: '\e847'; }
+.u12-star41:before { content: '\e848'; }
+.u12-suitcase14:before { content: '\e849'; }
+.u12-table12:before { content: '\e84a'; }
+.u12-target12:before { content: '\e84b'; }
+.u12-target13:before { content: '\e84c'; }
+.u12-teacup:before { content: '\e84d'; }
+.u12-telephone51:before { content: '\e84e'; }
+.u12-thermometer13:before { content: '\e84f'; }
+.u12-three27:before { content: '\e850'; }
+.u12-thunderbolt:before { content: '\e851'; }
+.u12-tree12:before { content: '\e852'; }
+.u12-tshirt6:before { content: '\e853'; }
+.u12-voice2:before { content: '\e854'; }
+.u12-white22:before { content: '\e855'; }
+.u12-white27:before { content: '\e856'; }
+.u12-white30:before { content: '\e857'; }
+.u12-white34:before { content: '\e858'; }
+.u12-magnifying14:before { content: '\e82d'; }

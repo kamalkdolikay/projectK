@@ -1,0 +1,136 @@
+@font-face {
+	font-family: 'dr';
+	src:url('../4k-icons-pack01/icons/fonts/dr.eot');
+	src:url('../4k-icons-pack01/icons/fonts/dr.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack01/icons/fonts/dr.woff') format('woff'),
+		url('../4k-icons-pack01/icons/fonts/dr.ttf') format('truetype'),
+		url('../4k-icons-pack01/icons/fonts/dr.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'dr';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.dr-align7, .dr-window12, .dr-arrow64, .dr-arrow73, .dr-arrows4, .dr-ascendant, .dr-attachment3, .dr-checkmark2, .dr-chevron8, .dr-circle9, .dr-clockwise, .dr-cloud14, .dr-code3, .dr-conversation1, .dr-cross5, .dr-days, .dr-direction1, .dr-down5, .dr-down6, .dr-download12, .dr-edit4, .dr-export, .dr-eye8, .dr-feed, .dr-folder24, .dr-forward1, .dr-frontal, .dr-gaming, .dr-gear, .dr-graph3, .dr-graph7, .dr-graph8, .dr-headset1, .dr-heart10, .dr-help2, .dr-home11, .dr-info6, .dr-justify, .dr-left11, .dr-left16, .dr-left17, .dr-line4, .dr-loading, .dr-location12, .dr-lock5, .dr-loop4, .dr-mail5, .dr-arrow63, .dr-media11, .dr-media12, .dr-menu10, .dr-microphone6, .dr-mobile5, .dr-mobile7, .dr-move5, .dr-multimedia1, .dr-new8, .dr-next5, .dr-note3, .dr-open15, .dr-open16, .dr-outline3, .dr-outlined, .dr-phone14, .dr-photo7, .dr-plus13, .dr-print1, .dr-question2, .dr-rectangular1, .dr-reply2, .dr-reply4, .dr-return5, .dr-retweet1, .dr-search6, .dr-star11, .dr-stop4, .dr-tablet4, .dr-tablet5, .dr-text15, .dr-text2, .dr-thin2, .dr-thin6, .dr-thumbs9, .dr-thumbup, .dr-trash3, .dr-triangle4, .dr-upload8, .dr-user14, .dr-user15, .dr-view, .dr-view2, .dr-view3, .dr-volume12, .dr-volume5, .dr-map4 {
+	font-family: 'dr';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.dr-align7:before { content: '\e800'; }
+.dr-window12:before { content: '\e85e'; }
+.dr-arrow64:before { content: '\e802'; }
+.dr-arrow73:before { content: '\e803'; }
+.dr-arrows4:before { content: '\e804'; }
+.dr-ascendant:before { content: '\e805'; }
+.dr-attachment3:before { content: '\e806'; }
+.dr-checkmark2:before { content: '\e807'; }
+.dr-chevron8:before { content: '\e808'; }
+.dr-circle9:before { content: '\e809'; }
+.dr-clockwise:before { content: '\e80a'; }
+.dr-cloud14:before { content: '\e80b'; }
+.dr-code3:before { content: '\e80c'; }
+.dr-conversation1:before { content: '\e80d'; }
+.dr-cross5:before { content: '\e80e'; }
+.dr-days:before { content: '\e80f'; }
+.dr-direction1:before { content: '\e810'; }
+.dr-down5:before { content: '\e811'; }
+.dr-down6:before { content: '\e812'; }
+.dr-download12:before { content: '\e813'; }
+.dr-edit4:before { content: '\e814'; }
+.dr-export:before { content: '\e815'; }
+.dr-eye8:before { content: '\e816'; }
+.dr-feed:before { content: '\e817'; }
+.dr-folder24:before { content: '\e818'; }
+.dr-forward1:before { content: '\e819'; }
+.dr-frontal:before { content: '\e81a'; }
+.dr-gaming:before { content: '\e81b'; }
+.dr-gear:before { content: '\e81c'; }
+.dr-graph3:before { content: '\e81d'; }
+.dr-graph7:before { content: '\e81e'; }
+.dr-graph8:before { content: '\e81f'; }
+.dr-headset1:before { content: '\e820'; }
+.dr-heart10:before { content: '\e821'; }
+.dr-help2:before { content: '\e822'; }
+.dr-home11:before { content: '\e823'; }
+.dr-info6:before { content: '\e824'; }
+.dr-justify:before { content: '\e825'; }
+.dr-left11:before { content: '\e826'; }
+.dr-left16:before { content: '\e827'; }
+.dr-left17:before { content: '\e828'; }
+.dr-line4:before { content: '\e829'; }
+.dr-loading:before { content: '\e82a'; }
+.dr-location12:before { content: '\e82b'; }
+.dr-lock5:before { content: '\e82c'; }
+.dr-loop4:before { content: '\e82d'; }
+.dr-mail5:before { content: '\e82e'; }
+.dr-arrow63:before { content: '\e801'; }
+.dr-media11:before { content: '\e830'; }
+.dr-media12:before { content: '\e831'; }
+.dr-menu10:before { content: '\e832'; }
+.dr-microphone6:before { content: '\e833'; }
+.dr-mobile5:before { content: '\e834'; }
+.dr-mobile7:before { content: '\e835'; }
+.dr-move5:before { content: '\e836'; }
+.dr-multimedia1:before { content: '\e837'; }
+.dr-new8:before { content: '\e838'; }
+.dr-next5:before { content: '\e839'; }
+.dr-note3:before { content: '\e83a'; }
+.dr-open15:before { content: '\e83b'; }
+.dr-open16:before { content: '\e83c'; }
+.dr-outline3:before { content: '\e83d'; }
+.dr-outlined:before { content: '\e83e'; }
+.dr-phone14:before { content: '\e83f'; }
+.dr-photo7:before { content: '\e840'; }
+.dr-plus13:before { content: '\e841'; }
+.dr-print1:before { content: '\e842'; }
+.dr-question2:before { content: '\e843'; }
+.dr-rectangular1:before { content: '\e844'; }
+.dr-reply2:before { content: '\e845'; }
+.dr-reply4:before { content: '\e846'; }
+.dr-return5:before { content: '\e847'; }
+.dr-retweet1:before { content: '\e848'; }
+.dr-search6:before { content: '\e849'; }
+.dr-star11:before { content: '\e84a'; }
+.dr-stop4:before { content: '\e84b'; }
+.dr-tablet4:before { content: '\e84c'; }
+.dr-tablet5:before { content: '\e84d'; }
+.dr-text15:before { content: '\e84e'; }
+.dr-text2:before { content: '\e84f'; }
+.dr-thin2:before { content: '\e850'; }
+.dr-thin6:before { content: '\e851'; }
+.dr-thumbs9:before { content: '\e852'; }
+.dr-thumbup:before { content: '\e853'; }
+.dr-trash3:before { content: '\e854'; }
+.dr-triangle4:before { content: '\e855'; }
+.dr-upload8:before { content: '\e856'; }
+.dr-user14:before { content: '\e857'; }
+.dr-user15:before { content: '\e858'; }
+.dr-view:before { content: '\e859'; }
+.dr-view2:before { content: '\e85a'; }
+.dr-view3:before { content: '\e85b'; }
+.dr-volume12:before { content: '\e85c'; }
+.dr-volume5:before { content: '\e85d'; }
+.dr-map4:before { content: '\e82f'; }

@@ -1,0 +1,247 @@
+@font-face {
+	font-family: 'oi';
+	src:url('../4k-icons-pack04/icons/fonts/oi.eot');
+	src:url('../4k-icons-pack04/icons/fonts/oi.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack04/icons/fonts/oi.woff') format('woff'),
+		url('../4k-icons-pack04/icons/fonts/oi.ttf') format('truetype'),
+		url('../4k-icons-pack04/icons/fonts/oi.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'oi';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.oi-pavitra-s-tandon-only-goodness, .oi-ian-yates-y-fronts, .oi-pavitra-s-tandon-chat-for-lovers, .oi-muhamad-bahrul-ulum-log-out, .oi-muhamad-bahrul-ulum-log-in, .oi-justin-skull-ribbon, .oi-justin-burns-skull, .oi-justin-burns-skull-badge, .oi-designmodo-settings, .oi-designmodo-location, .oi-designmodo-like, .oi-cole-townsend-pencil, .oi-cole-townsend-check, .oi-cole-townsend-chat, .oi-ian-yates-porridge, .oi-ian-yates-mr-whippy, .oi-ian-yates-milk, .oi-aleks-dorohovich-rocket, .oi-vincent-gschwindemann-sun, .oi-vectortuts-pirate-panda, .oi-sanjit-saha-afro, .oi-samuel-sosina-command-line, .oi-quin-robinson-casual-shoe, .oi-michael-howarth-tardis, .oi-kenneth-bielinski-timer, .oi-juan-ortiz-zaforas-plug-f-female, .oi-juan-ortiz-zaforas-plug-c-female, .oi-juan-gomez-alzaga-rocking-horse, .oi-juan-gomez-alzaga-paint-brush, .oi-juan-gomez-alzaga-leaf, .oi-juan-gomez-alzaga-bird, .oi-jeffrey-herrera-beer-mug, .oi-jack-rugile-anchor, .oi-ilias-ismanalijev-batman, .oi-corinne-ducusin-doumbek, .oi-aleks-dorohovich-triforce, .oi-steve-debeus-farm, .oi-patrik-larsson-pokemon, .oi-patrik-larsson-pakman, .oi-ordog-zoltan-canon, .oi-johana-barretto-kitty, .oi-johana-barretto-kitty-stripy, .oi-jj-moi-manga-poison, .oi-jj-moi-manga-eye, .oi-jj-moi-kneel, .oi-dom-waters-speedo, .oi-dom-waters-knife, .oi-derek-mui-tie, .oi-derek-mui-invader, .oi-darren-reay-telephone-box, .oi-darren-reay-pen-nib, .oi-arno-hattingh-park, .oi-anton-boshoff-headset, .oi-joshua-barker-landscape, .oi-joshua-barker-house, .oi-jory-raphael-cart, .oi-johan-manuel-hernandez-record-player, .oi-danis-lou-joystick, .oi-christina-pedersen-walkman, .oi-christina-pedersen-cassette, .oi-chris-spittles-unpinned, .oi-chris-spittles-save, .oi-chris-spittles-pinned, .oi-chris-spittles-health, .oi-chris-spittles-geo-location, .oi-cesgra-globe, .oi-matt-hakes-spectacles, .oi-matt-hakes-moustache, .oi-ian-yates-creative-commons {
+	font-family: 'oi';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.oi-pavitra-s-tandon-only-goodness:before {
+	content: "\e000";
+}
+.oi-ian-yates-y-fronts:before {
+	content: "\e001";
+}
+.oi-pavitra-s-tandon-chat-for-lovers:before {
+	content: "\e002";
+}
+.oi-muhamad-bahrul-ulum-log-out:before {
+	content: "\e003";
+}
+.oi-muhamad-bahrul-ulum-log-in:before {
+	content: "\e004";
+}
+.oi-justin-skull-ribbon:before {
+	content: "\e005";
+}
+.oi-justin-burns-skull:before {
+	content: "\e006";
+}
+.oi-justin-burns-skull-badge:before {
+	content: "\e007";
+}
+.oi-designmodo-settings:before {
+	content: "\e008";
+}
+.oi-designmodo-location:before {
+	content: "\e009";
+}
+.oi-designmodo-like:before {
+	content: "\e00a";
+}
+.oi-cole-townsend-pencil:before {
+	content: "\e00b";
+}
+.oi-cole-townsend-check:before {
+	content: "\e00c";
+}
+.oi-cole-townsend-chat:before {
+	content: "\e00d";
+}
+.oi-ian-yates-porridge:before {
+	content: "\e00e";
+}
+.oi-ian-yates-mr-whippy:before {
+	content: "\e00f";
+}
+.oi-ian-yates-milk:before {
+	content: "\e010";
+}
+.oi-aleks-dorohovich-rocket:before {
+	content: "\e011";
+}
+.oi-vincent-gschwindemann-sun:before {
+	content: "\e012";
+}
+.oi-vectortuts-pirate-panda:before {
+	content: "\e013";
+}
+.oi-sanjit-saha-afro:before {
+	content: "\e014";
+}
+.oi-samuel-sosina-command-line:before {
+	content: "\e015";
+}
+.oi-quin-robinson-casual-shoe:before {
+	content: "\e016";
+}
+.oi-michael-howarth-tardis:before {
+	content: "\e017";
+}
+.oi-kenneth-bielinski-timer:before {
+	content: "\e018";
+}
+.oi-juan-ortiz-zaforas-plug-f-female:before {
+	content: "\e019";
+}
+.oi-juan-ortiz-zaforas-plug-c-female:before {
+	content: "\e01a";
+}
+.oi-juan-gomez-alzaga-rocking-horse:before {
+	content: "\e01b";
+}
+.oi-juan-gomez-alzaga-paint-brush:before {
+	content: "\e01c";
+}
+.oi-juan-gomez-alzaga-leaf:before {
+	content: "\e01d";
+}
+.oi-juan-gomez-alzaga-bird:before {
+	content: "\e01e";
+}
+.oi-jeffrey-herrera-beer-mug:before {
+	content: "\e01f";
+}
+.oi-jack-rugile-anchor:before {
+	content: "\e020";
+}
+.oi-ilias-ismanalijev-batman:before {
+	content: "\e021";
+}
+.oi-corinne-ducusin-doumbek:before {
+	content: "\e022";
+}
+.oi-aleks-dorohovich-triforce:before {
+	content: "\e023";
+}
+.oi-steve-debeus-farm:before {
+	content: "\e024";
+}
+.oi-patrik-larsson-pokemon:before {
+	content: "\e025";
+}
+.oi-patrik-larsson-pakman:before {
+	content: "\e026";
+}
+.oi-ordog-zoltan-canon:before {
+	content: "\e027";
+}
+.oi-johana-barretto-kitty:before {
+	content: "\e028";
+}
+.oi-johana-barretto-kitty-stripy:before {
+	content: "\e029";
+}
+.oi-jj-moi-manga-poison:before {
+	content: "\e02a";
+}
+.oi-jj-moi-manga-eye:before {
+	content: "\e02b";
+}
+.oi-jj-moi-kneel:before {
+	content: "\e02c";
+}
+.oi-dom-waters-speedo:before {
+	content: "\e02d";
+}
+.oi-dom-waters-knife:before {
+	content: "\e02e";
+}
+.oi-derek-mui-tie:before {
+	content: "\e02f";
+}
+.oi-derek-mui-invader:before {
+	content: "\e030";
+}
+.oi-darren-reay-telephone-box:before {
+	content: "\e031";
+}
+.oi-darren-reay-pen-nib:before {
+	content: "\e032";
+}
+.oi-arno-hattingh-park:before {
+	content: "\e033";
+}
+.oi-anton-boshoff-headset:before {
+	content: "\e034";
+}
+.oi-joshua-barker-landscape:before {
+	content: "\e035";
+}
+.oi-joshua-barker-house:before {
+	content: "\e036";
+}
+.oi-jory-raphael-cart:before {
+	content: "\e037";
+}
+.oi-johan-manuel-hernandez-record-player:before {
+	content: "\e038";
+}
+.oi-danis-lou-joystick:before {
+	content: "\e039";
+}
+.oi-christina-pedersen-walkman:before {
+	content: "\e03a";
+}
+.oi-christina-pedersen-cassette:before {
+	content: "\e03b";
+}
+.oi-chris-spittles-unpinned:before {
+	content: "\e03c";
+}
+.oi-chris-spittles-save:before {
+	content: "\e03d";
+}
+.oi-chris-spittles-pinned:before {
+	content: "\e03e";
+}
+.oi-chris-spittles-health:before {
+	content: "\e03f";
+}
+.oi-chris-spittles-geo-location:before {
+	content: "\e040";
+}
+.oi-cesgra-globe:before {
+	content: "\e041";
+}
+.oi-matt-hakes-spectacles:before {
+	content: "\e042";
+}
+.oi-matt-hakes-moustache:before {
+	content: "\e043";
+}
+.oi-ian-yates-creative-commons:before {
+	content: "\e044";
+}

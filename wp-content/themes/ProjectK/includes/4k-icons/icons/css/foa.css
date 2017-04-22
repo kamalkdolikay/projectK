@@ -1,0 +1,67 @@
+@font-face {
+	font-family: 'foa';
+	src:url('../4k-icons-pack03/icons/fonts/foa.eot');
+	src:url('../4k-icons-pack03/icons/fonts/foa.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack03/icons/fonts/foa.woff') format('woff'),
+		url('../4k-icons-pack03/icons/fonts/foa.ttf') format('truetype'),
+		url('../4k-icons-pack03/icons/fonts/foa.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'foa';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.foa-Speaker, .foa-Wheelchair, .foa-Eject, .foa-ViewModes, .foa-Eyeball, .foa-ASL, .foa-Person, .foa-QuestionMark, .foa-Adult, .foa-Child, .foa-Glasses, .foa-ClosedCaption, .foa-BlindWalking, .foa-FontSize, .foa-iPhoneHomeKey, .foa-W3CApproved, .foa-CSSValidated, .foa-Key, .foa-HearingImpaired, .foa-Male, .foa-Female, .foa-Globe, .foa-GuideDog, .foa-UniversalAccess, .foa-Elevator, .foa-Braille {
+	font-family: 'foa';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.foa-Speaker:before { content: '\e800'; }
+.foa-Wheelchair:before { content: '\e819'; }
+.foa-Eject:before { content: '\e802'; }
+.foa-ViewModes:before { content: '\e803'; }
+.foa-Eyeball:before { content: '\e804'; }
+.foa-ASL:before { content: '\e805'; }
+.foa-Person:before { content: '\e806'; }
+.foa-QuestionMark:before { content: '\e807'; }
+.foa-Adult:before { content: '\e808'; }
+.foa-Child:before { content: '\e809'; }
+.foa-Glasses:before { content: '\e80a'; }
+.foa-ClosedCaption:before { content: '\e80b'; }
+.foa-BlindWalking:before { content: '\e80c'; }
+.foa-FontSize:before { content: '\e801'; }
+.foa-iPhoneHomeKey:before { content: '\e80e'; }
+.foa-W3CApproved:before { content: '\e80f'; }
+.foa-CSSValidated:before { content: '\e810'; }
+.foa-Key:before { content: '\e811'; }
+.foa-HearingImpaired:before { content: '\e812'; }
+.foa-Male:before { content: '\e813'; }
+.foa-Female:before { content: '\e814'; }
+.foa-Globe:before { content: '\e815'; }
+.foa-GuideDog:before { content: '\e816'; }
+.foa-UniversalAccess:before { content: '\e817'; }
+.foa-Elevator:before { content: '\e818'; }
+.foa-Braille:before { content: '\e80d'; }

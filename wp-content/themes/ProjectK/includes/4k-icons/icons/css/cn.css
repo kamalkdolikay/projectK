@@ -1,0 +1,235 @@
+@font-face {
+	font-family: 'cn';
+	src:url('../4k-icons-pack01/icons/fonts/cn.eot');
+	src:url('../4k-icons-pack01/icons/fonts/cn.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack01/icons/fonts/cn.woff') format('woff'),
+		url('../4k-icons-pack01/icons/fonts/cn.ttf') format('truetype'),
+		url('../4k-icons-pack01/icons/fonts/cn.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'cn';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.cn-afghanistan, .cn-zimbabwe, .cn-algaria, .cn-andorra, .cn-angola, .cn-antigua, .cn-argentina, .cn-armenia, .cn-aruba, .cn-australia, .cn-austria, .cn-azerbaijan, .cn-bahamas, .cn-bahrain, .cn-bangladesh, .cn-barbados, .cn-belarus, .cn-belgium, .cn-belize, .cn-benin, .cn-bermuda, .cn-bhutan, .cn-bolivia, .cn-bosnia, .cn-botswana, .cn-brazil, .cn-brunei, .cn-bulgaria, .cn-burkina, .cn-burundi, .cn-cambodia, .cn-cameroon, .cn-canada, .cn-cape, .cn-central2, .cn-chad, .cn-chile, .cn-china, .cn-colombia, .cn-comoros, .cn-congo, .cn-costa, .cn-cote, .cn-croatia, .cn-cuba, .cn-cyprus, .cn-czech, .cn-democratic, .cn-denmark, .cn-djibouti, .cn-dominica, .cn-dominican, .cn-east2, .cn-ecuador, .cn-egypt, .cn-el, .cn-equatorial, .cn-eritrea, .cn-estonia, .cn-ethiopia, .cn-finland, .cn-france, .cn-gabon, .cn-gambia, .cn-georgia, .cn-germany, .cn-ghana, .cn-greece, .cn-greenland, .cn-grenada, .cn-guatemala, .cn-guinea, .cn-guinea1, .cn-guyana, .cn-haiti, .cn-honduras, .cn-hungary, .cn-iceland, .cn-india, .cn-indonesia, .cn-iran, .cn-iraq, .cn-ireland, .cn-israel, .cn-italy, .cn-jamaica, .cn-japan59, .cn-jordan, .cn-kazakhstan, .cn-kenya, .cn-kosovo, .cn-kuwait, .cn-kyrgyzstan, .cn-laos, .cn-latvia, .cn-lebanon, .cn-lesotho, .cn-albania, .cn-libya, .cn-liechstenstein, .cn-lithuania, .cn-luxembourg, .cn-macedonia, .cn-madagascar, .cn-malawi, .cn-malaysia, .cn-mali, .cn-malta, .cn-martinique, .cn-mauritania, .cn-mauritius, .cn-mexico, .cn-moldova, .cn-monaco, .cn-mongolia, .cn-montenegro, .cn-montserrat, .cn-morocco, .cn-mozambique, .cn-myanmar, .cn-namibia, .cn-nauru, .cn-nepal, .cn-netherlands, .cn-nicaragua, .cn-niger, .cn-nigeria, .cn-north3, .cn-norway, .cn-oman, .cn-pakistan, .cn-palau, .cn-palestine, .cn-panama, .cn-papua, .cn-paraguay, .cn-peru, .cn-philippines, .cn-poland, .cn-portugal, .cn-puerto, .cn-qatar, .cn-romania, .cn-russia, .cn-rwanda, .cn-saint2, .cn-saint3, .cn-saint4, .cn-san1, .cn-saudi, .cn-senegal, .cn-serbia, .cn-seychelles, .cn-sierra, .cn-singapore, .cn-slovakia, .cn-slovenia, .cn-somalia, .cn-somaliland, .cn-south2, .cn-south3, .cn-south4, .cn-spain, .cn-sri, .cn-sudan, .cn-suriname, .cn-swaziland, .cn-sweden1, .cn-switzerland, .cn-syria, .cn-taiwan, .cn-tajikistan, .cn-tanzania, .cn-thailand, .cn-togo, .cn-tonga, .cn-trinidad, .cn-tunisia, .cn-turkey, .cn-turkmenistan, .cn-uganda, .cn-ukraine, .cn-united, .cn-united1, .cn-united2, .cn-uruguay, .cn-uzbekistan, .cn-vanuatu, .cn-vatican, .cn-venezuela, .cn-vietnam, .cn-yemen, .cn-zambia, .cn-liberia {
+	font-family: 'cn';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.cn-afghanistan:before { content: '\e800'; }
+.cn-zimbabwe:before { content: '\e8c1'; }
+.cn-algaria:before { content: '\e802'; }
+.cn-andorra:before { content: '\e803'; }
+.cn-angola:before { content: '\e804'; }
+.cn-antigua:before { content: '\e805'; }
+.cn-argentina:before { content: '\e806'; }
+.cn-armenia:before { content: '\e807'; }
+.cn-aruba:before { content: '\e808'; }
+.cn-australia:before { content: '\e809'; }
+.cn-austria:before { content: '\e80a'; }
+.cn-azerbaijan:before { content: '\e80b'; }
+.cn-bahamas:before { content: '\e80c'; }
+.cn-bahrain:before { content: '\e80d'; }
+.cn-bangladesh:before { content: '\e80e'; }
+.cn-barbados:before { content: '\e80f'; }
+.cn-belarus:before { content: '\e810'; }
+.cn-belgium:before { content: '\e811'; }
+.cn-belize:before { content: '\e812'; }
+.cn-benin:before { content: '\e813'; }
+.cn-bermuda:before { content: '\e814'; }
+.cn-bhutan:before { content: '\e815'; }
+.cn-bolivia:before { content: '\e816'; }
+.cn-bosnia:before { content: '\e817'; }
+.cn-botswana:before { content: '\e818'; }
+.cn-brazil:before { content: '\e819'; }
+.cn-brunei:before { content: '\e81a'; }
+.cn-bulgaria:before { content: '\e81b'; }
+.cn-burkina:before { content: '\e81c'; }
+.cn-burundi:before { content: '\e81d'; }
+.cn-cambodia:before { content: '\e81e'; }
+.cn-cameroon:before { content: '\e81f'; }
+.cn-canada:before { content: '\e820'; }
+.cn-cape:before { content: '\e821'; }
+.cn-central2:before { content: '\e822'; }
+.cn-chad:before { content: '\e823'; }
+.cn-chile:before { content: '\e824'; }
+.cn-china:before { content: '\e825'; }
+.cn-colombia:before { content: '\e826'; }
+.cn-comoros:before { content: '\e827'; }
+.cn-congo:before { content: '\e828'; }
+.cn-costa:before { content: '\e829'; }
+.cn-cote:before { content: '\e82a'; }
+.cn-croatia:before { content: '\e82b'; }
+.cn-cuba:before { content: '\e82c'; }
+.cn-cyprus:before { content: '\e82d'; }
+.cn-czech:before { content: '\e82e'; }
+.cn-democratic:before { content: '\e82f'; }
+.cn-denmark:before { content: '\e830'; }
+.cn-djibouti:before { content: '\e831'; }
+.cn-dominica:before { content: '\e832'; }
+.cn-dominican:before { content: '\e833'; }
+.cn-east2:before { content: '\e834'; }
+.cn-ecuador:before { content: '\e835'; }
+.cn-egypt:before { content: '\e836'; }
+.cn-el:before { content: '\e837'; }
+.cn-equatorial:before { content: '\e838'; }
+.cn-eritrea:before { content: '\e839'; }
+.cn-estonia:before { content: '\e83a'; }
+.cn-ethiopia:before { content: '\e83b'; }
+.cn-finland:before { content: '\e83c'; }
+.cn-france:before { content: '\e83d'; }
+.cn-gabon:before { content: '\e83e'; }
+.cn-gambia:before { content: '\e83f'; }
+.cn-georgia:before { content: '\e840'; }
+.cn-germany:before { content: '\e841'; }
+.cn-ghana:before { content: '\e842'; }
+.cn-greece:before { content: '\e843'; }
+.cn-greenland:before { content: '\e844'; }
+.cn-grenada:before { content: '\e845'; }
+.cn-guatemala:before { content: '\e846'; }
+.cn-guinea:before { content: '\e847'; }
+.cn-guinea1:before { content: '\e848'; }
+.cn-guyana:before { content: '\e849'; }
+.cn-haiti:before { content: '\e84a'; }
+.cn-honduras:before { content: '\e84b'; }
+.cn-hungary:before { content: '\e84c'; }
+.cn-iceland:before { content: '\e84d'; }
+.cn-india:before { content: '\e84e'; }
+.cn-indonesia:before { content: '\e84f'; }
+.cn-iran:before { content: '\e850'; }
+.cn-iraq:before { content: '\e851'; }
+.cn-ireland:before { content: '\e852'; }
+.cn-israel:before { content: '\e853'; }
+.cn-italy:before { content: '\e854'; }
+.cn-jamaica:before { content: '\e855'; }
+.cn-japan59:before { content: '\e856'; }
+.cn-jordan:before { content: '\e857'; }
+.cn-kazakhstan:before { content: '\e858'; }
+.cn-kenya:before { content: '\e859'; }
+.cn-kosovo:before { content: '\e85a'; }
+.cn-kuwait:before { content: '\e85b'; }
+.cn-kyrgyzstan:before { content: '\e85c'; }
+.cn-laos:before { content: '\e85d'; }
+.cn-latvia:before { content: '\e85e'; }
+.cn-lebanon:before { content: '\e85f'; }
+.cn-lesotho:before { content: '\e860'; }
+.cn-albania:before { content: '\e801'; }
+.cn-libya:before { content: '\e862'; }
+.cn-liechstenstein:before { content: '\e863'; }
+.cn-lithuania:before { content: '\e864'; }
+.cn-luxembourg:before { content: '\e865'; }
+.cn-macedonia:before { content: '\e866'; }
+.cn-madagascar:before { content: '\e867'; }
+.cn-malawi:before { content: '\e868'; }
+.cn-malaysia:before { content: '\e869'; }
+.cn-mali:before { content: '\e86a'; }
+.cn-malta:before { content: '\e86b'; }
+.cn-martinique:before { content: '\e86c'; }
+.cn-mauritania:before { content: '\e86d'; }
+.cn-mauritius:before { content: '\e86e'; }
+.cn-mexico:before { content: '\e86f'; }
+.cn-moldova:before { content: '\e870'; }
+.cn-monaco:before { content: '\e871'; }
+.cn-mongolia:before { content: '\e872'; }
+.cn-montenegro:before { content: '\e873'; }
+.cn-montserrat:before { content: '\e874'; }
+.cn-morocco:before { content: '\e875'; }
+.cn-mozambique:before { content: '\e876'; }
+.cn-myanmar:before { content: '\e877'; }
+.cn-namibia:before { content: '\e878'; }
+.cn-nauru:before { content: '\e879'; }
+.cn-nepal:before { content: '\e87a'; }
+.cn-netherlands:before { content: '\e87b'; }
+.cn-nicaragua:before { content: '\e87c'; }
+.cn-niger:before { content: '\e87d'; }
+.cn-nigeria:before { content: '\e87e'; }
+.cn-north3:before { content: '\e87f'; }
+.cn-norway:before { content: '\e880'; }
+.cn-oman:before { content: '\e881'; }
+.cn-pakistan:before { content: '\e882'; }
+.cn-palau:before { content: '\e883'; }
+.cn-palestine:before { content: '\e884'; }
+.cn-panama:before { content: '\e885'; }
+.cn-papua:before { content: '\e886'; }
+.cn-paraguay:before { content: '\e887'; }
+.cn-peru:before { content: '\e888'; }
+.cn-philippines:before { content: '\e889'; }
+.cn-poland:before { content: '\e88a'; }
+.cn-portugal:before { content: '\e88b'; }
+.cn-puerto:before { content: '\e88c'; }
+.cn-qatar:before { content: '\e88d'; }
+.cn-romania:before { content: '\e88e'; }
+.cn-russia:before { content: '\e88f'; }
+.cn-rwanda:before { content: '\e890'; }
+.cn-saint2:before { content: '\e891'; }
+.cn-saint3:before { content: '\e892'; }
+.cn-saint4:before { content: '\e893'; }
+.cn-san1:before { content: '\e894'; }
+.cn-saudi:before { content: '\e895'; }
+.cn-senegal:before { content: '\e896'; }
+.cn-serbia:before { content: '\e897'; }
+.cn-seychelles:before { content: '\e898'; }
+.cn-sierra:before { content: '\e899'; }
+.cn-singapore:before { content: '\e89a'; }
+.cn-slovakia:before { content: '\e89b'; }
+.cn-slovenia:before { content: '\e89c'; }
+.cn-somalia:before { content: '\e89d'; }
+.cn-somaliland:before { content: '\e89e'; }
+.cn-south2:before { content: '\e89f'; }
+.cn-south3:before { content: '\e8a0'; }
+.cn-south4:before { content: '\e8a1'; }
+.cn-spain:before { content: '\e8a2'; }
+.cn-sri:before { content: '\e8a3'; }
+.cn-sudan:before { content: '\e8a4'; }
+.cn-suriname:before { content: '\e8a5'; }
+.cn-swaziland:before { content: '\e8a6'; }
+.cn-sweden1:before { content: '\e8a7'; }
+.cn-switzerland:before { content: '\e8a8'; }
+.cn-syria:before { content: '\e8a9'; }
+.cn-taiwan:before { content: '\e8aa'; }
+.cn-tajikistan:before { content: '\e8ab'; }
+.cn-tanzania:before { content: '\e8ac'; }
+.cn-thailand:before { content: '\e8ad'; }
+.cn-togo:before { content: '\e8ae'; }
+.cn-tonga:before { content: '\e8af'; }
+.cn-trinidad:before { content: '\e8b0'; }
+.cn-tunisia:before { content: '\e8b1'; }
+.cn-turkey:before { content: '\e8b2'; }
+.cn-turkmenistan:before { content: '\e8b3'; }
+.cn-uganda:before { content: '\e8b4'; }
+.cn-ukraine:before { content: '\e8b5'; }
+.cn-united:before { content: '\e8b6'; }
+.cn-united1:before { content: '\e8b7'; }
+.cn-united2:before { content: '\e8b8'; }
+.cn-uruguay:before { content: '\e8b9'; }
+.cn-uzbekistan:before { content: '\e8ba'; }
+.cn-vanuatu:before { content: '\e8bb'; }
+.cn-vatican:before { content: '\e8bc'; }
+.cn-venezuela:before { content: '\e8bd'; }
+.cn-vietnam:before { content: '\e8be'; }
+.cn-yemen:before { content: '\e8bf'; }
+.cn-zambia:before { content: '\e8c0'; }
+.cn-liberia:before { content: '\e861'; }

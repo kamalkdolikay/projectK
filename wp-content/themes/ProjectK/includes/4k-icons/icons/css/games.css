@@ -1,0 +1,87 @@
+@font-face {
+	font-family: 'games';
+	src:url('../4k-icons-pack03/icons/fonts/games.eot');
+	src:url('../4k-icons-pack03/icons/fonts/games.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack03/icons/fonts/games.woff') format('woff'),
+		url('../4k-icons-pack03/icons/fonts/games.ttf') format('truetype'),
+		url('../4k-icons-pack03/icons/fonts/games.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'games';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.games-add86, .games-xbox9, .games-disc10, .games-dreamcast, .games-four44, .games-game23, .games-game24, .games-game25, .games-game26, .games-game27, .games-game28, .games-gamecube, .games-games10, .games-games11, .games-games8, .games-games9, .games-gane, .games-genesis, .games-nintendo1, .games-nintendo2, .games-online12, .games-plus42, .games-ps3, .games-cooperative, .games-racing3, .games-sony, .games-three85, .games-versus, .games-wifi58, .games-wii, .games-wii2, .games-wii3, .games-wii4, .games-wii5, .games-wii6, .games-wii7, .games-wii8, .games-xbox10, .games-xbox11, .games-xbox12, .games-xbox13, .games-xbox5, .games-xbox6, .games-xbox7, .games-xbox8, .games-ps4 {
+	font-family: 'games';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.games-add86:before { content: '\e800'; }
+.games-xbox9:before { content: '\e82d'; }
+.games-disc10:before { content: '\e802'; }
+.games-dreamcast:before { content: '\e803'; }
+.games-four44:before { content: '\e804'; }
+.games-game23:before { content: '\e805'; }
+.games-game24:before { content: '\e806'; }
+.games-game25:before { content: '\e807'; }
+.games-game26:before { content: '\e808'; }
+.games-game27:before { content: '\e809'; }
+.games-game28:before { content: '\e80a'; }
+.games-gamecube:before { content: '\e80b'; }
+.games-games10:before { content: '\e80c'; }
+.games-games11:before { content: '\e80d'; }
+.games-games8:before { content: '\e80e'; }
+.games-games9:before { content: '\e80f'; }
+.games-gane:before { content: '\e810'; }
+.games-genesis:before { content: '\e811'; }
+.games-nintendo1:before { content: '\e812'; }
+.games-nintendo2:before { content: '\e813'; }
+.games-online12:before { content: '\e814'; }
+.games-plus42:before { content: '\e815'; }
+.games-ps3:before { content: '\e816'; }
+.games-cooperative:before { content: '\e801'; }
+.games-racing3:before { content: '\e818'; }
+.games-sony:before { content: '\e819'; }
+.games-three85:before { content: '\e81a'; }
+.games-versus:before { content: '\e81b'; }
+.games-wifi58:before { content: '\e81c'; }
+.games-wii:before { content: '\e81d'; }
+.games-wii2:before { content: '\e81e'; }
+.games-wii3:before { content: '\e81f'; }
+.games-wii4:before { content: '\e820'; }
+.games-wii5:before { content: '\e821'; }
+.games-wii6:before { content: '\e822'; }
+.games-wii7:before { content: '\e823'; }
+.games-wii8:before { content: '\e824'; }
+.games-xbox10:before { content: '\e825'; }
+.games-xbox11:before { content: '\e826'; }
+.games-xbox12:before { content: '\e827'; }
+.games-xbox13:before { content: '\e828'; }
+.games-xbox5:before { content: '\e829'; }
+.games-xbox6:before { content: '\e82a'; }
+.games-xbox7:before { content: '\e82b'; }
+.games-xbox8:before { content: '\e82c'; }
+.games-ps4:before { content: '\e817'; }

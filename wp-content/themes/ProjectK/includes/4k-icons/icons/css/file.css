@@ -1,0 +1,217 @@
+@font-face {
+	font-family: 'file';
+	src:url('../4k-icons-pack02/icons/fonts/file.eot');
+	src:url('../4k-icons-pack02/icons/fonts/file.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack02/icons/fonts/file.woff') format('woff'),
+		url('../4k-icons-pack02/icons/fonts/file.ttf') format('truetype'),
+		url('../4k-icons-pack02/icons/fonts/file.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'file';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.file-3dm, .file-zip6, .file-3g22, .file-3gp2, .file-7z1, .file-aac, .file-ai, .file-aif, .file-apk, .file-app6, .file-asf1, .file-asp, .file-aspx, .file-asx2, .file-avi4, .file-bak, .file-bat8, .file-bin6, .file-bmp2, .file-cab, .file-cad1, .file-cdr2, .file-cer, .file-cfg2, .file-cfm2, .file-cgi2, .file-class3, .file-com, .file-cpl2, .file-cpp1, .file-crx, .file-csr, .file-css5, .file-csv2, .file-cue2, .file-cur1, .file-dat2, .file-db2, .file-dbf2, .file-dds2, .file-dem2, .file-dll2, .file-dmg3, .file-dmp2, .file-doc2, .file-docx, .file-drv1, .file-dtd2, .file-dwg2, .file-dxf1, .file-elf2, .file-eps2, .file-eps5, .file-exe3, .file-fla2, .file-flash10, .file-flv, .file-fnt, .file-fon1, .file-gam2, .file-gbr1, .file-ged2, .file-gif3, .file-gpx1, .file-gz, .file-gzip2, .file-hqz, .file-html9, .file-ibooks1, .file-icns, .file-ico2, .file-ics2, .file-iff, .file-indd2, .file-iso1, .file-iso4, .file-jar8, .file-jpg3, .file-js2, .file-jsp2, .file-key35, .file-kml1, .file-kmz, .file-lnk2, .file-log2, .file-lua, .file-m3u, .file-m4a1, .file-3ds2, .file-macho, .file-max2, .file-mdb2, .file-mdf2, .file-mid, .file-mim, .file-mov2, .file-mp36, .file-mp4, .file-mpa, .file-mpg3, .file-msg2, .file-msi2, .file-nes1, .file-object4, .file-odb2, .file-odc2, .file-odf2, .file-odg, .file-odi2, .file-odp2, .file-ods2, .file-odt, .file-odt5, .file-odx, .file-ogg, .file-otf, .file-otf1, .file-pages4, .file-pct2, .file-pdb2, .file-pdf19, .file-pif2, .file-pkg2, .file-pl2, .file-png3, .file-pps2, .file-ppt, .file-pptx2, .file-ps, .file-psd3, .file-pub2, .file-python3, .file-ra, .file-rar2, .file-raw2, .file-rm, .file-rom2, .file-rpm2, .file-rss29, .file-rtf, .file-sav, .file-sdf, .file-sitx2, .file-sql3, .file-sql5, .file-srt, .file-svg1, .file-swf1, .file-sys, .file-tar1, .file-tex, .file-tga2, .file-thm1, .file-tiff1, .file-tmp, .file-torrent, .file-ttf2, .file-txt2, .file-uue2, .file-vb, .file-vcd2, .file-vcf2, .file-vob, .file-wav2, .file-wma1, .file-wmv2, .file-wpd2, .file-wps, .file-wsf2, .file-xhtml, .file-xlr2, .file-xls1, .file-xlsx, .file-xml5, .file-yuv2, .file-m4v2 {
+	font-family: 'file';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.file-3dm:before { content: '\e800'; }
+.file-zip6:before { content: '\e8af'; }
+.file-3g22:before { content: '\e802'; }
+.file-3gp2:before { content: '\e803'; }
+.file-7z1:before { content: '\e804'; }
+.file-aac:before { content: '\e805'; }
+.file-ai:before { content: '\e806'; }
+.file-aif:before { content: '\e807'; }
+.file-apk:before { content: '\e808'; }
+.file-app6:before { content: '\e809'; }
+.file-asf1:before { content: '\e80a'; }
+.file-asp:before { content: '\e80b'; }
+.file-aspx:before { content: '\e80c'; }
+.file-asx2:before { content: '\e80d'; }
+.file-avi4:before { content: '\e80e'; }
+.file-bak:before { content: '\e80f'; }
+.file-bat8:before { content: '\e810'; }
+.file-bin6:before { content: '\e811'; }
+.file-bmp2:before { content: '\e812'; }
+.file-cab:before { content: '\e813'; }
+.file-cad1:before { content: '\e814'; }
+.file-cdr2:before { content: '\e815'; }
+.file-cer:before { content: '\e816'; }
+.file-cfg2:before { content: '\e817'; }
+.file-cfm2:before { content: '\e818'; }
+.file-cgi2:before { content: '\e819'; }
+.file-class3:before { content: '\e81a'; }
+.file-com:before { content: '\e81b'; }
+.file-cpl2:before { content: '\e81c'; }
+.file-cpp1:before { content: '\e81d'; }
+.file-crx:before { content: '\e81e'; }
+.file-csr:before { content: '\e81f'; }
+.file-css5:before { content: '\e820'; }
+.file-csv2:before { content: '\e821'; }
+.file-cue2:before { content: '\e822'; }
+.file-cur1:before { content: '\e823'; }
+.file-dat2:before { content: '\e824'; }
+.file-db2:before { content: '\e825'; }
+.file-dbf2:before { content: '\e826'; }
+.file-dds2:before { content: '\e827'; }
+.file-dem2:before { content: '\e828'; }
+.file-dll2:before { content: '\e829'; }
+.file-dmg3:before { content: '\e82a'; }
+.file-dmp2:before { content: '\e82b'; }
+.file-doc2:before { content: '\e82c'; }
+.file-docx:before { content: '\e82d'; }
+.file-drv1:before { content: '\e82e'; }
+.file-dtd2:before { content: '\e82f'; }
+.file-dwg2:before { content: '\e830'; }
+.file-dxf1:before { content: '\e831'; }
+.file-elf2:before { content: '\e832'; }
+.file-eps2:before { content: '\e833'; }
+.file-eps5:before { content: '\e834'; }
+.file-exe3:before { content: '\e835'; }
+.file-fla2:before { content: '\e836'; }
+.file-flash10:before { content: '\e837'; }
+.file-flv:before { content: '\e838'; }
+.file-fnt:before { content: '\e839'; }
+.file-fon1:before { content: '\e83a'; }
+.file-gam2:before { content: '\e83b'; }
+.file-gbr1:before { content: '\e83c'; }
+.file-ged2:before { content: '\e83d'; }
+.file-gif3:before { content: '\e83e'; }
+.file-gpx1:before { content: '\e83f'; }
+.file-gz:before { content: '\e840'; }
+.file-gzip2:before { content: '\e841'; }
+.file-hqz:before { content: '\e842'; }
+.file-html9:before { content: '\e843'; }
+.file-ibooks1:before { content: '\e844'; }
+.file-icns:before { content: '\e845'; }
+.file-ico2:before { content: '\e846'; }
+.file-ics2:before { content: '\e847'; }
+.file-iff:before { content: '\e848'; }
+.file-indd2:before { content: '\e849'; }
+.file-iso1:before { content: '\e84a'; }
+.file-iso4:before { content: '\e84b'; }
+.file-jar8:before { content: '\e84c'; }
+.file-jpg3:before { content: '\e84d'; }
+.file-js2:before { content: '\e84e'; }
+.file-jsp2:before { content: '\e84f'; }
+.file-key35:before { content: '\e850'; }
+.file-kml1:before { content: '\e851'; }
+.file-kmz:before { content: '\e852'; }
+.file-lnk2:before { content: '\e853'; }
+.file-log2:before { content: '\e854'; }
+.file-lua:before { content: '\e855'; }
+.file-m3u:before { content: '\e856'; }
+.file-m4a1:before { content: '\e857'; }
+.file-3ds2:before { content: '\e801'; }
+.file-macho:before { content: '\e859'; }
+.file-max2:before { content: '\e85a'; }
+.file-mdb2:before { content: '\e85b'; }
+.file-mdf2:before { content: '\e85c'; }
+.file-mid:before { content: '\e85d'; }
+.file-mim:before { content: '\e85e'; }
+.file-mov2:before { content: '\e85f'; }
+.file-mp36:before { content: '\e860'; }
+.file-mp4:before { content: '\e861'; }
+.file-mpa:before { content: '\e862'; }
+.file-mpg3:before { content: '\e863'; }
+.file-msg2:before { content: '\e864'; }
+.file-msi2:before { content: '\e865'; }
+.file-nes1:before { content: '\e866'; }
+.file-object4:before { content: '\e867'; }
+.file-odb2:before { content: '\e868'; }
+.file-odc2:before { content: '\e869'; }
+.file-odf2:before { content: '\e86a'; }
+.file-odg:before { content: '\e86b'; }
+.file-odi2:before { content: '\e86c'; }
+.file-odp2:before { content: '\e86d'; }
+.file-ods2:before { content: '\e86e'; }
+.file-odt:before { content: '\e86f'; }
+.file-odt5:before { content: '\e870'; }
+.file-odx:before { content: '\e871'; }
+.file-ogg:before { content: '\e872'; }
+.file-otf:before { content: '\e873'; }
+.file-otf1:before { content: '\e874'; }
+.file-pages4:before { content: '\e875'; }
+.file-pct2:before { content: '\e876'; }
+.file-pdb2:before { content: '\e877'; }
+.file-pdf19:before { content: '\e878'; }
+.file-pif2:before { content: '\e879'; }
+.file-pkg2:before { content: '\e87a'; }
+.file-pl2:before { content: '\e87b'; }
+.file-png3:before { content: '\e87c'; }
+.file-pps2:before { content: '\e87d'; }
+.file-ppt:before { content: '\e87e'; }
+.file-pptx2:before { content: '\e87f'; }
+.file-ps:before { content: '\e880'; }
+.file-psd3:before { content: '\e881'; }
+.file-pub2:before { content: '\e882'; }
+.file-python3:before { content: '\e883'; }
+.file-ra:before { content: '\e884'; }
+.file-rar2:before { content: '\e885'; }
+.file-raw2:before { content: '\e886'; }
+.file-rm:before { content: '\e887'; }
+.file-rom2:before { content: '\e888'; }
+.file-rpm2:before { content: '\e889'; }
+.file-rss29:before { content: '\e88a'; }
+.file-rtf:before { content: '\e88b'; }
+.file-sav:before { content: '\e88c'; }
+.file-sdf:before { content: '\e88d'; }
+.file-sitx2:before { content: '\e88e'; }
+.file-sql3:before { content: '\e88f'; }
+.file-sql5:before { content: '\e890'; }
+.file-srt:before { content: '\e891'; }
+.file-svg1:before { content: '\e892'; }
+.file-swf1:before { content: '\e893'; }
+.file-sys:before { content: '\e894'; }
+.file-tar1:before { content: '\e895'; }
+.file-tex:before { content: '\e896'; }
+.file-tga2:before { content: '\e897'; }
+.file-thm1:before { content: '\e898'; }
+.file-tiff1:before { content: '\e899'; }
+.file-tmp:before { content: '\e89a'; }
+.file-torrent:before { content: '\e89b'; }
+.file-ttf2:before { content: '\e89c'; }
+.file-txt2:before { content: '\e89d'; }
+.file-uue2:before { content: '\e89e'; }
+.file-vb:before { content: '\e89f'; }
+.file-vcd2:before { content: '\e8a0'; }
+.file-vcf2:before { content: '\e8a1'; }
+.file-vob:before { content: '\e8a2'; }
+.file-wav2:before { content: '\e8a3'; }
+.file-wma1:before { content: '\e8a4'; }
+.file-wmv2:before { content: '\e8a5'; }
+.file-wpd2:before { content: '\e8a6'; }
+.file-wps:before { content: '\e8a7'; }
+.file-wsf2:before { content: '\e8a8'; }
+.file-xhtml:before { content: '\e8a9'; }
+.file-xlr2:before { content: '\e8aa'; }
+.file-xls1:before { content: '\e8ab'; }
+.file-xlsx:before { content: '\e8ac'; }
+.file-xml5:before { content: '\e8ad'; }
+.file-yuv2:before { content: '\e8ae'; }
+.file-m4v2:before { content: '\e858'; }

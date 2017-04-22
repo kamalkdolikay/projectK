@@ -1,0 +1,454 @@
+/** Price Table
+
+/* @group Placeholders */
+
+label.placeholder {
+	cursor: text;
+	padding: 4px 4px 4px 4px;
+	color: #999999;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+	color:#999999;
+}
+input:placeholder, textarea:placeholder {
+	color:#999999;
+}
+
+/* @end */
+
+.price-columns{
+	overflow: auto;
+}
+
+/* @group icons */
+
+.price-columns .column-handle,
+.price-columns .feature-handle{
+	float: right;
+	cursor: move;
+}
+
+.price-columns .ui-icon {
+	float: right;
+	margin-left: 5px;
+}
+
+
+
+/* @end */
+
+.price-columns .column{
+	border: 1px solid #CCC;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+
+	background: #eee;
+	padding: 4px;
+	width: 200px;
+	margin: 0 4px 4px 4px;
+	float: left;
+}
+
+.price-columns label{
+	margin-top:0.5em;
+}
+
+.price-columns input{
+	width: 100%;
+}
+
+.price-columns .feature{
+	margin-top: 1em;
+	padding-top: 1em;
+	border-top:1px solid #CCC;
+	background: #eee;
+}
+
+.price-columns .feature textarea{
+	width:100%;
+}
+
+.price-columns small.description{
+	display: block;
+	margin: 0 4px 8px 4px;
+}
+
+.price-columns h4 a{
+	display: block;
+	float: right;
+	font-weight: normal;
+}
+
+.price-columns label{
+	display: inline-block;
+	margin-right: 5px;
+}
+
+/* @group Type */
+
+.price-columns .type{
+	font-size: 11px;
+}
+
+.price-columns .type input{
+	width: auto;
+}
+
+/* @end */
+
+.price-columns .addnew {
+	border: 2px dashed #CCC;
+	text-align: center;
+	padding: 7em 0;
+	height: 100%;
+	font-size: 25px;
+	color: #999;
+	cursor: pointer;
+}
+
+.price-columns .addnew:hover{
+	border-color: #999;
+}
+
+#TB_window {
+  z-index: 106000 !important;
+}
+
+.field-megamenu-status, .field-megamenu-columns, .field-megamenu-heading {
+	display: none;
+}
+.menu-item-depth-0 .field-megamenu-status, .menu-item-depth-0 .field-megamenu-columns, .menu-item-depth-0 .field-megamenu-heading {
+	display: block;
+}
+.control-section, .customize-control {
+	display:block!important;
+}
+/** revslider buttons **/
+
+
+.slider_button.small {
+	font-weight: 900;
+	color: #fff;
+	padding: 13px 16px;
+	display: inline-block;
+	border-radius: 3px;
+	line-height: 24px;
+	font-size: 13px;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	min-width:170px;
+	text-align:center;
+}
+.slider_button.medium {
+	text-align:center;
+	font-weight: 900;
+	color: #fff;
+	padding: 13px 16px;
+	display: inline-block;
+	line-height: 24px;
+	font-size: 14px;
+	text-transform:uppercase;
+	min-width:170px;
+}
+.slider_button.medium.stroke {
+	border:1px solid;
+	padding: 12px 15px;
+}
+.slider_button {
+	font-weight: 900;
+	color: #fff;
+	padding: 18px 20px;
+	background: #222533;
+	display: inline-block;
+	border-radius: 3px;
+	line-height: 24px;
+	font-size: 18px;
+	text-transform:uppercase;
+	text-align:center;
+	min-width:200px;
+	font-family:"Lato";
+}
+.slider_button:hover {
+	background:#21c2f8;
+	color:#fff;
+}
+.slider_button.stroke {
+	border:2px solid;
+	padding: 16px 18px;
+}
+.slider_button.big {
+	font-weight: 900;
+	color: #fff;
+	padding: 23px 25px;
+	display: inline-block;
+	border-radius: 5px;
+	line-height: 24px;
+	font-size: 18px;
+	text-transform:uppercase;
+	text-align:center;
+	letter-spacing:1.5px;
+	min-width:230px;
+}
+.stroke {
+	background:none;
+}
+.stroke:hover {
+	background:#21c2f8;
+	border-color:#21c2f8;
+}
+.button_3d {
+	border-bottom: 5px solid rgba(0, 0, 0, 0.2) !important;
+}
+/** Visual Composer **/
+
+.vc_element-icon.icon-wpb-row {
+	background:url(../images/vc_icons/vc_row.png) !important;
+}
+.vc_element-icon.icon-wpb-layer-shape-text {
+	background:url(../images/vc_icons/vc_text_block.png) !important;
+}
+.vc_element-icon.icon-wpb-balloon-facebook-left {
+	background:url(../images/vc_icons/vc_facebook_like.png) !important;
+	-webkit-background-size: contain !important;
+	-moz-background-size: contain !important;
+	-ms-background-size: contain !important;
+	-o-background-size: contain !important;
+	background-size: contain !important;
+	background-position: 0 0 !important;
+}
+.vc_element-icon.icon-wpb-ui-custom_heading {
+	background:url(../images/vc_icons/vc_custom_heading.png) !important;
+	-webkit-background-size: contain !important;
+	-moz-background-size: contain !important;
+	-ms-background-size: contain !important;
+	-o-background-size: contain !important;
+	background-size: contain !important;
+	background-position: 0 0 !important;
+}
+.vc_element-icon.icon-wpb-tweetme {
+	background:url(../images/vc_icons/vc_tweetmeme_button.png) !important;
+	-webkit-background-size: contain !important;
+	-moz-background-size: contain !important;
+	-ms-background-size: contain !important;
+	-o-background-size: contain !important;
+	background-size: contain !important;
+	background-position: 0 0 !important;
+}
+.vc_element-icon.icon-wpb-application-plus {
+	background:url(../images/vc_icons/vc_google_button.png) !important;
+	-webkit-background-size: contain !important;
+	-moz-background-size: contain !important;
+	-ms-background-size: contain !important;
+	-o-background-size: contain !important;
+	background-size: contain !important;
+	background-position: 0 0 !important;
+}
+.vc_element-icon.icon-wpb-pinterest {
+	background:url(../images/vc_icons/vc_pinterest.png) !important;
+	-webkit-background-size: contain !important;
+	-moz-background-size: contain !important;
+	-ms-background-size: contain !important;
+	-o-background-size: contain !important;
+	background-size: contain !important;
+	background-position: 0 0 !important;
+}
+.vc_element-icon.icon-wpb-single-image {
+	background:url(../images/vc_icons/vc_single_image.png) !important;
+	-webkit-background-size: contain !important;
+	-moz-background-size: contain !important;
+	-ms-background-size: contain !important;
+	-o-background-size: contain !important;
+	background-size: contain !important;
+	background-position: 0 0 !important;
+}
+.vc_element-icon.icon-wpb-ui-tab-content {
+	background:url(../images/vc_icons/vc_tabs.png) !important;
+	-webkit-background-size: contain !important;
+	-moz-background-size: contain !important;
+	-ms-background-size: contain !important;
+	-o-background-size: contain !important;
+	background-size: contain !important;
+	background-position: 0 0 !important;
+}
+.vc_element-icon.icon-wpb-ui-tab-content-vertical {
+	background:url(../images/vc_icons/vc_tour.png) !important;
+	-webkit-background-size: contain !important;
+	-moz-background-size: contain !important;
+	-ms-background-size: contain !important;
+	-o-background-size: contain !important;
+	background-size: contain !important;
+	background-position: 0 0 !important;
+}
+.vc_element-icon.icon-wpb-ui-accordion {
+	background:url(../images/vc_icons/vc_accordion.png) !important;
+	-webkit-background-size: contain !important;
+	-moz-background-size: contain !important;
+	-ms-background-size: contain !important;
+	-o-background-size: contain !important;
+	background-size: contain !important;
+	background-position: 0 0 !important;
+}
+.vc_element-icon.icon-wpb-layout_sidebar {
+	background:url(../images/vc_icons/vc_widget_sidebar.png) !important;
+	-webkit-background-size: contain !important;
+	-moz-background-size: contain !important;
+	-ms-background-size: contain !important;
+	-o-background-size: contain !important;
+	background-size: contain !important;
+	background-position: 0 0 !important;
+}
+.vc_element-icon.icon-wpb-film-youtube {
+	background:url(../images/vc_icons/vc_video.png) !important;
+	-webkit-background-size: contain !important;
+	-moz-background-size: contain !important;
+	-ms-background-size: contain !important;
+	-o-background-size: contain !important;
+	background-size: contain !important;
+	background-position: 0 0 !important;
+}
+.vc_element-icon.icon-wpb-map-pin {
+	background:url(../images/vc_icons/vc_google_map.png) !important;
+	-webkit-background-size: contain !important;
+	-moz-background-size: contain !important;
+	-ms-background-size: contain !important;
+	-o-background-size: contain !important;
+	background-size: contain !important;
+	background-position: 0 0 !important;
+}
+.vc_element-icon.icon-wpb-raw-html {
+	background:url(../images/vc_icons/vc_raw_html.png) !important;
+	-webkit-background-size: contain !important;
+	-moz-background-size: contain !important;
+	-ms-background-size: contain !important;
+	-o-background-size: contain !important;
+	background-size: contain !important;
+	background-position: 0 0 !important;
+}
+.vc_element-icon.icon-wpb-raw-javascript {
+	background:url(../images/vc_icons/vc_raw_js.png) !important;
+	-webkit-background-size: contain !important;
+	-moz-background-size: contain !important;
+	-ms-background-size: contain !important;
+	-o-background-size: contain !important;
+	background-size: contain !important;
+	background-position: 0 0 !important;
+}
+.vc_element-icon.icon-wpb-ui-empty_space {
+	background:url(../images/vc_icons/vc_empty_space.png) !important;
+	-webkit-background-size: contain !important;
+	-moz-background-size: contain !important;
+	-ms-background-size: contain !important;
+	-o-background-size: contain !important;
+	background-size: contain !important;
+	background-position: 0 0 !important;
+}
+.vc_element-icon.icon-wpb-woocommerce{
+	background:url(../images/vc_icons/vc_woo_product.png) !important;
+	-webkit-background-size: contain !important;
+	-moz-background-size: contain !important;
+	-ms-background-size: contain !important;
+	-o-background-size: contain !important;
+	background-size: contain !important;
+	background-position: 0 0 !important;
+}
+.vc_element-icon.icon-wpb-woocommerce{
+	background:url(../images/vc_icons/vc_woo_product.png) !important;
+	-webkit-background-size: contain !important;
+	-moz-background-size: contain !important;
+	-ms-background-size: contain !important;
+	-o-background-size: contain !important;
+	background-size: contain !important;
+	background-position: 0 0 !important;
+}
+.vc_element-icon.icon-wpb-layerslider{
+	background:url(../images/vc_icons/vc_layer_slider.png) !important;
+	-webkit-background-size: contain !important;
+	-moz-background-size: contain !important;
+	-ms-background-size: contain !important;
+	-o-background-size: contain !important;
+	background-size: contain !important;
+	background-position: 0 0 !important;
+}
+.vc_element-icon.icon-wpb-revslider{
+	background:url(../images/vc_icons/vc_rev_slider.png) !important;
+	-webkit-background-size: contain !important;
+	-moz-background-size: contain !important;
+	-ms-background-size: contain !important;
+	-o-background-size: contain !important;
+	background-size: contain !important;
+	background-position: 0 0 !important;
+}
+.wpb_4k_icon .wpb_element_title .vc_element-icon {
+		-webkit-background-size: contain !important;
+	-moz-background-size: contain !important;
+	-ms-background-size: contain !important;
+	-o-background-size: contain !important;
+	background-size: contain !important;
+	background-position: 0 0 !important;
+}
+
+
+.vc_modal-header {
+	background: #222533!important;
+	color: #C1CDD5!important;
+}
+.vc_elements-list-filter {
+	background-color: #1A1C27 !important;
+	border: 1px solid #32374A !important;
+	color: #FFFFFF!important;
+}
+input.vc_elements-list-filter:focus {
+	border-color: #75C1D1!important;
+	box-shadow:none!important;
+}
+.vc_modal-content {
+	background:#1a1c27 !important;
+	color:#aaaaaa !important;
+	border:1px solid #32374a !important;
+}
+.vc_modal-content a {
+	color:#c1cdd5;
+}
+.wpb-elements-list-modal .vc_modal-dialog .vc_modal-body .wpb-content-layouts-container .isotope-filter li.active a {
+	color:#fff!important;
+}
+.wpb-elements-list-modal .wpb-content-layouts li {
+	background:#222533!important;
+	border:1px solid #32374a !important;
+	height: 140px !important;
+	width: 145px !important;
+	-webkit-transition: all 0.2s linear !important;
+	-moz-transition: all 0.2s linear !important;
+	-o-transition: all 0.2s linear !important;
+	transition: all 0.2s linear !important;
+}
+.wpb-elements-list-modal .wpb-content-layouts li:hover {
+	background: #282c3e!important;
+}
+.wpb-elements-list-modal .wpb-content-layouts a .vc_element-description {
+	color:#758590!important;
+}
+.wpb-elements-list-modal .vc_element-icon {
+	position: absolute !important;
+	top: 25px !important;
+	left: 50% !important;
+	margin-left: -16px !important;
+	-webkit-background-size: contain !important;
+	-moz-background-size: contain !important;
+	-ms-background-size: contain !important;
+	-o-background-size: contain !important;
+	background-size: contain !important;
+	background-position: 0 0 !important;
+}
+.wpb-elements-list-modal .wpb-content-layouts li .vc_el-container {
+	display: table !important;
+	height: 140px !important;
+	text-align: center !important;
+	width: 100% !important;
+	padding-top: 0px !important;
+}
+.wpb-elements-list-modal .wpb-content-layouts a {
+	padding:60px 5px 0!important;
+}

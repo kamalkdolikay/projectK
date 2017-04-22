@@ -1,0 +1,132 @@
+@font-face {
+	font-family: 'u8';
+	src:url('../4k-icons-pack04/icons/fonts/u8.eot');
+	src:url('../4k-icons-pack04/icons/fonts/u8.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack04/icons/fonts/u8.woff') format('woff'),
+		url('../4k-icons-pack04/icons/fonts/u8.ttf') format('truetype'),
+		url('../4k-icons-pack04/icons/fonts/u8.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'u8';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.u8-airplane11, .u8-white31, .u8-arrow181, .u8-arrow182, .u8-auricular3, .u8-bag12, .u8-baggage4, .u8-bank2, .u8-bars3, .u8-basket7, .u8-battery49, .u8-bible, .u8-blank5, .u8-boat6, .u8-bold8, .u8-calculator18, .u8-calendar32, .u8-cellular, .u8-chart7, .u8-check18, .u8-circles2, .u8-circular21, .u8-clipboard18, .u8-clipboard19, .u8-clothing, .u8-cloud68, .u8-computer28, .u8-computer29, .u8-condenser1, .u8-contact3, .u8-cross21, .u8-cross24, .u8-cup17, .u8-cut11, .u8-cut8, .u8-database24, .u8-directional1, .u8-dollar13, .u8-doodle, .u8-double13, .u8-fence5, .u8-filled2, .u8-film15, .u8-folded4, .u8-game8, .u8-arrow163, .u8-grocery1, .u8-half10, .u8-hammer5, .u8-heart48, .u8-information23, .u8-irregular2, .u8-ladies, .u8-light19, .u8-lock15, .u8-magnifying17, .u8-mobile17, .u8-open39, .u8-open40, .u8-open41, .u8-page48, .u8-painting2, .u8-pie13, .u8-power16, .u8-printer33, .u8-recycling2, .u8-rewind16, .u8-save4, .u8-shooting1, .u8-signal8, .u8-small79, .u8-small88, .u8-speech16, .u8-speech23, .u8-spiral1, .u8-spring2, .u8-spring3, .u8-star44, .u8-storage3, .u8-suitcase16, .u8-thermometer16, .u8-thick4, .u8-three28, .u8-trash20, .u8-tree14, .u8-triangle11, .u8-tshirt8, .u8-user61, .u8-volume20, .u8-white28, .u8-gift13 {
+	font-family: 'u8';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.u8-airplane11:before { content: '\e800'; }
+.u8-white31:before { content: '\e85a'; }
+.u8-arrow181:before { content: '\e802'; }
+.u8-arrow182:before { content: '\e803'; }
+.u8-auricular3:before { content: '\e804'; }
+.u8-bag12:before { content: '\e805'; }
+.u8-baggage4:before { content: '\e806'; }
+.u8-bank2:before { content: '\e807'; }
+.u8-bars3:before { content: '\e808'; }
+.u8-basket7:before { content: '\e809'; }
+.u8-battery49:before { content: '\e80a'; }
+.u8-bible:before { content: '\e80b'; }
+.u8-blank5:before { content: '\e80c'; }
+.u8-boat6:before { content: '\e80d'; }
+.u8-bold8:before { content: '\e80e'; }
+.u8-calculator18:before { content: '\e80f'; }
+.u8-calendar32:before { content: '\e810'; }
+.u8-cellular:before { content: '\e811'; }
+.u8-chart7:before { content: '\e812'; }
+.u8-check18:before { content: '\e813'; }
+.u8-circles2:before { content: '\e814'; }
+.u8-circular21:before { content: '\e815'; }
+.u8-clipboard18:before { content: '\e816'; }
+.u8-clipboard19:before { content: '\e817'; }
+.u8-clothing:before { content: '\e818'; }
+.u8-cloud68:before { content: '\e819'; }
+.u8-computer28:before { content: '\e81a'; }
+.u8-computer29:before { content: '\e81b'; }
+.u8-condenser1:before { content: '\e81c'; }
+.u8-contact3:before { content: '\e81d'; }
+.u8-cross21:before { content: '\e81e'; }
+.u8-cross24:before { content: '\e81f'; }
+.u8-cup17:before { content: '\e820'; }
+.u8-cut11:before { content: '\e821'; }
+.u8-cut8:before { content: '\e822'; }
+.u8-database24:before { content: '\e823'; }
+.u8-directional1:before { content: '\e824'; }
+.u8-dollar13:before { content: '\e825'; }
+.u8-doodle:before { content: '\e826'; }
+.u8-double13:before { content: '\e827'; }
+.u8-fence5:before { content: '\e828'; }
+.u8-filled2:before { content: '\e829'; }
+.u8-film15:before { content: '\e82a'; }
+.u8-folded4:before { content: '\e82b'; }
+.u8-game8:before { content: '\e82c'; }
+.u8-arrow163:before { content: '\e801'; }
+.u8-grocery1:before { content: '\e82e'; }
+.u8-half10:before { content: '\e82f'; }
+.u8-hammer5:before { content: '\e830'; }
+.u8-heart48:before { content: '\e831'; }
+.u8-information23:before { content: '\e832'; }
+.u8-irregular2:before { content: '\e833'; }
+.u8-ladies:before { content: '\e834'; }
+.u8-light19:before { content: '\e835'; }
+.u8-lock15:before { content: '\e836'; }
+.u8-magnifying17:before { content: '\e837'; }
+.u8-mobile17:before { content: '\e838'; }
+.u8-open39:before { content: '\e839'; }
+.u8-open40:before { content: '\e83a'; }
+.u8-open41:before { content: '\e83b'; }
+.u8-page48:before { content: '\e83c'; }
+.u8-painting2:before { content: '\e83d'; }
+.u8-pie13:before { content: '\e83e'; }
+.u8-power16:before { content: '\e83f'; }
+.u8-printer33:before { content: '\e840'; }
+.u8-recycling2:before { content: '\e841'; }
+.u8-rewind16:before { content: '\e842'; }
+.u8-save4:before { content: '\e843'; }
+.u8-shooting1:before { content: '\e844'; }
+.u8-signal8:before { content: '\e845'; }
+.u8-small79:before { content: '\e846'; }
+.u8-small88:before { content: '\e847'; }
+.u8-speech16:before { content: '\e848'; }
+.u8-speech23:before { content: '\e849'; }
+.u8-spiral1:before { content: '\e84a'; }
+.u8-spring2:before { content: '\e84b'; }
+.u8-spring3:before { content: '\e84c'; }
+.u8-star44:before { content: '\e84d'; }
+.u8-storage3:before { content: '\e84e'; }
+.u8-suitcase16:before { content: '\e84f'; }
+.u8-thermometer16:before { content: '\e850'; }
+.u8-thick4:before { content: '\e851'; }
+.u8-three28:before { content: '\e852'; }
+.u8-trash20:before { content: '\e853'; }
+.u8-tree14:before { content: '\e854'; }
+.u8-triangle11:before { content: '\e855'; }
+.u8-tshirt8:before { content: '\e856'; }
+.u8-user61:before { content: '\e857'; }
+.u8-volume20:before { content: '\e858'; }
+.u8-white28:before { content: '\e859'; }
+.u8-gift13:before { content: '\e82d'; }

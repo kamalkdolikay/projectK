@@ -1,0 +1,24 @@
+/**
+ * Parallax
+ */
+
+.vc_parallax {
+  position: relative;
+  overflow: hidden;
+  > * {
+    position: relative;
+    z-index: 1;
+  }
+  .vc_parallax-inner {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: inherit;
+    background-size: cover;
+    z-index: 0;
+    background-position: 50% 0%;
+  }
+}

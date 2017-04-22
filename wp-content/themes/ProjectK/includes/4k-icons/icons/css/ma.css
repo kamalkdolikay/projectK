@@ -1,0 +1,211 @@
+@font-face {
+	font-family: 'ma';
+	src:url('../4k-icons-pack03/icons/fonts/ma.eot');
+	src:url('../4k-icons-pack03/icons/fonts/ma.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack03/icons/fonts/ma.woff') format('woff'),
+		url('../4k-icons-pack03/icons/fonts/ma.ttf') format('truetype'),
+		url('../4k-icons-pack03/icons/fonts/ma.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'ma';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.ma-abstract, .ma-zoom15, .ma-administration, .ma-aeroplane, .ma-anchor5, .ma-animal1, .ma-archery, .ma-athlete, .ma-audition, .ma-bag3, .ma-balance1, .ma-batter, .ma-bicycle4, .ma-binoculars, .ma-black36, .ma-black37, .ma-black46, .ma-black47, .ma-black48, .ma-black62, .ma-black71, .ma-boat2, .ma-boat3, .ma-boat4, .ma-bowling2, .ma-braille, .ma-buy, .ma-calculator7, .ma-camera14, .ma-camping, .ma-canoe, .ma-canoeing, .ma-car10, .ma-car11, .ma-car8, .ma-carousel, .ma-cart2, .ma-church4, .ma-city5, .ma-close10, .ma-closed3, .ma-closed7, .ma-color1, .ma-communication2, .ma-compass4, .ma-creative2, .ma-cross7, .ma-cube, .ma-cursor6, .ma-dark12, .ma-dark13, .ma-dark21, .ma-decline, .ma-diamond1, .ma-disability1, .ma-diving, .ma-dollar3, .ma-dollar4, .ma-door2, .ma-dryer, .ma-escalation, .ma-exercise, .ma-exercise2, .ma-fireguard, .ma-fish3, .ma-fish4, .ma-fishing, .ma-flower1, .ma-footprint1, .ma-frontal4, .ma-fuel3, .ma-furnishing, .ma-giraffe, .ma-golf3, .ma-graduated, .ma-h, .ma-half1, .ma-hammer, .ma-hard, .ma-hook, .ma-house2, .ma-house6, .ma-interface11, .ma-judge, .ma-jump, .ma-ad, .ma-line3, .ma-line5, .ma-line7, .ma-list9, .ma-little25, .ma-lock6, .ma-lunchbox, .ma-man14, .ma-man19, .ma-map6, .ma-maps, .ma-medic, .ma-medical2, .ma-monumental, .ma-moon3, .ma-motorbike1, .ma-motorcyclist, .ma-oc, .ma-om, .ma-paint5, .ma-person1, .ma-person14, .ma-person5, .ma-person6, .ma-personal, .ma-pharmacy2, .ma-pipe, .ma-pisces, .ma-plate1, .ma-plate2, .ma-plug4, .ma-power7, .ma-road4, .ma-roof, .ma-scissors1, .ma-screen4, .ma-shield2, .ma-shield3, .ma-shopper, .ma-side, .ma-side3, .ma-side4, .ma-silhouette2, .ma-silhouette3, .ma-silhouette4, .ma-silver, .ma-sitting, .ma-skating, .ma-skating1, .ma-ski2, .ma-snack, .ma-snow, .ma-snowflake, .ma-sportive6, .ma-spyhole, .ma-star10, .ma-suitcase3, .ma-surf, .ma-swim1, .ma-swimming, .ma-swing, .ma-table1, .ma-teacherreading, .ma-temple1, .ma-tennis4, .ma-tennis5, .ma-toilet, .ma-toilet1, .ma-tooth, .ma-town1, .ma-train5, .ma-train6, .ma-train7, .ma-tshirt, .ma-two30, .ma-two31, .ma-two32, .ma-viewer, .ma-walking1, .ma-windsurf, .ma-winning, .ma-young, .ma-zoom13, .ma-language {
+	font-family: 'ma';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.ma-abstract:before { content: '\e800'; }
+.ma-zoom15:before { content: '\e8a9'; }
+.ma-administration:before { content: '\e802'; }
+.ma-aeroplane:before { content: '\e803'; }
+.ma-anchor5:before { content: '\e804'; }
+.ma-animal1:before { content: '\e805'; }
+.ma-archery:before { content: '\e806'; }
+.ma-athlete:before { content: '\e807'; }
+.ma-audition:before { content: '\e808'; }
+.ma-bag3:before { content: '\e809'; }
+.ma-balance1:before { content: '\e80a'; }
+.ma-batter:before { content: '\e80b'; }
+.ma-bicycle4:before { content: '\e80c'; }
+.ma-binoculars:before { content: '\e80d'; }
+.ma-black36:before { content: '\e80e'; }
+.ma-black37:before { content: '\e80f'; }
+.ma-black46:before { content: '\e810'; }
+.ma-black47:before { content: '\e811'; }
+.ma-black48:before { content: '\e812'; }
+.ma-black62:before { content: '\e813'; }
+.ma-black71:before { content: '\e814'; }
+.ma-boat2:before { content: '\e815'; }
+.ma-boat3:before { content: '\e816'; }
+.ma-boat4:before { content: '\e817'; }
+.ma-bowling2:before { content: '\e818'; }
+.ma-braille:before { content: '\e819'; }
+.ma-buy:before { content: '\e81a'; }
+.ma-calculator7:before { content: '\e81b'; }
+.ma-camera14:before { content: '\e81c'; }
+.ma-camping:before { content: '\e81d'; }
+.ma-canoe:before { content: '\e81e'; }
+.ma-canoeing:before { content: '\e81f'; }
+.ma-car10:before { content: '\e820'; }
+.ma-car11:before { content: '\e821'; }
+.ma-car8:before { content: '\e822'; }
+.ma-carousel:before { content: '\e823'; }
+.ma-cart2:before { content: '\e824'; }
+.ma-church4:before { content: '\e825'; }
+.ma-city5:before { content: '\e826'; }
+.ma-close10:before { content: '\e827'; }
+.ma-closed3:before { content: '\e828'; }
+.ma-closed7:before { content: '\e829'; }
+.ma-color1:before { content: '\e82a'; }
+.ma-communication2:before { content: '\e82b'; }
+.ma-compass4:before { content: '\e82c'; }
+.ma-creative2:before { content: '\e82d'; }
+.ma-cross7:before { content: '\e82e'; }
+.ma-cube:before { content: '\e82f'; }
+.ma-cursor6:before { content: '\e830'; }
+.ma-dark12:before { content: '\e831'; }
+.ma-dark13:before { content: '\e832'; }
+.ma-dark21:before { content: '\e833'; }
+.ma-decline:before { content: '\e834'; }
+.ma-diamond1:before { content: '\e835'; }
+.ma-disability1:before { content: '\e836'; }
+.ma-diving:before { content: '\e837'; }
+.ma-dollar3:before { content: '\e838'; }
+.ma-dollar4:before { content: '\e839'; }
+.ma-door2:before { content: '\e83a'; }
+.ma-dryer:before { content: '\e83b'; }
+.ma-escalation:before { content: '\e83c'; }
+.ma-exercise:before { content: '\e83d'; }
+.ma-exercise2:before { content: '\e83e'; }
+.ma-fireguard:before { content: '\e83f'; }
+.ma-fish3:before { content: '\e840'; }
+.ma-fish4:before { content: '\e841'; }
+.ma-fishing:before { content: '\e842'; }
+.ma-flower1:before { content: '\e843'; }
+.ma-footprint1:before { content: '\e844'; }
+.ma-frontal4:before { content: '\e845'; }
+.ma-fuel3:before { content: '\e846'; }
+.ma-furnishing:before { content: '\e847'; }
+.ma-giraffe:before { content: '\e848'; }
+.ma-golf3:before { content: '\e849'; }
+.ma-graduated:before { content: '\e84a'; }
+.ma-h:before { content: '\e84b'; }
+.ma-half1:before { content: '\e84c'; }
+.ma-hammer:before { content: '\e84d'; }
+.ma-hard:before { content: '\e84e'; }
+.ma-hook:before { content: '\e84f'; }
+.ma-house2:before { content: '\e850'; }
+.ma-house6:before { content: '\e851'; }
+.ma-interface11:before { content: '\e852'; }
+.ma-judge:before { content: '\e853'; }
+.ma-jump:before { content: '\e854'; }
+.ma-ad:before { content: '\e801'; }
+.ma-line3:before { content: '\e856'; }
+.ma-line5:before { content: '\e857'; }
+.ma-line7:before { content: '\e858'; }
+.ma-list9:before { content: '\e859'; }
+.ma-little25:before { content: '\e85a'; }
+.ma-lock6:before { content: '\e85b'; }
+.ma-lunchbox:before { content: '\e85c'; }
+.ma-man14:before { content: '\e85d'; }
+.ma-man19:before { content: '\e85e'; }
+.ma-map6:before { content: '\e85f'; }
+.ma-maps:before { content: '\e860'; }
+.ma-medic:before { content: '\e861'; }
+.ma-medical2:before { content: '\e862'; }
+.ma-monumental:before { content: '\e863'; }
+.ma-moon3:before { content: '\e864'; }
+.ma-motorbike1:before { content: '\e865'; }
+.ma-motorcyclist:before { content: '\e866'; }
+.ma-oc:before { content: '\e867'; }
+.ma-om:before { content: '\e868'; }
+.ma-paint5:before { content: '\e869'; }
+.ma-person1:before { content: '\e86a'; }
+.ma-person14:before { content: '\e86b'; }
+.ma-person5:before { content: '\e86c'; }
+.ma-person6:before { content: '\e86d'; }
+.ma-personal:before { content: '\e86e'; }
+.ma-pharmacy2:before { content: '\e86f'; }
+.ma-pipe:before { content: '\e870'; }
+.ma-pisces:before { content: '\e871'; }
+.ma-plate1:before { content: '\e872'; }
+.ma-plate2:before { content: '\e873'; }
+.ma-plug4:before { content: '\e874'; }
+.ma-power7:before { content: '\e875'; }
+.ma-road4:before { content: '\e876'; }
+.ma-roof:before { content: '\e877'; }
+.ma-scissors1:before { content: '\e878'; }
+.ma-screen4:before { content: '\e879'; }
+.ma-shield2:before { content: '\e87a'; }
+.ma-shield3:before { content: '\e87b'; }
+.ma-shopper:before { content: '\e87c'; }
+.ma-side:before { content: '\e87d'; }
+.ma-side3:before { content: '\e87e'; }
+.ma-side4:before { content: '\e87f'; }
+.ma-silhouette2:before { content: '\e880'; }
+.ma-silhouette3:before { content: '\e881'; }
+.ma-silhouette4:before { content: '\e882'; }
+.ma-silver:before { content: '\e883'; }
+.ma-sitting:before { content: '\e884'; }
+.ma-skating:before { content: '\e885'; }
+.ma-skating1:before { content: '\e886'; }
+.ma-ski2:before { content: '\e887'; }
+.ma-snack:before { content: '\e888'; }
+.ma-snow:before { content: '\e889'; }
+.ma-snowflake:before { content: '\e88a'; }
+.ma-sportive6:before { content: '\e88b'; }
+.ma-spyhole:before { content: '\e88c'; }
+.ma-star10:before { content: '\e88d'; }
+.ma-suitcase3:before { content: '\e88e'; }
+.ma-surf:before { content: '\e88f'; }
+.ma-swim1:before { content: '\e890'; }
+.ma-swimming:before { content: '\e891'; }
+.ma-swing:before { content: '\e892'; }
+.ma-table1:before { content: '\e893'; }
+.ma-teacherreading:before { content: '\e894'; }
+.ma-temple1:before { content: '\e895'; }
+.ma-tennis4:before { content: '\e896'; }
+.ma-tennis5:before { content: '\e897'; }
+.ma-toilet:before { content: '\e898'; }
+.ma-toilet1:before { content: '\e899'; }
+.ma-tooth:before { content: '\e89a'; }
+.ma-town1:before { content: '\e89b'; }
+.ma-train5:before { content: '\e89c'; }
+.ma-train6:before { content: '\e89d'; }
+.ma-train7:before { content: '\e89e'; }
+.ma-tshirt:before { content: '\e89f'; }
+.ma-two30:before { content: '\e8a0'; }
+.ma-two31:before { content: '\e8a1'; }
+.ma-two32:before { content: '\e8a2'; }
+.ma-viewer:before { content: '\e8a3'; }
+.ma-walking1:before { content: '\e8a4'; }
+.ma-windsurf:before { content: '\e8a5'; }
+.ma-winning:before { content: '\e8a6'; }
+.ma-young:before { content: '\e8a7'; }
+.ma-zoom13:before { content: '\e8a8'; }
+.ma-language:before { content: '\e855'; }

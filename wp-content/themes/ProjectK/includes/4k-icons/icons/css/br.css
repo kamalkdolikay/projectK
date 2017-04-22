@@ -1,0 +1,86 @@
+@font-face {
+	font-family: 'br';
+	src:url('../4k-icons-pack01/icons/fonts/br.eot');
+	src:url('../4k-icons-pack01/icons/fonts/br.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack01/icons/fonts/br.woff') format('woff'),
+		url('../4k-icons-pack01/icons/fonts/br.ttf') format('truetype'),
+		url('../4k-icons-pack01/icons/fonts/br.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'br';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.br-facebook, .br-codepen, .br-twitter, .br-twitter-bird, .br-vimeo, .br-vimeo-rect, .br-tumblr, .br-tumblr-rect, .br-googleplus-rect, .br-github-text, .br-github, .br-skype, .br-icq, .br-yandex, .br-yandex-rect, .br-vkontakte-rect, .br-odnoklassniki, .br-odnoklassniki-rect, .br-friendfeed, .br-friendfeed-rect, .br-blogger, .br-blogger-rect, .br-facebook-rect, .br-jabber, .br-lastfm, .br-lastfm-rect, .br-linkedin, .br-linkedin-rect, .br-picasa, .br-wordpress, .br-instagram, .br-instagram-filled, .br-diigo, .br-box, .br-box-rect, .br-tudou, .br-youku, .br-win8, .br-amex, .br-discover, .br-visa, .br-mastercard, .br-houzz, .br-bandcamp, .br-deviantart {
+	font-family: 'br';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.br-facebook:before { content: '\e800'; }
+.br-codepen:before { content: '\e82c'; }
+.br-twitter:before { content: '\e802'; }
+.br-twitter-bird:before { content: '\e803'; }
+.br-vimeo:before { content: '\e804'; }
+.br-vimeo-rect:before { content: '\e805'; }
+.br-tumblr:before { content: '\e806'; }
+.br-tumblr-rect:before { content: '\e807'; }
+.br-googleplus-rect:before { content: '\e808'; }
+.br-github-text:before { content: '\e809'; }
+.br-github:before { content: '\e80a'; }
+.br-skype:before { content: '\e80b'; }
+.br-icq:before { content: '\e80c'; }
+.br-yandex:before { content: '\e80d'; }
+.br-yandex-rect:before { content: '\e80e'; }
+.br-vkontakte-rect:before { content: '\e80f'; }
+.br-odnoklassniki:before { content: '\e810'; }
+.br-odnoklassniki-rect:before { content: '\e811'; }
+.br-friendfeed:before { content: '\e812'; }
+.br-friendfeed-rect:before { content: '\e813'; }
+.br-blogger:before { content: '\e814'; }
+.br-blogger-rect:before { content: '\e815'; }
+.br-facebook-rect:before { content: '\e801'; }
+.br-jabber:before { content: '\e817'; }
+.br-lastfm:before { content: '\e818'; }
+.br-lastfm-rect:before { content: '\e819'; }
+.br-linkedin:before { content: '\e81a'; }
+.br-linkedin-rect:before { content: '\e81b'; }
+.br-picasa:before { content: '\e81c'; }
+.br-wordpress:before { content: '\e81d'; }
+.br-instagram:before { content: '\e81e'; }
+.br-instagram-filled:before { content: '\e81f'; }
+.br-diigo:before { content: '\e820'; }
+.br-box:before { content: '\e821'; }
+.br-box-rect:before { content: '\e822'; }
+.br-tudou:before { content: '\e823'; }
+.br-youku:before { content: '\e824'; }
+.br-win8:before { content: '\e825'; }
+.br-amex:before { content: '\e826'; }
+.br-discover:before { content: '\e827'; }
+.br-visa:before { content: '\e828'; }
+.br-mastercard:before { content: '\e829'; }
+.br-houzz:before { content: '\e82a'; }
+.br-bandcamp:before { content: '\e82b'; }
+.br-deviantart:before { content: '\e816'; }

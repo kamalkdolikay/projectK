@@ -1,0 +1,292 @@
+@font-face {
+	font-family: 'ls';
+	src:url('../4k-icons-pack03/icons/fonts/ls.eot');
+	src:url('../4k-icons-pack03/icons/fonts/ls.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack03/icons/fonts/ls.woff') format('woff'),
+		url('../4k-icons-pack03/icons/fonts/ls.ttf') format('truetype'),
+		url('../4k-icons-pack03/icons/fonts/ls.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'ls';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.ls-addstar, .ls-yelp, .ls-album, .ls-alignadjust, .ls-aligncenter, .ls-alignleft, .ls-alignright, .ls-amazon, .ls-android, .ls-app, .ls-apple, .ls-arrowdown, .ls-arrowleft, .ls-arrowright, .ls-arrowup, .ls-back, .ls-backspace, .ls-bad, .ls-ban, .ls-barcode, .ls-bell, .ls-bicycle, .ls-bold, .ls-book, .ls-bookmark, .ls-building, .ls-bus, .ls-camera, .ls-car, .ls-category, .ls-check, .ls-chrome, .ls-cinnamon, .ls-circle, .ls-clear, .ls-clip, .ls-cloud, .ls-code, .ls-comment, .ls-comments, .ls-compass, .ls-cookpad, .ls-copy, .ls-crop, .ls-crown, .ls-cut, .ls-dashboard, .ls-delicious, .ls-down, .ls-dribbble, .ls-dropdown, .ls-edit, .ls-eject, .ls-etc, .ls-evernote, .ls-exchange, .ls-external, .ls-facebook, .ls-file, .ls-firefox, .ls-flag, .ls-flickr, .ls-folder, .ls-foursquare, .ls-forward, .ls-friend, .ls-frustrate, .ls-full, .ls-game, .ls-gear, .ls-geo, .ls-github, .ls-globe, .ls-good, .ls-google, .ls-graph, .ls-group, .ls-hatena, .ls-heart, .ls-heartempty, .ls-help, .ls-horizontal, .ls-home, .ls-hot, .ls-image, .ls-info, .ls-instapaper, .ls-internetexplorer, .ls-iphone, .ls-italic, .ls-key, .ls-keyboard, .ls-kudakurage, .ls-laugh, .ls-left, .ls-wink, .ls-link, .ls-linkedin, .ls-list, .ls-location, .ls-lock, .ls-login, .ls-logout, .ls-magic, .ls-mail, .ls-map, .ls-meal, .ls-memo, .ls-menu, .ls-minus, .ls-mixi, .ls-move, .ls-music, .ls-newwindow, .ls-next, .ls-notify, .ls-off, .ls-opera, .ls-ordble, .ls-paint, .ls-paramater, .ls-pause, .ls-pc, .ls-pencil, .ls-phone, .ls-adjust, .ls-picasa, .ls-pin, .ls-pinterest, .ls-plane, .ls-play, .ls-playmedia, .ls-plusicon, .ls-present, .ls-print, .ls-quote, .ls-readability, .ls-record, .ls-refresh, .ls-remove, .ls-repeat, .ls-reply, .ls-right, .ls-rss, .ls-safari, .ls-save, .ls-search, .ls-wrench, .ls-share, .ls-shopping, .ls-shuffle, .ls-skype, .ls-sleipnir, .ls-small, .ls-smile, .ls-sns, .ls-sort, .ls-star, .ls-starempty, .ls-stop, .ls-surprise, .ls-sync, .ls-tabezou, .ls-table, .ls-tag, .ls-tile, .ls-tilemenu, .ls-time, .ls-trash, .ls-trouble, .ls-tumblr, .ls-twitter, .ls-underline, .ls-undo, .ls-unlock, .ls-up, .ls-upload, .ls-user, .ls-vertical, .ls-video, .ls-view, .ls-volume, .ls-volumedown, .ls-volumeup, .ls-walking, .ls-web, .ls-wifi, .ls-youtube, .ls-zoomin, .ls-zoomout, .ls-brush, .ls-buffalo, .ls-dailycalendar, .ls-coffee, .ls-dark, .ls-eraser, .ls-grayscale, .ls-ink, .ls-invert, .ls-light, .ls-palette, .ls-refreshbutton, .ls-sepia, .ls-download, .ls-windows, .ls-emphasis, .ls-gree, .ls-gumroad, .ls-instagram, .ls-jpa, .ls-mobage, .ls-strike, .ls-yapcasia, .ls-yapcasialogo, .ls-yapcasialogomark, .ls-ltthon, .ls-calendar, .ls-SQALE, .ls-heteml, .ls-hatenabookmark, .ls-paperboy_co, .ls-checkbox, .ls-checkboxempty, .ls-aim, .ls-bing, .ls-blogger, .ls-cursor, .ls-digg, .ls-grab, .ls-myspace, .ls-pointer, .ls-sitemap, .ls-terminal, .ls-vimeo, .ls-wordpress, .ls-yahoo, .ls-dropbox, .ls-server, .ls-bag, .ls-college, .ls-female, .ls-line, .ls-male, .ls-spa, .ls-umbrella, .ls-ustream, .ls-slideshare, .ls-soundcloud, .ls-ubuntu, .ls-vk, .ls-photo {
+	font-family: 'ls';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.ls-addstar:before { content: '\e800'; }
+.ls-yelp:before { content: '\e8fa'; }
+.ls-album:before { content: '\e802'; }
+.ls-alignadjust:before { content: '\e803'; }
+.ls-aligncenter:before { content: '\e804'; }
+.ls-alignleft:before { content: '\e805'; }
+.ls-alignright:before { content: '\e806'; }
+.ls-amazon:before { content: '\e807'; }
+.ls-android:before { content: '\e808'; }
+.ls-app:before { content: '\e809'; }
+.ls-apple:before { content: '\e80a'; }
+.ls-arrowdown:before { content: '\e80b'; }
+.ls-arrowleft:before { content: '\e80c'; }
+.ls-arrowright:before { content: '\e80d'; }
+.ls-arrowup:before { content: '\e80e'; }
+.ls-back:before { content: '\e80f'; }
+.ls-backspace:before { content: '\e810'; }
+.ls-bad:before { content: '\e811'; }
+.ls-ban:before { content: '\e812'; }
+.ls-barcode:before { content: '\e813'; }
+.ls-bell:before { content: '\e814'; }
+.ls-bicycle:before { content: '\e815'; }
+.ls-bold:before { content: '\e816'; }
+.ls-book:before { content: '\e817'; }
+.ls-bookmark:before { content: '\e818'; }
+.ls-building:before { content: '\e819'; }
+.ls-bus:before { content: '\e81a'; }
+.ls-camera:before { content: '\e81b'; }
+.ls-car:before { content: '\e81c'; }
+.ls-category:before { content: '\e81d'; }
+.ls-check:before { content: '\e81e'; }
+.ls-chrome:before { content: '\e81f'; }
+.ls-cinnamon:before { content: '\e820'; }
+.ls-circle:before { content: '\e821'; }
+.ls-clear:before { content: '\e822'; }
+.ls-clip:before { content: '\e823'; }
+.ls-cloud:before { content: '\e824'; }
+.ls-code:before { content: '\e825'; }
+.ls-comment:before { content: '\e826'; }
+.ls-comments:before { content: '\e827'; }
+.ls-compass:before { content: '\e828'; }
+.ls-cookpad:before { content: '\e829'; }
+.ls-copy:before { content: '\e82a'; }
+.ls-crop:before { content: '\e82b'; }
+.ls-crown:before { content: '\e82c'; }
+.ls-cut:before { content: '\e82d'; }
+.ls-dashboard:before { content: '\e82e'; }
+.ls-delicious:before { content: '\e82f'; }
+.ls-down:before { content: '\e830'; }
+.ls-dribbble:before { content: '\e831'; }
+.ls-dropdown:before { content: '\e832'; }
+.ls-edit:before { content: '\e833'; }
+.ls-eject:before { content: '\e834'; }
+.ls-etc:before { content: '\e835'; }
+.ls-evernote:before { content: '\e836'; }
+.ls-exchange:before { content: '\e837'; }
+.ls-external:before { content: '\e838'; }
+.ls-facebook:before { content: '\e839'; }
+.ls-file:before { content: '\e83a'; }
+.ls-firefox:before { content: '\e83b'; }
+.ls-flag:before { content: '\e83c'; }
+.ls-flickr:before { content: '\e83d'; }
+.ls-folder:before { content: '\e83e'; }
+.ls-foursquare:before { content: '\e83f'; }
+.ls-forward:before { content: '\e840'; }
+.ls-friend:before { content: '\e841'; }
+.ls-frustrate:before { content: '\e842'; }
+.ls-full:before { content: '\e843'; }
+.ls-game:before { content: '\e844'; }
+.ls-gear:before { content: '\e845'; }
+.ls-geo:before { content: '\e846'; }
+.ls-github:before { content: '\e847'; }
+.ls-globe:before { content: '\e848'; }
+.ls-good:before { content: '\e849'; }
+.ls-google:before { content: '\e84a'; }
+.ls-graph:before { content: '\e84b'; }
+.ls-group:before { content: '\e84c'; }
+.ls-hatena:before { content: '\e84d'; }
+.ls-heart:before { content: '\e84e'; }
+.ls-heartempty:before { content: '\e84f'; }
+.ls-help:before { content: '\e850'; }
+.ls-horizontal:before { content: '\e851'; }
+.ls-home:before { content: '\e852'; }
+.ls-hot:before { content: '\e853'; }
+.ls-image:before { content: '\e854'; }
+.ls-info:before { content: '\e855'; }
+.ls-instapaper:before { content: '\e856'; }
+.ls-internetexplorer:before { content: '\e857'; }
+.ls-iphone:before { content: '\e858'; }
+.ls-italic:before { content: '\e859'; }
+.ls-key:before { content: '\e85a'; }
+.ls-keyboard:before { content: '\e85b'; }
+.ls-kudakurage:before { content: '\e85c'; }
+.ls-laugh:before { content: '\e85d'; }
+.ls-left:before { content: '\e85e'; }
+.ls-wink:before { content: '\e85f'; }
+.ls-link:before { content: '\e860'; }
+.ls-linkedin:before { content: '\e861'; }
+.ls-list:before { content: '\e862'; }
+.ls-location:before { content: '\e863'; }
+.ls-lock:before { content: '\e864'; }
+.ls-login:before { content: '\e865'; }
+.ls-logout:before { content: '\e866'; }
+.ls-magic:before { content: '\e867'; }
+.ls-mail:before { content: '\e868'; }
+.ls-map:before { content: '\e869'; }
+.ls-meal:before { content: '\e86a'; }
+.ls-memo:before { content: '\e86b'; }
+.ls-menu:before { content: '\e86c'; }
+.ls-minus:before { content: '\e86d'; }
+.ls-mixi:before { content: '\e86e'; }
+.ls-move:before { content: '\e86f'; }
+.ls-music:before { content: '\e870'; }
+.ls-newwindow:before { content: '\e871'; }
+.ls-next:before { content: '\e872'; }
+.ls-notify:before { content: '\e873'; }
+.ls-off:before { content: '\e874'; }
+.ls-opera:before { content: '\e875'; }
+.ls-ordble:before { content: '\e876'; }
+.ls-paint:before { content: '\e877'; }
+.ls-paramater:before { content: '\e878'; }
+.ls-pause:before { content: '\e879'; }
+.ls-pc:before { content: '\e87a'; }
+.ls-pencil:before { content: '\e87b'; }
+.ls-phone:before { content: '\e87c'; }
+.ls-adjust:before { content: '\e801'; }
+.ls-picasa:before { content: '\e87e'; }
+.ls-pin:before { content: '\e87f'; }
+.ls-pinterest:before { content: '\e880'; }
+.ls-plane:before { content: '\e881'; }
+.ls-play:before { content: '\e882'; }
+.ls-playmedia:before { content: '\e883'; }
+.ls-plusicon:before { content: '\e884'; }
+.ls-present:before { content: '\e885'; }
+.ls-print:before { content: '\e886'; }
+.ls-quote:before { content: '\e887'; }
+.ls-readability:before { content: '\e888'; }
+.ls-record:before { content: '\e889'; }
+.ls-refresh:before { content: '\e88a'; }
+.ls-remove:before { content: '\e88b'; }
+.ls-repeat:before { content: '\e88c'; }
+.ls-reply:before { content: '\e88d'; }
+.ls-right:before { content: '\e88e'; }
+.ls-rss:before { content: '\e88f'; }
+.ls-safari:before { content: '\e890'; }
+.ls-save:before { content: '\e891'; }
+.ls-search:before { content: '\e892'; }
+.ls-wrench:before { content: '\e893'; }
+.ls-share:before { content: '\e894'; }
+.ls-shopping:before { content: '\e895'; }
+.ls-shuffle:before { content: '\e896'; }
+.ls-skype:before { content: '\e897'; }
+.ls-sleipnir:before { content: '\e898'; }
+.ls-small:before { content: '\e899'; }
+.ls-smile:before { content: '\e89a'; }
+.ls-sns:before { content: '\e89b'; }
+.ls-sort:before { content: '\e89c'; }
+.ls-star:before { content: '\e89d'; }
+.ls-starempty:before { content: '\e89e'; }
+.ls-stop:before { content: '\e89f'; }
+.ls-surprise:before { content: '\e8a0'; }
+.ls-sync:before { content: '\e8a1'; }
+.ls-tabezou:before { content: '\e8a2'; }
+.ls-table:before { content: '\e8a3'; }
+.ls-tag:before { content: '\e8a4'; }
+.ls-tile:before { content: '\e8a5'; }
+.ls-tilemenu:before { content: '\e8a6'; }
+.ls-time:before { content: '\e8a7'; }
+.ls-trash:before { content: '\e8a8'; }
+.ls-trouble:before { content: '\e8a9'; }
+.ls-tumblr:before { content: '\e8aa'; }
+.ls-twitter:before { content: '\e8ab'; }
+.ls-underline:before { content: '\e8ac'; }
+.ls-undo:before { content: '\e8ad'; }
+.ls-unlock:before { content: '\e8ae'; }
+.ls-up:before { content: '\e8af'; }
+.ls-upload:before { content: '\e8b0'; }
+.ls-user:before { content: '\e8b1'; }
+.ls-vertical:before { content: '\e8b2'; }
+.ls-video:before { content: '\e8b3'; }
+.ls-view:before { content: '\e8b4'; }
+.ls-volume:before { content: '\e8b5'; }
+.ls-volumedown:before { content: '\e8b6'; }
+.ls-volumeup:before { content: '\e8b7'; }
+.ls-walking:before { content: '\e8b8'; }
+.ls-web:before { content: '\e8b9'; }
+.ls-wifi:before { content: '\e8ba'; }
+.ls-youtube:before { content: '\e8bb'; }
+.ls-zoomin:before { content: '\e8bc'; }
+.ls-zoomout:before { content: '\e8bd'; }
+.ls-brush:before { content: '\e8be'; }
+.ls-buffalo:before { content: '\e8bf'; }
+.ls-dailycalendar:before { content: '\e8c0'; }
+.ls-coffee:before { content: '\e8c1'; }
+.ls-dark:before { content: '\e8c2'; }
+.ls-eraser:before { content: '\e8c3'; }
+.ls-grayscale:before { content: '\e8c4'; }
+.ls-ink:before { content: '\e8c5'; }
+.ls-invert:before { content: '\e8c6'; }
+.ls-light:before { content: '\e8c7'; }
+.ls-palette:before { content: '\e8c8'; }
+.ls-refreshbutton:before { content: '\e8c9'; }
+.ls-sepia:before { content: '\e8ca'; }
+.ls-download:before { content: '\e8cb'; }
+.ls-windows:before { content: '\e8cc'; }
+.ls-emphasis:before { content: '\e8cd'; }
+.ls-gree:before { content: '\e8ce'; }
+.ls-gumroad:before { content: '\e8cf'; }
+.ls-instagram:before { content: '\e8d0'; }
+.ls-jpa:before { content: '\e8d1'; }
+.ls-mobage:before { content: '\e8d2'; }
+.ls-strike:before { content: '\e8d3'; }
+.ls-yapcasia:before { content: '\e8d4'; }
+.ls-yapcasialogo:before { content: '\e8d5'; }
+.ls-yapcasialogomark:before { content: '\e8d6'; }
+.ls-ltthon:before { content: '\e8d7'; }
+.ls-calendar:before { content: '\e8d8'; }
+.ls-SQALE:before { content: '\e8d9'; }
+.ls-heteml:before { content: '\e8da'; }
+.ls-hatenabookmark:before { content: '\e8db'; }
+.ls-paperboy_co:before { content: '\e8dc'; }
+.ls-checkbox:before { content: '\e8dd'; }
+.ls-checkboxempty:before { content: '\e8de'; }
+.ls-aim:before { content: '\e8df'; }
+.ls-bing:before { content: '\e8e0'; }
+.ls-blogger:before { content: '\e8e1'; }
+.ls-cursor:before { content: '\e8e2'; }
+.ls-digg:before { content: '\e8e3'; }
+.ls-grab:before { content: '\e8e4'; }
+.ls-myspace:before { content: '\e8e5'; }
+.ls-pointer:before { content: '\e8e6'; }
+.ls-sitemap:before { content: '\e8e7'; }
+.ls-terminal:before { content: '\e8e8'; }
+.ls-vimeo:before { content: '\e8e9'; }
+.ls-wordpress:before { content: '\e8ea'; }
+.ls-yahoo:before { content: '\e8eb'; }
+.ls-dropbox:before { content: '\e8ec'; }
+.ls-server:before { content: '\e8ed'; }
+.ls-bag:before { content: '\e8ee'; }
+.ls-college:before { content: '\e8ef'; }
+.ls-female:before { content: '\e8f0'; }
+.ls-line:before { content: '\e8f1'; }
+.ls-male:before { content: '\e8f2'; }
+.ls-spa:before { content: '\e8f3'; }
+.ls-umbrella:before { content: '\e8f4'; }
+.ls-ustream:before { content: '\e8f5'; }
+.ls-slideshare:before { content: '\e8f6'; }
+.ls-soundcloud:before { content: '\e8f7'; }
+.ls-ubuntu:before { content: '\e8f8'; }
+.ls-vk:before { content: '\e8f9'; }
+.ls-photo:before { content: '\e87d'; }

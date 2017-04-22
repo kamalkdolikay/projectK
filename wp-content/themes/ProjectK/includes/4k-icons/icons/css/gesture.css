@@ -1,0 +1,65 @@
+@font-face {
+	font-family: 'gesture';
+	src:url('../4k-icons-pack03/icons/fonts/gesture.eot');
+	src:url('../4k-icons-pack03/icons/fonts/gesture.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack03/icons/fonts/gesture.woff') format('woff'),
+		url('../4k-icons-pack03/icons/fonts/gesture.ttf') format('truetype'),
+		url('../4k-icons-pack03/icons/fonts/gesture.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'gesture';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.gesture-finger, .gesture-two37, .gesture-finger3, .gesture-fingers, .gesture-fingers1, .gesture-fingers2, .gesture-hand10, .gesture-hand11, .gesture-hand13, .gesture-hand14, .gesture-hand4, .gesture-hand5, .gesture-finger2, .gesture-hand8, .gesture-hand9, .gesture-mobiletuxedo2, .gesture-moving, .gesture-navigation, .gesture-ring2, .gesture-solid9, .gesture-three16, .gesture-two33, .gesture-two36, .gesture-hand6 {
+	font-family: 'gesture';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.gesture-finger:before { content: '\e800'; }
+.gesture-two37:before { content: '\e817'; }
+.gesture-finger3:before { content: '\e802'; }
+.gesture-fingers:before { content: '\e803'; }
+.gesture-fingers1:before { content: '\e804'; }
+.gesture-fingers2:before { content: '\e805'; }
+.gesture-hand10:before { content: '\e806'; }
+.gesture-hand11:before { content: '\e807'; }
+.gesture-hand13:before { content: '\e808'; }
+.gesture-hand14:before { content: '\e809'; }
+.gesture-hand4:before { content: '\e80a'; }
+.gesture-hand5:before { content: '\e80b'; }
+.gesture-finger2:before { content: '\e801'; }
+.gesture-hand8:before { content: '\e80d'; }
+.gesture-hand9:before { content: '\e80e'; }
+.gesture-mobiletuxedo2:before { content: '\e80f'; }
+.gesture-moving:before { content: '\e810'; }
+.gesture-navigation:before { content: '\e811'; }
+.gesture-ring2:before { content: '\e812'; }
+.gesture-solid9:before { content: '\e813'; }
+.gesture-three16:before { content: '\e814'; }
+.gesture-two33:before { content: '\e815'; }
+.gesture-two36:before { content: '\e816'; }
+.gesture-hand6:before { content: '\e80c'; }

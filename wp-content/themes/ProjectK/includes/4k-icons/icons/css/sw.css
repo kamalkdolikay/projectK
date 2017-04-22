@@ -1,0 +1,280 @@
+@font-face {
+	font-family: 'sw';
+	src:url('../4k-icons-pack04/icons/fonts/sw.eot');
+	src:url('../4k-icons-pack04/icons/fonts/sw.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack04/icons/fonts/sw.woff') format('woff'),
+		url('../4k-icons-pack04/icons/fonts/sw.ttf') format('truetype'),
+		url('../4k-icons-pack04/icons/fonts/sw.svg#sw') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'sw';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="sw-"] {
+*/
+.sw-store, .sw-out, .sw-in, .sw-in-alt, .sw-home, .sw-light-bulb, .sw-anchor, .sw-feather, .sw-expand, .sw-maximize, .sw-search, .sw-zoom-in, .sw-zoom-out, .sw-add, .sw-subtract, .sw-exclamation, .sw-question, .sw-close, .sw-cmd, .sw-forbid, .sw-book, .sw-spinner, .sw-play, .sw-stop, .sw-pause, .sw-forward, .sw-rewind, .sw-sound, .sw-sound-alt, .sw-sound-off, .sw-task, .sw-inbox, .sw-inbox-alt, .sw-envelope, .sw-compose, .sw-newspaper, .sw-newspaper-alt, .sw-clipboard, .sw-calendar, .sw-hyperlink, .sw-trash, .sw-trash-alt, .sw-grid, .sw-grid-alt, .sw-menu, .sw-list, .sw-gallery, .sw-calculator, .sw-windows, .sw-browser, .sw-alarm, .sw-clock, .sw-attachment, .sw-settings, .sw-portfolio, .sw-user, .sw-users, .sw-heart, .sw-chat, .sw-comments, .sw-screen, .sw-iphone, .sw-ipad, .sw-fork-and-spoon, .sw-fork-and-knife, .sw-instagram, .sw-facebook, .sw-delicious, .sw-googleplus, .sw-dribbble, .sw-pin, .sw-pin-alt, .sw-camera, .sw-brightness, .sw-brightness-half, .sw-moon, .sw-cloud, .sw-circle-full, .sw-circle-half, .sw-globe {
+	font-family: 'sw';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.sw-store:before {
+	content: "\e000";
+}
+.sw-out:before {
+	content: "\e001";
+}
+.sw-in:before {
+	content: "\e002";
+}
+.sw-in-alt:before {
+	content: "\e003";
+}
+.sw-home:before {
+	content: "\e004";
+}
+.sw-light-bulb:before {
+	content: "\e005";
+}
+.sw-anchor:before {
+	content: "\e006";
+}
+.sw-feather:before {
+	content: "\e007";
+}
+.sw-expand:before {
+	content: "\e008";
+}
+.sw-maximize:before {
+	content: "\e009";
+}
+.sw-search:before {
+	content: "\e00a";
+}
+.sw-zoom-in:before {
+	content: "\e00b";
+}
+.sw-zoom-out:before {
+	content: "\e00c";
+}
+.sw-add:before {
+	content: "\e00d";
+}
+.sw-subtract:before {
+	content: "\e00e";
+}
+.sw-exclamation:before {
+	content: "\e00f";
+}
+.sw-question:before {
+	content: "\e010";
+}
+.sw-close:before {
+	content: "\e011";
+}
+.sw-cmd:before {
+	content: "\e012";
+}
+.sw-forbid:before {
+	content: "\e013";
+}
+.sw-book:before {
+	content: "\e014";
+}
+.sw-spinner:before {
+	content: "\e015";
+}
+.sw-play:before {
+	content: "\e016";
+}
+.sw-stop:before {
+	content: "\e017";
+}
+.sw-pause:before {
+	content: "\e018";
+}
+.sw-forward:before {
+	content: "\e019";
+}
+.sw-rewind:before {
+	content: "\e01a";
+}
+.sw-sound:before {
+	content: "\e01b";
+}
+.sw-sound-alt:before {
+	content: "\e01c";
+}
+.sw-sound-off:before {
+	content: "\e01d";
+}
+.sw-task:before {
+	content: "\e01e";
+}
+.sw-inbox:before {
+	content: "\e01f";
+}
+.sw-inbox-alt:before {
+	content: "\e020";
+}
+.sw-envelope:before {
+	content: "\e021";
+}
+.sw-compose:before {
+	content: "\e022";
+}
+.sw-newspaper:before {
+	content: "\e023";
+}
+.sw-newspaper-alt:before {
+	content: "\e024";
+}
+.sw-clipboard:before {
+	content: "\e025";
+}
+.sw-calendar:before {
+	content: "\e026";
+}
+.sw-hyperlink:before {
+	content: "\e027";
+}
+.sw-trash:before {
+	content: "\e028";
+}
+.sw-trash-alt:before {
+	content: "\e029";
+}
+.sw-grid:before {
+	content: "\e02a";
+}
+.sw-grid-alt:before {
+	content: "\e02b";
+}
+.sw-menu:before {
+	content: "\e02c";
+}
+.sw-list:before {
+	content: "\e02d";
+}
+.sw-gallery:before {
+	content: "\e02e";
+}
+.sw-calculator:before {
+	content: "\e02f";
+}
+.sw-windows:before {
+	content: "\e030";
+}
+.sw-browser:before {
+	content: "\e031";
+}
+.sw-alarm:before {
+	content: "\e032";
+}
+.sw-clock:before {
+	content: "\e033";
+}
+.sw-attachment:before {
+	content: "\e034";
+}
+.sw-settings:before {
+	content: "\e035";
+}
+.sw-portfolio:before {
+	content: "\e036";
+}
+.sw-user:before {
+	content: "\e037";
+}
+.sw-users:before {
+	content: "\e038";
+}
+.sw-heart:before {
+	content: "\e039";
+}
+.sw-chat:before {
+	content: "\e03a";
+}
+.sw-comments:before {
+	content: "\e03b";
+}
+.sw-screen:before {
+	content: "\e03c";
+}
+.sw-iphone:before {
+	content: "\e03d";
+}
+.sw-ipad:before {
+	content: "\e03e";
+}
+.sw-fork-and-spoon:before {
+	content: "\e03f";
+}
+.sw-fork-and-knife:before {
+	content: "\e040";
+}
+.sw-instagram:before {
+	content: "\e041";
+}
+.sw-facebook:before {
+	content: "\e042";
+}
+.sw-delicious:before {
+	content: "\e043";
+}
+.sw-googleplus:before {
+	content: "\e044";
+}
+.sw-dribbble:before {
+	content: "\e045";
+}
+.sw-pin:before {
+	content: "\e046";
+}
+.sw-pin-alt:before {
+	content: "\e047";
+}
+.sw-camera:before {
+	content: "\e048";
+}
+.sw-brightness:before {
+	content: "\e049";
+}
+.sw-brightness-half:before {
+	content: "\e04a";
+}
+.sw-moon:before {
+	content: "\e04b";
+}
+.sw-cloud:before {
+	content: "\e04c";
+}
+.sw-circle-full:before {
+	content: "\e04d";
+}
+.sw-circle-half:before {
+	content: "\e04e";
+}
+.sw-globe:before {
+	content: "\e04f";
+}

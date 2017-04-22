@@ -1,0 +1,325 @@
+@font-face {
+	font-family: 'el';
+	src:url('../4k-icons-pack02/icons/fonts/el.eot?lpekyu');
+	src:url('../4k-icons-pack02/icons/fonts/el.eot?#iefixlpekyu') format('embedded-opentype'),
+		url('../4k-icons-pack02/icons/fonts/el.woff?lpekyu') format('woff'),
+		url('../4k-icons-pack02/icons/fonts/el.ttf?lpekyu') format('truetype'),
+		url('../4k-icons-pack02/icons/fonts/el.svg?lpekyu#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.el-mobile, .el-laptop, .el-desktop, .el-tablet, .el-phone, .el-document, .el-documents, .el-search, .el-clipboard, .el-newspaper, .el-notebook, .el-book-open, .el-browser, .el-calendar, .el-presentation, .el-picture, .el-pictures, .el-video, .el-camera, .el-printer, .el-toolbox, .el-briefcase, .el-wallet, .el-gift, .el-bargraph, .el-grid, .el-expand, .el-focus, .el-edit, .el-adjustments, .el-ribbon, .el-hourglass, .el-lock, .el-megaphone, .el-shield, .el-trophy, .el-flag, .el-map, .el-puzzle, .el-basket, .el-envelope, .el-streetsign, .el-telescope, .el-gears, .el-key, .el-paperclip, .el-attachment, .el-pricetags, .el-lightbulb, .el-layers, .el-pencil, .el-tools, .el-tools-2, .el-scissors, .el-paintbrush, .el-magnifying-glass, .el-circle-compass, .el-linegraph, .el-mic, .el-strategy, .el-beaker, .el-caution, .el-recycle, .el-anchor, .el-profile-male, .el-profile-female, .el-bike, .el-wine, .el-hotairballoon, .el-globe, .el-genius, .el-map-pin, .el-dial, .el-chat, .el-heart, .el-cloud, .el-upload, .el-download, .el-target, .el-hazardous, .el-piechart, .el-speedometer, .el-global, .el-rss, .el-tumblr, .el-linkedin, .el-dribbble, .el-googleplus, .el-twitter, .el-facebook, .el-sad, .el-happy, .el-refresh, .el-alarmclock, .el-scope, .el-quote, .el-aperture, .el-clock, .el-lifesaver, .el-compass {
+	font-family: 'el';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.el-mobile:before {
+	content: "\e000";
+}
+.el-laptop:before {
+	content: "\e001";
+}
+.el-desktop:before {
+	content: "\e002";
+}
+.el-tablet:before {
+	content: "\e003";
+}
+.el-phone:before {
+	content: "\e004";
+}
+.el-document:before {
+	content: "\e005";
+}
+.el-documents:before {
+	content: "\e006";
+}
+.el-search:before {
+	content: "\e007";
+}
+.el-clipboard:before {
+	content: "\e008";
+}
+.el-newspaper:before {
+	content: "\e009";
+}
+.el-notebook:before {
+	content: "\e00a";
+}
+.el-book-open:before {
+	content: "\e00b";
+}
+.el-browser:before {
+	content: "\e00c";
+}
+.el-calendar:before {
+	content: "\e00d";
+}
+.el-presentation:before {
+	content: "\e00e";
+}
+.el-picture:before {
+	content: "\e00f";
+}
+.el-pictures:before {
+	content: "\e010";
+}
+.el-video:before {
+	content: "\e011";
+}
+.el-camera:before {
+	content: "\e012";
+}
+.el-printer:before {
+	content: "\e013";
+}
+.el-toolbox:before {
+	content: "\e014";
+}
+.el-briefcase:before {
+	content: "\e015";
+}
+.el-wallet:before {
+	content: "\e016";
+}
+.el-gift:before {
+	content: "\e017";
+}
+.el-bargraph:before {
+	content: "\e018";
+}
+.el-grid:before {
+	content: "\e019";
+}
+.el-expand:before {
+	content: "\e01a";
+}
+.el-focus:before {
+	content: "\e01b";
+}
+.el-edit:before {
+	content: "\e01c";
+}
+.el-adjustments:before {
+	content: "\e01d";
+}
+.el-ribbon:before {
+	content: "\e01e";
+}
+.el-hourglass:before {
+	content: "\e01f";
+}
+.el-lock:before {
+	content: "\e020";
+}
+.el-megaphone:before {
+	content: "\e021";
+}
+.el-shield:before {
+	content: "\e022";
+}
+.el-trophy:before {
+	content: "\e023";
+}
+.el-flag:before {
+	content: "\e024";
+}
+.el-map:before {
+	content: "\e025";
+}
+.el-puzzle:before {
+	content: "\e026";
+}
+.el-basket:before {
+	content: "\e027";
+}
+.el-envelope:before {
+	content: "\e028";
+}
+.el-streetsign:before {
+	content: "\e029";
+}
+.el-telescope:before {
+	content: "\e02a";
+}
+.el-gears:before {
+	content: "\e02b";
+}
+.el-key:before {
+	content: "\e02c";
+}
+.el-paperclip:before {
+	content: "\e02d";
+}
+.el-attachment:before {
+	content: "\e02e";
+}
+.el-pricetags:before {
+	content: "\e02f";
+}
+.el-lightbulb:before {
+	content: "\e030";
+}
+.el-layers:before {
+	content: "\e031";
+}
+.el-pencil:before {
+	content: "\e032";
+}
+.el-tools:before {
+	content: "\e033";
+}
+.el-tools-2:before {
+	content: "\e034";
+}
+.el-scissors:before {
+	content: "\e035";
+}
+.el-paintbrush:before {
+	content: "\e036";
+}
+.el-magnifying-glass:before {
+	content: "\e037";
+}
+.el-circle-compass:before {
+	content: "\e038";
+}
+.el-linegraph:before {
+	content: "\e039";
+}
+.el-mic:before {
+	content: "\e03a";
+}
+.el-strategy:before {
+	content: "\e03b";
+}
+.el-beaker:before {
+	content: "\e03c";
+}
+.el-caution:before {
+	content: "\e03d";
+}
+.el-recycle:before {
+	content: "\e03e";
+}
+.el-anchor:before {
+	content: "\e03f";
+}
+.el-profile-male:before {
+	content: "\e040";
+}
+.el-profile-female:before {
+	content: "\e041";
+}
+.el-bike:before {
+	content: "\e042";
+}
+.el-wine:before {
+	content: "\e043";
+}
+.el-hotairballoon:before {
+	content: "\e044";
+}
+.el-globe:before {
+	content: "\e045";
+}
+.el-genius:before {
+	content: "\e046";
+}
+.el-map-pin:before {
+	content: "\e047";
+}
+.el-dial:before {
+	content: "\e048";
+}
+.el-chat:before {
+	content: "\e049";
+}
+.el-heart:before {
+	content: "\e04a";
+}
+.el-cloud:before {
+	content: "\e04b";
+}
+.el-upload:before {
+	content: "\e04c";
+}
+.el-download:before {
+	content: "\e04d";
+}
+.el-target:before {
+	content: "\e04e";
+}
+.el-hazardous:before {
+	content: "\e04f";
+}
+.el-piechart:before {
+	content: "\e050";
+}
+.el-speedometer:before {
+	content: "\e051";
+}
+.el-global:before {
+	content: "\e052";
+}
+.el-rss:before {
+	content: "\e060";
+}
+.el-tumblr:before {
+	content: "\e061";
+}
+.el-linkedin:before {
+	content: "\e062";
+}
+.el-dribbble:before {
+	content: "\e063";
+}
+.el-googleplus:before {
+	content: "\e05f";
+}
+.el-twitter:before {
+	content: "\e05e";
+}
+.el-facebook:before {
+	content: "\e05d";
+}
+.el-sad:before {
+	content: "\e05c";
+}
+.el-happy:before {
+	content: "\e05b";
+}
+.el-refresh:before {
+	content: "\e05a";
+}
+.el-alarmclock:before {
+	content: "\e059";
+}
+.el-scope:before {
+	content: "\e058";
+}
+.el-quote:before {
+	content: "\e057";
+}
+.el-aperture:before {
+	content: "\e056";
+}
+.el-clock:before {
+	content: "\e055";
+}
+.el-lifesaver:before {
+	content: "\e054";
+}
+.el-compass:before {
+	content: "\e053";
+}

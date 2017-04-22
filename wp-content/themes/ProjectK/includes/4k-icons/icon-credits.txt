@@ -1,0 +1,85 @@
+Icon Attribution:
+(9,302 total icons generated from IcoMoon)
+(lp 105) 105 Loops by Pranav http://dribbble.com/shots/707117-105-Loops-with-PSD (Font Licensed as no restriction http://dribbble.com/shots/707117-105-Loops-with-PSD)
+(mi 50) 50 Mini Icons by Victor Erixon http://dribbble.com/shots/801056-50-Icons-Part-Two (Font Licensed as no restriction and redistributable http://dribbble.com/shots/801056-50-Icons-Part-Two)
+(sw 80) 80 Shades of White Icons by Victor Erixon http://dribbble.com/shots/928458-80-Shades-of-White-Icons (Not Licensed, just need to credit creator http://dribbble.com/shots/928458-80-Shades-of-White-Icons)
+(oi 69) Any Old Icon by Ian Yates http://tutsplus.github.io/Any-Old-Icon/ (License http://creativecommons.org/licenses/by/3.0/deed.en_US)
+(bk 350) Brankic1979 by Brankic1979 http://brankic1979.com/icons/ (License http://brankic1979.com/icons/ redistributing with permission https://twitter.com/bfintal/status/454919546340519936)
+(bc 108) Broccolidry by Visual Idiot http://dribbble.com/shots/587469-Free-16px-Broccolidryiconsaniconsetitisfullof-icons (Font Licensed as no restriction http://licence.visualidiot.com/)
+(ct 69) Cuticons By Vaibhav Bhat http://dribbble.com/shots/631056-Cuticons-You-wanted-free-icons-right (License http://creativecommons.org/publicdomain/zero/1.0/)
+(ec 40) Eco Ico by Matthew Skiles http://dribbble.com/shots/665585-Eco-Ico (License http://creativecommons.org/publicdomain/zero/1.0/)
+(en 283) Entypo by Daniel Bruce http://www.entypo.com/ (License http://creativecommons.org/licenses/by-sa/3.0/us/)
+(fa 360) Font Awesome by Dave Gandy http://fortawesome.github.com/Font-Awesome/ (License http://creativecommons.org/licenses/by/3.0/ & http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
+(imf 451) IcoMoon - Free By Keyamoon http://keyamoon.com/icomoon/ (Font Licensed as CC BY 3.0 or GPL http://icomoon.io/#icons)
+(im 139) Icon Minia by Egemen Kapusuz http://dribbble.com/shots/598215-Icon-Minia-139-Vector-Icons (Licensed as GPL http://www.gnu.org/copyleft/gpl.html)
+(ic 172) Iconic by PJ. Onori http://somerandomdude.com/work/iconic/ (Font Licensed as SIL https://github.com/somerandomdude/Iconic)
+(ln 48) Linecons by Sergey Shmidt http://designmodo.com/linecons-free/ (Font Licensed as CC BY 3.0 http://creativecommons.org/licenses/by-sa/3.0/us/)
+(mn 288) MonoSocialIcons Font by Ivan Drinchev http://drinchev.github.io/monosocialiconsfont/ (Font Licensed as SIL https://github.com/drinchev/monosocialiconsfont)
+(st 136) Steadysets by Tommy Sahl http://steadysets.com/ (License http://steadysets.com/)
+(ty 90) Typicons by Stephen Hutchings https://github.com/stephenhutchings/typicons.font (Font Licensed as SIL https://github.com/stephenhutchings/typicons.font)
+UPDATE (wb 1259) WebHostingHub Glyphs by WebHostingHub http://www.webhostinghub.com/glyphs/ (Font Licensed as SIL http://www.webhostinghub.com/glyphs/)
+(zm 154) WPZoom Developer Icon Set by David Ferreria http://www.wpzoom.com/wpzoom/new-freebie-wpzoom-developer-icon-set-154-free-icons/ (License http://creativecommons.org/licenses/by-sa/3.0/)
+(usa 53) StateFace by ProPublica http://propublica.github.io/stateface/ (Licensed as no restriction to redistribute http://propublica.github.io/stateface/)
+(elg 360) Line Icons by Elegant Themes http://www.elegantthemes.com/ (Font Licensed as GPL http://www.gnu.org/licenses/gpl.html)
+(el 100) Line Icons by Elegant Themes http://www.elegantthemes.com/ (Font Licensed as GPL http://www.gnu.org/licenses/gpl.html)
+(fo 34) Fontelico by Fontello https://github.com/fontello/fontelico.font (Font Licensed as SIL https://github.com/fontello/fontelico.font)
+(ls 251) Ligature Symbols by Kazuyuki Motoyama http://kudakurage.com/ligature_symbols/ (Font Licensed as SIL http://kudakurage.com/ligature_symbols/)
+(elu 271) Elusive Icons by Aristath https://github.com/aristath/elusive-iconfont (Font Licensed as SIL https://github.com/aristath/elusive-iconfont)
+(ty2 308) Typicons (Updated) by Stephen Hutchings https://github.com/stephenhutchings/typicons.font (Font Licensed as SIL https://github.com/stephenhutchings/typicons.font)
+(cn 194) Countricons by Freepik http://www.flaticon.com/packs/countricons/ (Font Licensed as CC 3.0 http://www.flaticon.com/packs/countricons/)
+(moon 27) Moon Phase 1 by Freepik http://www.flaticon.com/packs/moon-phase-1/ (Font Licensed as CC 3.0 http://www.flaticon.com/packs/moon-phase-1/)
+(mk 63) Maki by Mapbox https://github.com/mapbox/maki (Font Licensed as BSD https://github.com/mapbox/maki/blob/mb-pages/LICENSE.txt) Via Fontello
+(ft 60) Fat Icons by Designerz Base http://www.flaticon.com/packs/fat-icons/ (Font Licensed as CC 3.0 http://www.flaticon.com/packs/fat-icons/)
+(ba 361) Batch by Adam Whitcroft https://github.com/AdamWhitcroft/Batch/ (Custom License https://github.com/AdamWhitcroft/Batch/blob/master/License.txt with permission from author https://twitter.com/bfintal/status/454584309765009408)
+(draw 394) Hand Drawn by Freepik http://www.flaticon.com/packs/hand-drawn/ (Font Licensed as CC 3.0 http://www.flaticon.com/packs/hand-drawn/)
+(payment 69) Payment Logos by Freepik http://www.flaticon.com/packs/payments-logos/ (Font Licensed as CC 3.0 http://www.flaticon.com/packs/payments-logos/)
+(wl 102) Website Logos by Freepik http://www.flaticon.com/packs/websites-logos/ (Font Licensed as CC 3.0 http://www.flaticon.com/packs/websites-logos/)
+(ma 170) Map Icons by Scott de Jonge http://www.flaticon.com/packs/map-icons/ (Font Licensed as CC 3.0 http://www.flaticon.com/packs/map-icons/)
+(cl 100) Clear Icons by Appzgear http://www.flaticon.com/packs/clear-icons (Font Licensed as CC 3.0 http://www.flaticon.com/packs/clear-icons)
+(br 45) Brandico by Fontello https://github.com/fontello/brandico.font (Font Licensed as SIL https://github.com/fontello/brandico.font)
+(dr 95) Dripicons by Amit Jakhu http://www.flaticon.com/packs/dripicons/ (Font Licensed as CC 3.0 http://www.flaticon.com/packs/dripicons/)
+(file 176) File Formats by Freepik http://www.flaticon.com/packs/file-formats-icons/ (Font Licensed as CC 3.0 http://www.flaticon.com/packs/file-formats-icons/)
+(ion 525) Ionicons by Drifty https://github.com/driftyco/ionicons (Font Licensed as MIT https://github.com/driftyco/ionicons)
+(lis 122) Line Icon Set by Situ Herrera http://www.flaticon.com/packs/line-icon-set (Font Licensed as CC 3.0)
+(mfg 153) MFG Labs by MFG Labs http://mfglabs.github.io/mfglabs-iconset/ & https://github.com/MfgLabs/mfglabs-iconset (Font Licensed as SIL https://github.com/MfgLabs/mfglabs-iconset)
+(mp 91) Modern Pictograms by John Caserta http://www.fontsquirrel.com/fonts/modern-pictograms (Font Licensed as SIL http://www.fontsquirrel.com/license/modern-pictograms)
+(mm 52) Multimedia by Freepik http://www.flaticon.com/packs/multimedia/ (Font Licensed as CC 3.0 http://www.flaticon.com/packs/multimedia/)
+(ow 81) OpenWeb Icons by Matthias Pfefferle http://pfefferle.github.io/openwebicons/ (Font Licensed as SIL https://github.com/pfefferle/openwebicons)
+(mo 200) Mobile Phones by Freepik http://www.flaticon.com/packs/mobile-phones/ (Font Licensed as CC 3.0 http://www.flaticon.com/packs/mobile-phones/)
+(creditcard 70) Payment Cards by Freepik http://www.flaticon.com/packs/payments-cards/ (Font Licensed as CC 3.0 http://www.flaticon.com/packs/payments-cards/)
+(foa 26) Foundation Icons - Accessibility by ZURB https://github.com/zurb/foundation-icons (Font Licensed as MIT https://github.com/zurb/foundation-icons)
+(business 123) Simpleicon Business by SimpleIcon http://www.flaticon.com/packs/simpleicon-business/ (Font Licensed as CC 3.0 http://www.flaticon.com/packs/simpleicon-business/)
+(ecommerce 96) Simpleicon Ecommerce by SimpleIcon http://www.flaticon.com/packs/simpleicon-ecommerce/ (Font Licensed as CC 3.0 http://www.flaticon.com/packs/simpleicon-ecommerce/)
+(place 62) Simpleicon Places by SimpleIcon http://www.flaticon.com/packs/simpleicon-places/ (Font Licensed as CC 3.0 http://www.flaticon.com/packs/simpleicon-places/)
+(u8 91) Universal 08 by Freepik http://www.flaticon.com/packs/universal-08/ (Font Licensed as CC 3.0 http://www.flaticon.com/packs/universal-08/)
+(u12 90) Universal 12 by Freepik http://www.flaticon.com/packs/universal-12/ (Font Licensed as CC 3.0 http://www.flaticon.com/packs/universal-12/)
+(gesture 24) Using Gesture by Mobiletuxedo http://www.flaticon.com/packs/using-gesture/ (Font Licensed as CC 3.0)
+(games 46) Video Games by Freepik http://www.flaticon.com/packs/video-games/2 (Font Licensed as CC 3.0 http://www.flaticon.com/packs/video-games/2)
+(wi 91) Weather Icons by Erik Flowers https://github.com/erikflowers/weather-icons (Font Licensed as SIL https://github.com/erikflowers/weather-icons)
+(ws 85) Web Symbols by Just Be Nice Studio http://www.justbenicestudio.com/ (Font Licensed as SIL http://fontello.com/)
+(zo 103) Zocial by Sam Collins https://github.com/samcollins/css-social-buttons/ (Font Licensed as MIT https://github.com/samcollins/css-social-buttons/)
+
+Special thanks to http://icomoon.io/ and http://fontello.com for the generator and bringing this awesome plugin to life
+
+
+======================================================================================
+
+
+
+
+Change ICON SETS:
+- Include CC-BY, CC-BY-SA & SIL licenses
+- DONT include "do not distribute elsewhere" items
+- Looks for the license of the FONT ITSELF only
+- For WPORG plugin, only SIL & MIT licenses are allowed
+
+FONTS FOR CONVERSION:
+(mfz 91) Font Mfizz by Mfizz Inc https://github.com/mfizz-inc/font-mfizz (Font Licensed as MIT https://github.com/mfizz-inc/font-mfizz/blob/master/LICENSE.txt)
+(me 451) Metro UI by Sergey Pimenov https://github.com/olton/Metro-UI-CSS/ http://metroui.org.ua/ (Font Licensed as MIT https://github.com/olton/Metro-UI-CSS/)
+(pw 170) PW Drawn Icon by paex-webdesign.com http://www.peax-webdesign.com/goodies/free-icons/icones-gratuites/icon-font.html (Font Licensed as FREE with attribution http://www.peax-webdesign.com/goodies/free-icons/icones-gratuites/icon-font.html)
+(i7 260) iOS7 Icon Font by Akira Miyake https://github.com/AKIRA-MIYAKE/iOS7-icon-font (Font Licensed as MIT https://github.com/AKIRA-MIYAKE/iOS7-icon-font)
+(so 164) Sosa by Ed Merritt http://tenbytwenty.com/?xxxx_posts=sosa (Font Licensed Custom with permission https://twitter.com/bfintal/status/454911718141857792)
+
+Waiting for permissions:
+(mt 47) Meteocons by Alessio Atzeni http://www.alessioatzeni.com/meteocons/ (License http://www.alessioatzeni.com/meteocons/#about still asking permission via email)
+

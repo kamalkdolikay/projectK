@@ -1,0 +1,3817 @@
+@font-face {
+	font-family: 'wb';
+	src:url('../4k-icons-pack05/icons/fonts/wb.eot');
+	src:url('../4k-icons-pack05/icons/fonts/wb.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack05/icons/fonts/wb.woff') format('woff'),
+		url('../4k-icons-pack05/icons/fonts/wb.ttf') format('truetype'),
+		url('../4k-icons-pack05/icons/fonts/wb.svg#wb') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'wb';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="wb-"] {
+*/
+.wb-pilcrow, .wb-multiply, .wb-divide, .wb-pipe, .wb-ring, .wb-dagger, .wb-tie, .wb-euro, .wb-home, .wb-capslock, .wb-gradient, .wb-minus, .wb-infinity, .wb-intersection, .wb-image, .wb-fork, .wb-bell, .wb-chair, .wb-rectangle, .wb-triangle, .wb-yinyang, .wb-smile, .wb-compass, .wb-diamond, .wb-checkmark, .wb-wallet, .wb-uniF470, .wb-uniF471, .wb-uniF472, .wb-uniF473, .wb-uniF474, .wb-uniF475, .wb-uniF476, .wb-uniF477, .wb-uniF478, .wb-uniF479, .wb-uniF47A, .wb-uniF47B, .wb-uniF47C, .wb-uniF47D, .wb-uniF47E, .wb-uniF47F, .wb-uniF480, .wb-uniF481, .wb-uniF482, .wb-uniF483, .wb-uniF484, .wb-uniF485, .wb-uniF486, .wb-uniF487, .wb-uniF488, .wb-uniF489, .wb-uniF48A, .wb-uniF48B, .wb-pigpena, .wb-pigpenb, .wb-pigpenc, .wb-pigpend, .wb-pigpene, .wb-pigpenf, .wb-pigpeng, .wb-pigpenh, .wb-pigpeni, .wb-pigpenj, .wb-pigpenk, .wb-pigpenl, .wb-pigpenm, .wb-pigpenn, .wb-pigpeno, .wb-pigpenp, .wb-pigpenq, .wb-pigpenr, .wb-pigpens, .wb-pigpent, .wb-pigpenu, .wb-pigpenv, .wb-pigpenw, .wb-pigpenx, .wb-pigpeny, .wb-pigpenz, .wb-braillea, .wb-brailleb, .wb-braillec, .wb-brailled, .wb-braillee, .wb-braillef, .wb-brailleg, .wb-brailleh, .wb-braillei, .wb-braillej, .wb-braillek, .wb-braillel, .wb-braillem, .wb-braillen, .wb-brailleo, .wb-braillep, .wb-brailleq, .wb-brailler, .wb-brailles, .wb-braillet, .wb-brailleu, .wb-braillev, .wb-braillew, .wb-braillex, .wb-brailley, .wb-braillez, .wb-braille0, .wb-braille1, .wb-braille2, .wb-braille3, .wb-braille4, .wb-braille5, .wb-braille6, .wb-braille7, .wb-braille8, .wb-braille9, .wb-braillespace, .wb-hydrant, .wb-fort, .wb-cannon, .wb-route, .wb-gameboy, .wb-nintendods, .wb-baloon, .wb-greenlightbulb, .wb-egg, .wb-pasta, .wb-dna, .wb-broom, .wb-speed, .wb-stumbleupon, .wb-fridge, .wb-davidstar, .wb-christiancross, .wb-islam, .wb-torigate, .wb-desklamp, .wb-aaabattery, .wb-sharethree, .wb-danger, .wb-razor, .wb-safetypin, .wb-cricket, .wb-searchdocument, .wb-searchfolder, .wb-wind, .wb-breakable, .wb-thissideup, .wb-pictureframe, .wb-alienship, .wb-firefox, .wb-blackberry, .wb-travel, .wb-tank, .wb-windleft, .wb-windright, .wb-screw, .wb-nut, .wb-nail, .wb-stiletto, .wb-foursquare, .wb-fishbone, .wb-teapot, .wb-candy, .wb-microwave, .wb-bread, .wb-weight, .wb-superman, .wb-greenlantern, .wb-captainamerica, .wb-avengers, .wb-punisher, .wb-spawn, .wb-xmen, .wb-spider, .wb-spiderman, .wb-batman, .wb-ironman, .wb-darthvader, .wb-tetrisone, .wb-tetristwo, .wb-tetristhree, .wb-apple, .wb-tron, .wb-residentevil, .wb-designcontest, .wb-spaceinvaders, .wb-xbox, .wb-pokemon, .wb-quake, .wb-aperture, .wb-robocop, .wb-rorschach, .wb-chicken, .wb-fish, .wb-cupcake, .wb-pizza, .wb-cherry, .wb-mushroom, .wb-bone, .wb-steak, .wb-bottle, .wb-restaurantmenu, .wb-muffin, .wb-pepperoni, .wb-sunnysideup, .wb-coffeebean, .wb-chocolate, .wb-raspberry, .wb-raspberrypi, .wb-fries, .wb-birthday, .wb-globe, .wb-glue, .wb-eightball, .wb-rim, .wb-lego, .wb-stove, .wb-speaker, .wb-submarine, .wb-metronome, .wb-trumpet, .wb-knob, .wb-cassette, .wb-watch, .wb-viking, .wb-mickeymouse, .wb-christmastree, .wb-snowman, .wb-candycane, .wb-treeornament, .wb-bowtie, .wb-lifehacker, .wb-favoritefile, .wb-favoritefolder, .wb-crayon, .wb-toiletpaper, .wb-toothbrush, .wb-bluetoothconnected, .wb-handpointdown, .wb-handpointright, .wb-handpointleft, .wb-satellite, .wb-harrypotter, .wb-jason, .wb-skull, .wb-raceflag, .wb-doghouse, .wb-birdhouse, .wb-phonemic, .wb-island, .wb-handcuffs, .wb-addtocart, .wb-emptycart, .wb-lasso, .wb-polygonlasso, .wb-finder, .wb-dialpad, .wb-tictactoe, .wb-washer, .wb-theather, .wb-glassesalt, .wb-skypeonline, .wb-skypeaway, .wb-skypebusy, .wb-skypeoffline, .wb-grooveshark, .wb-lastfm, .wb-taxi, .wb-macpro, .wb-keyboarddelete, .wb-gearfour, .wb-flowernew, .wb-signal, .wb-aries, .wb-taurus, .wb-gemini, .wb-cancer, .wb-leo, .wb-virgo, .wb-libra, .wb-scorpio, .wb-sagitarius, .wb-capricorn, .wb-aquarius, .wb-pisces, .wb-oneupalt, .wb-oneup, .wb-zelda, .wb-atari, .wb-halflife, .wb-halo, .wb-walle, .wb-monstersinc, .wb-alienware, .wb-warcraft, .wb-drwho, .wb-angrybirds, .wb-visa, .wb-webplatform, .wb-parentheses, .wb-vendetta, .wb-circleleft, .wb-circledown, .wb-circleup, .wb-circleright, .wb-donut, .wb-tea, .wb-hotdog, .wb-taco, .wb-chef, .wb-pretzel, .wb-foodtray, .wb-soup, .wb-bowlingpins, .wb-bat, .wb-dart, .wb-domino, .wb-stadium, .wb-curling, .wb-whistle, .wb-hockey, .wb-addfriend, .wb-removefriend, .wb-ticket, .wb-marvin, .wb-tooth, .wb-lungs, .wb-kidney, .wb-stomach, .wb-liver, .wb-brain, .wb-helicopter, .wb-invoice, .wb-lighthouse, .wb-diode, .wb-capacitator, .wb-dcsource, .wb-acsource, .wb-resistor, .wb-antenna, .wb-filmstrip, .wb-lollypop, .wb-telescope, .wb-tophat, .wb-fedora, .wb-carrot, .wb-strawberry, .wb-banana, .wb-sticker, .wb-ink, .wb-dieone, .wb-dietwo, .wb-diethree, .wb-diefour, .wb-diefive, .wb-diesix, .wb-scales, .wb-wheelchair, .wb-uniF000, .wb-uniF001, .wb-uniF002, .wb-uniF003, .wb-uniF004, .wb-uniF005, .wb-uniF006, .wb-uniF007, .wb-uniF008, .wb-uniF009, .wb-uniF00A, .wb-uniF00B, .wb-uniF00C, .wb-uniF00D, .wb-uniF00E, .wb-uniF00F, .wb-uniF010, .wb-uniF011, .wb-uniF012, .wb-uniF013, .wb-uniF014, .wb-support3, .wb-reliability, .wb-uptime, .wb-value, .wb-windows, .wb-linux, .wb-domain, .wb-domain2, .wb-domain3, .wb-affiliate, .wb-intel, .wb-amd, .wb-firewall, .wb-link, .wb-colocation2, .wb-colocation3, .wb-vps, .wb-server, .wb-servers, .wb-email, .wb-ftp, .wb-hdd, .wb-home2, .wb-ram, .wb-security, .wb-security2, .wb-barchart, .wb-uni0430, .wb-webhostinghub, .wb-price, .wb-webpage, .wb-websitebuilder, .wb-shoppingcart, .wb-cms, .wb-sharedhosting, .wb-managedhosting, .wb-greenhosting, .wb-resellerhosting, .wb-socialnetworking, .wb-wizard, .wb-video2, .wb-password, .wb-password2, .wb-contact, .wb-theme, .wb-lang, .wb-shortcut, .wb-mailbox, .wb-webmail, .wb-boxtrapper, .wb-spam, .wb-spam2, .wb-emailforward2, .wb-error, .wb-taskmanager, .wb-awstats, .wb-protecteddirectory, .wb-ssh, .wb-sslmanager, .wb-hotlinkprotection, .wb-authentication, .wb-subdomain, .wb-domainaddon, .wb-redirect, .wb-parkeddomain, .wb-apache, .wb-mimetype, .wb-certificate, .wb-certificate2, .wb-error2, .wb-wrench, .wb-filter, .wb-userfiltering, .wb-accountfiltering, .wb-backupwizard, .wb-opencart, .wb-prestashop, .wb-smf, .wb-phpbb, .wb-dolphinsoftware, .wb-mybb, .wb-whmcs, .wb-ruby, .wb-html, .wb-html5, .wb-css3, .wb-jquery, .wb-jqueryui, .wb-oxwall, .wb-magento, .wb-ajax, .wb-flashplayer, .wb-python, .wb-cpanel, .wb-joomla, .wb-wordpress, .wb-drupal, .wb-mysql, .wb-codeigniter, .wb-refresh, .wb-cgicenter, .wb-mxentry, .wb-ftpaccounts, .wb-ftpsession, .wb-analytics3, .wb-leechprotect, .wb-dnszone, .wb-commentout, .wb-github, .wb-ads, .wb-java, .wb-nodejs, .wb-grails, .wb-cgi, .wb-binary, .wb-push, .wb-pull, .wb-query, .wb-ipcontrol, .wb-form, .wb-sc, .wb-autorespond, .wb-address, .wb-mailinglists, .wb-emailtrace, .wb-importcontacts, .wb-key, .wb-filemanager, .wb-legacyfilemanager, .wb-diskspace, .wb-visitor, .wb-plugin2, .wb-faq, .wb-software, .wb-phppear, .wb-php, .wb-fourohfour, .wb-indexmanager, .wb-images, .wb-plugin, .wb-calendar2, .wb-briefcase, .wb-supportrequest, .wb-coppermine, .wb-dropmenu, .wb-network, .wb-bug, .wb-virus, .wb-syringe, .wb-pill, .wb-restricted, .wb-zikula, .wb-piwigo, .wb-fantastico, .wb-concrete5, .wb-cmsmadesimple, .wb-cplusplus, .wb-csharp, .wb-squarebrackets, .wb-braces, .wb-chevrons, .wb-perl, .wb-perl2, .wb-algorhythm, .wb-cloud, .wb-cloudupload, .wb-clouddownload, .wb-cloudsync, .wb-sync, .wb-lock, .wb-unlock, .wb-remotemysql, .wb-rawaccesslogs, .wb-document, .wb-spreadsheet, .wb-presentation, .wb-search, .wb-createfile, .wb-deletefile, .wb-save, .wb-copy, .wb-cut, .wb-paste, .wb-vinyl, .wb-cd, .wb-trash, .wb-trashempty, .wb-trashfull, .wb-circleadd, .wb-circledelete, .wb-circleselect, .wb-mouse, .wb-monitor, .wb-file, .wb-notes, .wb-laptop, .wb-explorerwindow, .wb-addfolder, .wb-deletefolder, .wb-cursor, .wb-handpointup, .wb-handdrag, .wb-handtwofingers, .wb-diskspace2, .wb-sim, .wb-volumefull, .wb-volumehalf, .wb-volumemute, .wb-volumemute2, .wb-iphone, .wb-nexus, .wb-mobile, .wb-router, .wb-plug, .wb-lock2, .wb-treediagram, .wb-powerplug, .wb-lan, .wb-sharedfile, .wb-foldertree, .wb-tethering, .wb-edit2, .wb-batterycharging, .wb-batterycharged, .wb-batteryempty, .wb-battery20, .wb-battery40, .wb-battery60, .wb-battery80, .wb-batteryfull, .wb-imac, .wb-firewire, .wb-powerjack, .wb-webcam, .wb-wifi, .wb-networksignal, .wb-batteryaltfull, .wb-batteryalt60, .wb-batteryalt30, .wb-batteryaltcharging, .wb-keyboard2, .wb-sd, .wb-microsd, .wb-graphicscard, .wb-screenshot, .wb-brightness, .wb-brightnessfull, .wb-brightnesshalf, .wb-usb, .wb-usb2, .wb-usb3, .wb-grid, .wb-details, .wb-thumbnails, .wb-list, .wb-terminal, .wb-touchpad, .wb-zip, .wb-rar, .wb-tablet, .wb-keyboard, .wb-download, .wb-upload, .wb-sync2, .wb-power, .wb-shutdown, .wb-restart, .wb-ubuntu, .wb-sim2, .wb-loading, .wb-hourglass2, .wb-sidebar, .wb-print, .wb-mouse2, .wb-menu, .wb-install, .wb-webcam2, .wb-android, .wb-bluetooth, .wb-comment, .wb-comment2, .wb-post, .wb-quote, .wb-post2, .wb-loved, .wb-love, .wb-user, .wb-friends, .wb-phonebook, .wb-email2, .wb-businesscard2, .wb-thumbup, .wb-thumbdown, .wb-favorite, .wb-favorite2, .wb-happy, .wb-sad, .wb-blankstare, .wb-laugh, .wb-facebook, .wb-skype, .wb-youtube, .wb-bookmark, .wb-notificationdown, .wb-notificationup, .wb-flickr, .wb-share2, .wb-phone2, .wb-phone3, .wb-instagram, .wb-facebook2, .wb-dribbble, .wb-forrst, .wb-chrome, .wb-phonebook2, .wb-gmail, .wb-yahoo, .wb-delicious, .wb-myspace, .wb-reddit, .wb-comment3, .wb-comment4, .wb-comment5, .wb-comment6, .wb-browser, .wb-avatar, .wb-phone, .wb-missedcall, .wb-incomingcall, .wb-outgoingcall, .wb-tag2, .wb-basecamp, .wb-avatar2, .wb-chat, .wb-googledrive, .wb-tumblr, .wb-googleplus, .wb-linkedin, .wb-blogger, .wb-vimeo, .wb-path, .wb-twitter, .wb-pocket, .wb-share, .wb-newwindow, .wb-closewindow, .wb-newtab, .wb-closetab, .wb-archive, .wb-draft, .wb-reademail, .wb-emailrefresh, .wb-emailforward, .wb-emailexport, .wb-emailimport, .wb-inbox, .wb-outbox, .wb-draft2, .wb-rss, .wb-evernote, .wb-video, .wb-play2, .wb-movie4, .wb-headphones, .wb-music, .wb-fastforward, .wb-rewind, .wb-play, .wb-stop, .wb-pause, .wb-repeat, .wb-shuffle, .wb-record, .wb-next, .wb-previous, .wb-voice, .wb-music2, .wb-equalizer, .wb-equalizer2, .wb-ipod, .wb-microphone, .wb-vlc, .wb-movie5, .wb-soundwave, .wb-boombox, .wb-repeatone, .wb-next2, .wb-previous2, .wb-eject, .wb-guitar, .wb-camera, .wb-videocamera, .wb-video3, .wb-piano, .wb-album, .wb-hdtv, .wb-radio, .wb-podcast, .wb-headphones2, .wb-tv, .wb-violin, .wb-transform, .wb-twocolumnright, .wb-twocolumnright2, .wb-twocolumnleft, .wb-twocolumnleft2, .wb-threecolumn, .wb-inkpen, .wb-eyedropper, .wb-font, .wb-crop, .wb-rectangleselection, .wb-circleselection, .wb-selectionadd, .wb-selectionrmove, .wb-selectionintersect, .wb-bucket, .wb-vector, .wb-edit, .wb-brush, .wb-palette, .wb-book, .wb-wacom, .wb-elipse, .wb-roundedrectangle, .wb-polygon, .wb-line, .wb-lineheight, .wb-sortbynameascending, .wb-sortbynamedescending, .wb-sortbysizeascending, .wb-sortbysizedescending, .wb-write, .wb-macro, .wb-spray, .wb-canvas, .wb-adobe, .wb-layers, .wb-layers2, .wb-pagebreak, .wb-photoshop, .wb-illustrator, .wb-flash, .wb-dreamweaver, .wb-alignverticalcenters, .wb-alignhorizontalcenters, .wb-alignbottomedges, .wb-aligntopedges, .wb-alignrightedges, .wb-alignleftedges, .wb-alignleft, .wb-alignright, .wb-aligncenter, .wb-alignjustify, .wb-distributeverticalcenters, .wb-distributehorizontalcenters, .wb-shapes, .wb-exposure, .wb-invert, .wb-insertpicture, .wb-insertpictureleft, .wb-insertpictureright, .wb-insertpicturecenter, .wb-insertpiechart, .wb-insertbarchart, .wb-color, .wb-clearformatting, .wb-paintbrush, .wb-kerning, .wb-subscript, .wb-superscript, .wb-magazine, .wb-resize, .wb-pen, .wb-ruler, .wb-moleskine, .wb-eraser, .wb-indentleft, .wb-indentright, .wb-bold, .wb-italic, .wb-underline, .wb-strikethrough, .wb-fontheight, .wb-fontwidth, .wb-paintroll, .wb-wizard2, .wb-creativecommons, .wb-addshape, .wb-subtractshape, .wb-intersectshape, .wb-excludeshape, .wb-mergeshapes, .wb-rotateclockwise, .wb-rotatecounterclockwise, .wb-marker, .wb-canvasrulers, .wb-sun, .wb-moon, .wb-water, .wb-maps, .wb-pin, .wb-flag, .wb-placeios, .wb-temperature, .wb-temperature2, .wb-calendar, .wb-clock, .wb-truck, .wb-scope, .wb-spoon, .wb-knife, .wb-tent, .wb-gasstation, .wb-forest, .wb-umbrella, .wb-stopwatch, .wb-boat, .wb-roadsign, .wb-forest2, .wb-port, .wb-gpsoff, .wb-gpson, .wb-place, .wb-placeadd, .wb-placedelete, .wb-checkin, .wb-place2, .wb-place2add, .wb-place2delete, .wb-checkin2, .wb-wheel, .wb-cigarette, .wb-trafficlight, .wb-clock2, .wb-cactus, .wb-watertap, .wb-snow, .wb-rain, .wb-storm, .wb-storm2, .wb-flag2, .wb-alarm, .wb-bag, .wb-coffee, .wb-martini, .wb-scope2, .wb-wine, .wb-automobile, .wb-navigation, .wb-wave2, .wb-wave, .wb-alarm2, .wb-airplane, .wb-shipping, .wb-roadsignleft, .wb-bus, .wb-stamp, .wb-stamp2, .wb-beer, .wb-building, .wb-emergency, .wb-hospital, .wb-railroad, .wb-road, .wb-freeway, .wb-cup, .wb-men, .wb-women, .wb-mug, .wb-metro, .wb-stocks, .wb-stockup, .wb-stockdown, .wb-timeline, .wb-coupon, .wb-playstore, .wb-news, .wb-piggybank, .wb-calculator, .wb-dollar2, .wb-euro2, .wb-pound, .wb-pound2, .wb-yen2, .wb-briefcase2, .wb-briefcase3, .wb-gift, .wb-abacus, .wb-bank, .wb-law, .wb-price2, .wb-calculator2, .wb-mastercard, .wb-paypal, .wb-skrill, .wb-alertpay, .wb-westernunion, .wb-exchange, .wb-appointment, .wb-officechair, .wb-cashregister, .wb-squareapp, .wb-googlewallet, .wb-moneybag, .wb-store, .wb-shoppingbag, .wb-rubberstamp, .wb-qrcode, .wb-barcode, .wb-sale, .wb-bill, .wb-creditcard, .wb-factory, .wb-cash, .wb-shredder, .wb-flask, .wb-flaskfull, .wb-fire, .wb-eye, .wb-magnet, .wb-radioactive, .wb-microscope, .wb-paperclip, .wb-paperclip2, .wb-paperclip3, .wb-megaphone, .wb-student, .wb-icecream2, .wb-switch, .wb-powerplugeu, .wb-powerplugus, .wb-switchon2, .wb-switchoff2, .wb-crown, .wb-shovel, .wb-hammer, .wb-screwdriver, .wb-screwdriver2, .wb-sunglasses, .wb-glasses, .wb-paperairplane, .wb-recycle, .wb-remote, .wb-flashlight, .wb-candle, .wb-forklift, .wb-rocket, .wb-paw, .wb-orange, .wb-croisant, .wb-binoculars, .wb-woman, .wb-man, .wb-patch, .wb-icecream, .wb-flower, .wb-target, .wb-peace, .wb-lightning2, .wb-sheriff, .wb-police, .wb-hanger, .wb-addtolist, .wb-toast, .wb-director, .wb-fence, .wb-science, .wb-lamp, .wb-wrench2, .wb-hamburger, .wb-alert2, .wb-eye2, .wb-jar, .wb-extinguisher, .wb-plaque, .wb-bed, .wb-firstaid, .wb-psbuttoncircle, .wb-psbuttonsquare, .wb-psbuttontriangle, .wb-psbuttonx, .wb-buttona, .wb-buttonb, .wb-buttonx, .wb-buttony, .wb-pscursor, .wb-psup, .wb-psright, .wb-psdown, .wb-psleft, .wb-analogleft, .wb-analogright, .wb-analogup, .wb-analogdown, .wb-psl1, .wb-psl2, .wb-psr1, .wb-psr2, .wb-gamecursor, .wb-controllerps, .wb-controllernes, .wb-controllersnes, .wb-joystickarcade, .wb-joystickatari, .wb-podium, .wb-trophy, .wb-die, .wb-boardgame, .wb-ghost, .wb-pacman, .wb-bomb, .wb-steam, .wb-starempty, .wb-starhalf, .wb-starfull, .wb-lifeempty, .wb-lifehalf, .wb-lifefull, .wb-warmedal, .wb-medal, .wb-medalgold, .wb-medalsilver, .wb-medalbronze, .wb-basketball, .wb-tennis, .wb-football, .wb-americanfootball, .wb-sword, .wb-bow, .wb-axe, .wb-pingpong, .wb-golf, .wb-racquet, .wb-bowling, .wb-hearts, .wb-spades, .wb-clubs, .wb-diamonds, .wb-pawn, .wb-bishop, .wb-rook, .wb-knight, .wb-king, .wb-queen, .wb-down, .wb-downleft, .wb-downright, .wb-up, .wb-upleft, .wb-upright, .wb-right, .wb-left, .wb-settings2, .wb-settings3, .wb-settings4, .wb-settings5, .wb-bigger, .wb-smaller, .wb-equals, .wb-restore, .wb-minimize, .wb-maximize, .wb-checkbox, .wb-checkbox2, .wb-radiobutton, .wb-forbidden, .wb-forbidden2, .wb-info, .wb-alert, .wb-asterisk2, .wb-resizeh, .wb-resizev, .wb-fastleft, .wb-fastright, .wb-fastup, .wb-fastdown, .wb-back, .wb-forward, .wb-zoomin, .wb-zoomout, .wb-move, .wb-enter, .wb-exit, .wb-scaleup, .wb-scaledown, .wb-mergecells, .wb-quoteup, .wb-quotedown, .wb-undo, .wb-redo, .wb-switchon, .wb-switchoff, .wb-importfile, .wb-exportfile, .wb-preview, .wb-pagesetup, .wb-opennewwindow, .wb-link2, .wb-merge, .wb-split, .wb-infographic, .wb-wizard3, .wb-lightbulb, .wb-loading2, .wb-cmd, .wb-sum, .wb-root, .wb-synckeeponserver, .wb-synckeeplocal, .wb-dollar, .wb-percent, .wb-asterisk, .wb-plus, .wb-_0, .wb-_1, .wb-_2, .wb-_3, .wb-_4, .wb-_5, .wb-_6, .wb-_7, .wb-_8, .wb-_9, .wb-at, .wb-A, .wb-B, .wb-C, .wb-D, .wb-E, .wb-F, .wb-G, .wb-H, .wb-I, .wb-J, .wb-K, .wb-L, .wb-M, .wb-N, .wb-O, .wb-P, .wb-Q, .wb-R, .wb-S, .wb-T, .wb-U, .wb-V, .wb-W, .wb-X, .wb-Y, .wb-Z, .wb-a, .wb-b, .wb-c, .wb-d, .wb-e, .wb-f, .wb-g, .wb-h, .wb-i, .wb-j, .wb-k, .wb-l, .wb-m, .wb-n, .wb-o, .wb-p, .wb-q, .wb-r, .wb-s, .wb-t, .wb-u, .wb-v, .wb-w, .wb-x, .wb-y, .wb-z, .wb-yen, .wb-copyright {
+	font-family: 'wb';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.wb-pilcrow:before {
+	content: "\b6";
+}
+.wb-multiply:before {
+	content: "\d7";
+}
+.wb-divide:before {
+	content: "\f7";
+}
+.wb-pipe:before {
+	content: "\1c0";
+}
+.wb-ring:before {
+	content: "\2da";
+}
+.wb-dagger:before {
+	content: "\2020";
+}
+.wb-tie:before {
+	content: "\2040";
+}
+.wb-euro:before {
+	content: "\20ac";
+}
+.wb-home:before {
+	content: "\21b8";
+}
+.wb-capslock:before {
+	content: "\21ea";
+}
+.wb-gradient:before {
+	content: "\2207";
+}
+.wb-minus:before {
+	content: "\2212";
+}
+.wb-infinity:before {
+	content: "\221e";
+}
+.wb-intersection:before {
+	content: "\2229";
+}
+.wb-image:before {
+	content: "\22b7";
+}
+.wb-fork:before {
+	content: "\22d4";
+}
+.wb-bell:before {
+	content: "\2407";
+}
+.wb-chair:before {
+	content: "\2441";
+}
+.wb-rectangle:before {
+	content: "\25ad";
+}
+.wb-triangle:before {
+	content: "\25b3";
+}
+.wb-yinyang:before {
+	content: "\262f";
+}
+.wb-smile:before {
+	content: "\263a";
+}
+.wb-compass:before {
+	content: "\263c";
+}
+.wb-diamond:before {
+	content: "\2666";
+}
+.wb-checkmark:before {
+	content: "\2713";
+}
+.wb-wallet:before {
+	content: "\e000";
+}
+.wb-uniF470:before {
+	content: "\f470";
+}
+.wb-uniF471:before {
+	content: "\f471";
+}
+.wb-uniF472:before {
+	content: "\f472";
+}
+.wb-uniF473:before {
+	content: "\f473";
+}
+.wb-uniF474:before {
+	content: "\f474";
+}
+.wb-uniF475:before {
+	content: "\f475";
+}
+.wb-uniF476:before {
+	content: "\f476";
+}
+.wb-uniF477:before {
+	content: "\f477";
+}
+.wb-uniF478:before {
+	content: "\f478";
+}
+.wb-uniF479:before {
+	content: "\f479";
+}
+.wb-uniF47A:before {
+	content: "\f47a";
+}
+.wb-uniF47B:before {
+	content: "\f47b";
+}
+.wb-uniF47C:before {
+	content: "\f47c";
+}
+.wb-uniF47D:before {
+	content: "\f47d";
+}
+.wb-uniF47E:before {
+	content: "\f47e";
+}
+.wb-uniF47F:before {
+	content: "\f47f";
+}
+.wb-uniF480:before {
+	content: "\f480";
+}
+.wb-uniF481:before {
+	content: "\f481";
+}
+.wb-uniF482:before {
+	content: "\f482";
+}
+.wb-uniF483:before {
+	content: "\f483";
+}
+.wb-uniF484:before {
+	content: "\f484";
+}
+.wb-uniF485:before {
+	content: "\f485";
+}
+.wb-uniF486:before {
+	content: "\f486";
+}
+.wb-uniF487:before {
+	content: "\f487";
+}
+.wb-uniF488:before {
+	content: "\f488";
+}
+.wb-uniF489:before {
+	content: "\f489";
+}
+.wb-uniF48A:before {
+	content: "\f48a";
+}
+.wb-uniF48B:before {
+	content: "\f48b";
+}
+.wb-pigpena:before {
+	content: "\f456";
+}
+.wb-pigpenb:before {
+	content: "\f457";
+}
+.wb-pigpenc:before {
+	content: "\f458";
+}
+.wb-pigpend:before {
+	content: "\f459";
+}
+.wb-pigpene:before {
+	content: "\f45a";
+}
+.wb-pigpenf:before {
+	content: "\f45b";
+}
+.wb-pigpeng:before {
+	content: "\f45c";
+}
+.wb-pigpenh:before {
+	content: "\f45d";
+}
+.wb-pigpeni:before {
+	content: "\f45e";
+}
+.wb-pigpenj:before {
+	content: "\f45f";
+}
+.wb-pigpenk:before {
+	content: "\f460";
+}
+.wb-pigpenl:before {
+	content: "\f461";
+}
+.wb-pigpenm:before {
+	content: "\f462";
+}
+.wb-pigpenn:before {
+	content: "\f463";
+}
+.wb-pigpeno:before {
+	content: "\f464";
+}
+.wb-pigpenp:before {
+	content: "\f465";
+}
+.wb-pigpenq:before {
+	content: "\f466";
+}
+.wb-pigpenr:before {
+	content: "\f467";
+}
+.wb-pigpens:before {
+	content: "\f468";
+}
+.wb-pigpent:before {
+	content: "\f469";
+}
+.wb-pigpenu:before {
+	content: "\f46a";
+}
+.wb-pigpenv:before {
+	content: "\f46b";
+}
+.wb-pigpenw:before {
+	content: "\f46c";
+}
+.wb-pigpenx:before {
+	content: "\f46d";
+}
+.wb-pigpeny:before {
+	content: "\f46e";
+}
+.wb-pigpenz:before {
+	content: "\f46f";
+}
+.wb-braillea:before {
+	content: "\f431";
+}
+.wb-brailleb:before {
+	content: "\f432";
+}
+.wb-braillec:before {
+	content: "\f433";
+}
+.wb-brailled:before {
+	content: "\f434";
+}
+.wb-braillee:before {
+	content: "\f435";
+}
+.wb-braillef:before {
+	content: "\f436";
+}
+.wb-brailleg:before {
+	content: "\f437";
+}
+.wb-brailleh:before {
+	content: "\f438";
+}
+.wb-braillei:before {
+	content: "\f439";
+}
+.wb-braillej:before {
+	content: "\f43a";
+}
+.wb-braillek:before {
+	content: "\f43b";
+}
+.wb-braillel:before {
+	content: "\f43c";
+}
+.wb-braillem:before {
+	content: "\f43d";
+}
+.wb-braillen:before {
+	content: "\f43e";
+}
+.wb-brailleo:before {
+	content: "\f43f";
+}
+.wb-braillep:before {
+	content: "\f440";
+}
+.wb-brailleq:before {
+	content: "\f441";
+}
+.wb-brailler:before {
+	content: "\f442";
+}
+.wb-brailles:before {
+	content: "\f443";
+}
+.wb-braillet:before {
+	content: "\f444";
+}
+.wb-brailleu:before {
+	content: "\f445";
+}
+.wb-braillev:before {
+	content: "\f446";
+}
+.wb-braillew:before {
+	content: "\f447";
+}
+.wb-braillex:before {
+	content: "\f448";
+}
+.wb-brailley:before {
+	content: "\f449";
+}
+.wb-braillez:before {
+	content: "\f44a";
+}
+.wb-braille0:before {
+	content: "\f44b";
+}
+.wb-braille1:before {
+	content: "\f44c";
+}
+.wb-braille2:before {
+	content: "\f44d";
+}
+.wb-braille3:before {
+	content: "\f44e";
+}
+.wb-braille4:before {
+	content: "\f44f";
+}
+.wb-braille5:before {
+	content: "\f450";
+}
+.wb-braille6:before {
+	content: "\f451";
+}
+.wb-braille7:before {
+	content: "\f452";
+}
+.wb-braille8:before {
+	content: "\f453";
+}
+.wb-braille9:before {
+	content: "\f454";
+}
+.wb-braillespace:before {
+	content: "\f455";
+}
+.wb-hydrant:before {
+	content: "\f3ff";
+}
+.wb-fort:before {
+	content: "\f400";
+}
+.wb-cannon:before {
+	content: "\f401";
+}
+.wb-route:before {
+	content: "\f402";
+}
+.wb-gameboy:before {
+	content: "\f403";
+}
+.wb-nintendods:before {
+	content: "\f404";
+}
+.wb-baloon:before {
+	content: "\f405";
+}
+.wb-greenlightbulb:before {
+	content: "\f406";
+}
+.wb-egg:before {
+	content: "\f407";
+}
+.wb-pasta:before {
+	content: "\f408";
+}
+.wb-dna:before {
+	content: "\f409";
+}
+.wb-broom:before {
+	content: "\f40a";
+}
+.wb-speed:before {
+	content: "\f40b";
+}
+.wb-stumbleupon:before {
+	content: "\f40c";
+}
+.wb-fridge:before {
+	content: "\f40d";
+}
+.wb-davidstar:before {
+	content: "\f40e";
+}
+.wb-christiancross:before {
+	content: "\f40f";
+}
+.wb-islam:before {
+	content: "\f410";
+}
+.wb-torigate:before {
+	content: "\f411";
+}
+.wb-desklamp:before {
+	content: "\f412";
+}
+.wb-aaabattery:before {
+	content: "\f413";
+}
+.wb-sharethree:before {
+	content: "\f414";
+}
+.wb-danger:before {
+	content: "\f415";
+}
+.wb-razor:before {
+	content: "\f416";
+}
+.wb-safetypin:before {
+	content: "\f417";
+}
+.wb-cricket:before {
+	content: "\f418";
+}
+.wb-searchdocument:before {
+	content: "\f419";
+}
+.wb-searchfolder:before {
+	content: "\f41a";
+}
+.wb-wind:before {
+	content: "\f41b";
+}
+.wb-breakable:before {
+	content: "\f41c";
+}
+.wb-thissideup:before {
+	content: "\f41d";
+}
+.wb-pictureframe:before {
+	content: "\f41e";
+}
+.wb-alienship:before {
+	content: "\f41f";
+}
+.wb-firefox:before {
+	content: "\f420";
+}
+.wb-blackberry:before {
+	content: "\f421";
+}
+.wb-travel:before {
+	content: "\f422";
+}
+.wb-tank:before {
+	content: "\f423";
+}
+.wb-windleft:before {
+	content: "\f424";
+}
+.wb-windright:before {
+	content: "\f425";
+}
+.wb-screw:before {
+	content: "\f426";
+}
+.wb-nut:before {
+	content: "\f427";
+}
+.wb-nail:before {
+	content: "\f428";
+}
+.wb-stiletto:before {
+	content: "\f429";
+}
+.wb-foursquare:before {
+	content: "\f42a";
+}
+.wb-fishbone:before {
+	content: "\f42b";
+}
+.wb-teapot:before {
+	content: "\f42c";
+}
+.wb-candy:before {
+	content: "\f42d";
+}
+.wb-microwave:before {
+	content: "\f42e";
+}
+.wb-bread:before {
+	content: "\f42f";
+}
+.wb-weight:before {
+	content: "\f430";
+}
+.wb-superman:before {
+	content: "\f33f";
+}
+.wb-greenlantern:before {
+	content: "\f340";
+}
+.wb-captainamerica:before {
+	content: "\f341";
+}
+.wb-avengers:before {
+	content: "\f342";
+}
+.wb-punisher:before {
+	content: "\f343";
+}
+.wb-spawn:before {
+	content: "\f344";
+}
+.wb-xmen:before {
+	content: "\f345";
+}
+.wb-spider:before {
+	content: "\f346";
+}
+.wb-spiderman:before {
+	content: "\f347";
+}
+.wb-batman:before {
+	content: "\f348";
+}
+.wb-ironman:before {
+	content: "\f349";
+}
+.wb-darthvader:before {
+	content: "\f34a";
+}
+.wb-tetrisone:before {
+	content: "\f34b";
+}
+.wb-tetristwo:before {
+	content: "\f34c";
+}
+.wb-tetristhree:before {
+	content: "\f34d";
+}
+.wb-apple:before {
+	content: "\f34e";
+}
+.wb-tron:before {
+	content: "\f34f";
+}
+.wb-residentevil:before {
+	content: "\f350";
+}
+.wb-designcontest:before {
+	content: "\f351";
+}
+.wb-spaceinvaders:before {
+	content: "\f352";
+}
+.wb-xbox:before {
+	content: "\f353";
+}
+.wb-pokemon:before {
+	content: "\f354";
+}
+.wb-quake:before {
+	content: "\f355";
+}
+.wb-aperture:before {
+	content: "\f356";
+}
+.wb-robocop:before {
+	content: "\f357";
+}
+.wb-rorschach:before {
+	content: "\f358";
+}
+.wb-chicken:before {
+	content: "\f359";
+}
+.wb-fish:before {
+	content: "\f35a";
+}
+.wb-cupcake:before {
+	content: "\f35b";
+}
+.wb-pizza:before {
+	content: "\f35c";
+}
+.wb-cherry:before {
+	content: "\f35d";
+}
+.wb-mushroom:before {
+	content: "\f35e";
+}
+.wb-bone:before {
+	content: "\f35f";
+}
+.wb-steak:before {
+	content: "\f360";
+}
+.wb-bottle:before {
+	content: "\f361";
+}
+.wb-restaurantmenu:before {
+	content: "\f362";
+}
+.wb-muffin:before {
+	content: "\f363";
+}
+.wb-pepperoni:before {
+	content: "\f364";
+}
+.wb-sunnysideup:before {
+	content: "\f365";
+}
+.wb-coffeebean:before {
+	content: "\f366";
+}
+.wb-chocolate:before {
+	content: "\f367";
+}
+.wb-raspberry:before {
+	content: "\f368";
+}
+.wb-raspberrypi:before {
+	content: "\f369";
+}
+.wb-fries:before {
+	content: "\f36a";
+}
+.wb-birthday:before {
+	content: "\f36b";
+}
+.wb-globe:before {
+	content: "\f36c";
+}
+.wb-glue:before {
+	content: "\f36d";
+}
+.wb-eightball:before {
+	content: "\f36e";
+}
+.wb-rim:before {
+	content: "\f36f";
+}
+.wb-lego:before {
+	content: "\f370";
+}
+.wb-stove:before {
+	content: "\f371";
+}
+.wb-speaker:before {
+	content: "\f372";
+}
+.wb-submarine:before {
+	content: "\f373";
+}
+.wb-metronome:before {
+	content: "\f374";
+}
+.wb-trumpet:before {
+	content: "\f375";
+}
+.wb-knob:before {
+	content: "\f376";
+}
+.wb-cassette:before {
+	content: "\f377";
+}
+.wb-watch:before {
+	content: "\f378";
+}
+.wb-viking:before {
+	content: "\f379";
+}
+.wb-mickeymouse:before {
+	content: "\f37a";
+}
+.wb-christmastree:before {
+	content: "\f37b";
+}
+.wb-snowman:before {
+	content: "\f37c";
+}
+.wb-candycane:before {
+	content: "\f37d";
+}
+.wb-treeornament:before {
+	content: "\f37e";
+}
+.wb-bowtie:before {
+	content: "\f37f";
+}
+.wb-lifehacker:before {
+	content: "\f380";
+}
+.wb-favoritefile:before {
+	content: "\f381";
+}
+.wb-favoritefolder:before {
+	content: "\f382";
+}
+.wb-crayon:before {
+	content: "\f383";
+}
+.wb-toiletpaper:before {
+	content: "\f384";
+}
+.wb-toothbrush:before {
+	content: "\f385";
+}
+.wb-bluetoothconnected:before {
+	content: "\f386";
+}
+.wb-handpointdown:before {
+	content: "\f387";
+}
+.wb-handpointright:before {
+	content: "\f388";
+}
+.wb-handpointleft:before {
+	content: "\f389";
+}
+.wb-satellite:before {
+	content: "\f38a";
+}
+.wb-harrypotter:before {
+	content: "\f38b";
+}
+.wb-jason:before {
+	content: "\f38c";
+}
+.wb-skull:before {
+	content: "\f38d";
+}
+.wb-raceflag:before {
+	content: "\f38e";
+}
+.wb-doghouse:before {
+	content: "\f38f";
+}
+.wb-birdhouse:before {
+	content: "\f390";
+}
+.wb-phonemic:before {
+	content: "\f391";
+}
+.wb-island:before {
+	content: "\f392";
+}
+.wb-handcuffs:before {
+	content: "\f393";
+}
+.wb-addtocart:before {
+	content: "\f394";
+}
+.wb-emptycart:before {
+	content: "\f395";
+}
+.wb-lasso:before {
+	content: "\f396";
+}
+.wb-polygonlasso:before {
+	content: "\f397";
+}
+.wb-finder:before {
+	content: "\f398";
+}
+.wb-dialpad:before {
+	content: "\f399";
+}
+.wb-tictactoe:before {
+	content: "\f39a";
+}
+.wb-washer:before {
+	content: "\f39b";
+}
+.wb-theather:before {
+	content: "\f39c";
+}
+.wb-glassesalt:before {
+	content: "\f39d";
+}
+.wb-skypeonline:before {
+	content: "\f39e";
+}
+.wb-skypeaway:before {
+	content: "\f39f";
+}
+.wb-skypebusy:before {
+	content: "\f3a0";
+}
+.wb-skypeoffline:before {
+	content: "\f3a1";
+}
+.wb-grooveshark:before {
+	content: "\f3a2";
+}
+.wb-lastfm:before {
+	content: "\f3a3";
+}
+.wb-taxi:before {
+	content: "\f3a4";
+}
+.wb-macpro:before {
+	content: "\f3a5";
+}
+.wb-keyboarddelete:before {
+	content: "\f3a6";
+}
+.wb-gearfour:before {
+	content: "\f3a7";
+}
+.wb-flowernew:before {
+	content: "\f3a8";
+}
+.wb-signal:before {
+	content: "\f3a9";
+}
+.wb-aries:before {
+	content: "\f3aa";
+}
+.wb-taurus:before {
+	content: "\f3ab";
+}
+.wb-gemini:before {
+	content: "\f3ac";
+}
+.wb-cancer:before {
+	content: "\f3ad";
+}
+.wb-leo:before {
+	content: "\f3ae";
+}
+.wb-virgo:before {
+	content: "\f3af";
+}
+.wb-libra:before {
+	content: "\f3b0";
+}
+.wb-scorpio:before {
+	content: "\f3b1";
+}
+.wb-sagitarius:before {
+	content: "\f3b2";
+}
+.wb-capricorn:before {
+	content: "\f3b3";
+}
+.wb-aquarius:before {
+	content: "\f3b4";
+}
+.wb-pisces:before {
+	content: "\f3b5";
+}
+.wb-oneupalt:before {
+	content: "\f3b6";
+}
+.wb-oneup:before {
+	content: "\f3b7";
+}
+.wb-zelda:before {
+	content: "\f3b8";
+}
+.wb-atari:before {
+	content: "\f3b9";
+}
+.wb-halflife:before {
+	content: "\f3ba";
+}
+.wb-halo:before {
+	content: "\f3bb";
+}
+.wb-walle:before {
+	content: "\f3bc";
+}
+.wb-monstersinc:before {
+	content: "\f3bd";
+}
+.wb-alienware:before {
+	content: "\f3be";
+}
+.wb-warcraft:before {
+	content: "\f3bf";
+}
+.wb-drwho:before {
+	content: "\f3c0";
+}
+.wb-angrybirds:before {
+	content: "\f3c1";
+}
+.wb-visa:before {
+	content: "\f3c2";
+}
+.wb-webplatform:before {
+	content: "\f3c3";
+}
+.wb-parentheses:before {
+	content: "\f3c4";
+}
+.wb-vendetta:before {
+	content: "\f3c5";
+}
+.wb-circleleft:before {
+	content: "\f3c6";
+}
+.wb-circledown:before {
+	content: "\f3c7";
+}
+.wb-circleup:before {
+	content: "\f3c8";
+}
+.wb-circleright:before {
+	content: "\f3c9";
+}
+.wb-donut:before {
+	content: "\f3ca";
+}
+.wb-tea:before {
+	content: "\f3cb";
+}
+.wb-hotdog:before {
+	content: "\f3cc";
+}
+.wb-taco:before {
+	content: "\f3cd";
+}
+.wb-chef:before {
+	content: "\f3ce";
+}
+.wb-pretzel:before {
+	content: "\f3cf";
+}
+.wb-foodtray:before {
+	content: "\f3d0";
+}
+.wb-soup:before {
+	content: "\f3d1";
+}
+.wb-bowlingpins:before {
+	content: "\f3d2";
+}
+.wb-bat:before {
+	content: "\f3d3";
+}
+.wb-dart:before {
+	content: "\f3d4";
+}
+.wb-domino:before {
+	content: "\f3d5";
+}
+.wb-stadium:before {
+	content: "\f3d6";
+}
+.wb-curling:before {
+	content: "\f3d7";
+}
+.wb-whistle:before {
+	content: "\f3d8";
+}
+.wb-hockey:before {
+	content: "\f3d9";
+}
+.wb-addfriend:before {
+	content: "\f3da";
+}
+.wb-removefriend:before {
+	content: "\f3db";
+}
+.wb-ticket:before {
+	content: "\f3dc";
+}
+.wb-marvin:before {
+	content: "\f3dd";
+}
+.wb-tooth:before {
+	content: "\f3de";
+}
+.wb-lungs:before {
+	content: "\f3df";
+}
+.wb-kidney:before {
+	content: "\f3e0";
+}
+.wb-stomach:before {
+	content: "\f3e1";
+}
+.wb-liver:before {
+	content: "\f3e2";
+}
+.wb-brain:before {
+	content: "\f3e3";
+}
+.wb-helicopter:before {
+	content: "\f3e4";
+}
+.wb-invoice:before {
+	content: "\f3e5";
+}
+.wb-lighthouse:before {
+	content: "\f3e6";
+}
+.wb-diode:before {
+	content: "\f3e7";
+}
+.wb-capacitator:before {
+	content: "\f3e8";
+}
+.wb-dcsource:before {
+	content: "\f3e9";
+}
+.wb-acsource:before {
+	content: "\f3ea";
+}
+.wb-resistor:before {
+	content: "\f3eb";
+}
+.wb-antenna:before {
+	content: "\f3ec";
+}
+.wb-filmstrip:before {
+	content: "\f3ed";
+}
+.wb-lollypop:before {
+	content: "\f3ee";
+}
+.wb-telescope:before {
+	content: "\f3ef";
+}
+.wb-tophat:before {
+	content: "\f3f0";
+}
+.wb-fedora:before {
+	content: "\f3f1";
+}
+.wb-carrot:before {
+	content: "\f3f2";
+}
+.wb-strawberry:before {
+	content: "\f3f3";
+}
+.wb-banana:before {
+	content: "\f3f4";
+}
+.wb-sticker:before {
+	content: "\f3f5";
+}
+.wb-ink:before {
+	content: "\f3f6";
+}
+.wb-dieone:before {
+	content: "\f3f7";
+}
+.wb-dietwo:before {
+	content: "\f3f8";
+}
+.wb-diethree:before {
+	content: "\f3f9";
+}
+.wb-diefour:before {
+	content: "\f3fa";
+}
+.wb-diefive:before {
+	content: "\f3fb";
+}
+.wb-diesix:before {
+	content: "\f3fc";
+}
+.wb-scales:before {
+	content: "\f3fd";
+}
+.wb-wheelchair:before {
+	content: "\f3fe";
+}
+.wb-uniF000:before {
+	content: "\f000";
+}
+.wb-uniF001:before {
+	content: "\f001";
+}
+.wb-uniF002:before {
+	content: "\f002";
+}
+.wb-uniF003:before {
+	content: "\f003";
+}
+.wb-uniF004:before {
+	content: "\f004";
+}
+.wb-uniF005:before {
+	content: "\f005";
+}
+.wb-uniF006:before {
+	content: "\f006";
+}
+.wb-uniF007:before {
+	content: "\f007";
+}
+.wb-uniF008:before {
+	content: "\f008";
+}
+.wb-uniF009:before {
+	content: "\f009";
+}
+.wb-uniF00A:before {
+	content: "\f00a";
+}
+.wb-uniF00B:before {
+	content: "\f00b";
+}
+.wb-uniF00C:before {
+	content: "\f00c";
+}
+.wb-uniF00D:before {
+	content: "\f00d";
+}
+.wb-uniF00E:before {
+	content: "\f00e";
+}
+.wb-uniF00F:before {
+	content: "\f00f";
+}
+.wb-uniF010:before {
+	content: "\f010";
+}
+.wb-uniF011:before {
+	content: "\f011";
+}
+.wb-uniF012:before {
+	content: "\f012";
+}
+.wb-uniF013:before {
+	content: "\f013";
+}
+.wb-uniF014:before {
+	content: "\f014";
+}
+.wb-support3:before {
+	content: "\f015";
+}
+.wb-reliability:before {
+	content: "\f016";
+}
+.wb-uptime:before {
+	content: "\f017";
+}
+.wb-value:before {
+	content: "\f018";
+}
+.wb-windows:before {
+	content: "\f019";
+}
+.wb-linux:before {
+	content: "\f01a";
+}
+.wb-domain:before {
+	content: "\f01b";
+}
+.wb-domain2:before {
+	content: "\f01c";
+}
+.wb-domain3:before {
+	content: "\f01d";
+}
+.wb-affiliate:before {
+	content: "\f01e";
+}
+.wb-intel:before {
+	content: "\f01f";
+}
+.wb-amd:before {
+	content: "\f020";
+}
+.wb-firewall:before {
+	content: "\f021";
+}
+.wb-link:before {
+	content: "\f022";
+}
+.wb-colocation2:before {
+	content: "\f023";
+}
+.wb-colocation3:before {
+	content: "\f024";
+}
+.wb-vps:before {
+	content: "\f025";
+}
+.wb-server:before {
+	content: "\f026";
+}
+.wb-servers:before {
+	content: "\f027";
+}
+.wb-email:before {
+	content: "\f028";
+}
+.wb-ftp:before {
+	content: "\f029";
+}
+.wb-hdd:before {
+	content: "\f02a";
+}
+.wb-home2:before {
+	content: "\f02b";
+}
+.wb-ram:before {
+	content: "\f02c";
+}
+.wb-security:before {
+	content: "\f02d";
+}
+.wb-security2:before {
+	content: "\f02e";
+}
+.wb-barchart:before {
+	content: "\f02f";
+}
+.wb-uni0430:before {
+	content: "\f030";
+}
+.wb-webhostinghub:before {
+	content: "\f031";
+}
+.wb-price:before {
+	content: "\f032";
+}
+.wb-webpage:before {
+	content: "\f033";
+}
+.wb-websitebuilder:before {
+	content: "\f034";
+}
+.wb-shoppingcart:before {
+	content: "\f035";
+}
+.wb-cms:before {
+	content: "\f036";
+}
+.wb-sharedhosting:before {
+	content: "\f037";
+}
+.wb-managedhosting:before {
+	content: "\f038";
+}
+.wb-greenhosting:before {
+	content: "\f039";
+}
+.wb-resellerhosting:before {
+	content: "\f03a";
+}
+.wb-socialnetworking:before {
+	content: "\f03b";
+}
+.wb-wizard:before {
+	content: "\f03c";
+}
+.wb-video2:before {
+	content: "\f03d";
+}
+.wb-password:before {
+	content: "\f03e";
+}
+.wb-password2:before {
+	content: "\f03f";
+}
+.wb-contact:before {
+	content: "\f040";
+}
+.wb-theme:before {
+	content: "\f041";
+}
+.wb-lang:before {
+	content: "\f042";
+}
+.wb-shortcut:before {
+	content: "\f043";
+}
+.wb-mailbox:before {
+	content: "\f044";
+}
+.wb-webmail:before {
+	content: "\f045";
+}
+.wb-boxtrapper:before {
+	content: "\f046";
+}
+.wb-spam:before {
+	content: "\f047";
+}
+.wb-spam2:before {
+	content: "\f048";
+}
+.wb-emailforward2:before {
+	content: "\f049";
+}
+.wb-error:before {
+	content: "\f04a";
+}
+.wb-taskmanager:before {
+	content: "\f04b";
+}
+.wb-awstats:before {
+	content: "\f04c";
+}
+.wb-protecteddirectory:before {
+	content: "\f04d";
+}
+.wb-ssh:before {
+	content: "\f04e";
+}
+.wb-sslmanager:before {
+	content: "\f04f";
+}
+.wb-hotlinkprotection:before {
+	content: "\f050";
+}
+.wb-authentication:before {
+	content: "\f051";
+}
+.wb-subdomain:before {
+	content: "\f052";
+}
+.wb-domainaddon:before {
+	content: "\f053";
+}
+.wb-redirect:before {
+	content: "\f054";
+}
+.wb-parkeddomain:before {
+	content: "\f055";
+}
+.wb-apache:before {
+	content: "\f056";
+}
+.wb-mimetype:before {
+	content: "\f057";
+}
+.wb-certificate:before {
+	content: "\f058";
+}
+.wb-certificate2:before {
+	content: "\f059";
+}
+.wb-error2:before {
+	content: "\f05a";
+}
+.wb-wrench:before {
+	content: "\f05b";
+}
+.wb-filter:before {
+	content: "\f05c";
+}
+.wb-userfiltering:before {
+	content: "\f05d";
+}
+.wb-accountfiltering:before {
+	content: "\f05e";
+}
+.wb-backupwizard:before {
+	content: "\f05f";
+}
+.wb-opencart:before {
+	content: "\f060";
+}
+.wb-prestashop:before {
+	content: "\f061";
+}
+.wb-smf:before {
+	content: "\f062";
+}
+.wb-phpbb:before {
+	content: "\f063";
+}
+.wb-dolphinsoftware:before {
+	content: "\f064";
+}
+.wb-mybb:before {
+	content: "\f065";
+}
+.wb-whmcs:before {
+	content: "\f066";
+}
+.wb-ruby:before {
+	content: "\f067";
+}
+.wb-html:before {
+	content: "\f068";
+}
+.wb-html5:before {
+	content: "\f069";
+}
+.wb-css3:before {
+	content: "\f06a";
+}
+.wb-jquery:before {
+	content: "\f06b";
+}
+.wb-jqueryui:before {
+	content: "\f06c";
+}
+.wb-oxwall:before {
+	content: "\f06d";
+}
+.wb-magento:before {
+	content: "\f06e";
+}
+.wb-ajax:before {
+	content: "\f06f";
+}
+.wb-flashplayer:before {
+	content: "\f070";
+}
+.wb-python:before {
+	content: "\f071";
+}
+.wb-cpanel:before {
+	content: "\f072";
+}
+.wb-joomla:before {
+	content: "\f073";
+}
+.wb-wordpress:before {
+	content: "\f074";
+}
+.wb-drupal:before {
+	content: "\f075";
+}
+.wb-mysql:before {
+	content: "\f076";
+}
+.wb-codeigniter:before {
+	content: "\f077";
+}
+.wb-refresh:before {
+	content: "\f078";
+}
+.wb-cgicenter:before {
+	content: "\f079";
+}
+.wb-mxentry:before {
+	content: "\f07a";
+}
+.wb-ftpaccounts:before {
+	content: "\f07b";
+}
+.wb-ftpsession:before {
+	content: "\f07c";
+}
+.wb-analytics3:before {
+	content: "\f07d";
+}
+.wb-leechprotect:before {
+	content: "\f07e";
+}
+.wb-dnszone:before {
+	content: "\f07f";
+}
+.wb-commentout:before {
+	content: "\f080";
+}
+.wb-github:before {
+	content: "\f081";
+}
+.wb-ads:before {
+	content: "\f082";
+}
+.wb-java:before {
+	content: "\f083";
+}
+.wb-nodejs:before {
+	content: "\f084";
+}
+.wb-grails:before {
+	content: "\f085";
+}
+.wb-cgi:before {
+	content: "\f086";
+}
+.wb-binary:before {
+	content: "\f087";
+}
+.wb-push:before {
+	content: "\f088";
+}
+.wb-pull:before {
+	content: "\f089";
+}
+.wb-query:before {
+	content: "\f08a";
+}
+.wb-ipcontrol:before {
+	content: "\f08b";
+}
+.wb-form:before {
+	content: "\f08c";
+}
+.wb-sc:before {
+	content: "\f08d";
+}
+.wb-autorespond:before {
+	content: "\f08e";
+}
+.wb-address:before {
+	content: "\f08f";
+}
+.wb-mailinglists:before {
+	content: "\f090";
+}
+.wb-emailtrace:before {
+	content: "\f091";
+}
+.wb-importcontacts:before {
+	content: "\f092";
+}
+.wb-key:before {
+	content: "\f093";
+}
+.wb-filemanager:before {
+	content: "\f094";
+}
+.wb-legacyfilemanager:before {
+	content: "\f095";
+}
+.wb-diskspace:before {
+	content: "\f096";
+}
+.wb-visitor:before {
+	content: "\f097";
+}
+.wb-plugin2:before {
+	content: "\f098";
+}
+.wb-faq:before {
+	content: "\f099";
+}
+.wb-software:before {
+	content: "\f09a";
+}
+.wb-phppear:before {
+	content: "\f09b";
+}
+.wb-php:before {
+	content: "\f09c";
+}
+.wb-fourohfour:before {
+	content: "\f09d";
+}
+.wb-indexmanager:before {
+	content: "\f09e";
+}
+.wb-images:before {
+	content: "\f09f";
+}
+.wb-plugin:before {
+	content: "\f0a0";
+}
+.wb-calendar2:before {
+	content: "\f0a1";
+}
+.wb-briefcase:before {
+	content: "\f0a2";
+}
+.wb-supportrequest:before {
+	content: "\f0a3";
+}
+.wb-coppermine:before {
+	content: "\f0a4";
+}
+.wb-dropmenu:before {
+	content: "\f0a5";
+}
+.wb-network:before {
+	content: "\f0a6";
+}
+.wb-bug:before {
+	content: "\f0a7";
+}
+.wb-virus:before {
+	content: "\f0a8";
+}
+.wb-syringe:before {
+	content: "\f0a9";
+}
+.wb-pill:before {
+	content: "\f0aa";
+}
+.wb-restricted:before {
+	content: "\f0ab";
+}
+.wb-zikula:before {
+	content: "\f0ac";
+}
+.wb-piwigo:before {
+	content: "\f0ad";
+}
+.wb-fantastico:before {
+	content: "\f0ae";
+}
+.wb-concrete5:before {
+	content: "\f0af";
+}
+.wb-cmsmadesimple:before {
+	content: "\f0b0";
+}
+.wb-cplusplus:before {
+	content: "\f0b1";
+}
+.wb-csharp:before {
+	content: "\f0b2";
+}
+.wb-squarebrackets:before {
+	content: "\f0b3";
+}
+.wb-braces:before {
+	content: "\f0b4";
+}
+.wb-chevrons:before {
+	content: "\f0b5";
+}
+.wb-perl:before {
+	content: "\f0b6";
+}
+.wb-perl2:before {
+	content: "\f0b7";
+}
+.wb-algorhythm:before {
+	content: "\f0b8";
+}
+.wb-cloud:before {
+	content: "\f0b9";
+}
+.wb-cloudupload:before {
+	content: "\f0ba";
+}
+.wb-clouddownload:before {
+	content: "\f0bb";
+}
+.wb-cloudsync:before {
+	content: "\f0bc";
+}
+.wb-sync:before {
+	content: "\f0bd";
+}
+.wb-lock:before {
+	content: "\f0be";
+}
+.wb-unlock:before {
+	content: "\f0bf";
+}
+.wb-remotemysql:before {
+	content: "\f0c0";
+}
+.wb-rawaccesslogs:before {
+	content: "\f0c1";
+}
+.wb-document:before {
+	content: "\f0c2";
+}
+.wb-spreadsheet:before {
+	content: "\f0c3";
+}
+.wb-presentation:before {
+	content: "\f0c4";
+}
+.wb-search:before {
+	content: "\f0c5";
+}
+.wb-createfile:before {
+	content: "\f0c6";
+}
+.wb-deletefile:before {
+	content: "\f0c7";
+}
+.wb-save:before {
+	content: "\f0c8";
+}
+.wb-copy:before {
+	content: "\f0c9";
+}
+.wb-cut:before {
+	content: "\f0ca";
+}
+.wb-paste:before {
+	content: "\f0cb";
+}
+.wb-vinyl:before {
+	content: "\f0cc";
+}
+.wb-cd:before {
+	content: "\f0cd";
+}
+.wb-trash:before {
+	content: "\f0ce";
+}
+.wb-trashempty:before {
+	content: "\f0cf";
+}
+.wb-trashfull:before {
+	content: "\f0d0";
+}
+.wb-circleadd:before {
+	content: "\f0d1";
+}
+.wb-circledelete:before {
+	content: "\f0d2";
+}
+.wb-circleselect:before {
+	content: "\f0d3";
+}
+.wb-mouse:before {
+	content: "\f0d4";
+}
+.wb-monitor:before {
+	content: "\f0d5";
+}
+.wb-file:before {
+	content: "\f0d6";
+}
+.wb-notes:before {
+	content: "\f0d7";
+}
+.wb-laptop:before {
+	content: "\f0d8";
+}
+.wb-explorerwindow:before {
+	content: "\f0d9";
+}
+.wb-addfolder:before {
+	content: "\f0da";
+}
+.wb-deletefolder:before {
+	content: "\f0db";
+}
+.wb-cursor:before {
+	content: "\f0dc";
+}
+.wb-handpointup:before {
+	content: "\f0dd";
+}
+.wb-handdrag:before {
+	content: "\f0de";
+}
+.wb-handtwofingers:before {
+	content: "\f0df";
+}
+.wb-diskspace2:before {
+	content: "\f0e0";
+}
+.wb-sim:before {
+	content: "\f0e1";
+}
+.wb-volumefull:before {
+	content: "\f0e2";
+}
+.wb-volumehalf:before {
+	content: "\f0e3";
+}
+.wb-volumemute:before {
+	content: "\f0e4";
+}
+.wb-volumemute2:before {
+	content: "\f0e5";
+}
+.wb-iphone:before {
+	content: "\f0e6";
+}
+.wb-nexus:before {
+	content: "\f0e7";
+}
+.wb-mobile:before {
+	content: "\f0e8";
+}
+.wb-router:before {
+	content: "\f0e9";
+}
+.wb-plug:before {
+	content: "\f0ea";
+}
+.wb-lock2:before {
+	content: "\f0eb";
+}
+.wb-treediagram:before {
+	content: "\f0ec";
+}
+.wb-powerplug:before {
+	content: "\f0ed";
+}
+.wb-lan:before {
+	content: "\f0ee";
+}
+.wb-sharedfile:before {
+	content: "\f0ef";
+}
+.wb-foldertree:before {
+	content: "\f0f0";
+}
+.wb-tethering:before {
+	content: "\f0f1";
+}
+.wb-edit2:before {
+	content: "\f0f2";
+}
+.wb-batterycharging:before {
+	content: "\f0f3";
+}
+.wb-batterycharged:before {
+	content: "\f0f4";
+}
+.wb-batteryempty:before {
+	content: "\f0f5";
+}
+.wb-battery20:before {
+	content: "\f0f6";
+}
+.wb-battery40:before {
+	content: "\f0f7";
+}
+.wb-battery60:before {
+	content: "\f0f8";
+}
+.wb-battery80:before {
+	content: "\f0f9";
+}
+.wb-batteryfull:before {
+	content: "\f0fa";
+}
+.wb-imac:before {
+	content: "\f0fb";
+}
+.wb-firewire:before {
+	content: "\f0fc";
+}
+.wb-powerjack:before {
+	content: "\f0fd";
+}
+.wb-webcam:before {
+	content: "\f0fe";
+}
+.wb-wifi:before {
+	content: "\f0ff";
+}
+.wb-networksignal:before {
+	content: "\f100";
+}
+.wb-batteryaltfull:before {
+	content: "\f101";
+}
+.wb-batteryalt60:before {
+	content: "\f102";
+}
+.wb-batteryalt30:before {
+	content: "\f103";
+}
+.wb-batteryaltcharging:before {
+	content: "\f104";
+}
+.wb-keyboard2:before {
+	content: "\f105";
+}
+.wb-sd:before {
+	content: "\f106";
+}
+.wb-microsd:before {
+	content: "\f107";
+}
+.wb-graphicscard:before {
+	content: "\f108";
+}
+.wb-screenshot:before {
+	content: "\f109";
+}
+.wb-brightness:before {
+	content: "\f10a";
+}
+.wb-brightnessfull:before {
+	content: "\f10b";
+}
+.wb-brightnesshalf:before {
+	content: "\f10c";
+}
+.wb-usb:before {
+	content: "\f10d";
+}
+.wb-usb2:before {
+	content: "\f10e";
+}
+.wb-usb3:before {
+	content: "\f10f";
+}
+.wb-grid:before {
+	content: "\f110";
+}
+.wb-details:before {
+	content: "\f111";
+}
+.wb-thumbnails:before {
+	content: "\f112";
+}
+.wb-list:before {
+	content: "\f113";
+}
+.wb-terminal:before {
+	content: "\f114";
+}
+.wb-touchpad:before {
+	content: "\f115";
+}
+.wb-zip:before {
+	content: "\f116";
+}
+.wb-rar:before {
+	content: "\f117";
+}
+.wb-tablet:before {
+	content: "\f118";
+}
+.wb-keyboard:before {
+	content: "\f119";
+}
+.wb-download:before {
+	content: "\f11a";
+}
+.wb-upload:before {
+	content: "\f11b";
+}
+.wb-sync2:before {
+	content: "\f11c";
+}
+.wb-power:before {
+	content: "\f11d";
+}
+.wb-shutdown:before {
+	content: "\f11e";
+}
+.wb-restart:before {
+	content: "\f11f";
+}
+.wb-ubuntu:before {
+	content: "\f120";
+}
+.wb-sim2:before {
+	content: "\f121";
+}
+.wb-loading:before {
+	content: "\f122";
+}
+.wb-hourglass2:before {
+	content: "\f123";
+}
+.wb-sidebar:before {
+	content: "\f124";
+}
+.wb-print:before {
+	content: "\f125";
+}
+.wb-mouse2:before {
+	content: "\f126";
+}
+.wb-menu:before {
+	content: "\f127";
+}
+.wb-install:before {
+	content: "\f128";
+}
+.wb-webcam2:before {
+	content: "\f129";
+}
+.wb-android:before {
+	content: "\f12a";
+}
+.wb-bluetooth:before {
+	content: "\f12b";
+}
+.wb-comment:before {
+	content: "\f12c";
+}
+.wb-comment2:before {
+	content: "\f12d";
+}
+.wb-post:before {
+	content: "\f12e";
+}
+.wb-quote:before {
+	content: "\f12f";
+}
+.wb-post2:before {
+	content: "\f130";
+}
+.wb-loved:before {
+	content: "\f131";
+}
+.wb-love:before {
+	content: "\f132";
+}
+.wb-user:before {
+	content: "\f133";
+}
+.wb-friends:before {
+	content: "\f134";
+}
+.wb-phonebook:before {
+	content: "\f135";
+}
+.wb-email2:before {
+	content: "\f136";
+}
+.wb-businesscard2:before {
+	content: "\f137";
+}
+.wb-thumbup:before {
+	content: "\f138";
+}
+.wb-thumbdown:before {
+	content: "\f139";
+}
+.wb-favorite:before {
+	content: "\f13a";
+}
+.wb-favorite2:before {
+	content: "\f13b";
+}
+.wb-happy:before {
+	content: "\f13c";
+}
+.wb-sad:before {
+	content: "\f13d";
+}
+.wb-blankstare:before {
+	content: "\f13e";
+}
+.wb-laugh:before {
+	content: "\f13f";
+}
+.wb-facebook:before {
+	content: "\f140";
+}
+.wb-skype:before {
+	content: "\f141";
+}
+.wb-youtube:before {
+	content: "\f142";
+}
+.wb-bookmark:before {
+	content: "\f143";
+}
+.wb-notificationdown:before {
+	content: "\f144";
+}
+.wb-notificationup:before {
+	content: "\f145";
+}
+.wb-flickr:before {
+	content: "\f146";
+}
+.wb-share2:before {
+	content: "\f147";
+}
+.wb-phone2:before {
+	content: "\f148";
+}
+.wb-phone3:before {
+	content: "\f149";
+}
+.wb-instagram:before {
+	content: "\f14a";
+}
+.wb-facebook2:before {
+	content: "\f14b";
+}
+.wb-dribbble:before {
+	content: "\f14c";
+}
+.wb-forrst:before {
+	content: "\f14d";
+}
+.wb-chrome:before {
+	content: "\f14e";
+}
+.wb-phonebook2:before {
+	content: "\f14f";
+}
+.wb-gmail:before {
+	content: "\f150";
+}
+.wb-yahoo:before {
+	content: "\f151";
+}
+.wb-delicious:before {
+	content: "\f152";
+}
+.wb-myspace:before {
+	content: "\f153";
+}
+.wb-reddit:before {
+	content: "\f154";
+}
+.wb-comment3:before {
+	content: "\f155";
+}
+.wb-comment4:before {
+	content: "\f156";
+}
+.wb-comment5:before {
+	content: "\f157";
+}
+.wb-comment6:before {
+	content: "\f158";
+}
+.wb-browser:before {
+	content: "\f159";
+}
+.wb-avatar:before {
+	content: "\f15a";
+}
+.wb-phone:before {
+	content: "\f15b";
+}
+.wb-missedcall:before {
+	content: "\f15c";
+}
+.wb-incomingcall:before {
+	content: "\f15d";
+}
+.wb-outgoingcall:before {
+	content: "\f15e";
+}
+.wb-tag2:before {
+	content: "\f15f";
+}
+.wb-basecamp:before {
+	content: "\f160";
+}
+.wb-avatar2:before {
+	content: "\f161";
+}
+.wb-chat:before {
+	content: "\f162";
+}
+.wb-googledrive:before {
+	content: "\f163";
+}
+.wb-tumblr:before {
+	content: "\f164";
+}
+.wb-googleplus:before {
+	content: "\f165";
+}
+.wb-linkedin:before {
+	content: "\f166";
+}
+.wb-blogger:before {
+	content: "\f167";
+}
+.wb-vimeo:before {
+	content: "\f168";
+}
+.wb-path:before {
+	content: "\f169";
+}
+.wb-twitter:before {
+	content: "\f16a";
+}
+.wb-pocket:before {
+	content: "\f16b";
+}
+.wb-share:before {
+	content: "\f16c";
+}
+.wb-newwindow:before {
+	content: "\f16d";
+}
+.wb-closewindow:before {
+	content: "\f16e";
+}
+.wb-newtab:before {
+	content: "\f16f";
+}
+.wb-closetab:before {
+	content: "\f170";
+}
+.wb-archive:before {
+	content: "\f171";
+}
+.wb-draft:before {
+	content: "\f172";
+}
+.wb-reademail:before {
+	content: "\f173";
+}
+.wb-emailrefresh:before {
+	content: "\f174";
+}
+.wb-emailforward:before {
+	content: "\f175";
+}
+.wb-emailexport:before {
+	content: "\f176";
+}
+.wb-emailimport:before {
+	content: "\f177";
+}
+.wb-inbox:before {
+	content: "\f178";
+}
+.wb-outbox:before {
+	content: "\f179";
+}
+.wb-draft2:before {
+	content: "\f17a";
+}
+.wb-rss:before {
+	content: "\f17b";
+}
+.wb-evernote:before {
+	content: "\f17c";
+}
+.wb-video:before {
+	content: "\f17d";
+}
+.wb-play2:before {
+	content: "\f17e";
+}
+.wb-movie4:before {
+	content: "\f17f";
+}
+.wb-headphones:before {
+	content: "\f180";
+}
+.wb-music:before {
+	content: "\f181";
+}
+.wb-fastforward:before {
+	content: "\f182";
+}
+.wb-rewind:before {
+	content: "\f183";
+}
+.wb-play:before {
+	content: "\f184";
+}
+.wb-stop:before {
+	content: "\f185";
+}
+.wb-pause:before {
+	content: "\f186";
+}
+.wb-repeat:before {
+	content: "\f187";
+}
+.wb-shuffle:before {
+	content: "\f188";
+}
+.wb-record:before {
+	content: "\f189";
+}
+.wb-next:before {
+	content: "\f18a";
+}
+.wb-previous:before {
+	content: "\f18b";
+}
+.wb-voice:before {
+	content: "\f18c";
+}
+.wb-music2:before {
+	content: "\f18d";
+}
+.wb-equalizer:before {
+	content: "\f18e";
+}
+.wb-equalizer2:before {
+	content: "\f18f";
+}
+.wb-ipod:before {
+	content: "\f190";
+}
+.wb-microphone:before {
+	content: "\f191";
+}
+.wb-vlc:before {
+	content: "\f192";
+}
+.wb-movie5:before {
+	content: "\f193";
+}
+.wb-soundwave:before {
+	content: "\f194";
+}
+.wb-boombox:before {
+	content: "\f195";
+}
+.wb-repeatone:before {
+	content: "\f196";
+}
+.wb-next2:before {
+	content: "\f197";
+}
+.wb-previous2:before {
+	content: "\f198";
+}
+.wb-eject:before {
+	content: "\f199";
+}
+.wb-guitar:before {
+	content: "\f19a";
+}
+.wb-camera:before {
+	content: "\f19b";
+}
+.wb-videocamera:before {
+	content: "\f19c";
+}
+.wb-video3:before {
+	content: "\f19d";
+}
+.wb-piano:before {
+	content: "\f19e";
+}
+.wb-album:before {
+	content: "\f19f";
+}
+.wb-hdtv:before {
+	content: "\f1a0";
+}
+.wb-radio:before {
+	content: "\f1a1";
+}
+.wb-podcast:before {
+	content: "\f1a2";
+}
+.wb-headphones2:before {
+	content: "\f1a3";
+}
+.wb-tv:before {
+	content: "\f1a4";
+}
+.wb-violin:before {
+	content: "\f1a5";
+}
+.wb-transform:before {
+	content: "\f1a6";
+}
+.wb-twocolumnright:before {
+	content: "\f1a7";
+}
+.wb-twocolumnright2:before {
+	content: "\f1a8";
+}
+.wb-twocolumnleft:before {
+	content: "\f1a9";
+}
+.wb-twocolumnleft2:before {
+	content: "\f1aa";
+}
+.wb-threecolumn:before {
+	content: "\f1ab";
+}
+.wb-inkpen:before {
+	content: "\f1ac";
+}
+.wb-eyedropper:before {
+	content: "\f1ad";
+}
+.wb-font:before {
+	content: "\f1ae";
+}
+.wb-crop:before {
+	content: "\f1af";
+}
+.wb-rectangleselection:before {
+	content: "\f1b0";
+}
+.wb-circleselection:before {
+	content: "\f1b1";
+}
+.wb-selectionadd:before {
+	content: "\f1b2";
+}
+.wb-selectionrmove:before {
+	content: "\f1b3";
+}
+.wb-selectionintersect:before {
+	content: "\f1b4";
+}
+.wb-bucket:before {
+	content: "\f1b5";
+}
+.wb-vector:before {
+	content: "\f1b6";
+}
+.wb-edit:before {
+	content: "\f1b7";
+}
+.wb-brush:before {
+	content: "\f1b8";
+}
+.wb-palette:before {
+	content: "\f1b9";
+}
+.wb-book:before {
+	content: "\f1ba";
+}
+.wb-wacom:before {
+	content: "\f1bb";
+}
+.wb-elipse:before {
+	content: "\f1bc";
+}
+.wb-roundedrectangle:before {
+	content: "\f1bd";
+}
+.wb-polygon:before {
+	content: "\f1be";
+}
+.wb-line:before {
+	content: "\f1bf";
+}
+.wb-lineheight:before {
+	content: "\f1c0";
+}
+.wb-sortbynameascending:before {
+	content: "\f1c1";
+}
+.wb-sortbynamedescending:before {
+	content: "\f1c2";
+}
+.wb-sortbysizeascending:before {
+	content: "\f1c3";
+}
+.wb-sortbysizedescending:before {
+	content: "\f1c4";
+}
+.wb-write:before {
+	content: "\f1c5";
+}
+.wb-macro:before {
+	content: "\f1c6";
+}
+.wb-spray:before {
+	content: "\f1c7";
+}
+.wb-canvas:before {
+	content: "\f1c8";
+}
+.wb-adobe:before {
+	content: "\f1c9";
+}
+.wb-layers:before {
+	content: "\f1ca";
+}
+.wb-layers2:before {
+	content: "\f1cb";
+}
+.wb-pagebreak:before {
+	content: "\f1cc";
+}
+.wb-photoshop:before {
+	content: "\f1cd";
+}
+.wb-illustrator:before {
+	content: "\f1ce";
+}
+.wb-flash:before {
+	content: "\f1cf";
+}
+.wb-dreamweaver:before {
+	content: "\f1d0";
+}
+.wb-alignverticalcenters:before {
+	content: "\f1d1";
+}
+.wb-alignhorizontalcenters:before {
+	content: "\f1d2";
+}
+.wb-alignbottomedges:before {
+	content: "\f1d3";
+}
+.wb-aligntopedges:before {
+	content: "\f1d4";
+}
+.wb-alignrightedges:before {
+	content: "\f1d5";
+}
+.wb-alignleftedges:before {
+	content: "\f1d6";
+}
+.wb-alignleft:before {
+	content: "\f1d7";
+}
+.wb-alignright:before {
+	content: "\f1d8";
+}
+.wb-aligncenter:before {
+	content: "\f1d9";
+}
+.wb-alignjustify:before {
+	content: "\f1da";
+}
+.wb-distributeverticalcenters:before {
+	content: "\f1db";
+}
+.wb-distributehorizontalcenters:before {
+	content: "\f1dc";
+}
+.wb-shapes:before {
+	content: "\f1dd";
+}
+.wb-exposure:before {
+	content: "\f1de";
+}
+.wb-invert:before {
+	content: "\f1df";
+}
+.wb-insertpicture:before {
+	content: "\f1e0";
+}
+.wb-insertpictureleft:before {
+	content: "\f1e1";
+}
+.wb-insertpictureright:before {
+	content: "\f1e2";
+}
+.wb-insertpicturecenter:before {
+	content: "\f1e3";
+}
+.wb-insertpiechart:before {
+	content: "\f1e4";
+}
+.wb-insertbarchart:before {
+	content: "\f1e5";
+}
+.wb-color:before {
+	content: "\f1e6";
+}
+.wb-clearformatting:before {
+	content: "\f1e7";
+}
+.wb-paintbrush:before {
+	content: "\f1e8";
+}
+.wb-kerning:before {
+	content: "\f1e9";
+}
+.wb-subscript:before {
+	content: "\f1ea";
+}
+.wb-superscript:before {
+	content: "\f1eb";
+}
+.wb-magazine:before {
+	content: "\f1ec";
+}
+.wb-resize:before {
+	content: "\f1ed";
+}
+.wb-pen:before {
+	content: "\f1ee";
+}
+.wb-ruler:before {
+	content: "\f1ef";
+}
+.wb-moleskine:before {
+	content: "\f1f0";
+}
+.wb-eraser:before {
+	content: "\f1f1";
+}
+.wb-indentleft:before {
+	content: "\f1f2";
+}
+.wb-indentright:before {
+	content: "\f1f3";
+}
+.wb-bold:before {
+	content: "\f1f4";
+}
+.wb-italic:before {
+	content: "\f1f5";
+}
+.wb-underline:before {
+	content: "\f1f6";
+}
+.wb-strikethrough:before {
+	content: "\f1f7";
+}
+.wb-fontheight:before {
+	content: "\f1f8";
+}
+.wb-fontwidth:before {
+	content: "\f1f9";
+}
+.wb-paintroll:before {
+	content: "\f1fa";
+}
+.wb-wizard2:before {
+	content: "\f1fb";
+}
+.wb-creativecommons:before {
+	content: "\f1fc";
+}
+.wb-addshape:before {
+	content: "\f1fd";
+}
+.wb-subtractshape:before {
+	content: "\f1fe";
+}
+.wb-intersectshape:before {
+	content: "\f1ff";
+}
+.wb-excludeshape:before {
+	content: "\f200";
+}
+.wb-mergeshapes:before {
+	content: "\f201";
+}
+.wb-rotateclockwise:before {
+	content: "\f202";
+}
+.wb-rotatecounterclockwise:before {
+	content: "\f203";
+}
+.wb-marker:before {
+	content: "\f204";
+}
+.wb-canvasrulers:before {
+	content: "\f205";
+}
+.wb-sun:before {
+	content: "\f206";
+}
+.wb-moon:before {
+	content: "\f207";
+}
+.wb-water:before {
+	content: "\f208";
+}
+.wb-maps:before {
+	content: "\f209";
+}
+.wb-pin:before {
+	content: "\f20a";
+}
+.wb-flag:before {
+	content: "\f20b";
+}
+.wb-placeios:before {
+	content: "\f20c";
+}
+.wb-temperature:before {
+	content: "\f20d";
+}
+.wb-temperature2:before {
+	content: "\f20e";
+}
+.wb-calendar:before {
+	content: "\f20f";
+}
+.wb-clock:before {
+	content: "\f210";
+}
+.wb-truck:before {
+	content: "\f211";
+}
+.wb-scope:before {
+	content: "\f212";
+}
+.wb-spoon:before {
+	content: "\f213";
+}
+.wb-knife:before {
+	content: "\f214";
+}
+.wb-tent:before {
+	content: "\f215";
+}
+.wb-gasstation:before {
+	content: "\f216";
+}
+.wb-forest:before {
+	content: "\f217";
+}
+.wb-umbrella:before {
+	content: "\f218";
+}
+.wb-stopwatch:before {
+	content: "\f219";
+}
+.wb-boat:before {
+	content: "\f21a";
+}
+.wb-roadsign:before {
+	content: "\f21b";
+}
+.wb-forest2:before {
+	content: "\f21c";
+}
+.wb-port:before {
+	content: "\f21d";
+}
+.wb-gpsoff:before {
+	content: "\f21e";
+}
+.wb-gpson:before {
+	content: "\f21f";
+}
+.wb-place:before {
+	content: "\f220";
+}
+.wb-placeadd:before {
+	content: "\f221";
+}
+.wb-placedelete:before {
+	content: "\f222";
+}
+.wb-checkin:before {
+	content: "\f223";
+}
+.wb-place2:before {
+	content: "\f224";
+}
+.wb-place2add:before {
+	content: "\f225";
+}
+.wb-place2delete:before {
+	content: "\f226";
+}
+.wb-checkin2:before {
+	content: "\f227";
+}
+.wb-wheel:before {
+	content: "\f228";
+}
+.wb-cigarette:before {
+	content: "\f229";
+}
+.wb-trafficlight:before {
+	content: "\f22a";
+}
+.wb-clock2:before {
+	content: "\f22b";
+}
+.wb-cactus:before {
+	content: "\f22c";
+}
+.wb-watertap:before {
+	content: "\f22d";
+}
+.wb-snow:before {
+	content: "\f22e";
+}
+.wb-rain:before {
+	content: "\f22f";
+}
+.wb-storm:before {
+	content: "\f230";
+}
+.wb-storm2:before {
+	content: "\f231";
+}
+.wb-flag2:before {
+	content: "\f232";
+}
+.wb-alarm:before {
+	content: "\f233";
+}
+.wb-bag:before {
+	content: "\f234";
+}
+.wb-coffee:before {
+	content: "\f235";
+}
+.wb-martini:before {
+	content: "\f236";
+}
+.wb-scope2:before {
+	content: "\f237";
+}
+.wb-wine:before {
+	content: "\f238";
+}
+.wb-automobile:before {
+	content: "\f239";
+}
+.wb-navigation:before {
+	content: "\f23a";
+}
+.wb-wave2:before {
+	content: "\f23b";
+}
+.wb-wave:before {
+	content: "\f23c";
+}
+.wb-alarm2:before {
+	content: "\f23d";
+}
+.wb-airplane:before {
+	content: "\f23e";
+}
+.wb-shipping:before {
+	content: "\f23f";
+}
+.wb-roadsignleft:before {
+	content: "\f240";
+}
+.wb-bus:before {
+	content: "\f241";
+}
+.wb-stamp:before {
+	content: "\f242";
+}
+.wb-stamp2:before {
+	content: "\f243";
+}
+.wb-beer:before {
+	content: "\f244";
+}
+.wb-building:before {
+	content: "\f245";
+}
+.wb-emergency:before {
+	content: "\f246";
+}
+.wb-hospital:before {
+	content: "\f247";
+}
+.wb-railroad:before {
+	content: "\f248";
+}
+.wb-road:before {
+	content: "\f249";
+}
+.wb-freeway:before {
+	content: "\f24a";
+}
+.wb-cup:before {
+	content: "\f24b";
+}
+.wb-men:before {
+	content: "\f24c";
+}
+.wb-women:before {
+	content: "\f24d";
+}
+.wb-mug:before {
+	content: "\f24e";
+}
+.wb-metro:before {
+	content: "\f24f";
+}
+.wb-stocks:before {
+	content: "\f250";
+}
+.wb-stockup:before {
+	content: "\f251";
+}
+.wb-stockdown:before {
+	content: "\f252";
+}
+.wb-timeline:before {
+	content: "\f253";
+}
+.wb-coupon:before {
+	content: "\f254";
+}
+.wb-playstore:before {
+	content: "\f255";
+}
+.wb-news:before {
+	content: "\f256";
+}
+.wb-piggybank:before {
+	content: "\f257";
+}
+.wb-calculator:before {
+	content: "\f258";
+}
+.wb-dollar2:before {
+	content: "\f259";
+}
+.wb-euro2:before {
+	content: "\f25a";
+}
+.wb-pound:before {
+	content: "\f25b";
+}
+.wb-pound2:before {
+	content: "\f25c";
+}
+.wb-yen2:before {
+	content: "\f25d";
+}
+.wb-briefcase2:before {
+	content: "\f25e";
+}
+.wb-briefcase3:before {
+	content: "\f25f";
+}
+.wb-gift:before {
+	content: "\f260";
+}
+.wb-abacus:before {
+	content: "\f261";
+}
+.wb-bank:before {
+	content: "\f262";
+}
+.wb-law:before {
+	content: "\f263";
+}
+.wb-price2:before {
+	content: "\f264";
+}
+.wb-calculator2:before {
+	content: "\f265";
+}
+.wb-mastercard:before {
+	content: "\f266";
+}
+.wb-paypal:before {
+	content: "\f267";
+}
+.wb-skrill:before {
+	content: "\f268";
+}
+.wb-alertpay:before {
+	content: "\f269";
+}
+.wb-westernunion:before {
+	content: "\f26a";
+}
+.wb-exchange:before {
+	content: "\f26b";
+}
+.wb-appointment:before {
+	content: "\f26c";
+}
+.wb-officechair:before {
+	content: "\f26d";
+}
+.wb-cashregister:before {
+	content: "\f26e";
+}
+.wb-squareapp:before {
+	content: "\f26f";
+}
+.wb-googlewallet:before {
+	content: "\f270";
+}
+.wb-moneybag:before {
+	content: "\f271";
+}
+.wb-store:before {
+	content: "\f272";
+}
+.wb-shoppingbag:before {
+	content: "\f273";
+}
+.wb-rubberstamp:before {
+	content: "\f274";
+}
+.wb-qrcode:before {
+	content: "\f275";
+}
+.wb-barcode:before {
+	content: "\f276";
+}
+.wb-sale:before {
+	content: "\f277";
+}
+.wb-bill:before {
+	content: "\f278";
+}
+.wb-creditcard:before {
+	content: "\f279";
+}
+.wb-factory:before {
+	content: "\f27a";
+}
+.wb-cash:before {
+	content: "\f27b";
+}
+.wb-shredder:before {
+	content: "\f27c";
+}
+.wb-flask:before {
+	content: "\f27d";
+}
+.wb-flaskfull:before {
+	content: "\f27e";
+}
+.wb-fire:before {
+	content: "\f27f";
+}
+.wb-eye:before {
+	content: "\f280";
+}
+.wb-magnet:before {
+	content: "\f281";
+}
+.wb-radioactive:before {
+	content: "\f282";
+}
+.wb-microscope:before {
+	content: "\f283";
+}
+.wb-paperclip:before {
+	content: "\f284";
+}
+.wb-paperclip2:before {
+	content: "\f285";
+}
+.wb-paperclip3:before {
+	content: "\f286";
+}
+.wb-megaphone:before {
+	content: "\f287";
+}
+.wb-student:before {
+	content: "\f288";
+}
+.wb-icecream2:before {
+	content: "\f289";
+}
+.wb-switch:before {
+	content: "\f28a";
+}
+.wb-powerplugeu:before {
+	content: "\f28b";
+}
+.wb-powerplugus:before {
+	content: "\f28c";
+}
+.wb-switchon2:before {
+	content: "\f28d";
+}
+.wb-switchoff2:before {
+	content: "\f28e";
+}
+.wb-crown:before {
+	content: "\f28f";
+}
+.wb-shovel:before {
+	content: "\f290";
+}
+.wb-hammer:before {
+	content: "\f291";
+}
+.wb-screwdriver:before {
+	content: "\f292";
+}
+.wb-screwdriver2:before {
+	content: "\f293";
+}
+.wb-sunglasses:before {
+	content: "\f294";
+}
+.wb-glasses:before {
+	content: "\f295";
+}
+.wb-paperairplane:before {
+	content: "\f296";
+}
+.wb-recycle:before {
+	content: "\f297";
+}
+.wb-remote:before {
+	content: "\f298";
+}
+.wb-flashlight:before {
+	content: "\f299";
+}
+.wb-candle:before {
+	content: "\f29a";
+}
+.wb-forklift:before {
+	content: "\f29b";
+}
+.wb-rocket:before {
+	content: "\f29c";
+}
+.wb-paw:before {
+	content: "\f29d";
+}
+.wb-orange:before {
+	content: "\f29e";
+}
+.wb-croisant:before {
+	content: "\f29f";
+}
+.wb-binoculars:before {
+	content: "\f2a0";
+}
+.wb-woman:before {
+	content: "\f2a1";
+}
+.wb-man:before {
+	content: "\f2a2";
+}
+.wb-patch:before {
+	content: "\f2a3";
+}
+.wb-icecream:before {
+	content: "\f2a4";
+}
+.wb-flower:before {
+	content: "\f2a5";
+}
+.wb-target:before {
+	content: "\f2a6";
+}
+.wb-peace:before {
+	content: "\f2a7";
+}
+.wb-lightning2:before {
+	content: "\f2a8";
+}
+.wb-sheriff:before {
+	content: "\f2a9";
+}
+.wb-police:before {
+	content: "\f2aa";
+}
+.wb-hanger:before {
+	content: "\f2ab";
+}
+.wb-addtolist:before {
+	content: "\f2ac";
+}
+.wb-toast:before {
+	content: "\f2ad";
+}
+.wb-director:before {
+	content: "\f2ae";
+}
+.wb-fence:before {
+	content: "\f2af";
+}
+.wb-science:before {
+	content: "\f2b0";
+}
+.wb-lamp:before {
+	content: "\f2b1";
+}
+.wb-wrench2:before {
+	content: "\f2b2";
+}
+.wb-hamburger:before {
+	content: "\f2b3";
+}
+.wb-alert2:before {
+	content: "\f2b4";
+}
+.wb-eye2:before {
+	content: "\f2b5";
+}
+.wb-jar:before {
+	content: "\f2b6";
+}
+.wb-extinguisher:before {
+	content: "\f2b7";
+}
+.wb-plaque:before {
+	content: "\f2b8";
+}
+.wb-bed:before {
+	content: "\f2b9";
+}
+.wb-firstaid:before {
+	content: "\f2ba";
+}
+.wb-psbuttoncircle:before {
+	content: "\f2bb";
+}
+.wb-psbuttonsquare:before {
+	content: "\f2bc";
+}
+.wb-psbuttontriangle:before {
+	content: "\f2bd";
+}
+.wb-psbuttonx:before {
+	content: "\f2be";
+}
+.wb-buttona:before {
+	content: "\f2bf";
+}
+.wb-buttonb:before {
+	content: "\f2c0";
+}
+.wb-buttonx:before {
+	content: "\f2c1";
+}
+.wb-buttony:before {
+	content: "\f2c2";
+}
+.wb-pscursor:before {
+	content: "\f2c3";
+}
+.wb-psup:before {
+	content: "\f2c4";
+}
+.wb-psright:before {
+	content: "\f2c5";
+}
+.wb-psdown:before {
+	content: "\f2c6";
+}
+.wb-psleft:before {
+	content: "\f2c7";
+}
+.wb-analogleft:before {
+	content: "\f2c8";
+}
+.wb-analogright:before {
+	content: "\f2c9";
+}
+.wb-analogup:before {
+	content: "\f2ca";
+}
+.wb-analogdown:before {
+	content: "\f2cb";
+}
+.wb-psl1:before {
+	content: "\f2cc";
+}
+.wb-psl2:before {
+	content: "\f2cd";
+}
+.wb-psr1:before {
+	content: "\f2ce";
+}
+.wb-psr2:before {
+	content: "\f2cf";
+}
+.wb-gamecursor:before {
+	content: "\f2d0";
+}
+.wb-controllerps:before {
+	content: "\f2d1";
+}
+.wb-controllernes:before {
+	content: "\f2d2";
+}
+.wb-controllersnes:before {
+	content: "\f2d3";
+}
+.wb-joystickarcade:before {
+	content: "\f2d4";
+}
+.wb-joystickatari:before {
+	content: "\f2d5";
+}
+.wb-podium:before {
+	content: "\f2d6";
+}
+.wb-trophy:before {
+	content: "\f2d7";
+}
+.wb-die:before {
+	content: "\f2d8";
+}
+.wb-boardgame:before {
+	content: "\f2d9";
+}
+.wb-ghost:before {
+	content: "\f2da";
+}
+.wb-pacman:before {
+	content: "\f2db";
+}
+.wb-bomb:before {
+	content: "\f2dc";
+}
+.wb-steam:before {
+	content: "\f2dd";
+}
+.wb-starempty:before {
+	content: "\f2de";
+}
+.wb-starhalf:before {
+	content: "\f2df";
+}
+.wb-starfull:before {
+	content: "\f2e0";
+}
+.wb-lifeempty:before {
+	content: "\f2e1";
+}
+.wb-lifehalf:before {
+	content: "\f2e2";
+}
+.wb-lifefull:before {
+	content: "\f2e3";
+}
+.wb-warmedal:before {
+	content: "\f2e4";
+}
+.wb-medal:before {
+	content: "\f2e5";
+}
+.wb-medalgold:before {
+	content: "\f2e6";
+}
+.wb-medalsilver:before {
+	content: "\f2e7";
+}
+.wb-medalbronze:before {
+	content: "\f2e8";
+}
+.wb-basketball:before {
+	content: "\f2e9";
+}
+.wb-tennis:before {
+	content: "\f2ea";
+}
+.wb-football:before {
+	content: "\f2eb";
+}
+.wb-americanfootball:before {
+	content: "\f2ec";
+}
+.wb-sword:before {
+	content: "\f2ed";
+}
+.wb-bow:before {
+	content: "\f2ee";
+}
+.wb-axe:before {
+	content: "\f2ef";
+}
+.wb-pingpong:before {
+	content: "\f2f0";
+}
+.wb-golf:before {
+	content: "\f2f1";
+}
+.wb-racquet:before {
+	content: "\f2f2";
+}
+.wb-bowling:before {
+	content: "\f2f3";
+}
+.wb-hearts:before {
+	content: "\f2f4";
+}
+.wb-spades:before {
+	content: "\f2f5";
+}
+.wb-clubs:before {
+	content: "\f2f6";
+}
+.wb-diamonds:before {
+	content: "\f2f7";
+}
+.wb-pawn:before {
+	content: "\f2f8";
+}
+.wb-bishop:before {
+	content: "\f2f9";
+}
+.wb-rook:before {
+	content: "\f2fa";
+}
+.wb-knight:before {
+	content: "\f2fb";
+}
+.wb-king:before {
+	content: "\f2fc";
+}
+.wb-queen:before {
+	content: "\f2fd";
+}
+.wb-down:before {
+	content: "\f2fe";
+}
+.wb-downleft:before {
+	content: "\f2ff";
+}
+.wb-downright:before {
+	content: "\f300";
+}
+.wb-up:before {
+	content: "\f301";
+}
+.wb-upleft:before {
+	content: "\f302";
+}
+.wb-upright:before {
+	content: "\f303";
+}
+.wb-right:before {
+	content: "\f304";
+}
+.wb-left:before {
+	content: "\f305";
+}
+.wb-settings2:before {
+	content: "\f306";
+}
+.wb-settings3:before {
+	content: "\f307";
+}
+.wb-settings4:before {
+	content: "\f308";
+}
+.wb-settings5:before {
+	content: "\f309";
+}
+.wb-bigger:before {
+	content: "\f30a";
+}
+.wb-smaller:before {
+	content: "\f30b";
+}
+.wb-equals:before {
+	content: "\f30c";
+}
+.wb-restore:before {
+	content: "\f30d";
+}
+.wb-minimize:before {
+	content: "\f30e";
+}
+.wb-maximize:before {
+	content: "\f30f";
+}
+.wb-checkbox:before {
+	content: "\f310";
+}
+.wb-checkbox2:before {
+	content: "\f311";
+}
+.wb-radiobutton:before {
+	content: "\f312";
+}
+.wb-forbidden:before {
+	content: "\f313";
+}
+.wb-forbidden2:before {
+	content: "\f314";
+}
+.wb-info:before {
+	content: "\f315";
+}
+.wb-alert:before {
+	content: "\f316";
+}
+.wb-asterisk2:before {
+	content: "\f317";
+}
+.wb-resizeh:before {
+	content: "\f318";
+}
+.wb-resizev:before {
+	content: "\f319";
+}
+.wb-fastleft:before {
+	content: "\f31a";
+}
+.wb-fastright:before {
+	content: "\f31b";
+}
+.wb-fastup:before {
+	content: "\f31c";
+}
+.wb-fastdown:before {
+	content: "\f31d";
+}
+.wb-back:before {
+	content: "\f31e";
+}
+.wb-forward:before {
+	content: "\f31f";
+}
+.wb-zoomin:before {
+	content: "\f320";
+}
+.wb-zoomout:before {
+	content: "\f321";
+}
+.wb-move:before {
+	content: "\f322";
+}
+.wb-enter:before {
+	content: "\f323";
+}
+.wb-exit:before {
+	content: "\f324";
+}
+.wb-scaleup:before {
+	content: "\f325";
+}
+.wb-scaledown:before {
+	content: "\f326";
+}
+.wb-mergecells:before {
+	content: "\f327";
+}
+.wb-quoteup:before {
+	content: "\f328";
+}
+.wb-quotedown:before {
+	content: "\f329";
+}
+.wb-undo:before {
+	content: "\f32a";
+}
+.wb-redo:before {
+	content: "\f32b";
+}
+.wb-switchon:before {
+	content: "\f32c";
+}
+.wb-switchoff:before {
+	content: "\f32d";
+}
+.wb-importfile:before {
+	content: "\f32e";
+}
+.wb-exportfile:before {
+	content: "\f32f";
+}
+.wb-preview:before {
+	content: "\f330";
+}
+.wb-pagesetup:before {
+	content: "\f331";
+}
+.wb-opennewwindow:before {
+	content: "\f332";
+}
+.wb-link2:before {
+	content: "\f333";
+}
+.wb-merge:before {
+	content: "\f334";
+}
+.wb-split:before {
+	content: "\f335";
+}
+.wb-infographic:before {
+	content: "\f336";
+}
+.wb-wizard3:before {
+	content: "\f337";
+}
+.wb-lightbulb:before {
+	content: "\f338";
+}
+.wb-loading2:before {
+	content: "\f339";
+}
+.wb-cmd:before {
+	content: "\f33a";
+}
+.wb-sum:before {
+	content: "\f33b";
+}
+.wb-root:before {
+	content: "\f33c";
+}
+.wb-synckeeponserver:before {
+	content: "\f33d";
+}
+.wb-synckeeplocal:before {
+	content: "\f33e";
+}
+.wb-dollar:before {
+	content: "\24";
+}
+.wb-percent:before {
+	content: "\25";
+}
+.wb-asterisk:before {
+	content: "\2a";
+}
+.wb-plus:before {
+	content: "\2b";
+}
+.wb-_0:before {
+	content: "\30";
+}
+.wb-_1:before {
+	content: "\31";
+}
+.wb-_2:before {
+	content: "\32";
+}
+.wb-_3:before {
+	content: "\33";
+}
+.wb-_4:before {
+	content: "\34";
+}
+.wb-_5:before {
+	content: "\35";
+}
+.wb-_6:before {
+	content: "\36";
+}
+.wb-_7:before {
+	content: "\37";
+}
+.wb-_8:before {
+	content: "\38";
+}
+.wb-_9:before {
+	content: "\39";
+}
+.wb-at:before {
+	content: "\40";
+}
+.wb-A:before {
+	content: "\41";
+}
+.wb-B:before {
+	content: "\42";
+}
+.wb-C:before {
+	content: "\43";
+}
+.wb-D:before {
+	content: "\44";
+}
+.wb-E:before {
+	content: "\45";
+}
+.wb-F:before {
+	content: "\46";
+}
+.wb-G:before {
+	content: "\47";
+}
+.wb-H:before {
+	content: "\48";
+}
+.wb-I:before {
+	content: "\49";
+}
+.wb-J:before {
+	content: "\4a";
+}
+.wb-K:before {
+	content: "\4b";
+}
+.wb-L:before {
+	content: "\4c";
+}
+.wb-M:before {
+	content: "\4d";
+}
+.wb-N:before {
+	content: "\4e";
+}
+.wb-O:before {
+	content: "\4f";
+}
+.wb-P:before {
+	content: "\50";
+}
+.wb-Q:before {
+	content: "\51";
+}
+.wb-R:before {
+	content: "\52";
+}
+.wb-S:before {
+	content: "\53";
+}
+.wb-T:before {
+	content: "\54";
+}
+.wb-U:before {
+	content: "\55";
+}
+.wb-V:before {
+	content: "\56";
+}
+.wb-W:before {
+	content: "\57";
+}
+.wb-X:before {
+	content: "\58";
+}
+.wb-Y:before {
+	content: "\59";
+}
+.wb-Z:before {
+	content: "\5a";
+}
+.wb-a:before {
+	content: "\61";
+}
+.wb-b:before {
+	content: "\62";
+}
+.wb-c:before {
+	content: "\63";
+}
+.wb-d:before {
+	content: "\64";
+}
+.wb-e:before {
+	content: "\65";
+}
+.wb-f:before {
+	content: "\66";
+}
+.wb-g:before {
+	content: "\67";
+}
+.wb-h:before {
+	content: "\68";
+}
+.wb-i:before {
+	content: "\69";
+}
+.wb-j:before {
+	content: "\6a";
+}
+.wb-k:before {
+	content: "\6b";
+}
+.wb-l:before {
+	content: "\6c";
+}
+.wb-m:before {
+	content: "\6d";
+}
+.wb-n:before {
+	content: "\6e";
+}
+.wb-o:before {
+	content: "\6f";
+}
+.wb-p:before {
+	content: "\70";
+}
+.wb-q:before {
+	content: "\71";
+}
+.wb-r:before {
+	content: "\72";
+}
+.wb-s:before {
+	content: "\73";
+}
+.wb-t:before {
+	content: "\74";
+}
+.wb-u:before {
+	content: "\75";
+}
+.wb-v:before {
+	content: "\76";
+}
+.wb-w:before {
+	content: "\77";
+}
+.wb-x:before {
+	content: "\78";
+}
+.wb-y:before {
+	content: "\79";
+}
+.wb-z:before {
+	content: "\7a";
+}
+.wb-yen:before {
+	content: "\a5";
+}
+.wb-copyright:before {
+	content: "\a9";
+}

@@ -1,0 +1,163 @@
+@font-face {
+	font-family: 'lis';
+	src:url('../4k-icons-pack03/icons/fonts/lis.eot');
+	src:url('../4k-icons-pack03/icons/fonts/lis.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack03/icons/fonts/lis.woff') format('woff'),
+		url('../4k-icons-pack03/icons/fonts/lis.ttf') format('truetype'),
+		url('../4k-icons-pack03/icons/fonts/lis.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'lis';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.lis-amplified, .lis-world29, .lis-arrow435, .lis-arrow436, .lis-arrow437, .lis-arrowhead4, .lis-audio28, .lis-battery74, .lis-big80, .lis-big81, .lis-blank20, .lis-camera43, .lis-cassette7, .lis-cinema13, .lis-circular45, .lis-circular46, .lis-circular47, .lis-circular48, .lis-circular49, .lis-circular50, .lis-cloud102, .lis-cloudy12, .lis-coffee17, .lis-cogwheel8, .lis-compact8, .lis-compass39, .lis-connected8, .lis-crop2, .lis-cross39, .lis-curve19, .lis-diamond18, .lis-document58, .lis-dollar79, .lis-door7, .lis-double23, .lis-double24, .lis-downloading3, .lis-drawing4, .lis-empty20, .lis-eyes, .lis-fast10, .lis-fast11, .lis-file24, .lis-film24, .lis-fire13, .lis-flag26, .lis-flat10, .lis-fluff1, .lis-four26, .lis-full21, .lis-grocery10, .lis-half11, .lis-heart66, .lis-home62, .lis-huge3, .lis-increasing5, .lis-kings, .lis-letter11, .lis-light44, .lis-lines, .lis-low20, .lis-arrow434, .lis-maps5, .lis-mathematical3, .lis-microphone26, .lis-molecular, .lis-multiple18, .lis-music63, .lis-mute7, .lis-navigation8, .lis-newspaper8, .lis-no16, .lis-open89, .lis-open90, .lis-padlock18, .lis-paint26, .lis-paper43, .lis-paper44, .lis-personal5, .lis-phone51, .lis-picture10, .lis-plant10, .lis-play35, .lis-previous6, .lis-profile7, .lis-public5, .lis-rainy5, .lis-religion1, .lis-rewind22, .lis-rotating10, .lis-rotating9, .lis-round30, .lis-round31, .lis-rounded25, .lis-rounded26, .lis-royalty, .lis-scissors14, .lis-shopping63, .lis-signal21, .lis-simple47, .lis-small139, .lis-snowflake3, .lis-speech54, .lis-spring11, .lis-square51, .lis-square52, .lis-square53, .lis-square54, .lis-square55, .lis-square56, .lis-square57, .lis-stop20, .lis-sun30, .lis-syncing, .lis-telephone63, .lis-trash27, .lis-triangle14, .lis-tshirt14, .lis-umbrella14, .lis-user73, .lis-wide6, .lis-magnification3 {
+	font-family: 'lis';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.lis-amplified:before { content: '\e800'; }
+.lis-world29:before { content: '\e879'; }
+.lis-arrow435:before { content: '\e802'; }
+.lis-arrow436:before { content: '\e803'; }
+.lis-arrow437:before { content: '\e804'; }
+.lis-arrowhead4:before { content: '\e805'; }
+.lis-audio28:before { content: '\e806'; }
+.lis-battery74:before { content: '\e807'; }
+.lis-big80:before { content: '\e808'; }
+.lis-big81:before { content: '\e809'; }
+.lis-blank20:before { content: '\e80a'; }
+.lis-camera43:before { content: '\e80b'; }
+.lis-cassette7:before { content: '\e80c'; }
+.lis-cinema13:before { content: '\e80d'; }
+.lis-circular45:before { content: '\e80e'; }
+.lis-circular46:before { content: '\e80f'; }
+.lis-circular47:before { content: '\e810'; }
+.lis-circular48:before { content: '\e811'; }
+.lis-circular49:before { content: '\e812'; }
+.lis-circular50:before { content: '\e813'; }
+.lis-cloud102:before { content: '\e814'; }
+.lis-cloudy12:before { content: '\e815'; }
+.lis-coffee17:before { content: '\e816'; }
+.lis-cogwheel8:before { content: '\e817'; }
+.lis-compact8:before { content: '\e818'; }
+.lis-compass39:before { content: '\e819'; }
+.lis-connected8:before { content: '\e81a'; }
+.lis-crop2:before { content: '\e81b'; }
+.lis-cross39:before { content: '\e81c'; }
+.lis-curve19:before { content: '\e81d'; }
+.lis-diamond18:before { content: '\e81e'; }
+.lis-document58:before { content: '\e81f'; }
+.lis-dollar79:before { content: '\e820'; }
+.lis-door7:before { content: '\e821'; }
+.lis-double23:before { content: '\e822'; }
+.lis-double24:before { content: '\e823'; }
+.lis-downloading3:before { content: '\e824'; }
+.lis-drawing4:before { content: '\e825'; }
+.lis-empty20:before { content: '\e826'; }
+.lis-eyes:before { content: '\e827'; }
+.lis-fast10:before { content: '\e828'; }
+.lis-fast11:before { content: '\e829'; }
+.lis-file24:before { content: '\e82a'; }
+.lis-film24:before { content: '\e82b'; }
+.lis-fire13:before { content: '\e82c'; }
+.lis-flag26:before { content: '\e82d'; }
+.lis-flat10:before { content: '\e82e'; }
+.lis-fluff1:before { content: '\e82f'; }
+.lis-four26:before { content: '\e830'; }
+.lis-full21:before { content: '\e831'; }
+.lis-grocery10:before { content: '\e832'; }
+.lis-half11:before { content: '\e833'; }
+.lis-heart66:before { content: '\e834'; }
+.lis-home62:before { content: '\e835'; }
+.lis-huge3:before { content: '\e836'; }
+.lis-increasing5:before { content: '\e837'; }
+.lis-kings:before { content: '\e838'; }
+.lis-letter11:before { content: '\e839'; }
+.lis-light44:before { content: '\e83a'; }
+.lis-lines:before { content: '\e83b'; }
+.lis-low20:before { content: '\e83c'; }
+.lis-arrow434:before { content: '\e801'; }
+.lis-maps5:before { content: '\e83e'; }
+.lis-mathematical3:before { content: '\e83f'; }
+.lis-microphone26:before { content: '\e840'; }
+.lis-molecular:before { content: '\e841'; }
+.lis-multiple18:before { content: '\e842'; }
+.lis-music63:before { content: '\e843'; }
+.lis-mute7:before { content: '\e844'; }
+.lis-navigation8:before { content: '\e845'; }
+.lis-newspaper8:before { content: '\e846'; }
+.lis-no16:before { content: '\e847'; }
+.lis-open89:before { content: '\e848'; }
+.lis-open90:before { content: '\e849'; }
+.lis-padlock18:before { content: '\e84a'; }
+.lis-paint26:before { content: '\e84b'; }
+.lis-paper43:before { content: '\e84c'; }
+.lis-paper44:before { content: '\e84d'; }
+.lis-personal5:before { content: '\e84e'; }
+.lis-phone51:before { content: '\e84f'; }
+.lis-picture10:before { content: '\e850'; }
+.lis-plant10:before { content: '\e851'; }
+.lis-play35:before { content: '\e852'; }
+.lis-previous6:before { content: '\e853'; }
+.lis-profile7:before { content: '\e854'; }
+.lis-public5:before { content: '\e855'; }
+.lis-rainy5:before { content: '\e856'; }
+.lis-religion1:before { content: '\e857'; }
+.lis-rewind22:before { content: '\e858'; }
+.lis-rotating10:before { content: '\e859'; }
+.lis-rotating9:before { content: '\e85a'; }
+.lis-round30:before { content: '\e85b'; }
+.lis-round31:before { content: '\e85c'; }
+.lis-rounded25:before { content: '\e85d'; }
+.lis-rounded26:before { content: '\e85e'; }
+.lis-royalty:before { content: '\e85f'; }
+.lis-scissors14:before { content: '\e860'; }
+.lis-shopping63:before { content: '\e861'; }
+.lis-signal21:before { content: '\e862'; }
+.lis-simple47:before { content: '\e863'; }
+.lis-small139:before { content: '\e864'; }
+.lis-snowflake3:before { content: '\e865'; }
+.lis-speech54:before { content: '\e866'; }
+.lis-spring11:before { content: '\e867'; }
+.lis-square51:before { content: '\e868'; }
+.lis-square52:before { content: '\e869'; }
+.lis-square53:before { content: '\e86a'; }
+.lis-square54:before { content: '\e86b'; }
+.lis-square55:before { content: '\e86c'; }
+.lis-square56:before { content: '\e86d'; }
+.lis-square57:before { content: '\e86e'; }
+.lis-stop20:before { content: '\e86f'; }
+.lis-sun30:before { content: '\e870'; }
+.lis-syncing:before { content: '\e871'; }
+.lis-telephone63:before { content: '\e872'; }
+.lis-trash27:before { content: '\e873'; }
+.lis-triangle14:before { content: '\e874'; }
+.lis-tshirt14:before { content: '\e875'; }
+.lis-umbrella14:before { content: '\e876'; }
+.lis-user73:before { content: '\e877'; }
+.lis-wide6:before { content: '\e878'; }
+.lis-magnification3:before { content: '\e83d'; }

@@ -1,0 +1,74 @@
+@font-face {
+	font-family: 'fo';
+	src:url('../4k-icons-pack03/icons/fonts/fo.eot');
+	src:url('../4k-icons-pack03/icons/fonts/fo.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack03/icons/fonts/fo.woff') format('woff'),
+		url('../4k-icons-pack03/icons/fonts/fo.ttf') format('truetype'),
+		url('../4k-icons-pack03/icons/fonts/fo.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'fo';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.fo-emo-happy, .fo-marquee, .fo-emo-wink2, .fo-emo-unhappy, .fo-emo-sleep, .fo-emo-thumbsup, .fo-emo-devil, .fo-emo-surprised, .fo-emo-tongue, .fo-emo-coffee, .fo-emo-sunglasses, .fo-emo-displeased, .fo-emo-beer, .fo-emo-grin, .fo-emo-angry, .fo-emo-saint, .fo-emo-cry, .fo-emo-wink, .fo-emo-squint, .fo-emo-laugh, .fo-spin1, .fo-spin2, .fo-spin3, .fo-spin4, .fo-spin5, .fo-spin6, .fo-firefox, .fo-chrome, .fo-opera, .fo-ie, .fo-crown, .fo-crown-plus, .fo-crown-minus, .fo-emo-shoot {
+	font-family: 'fo';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.fo-emo-happy:before { content: '\e800'; }
+.fo-marquee:before { content: '\e821'; }
+.fo-emo-wink2:before { content: '\e802'; }
+.fo-emo-unhappy:before { content: '\e803'; }
+.fo-emo-sleep:before { content: '\e804'; }
+.fo-emo-thumbsup:before { content: '\e805'; }
+.fo-emo-devil:before { content: '\e806'; }
+.fo-emo-surprised:before { content: '\e807'; }
+.fo-emo-tongue:before { content: '\e808'; }
+.fo-emo-coffee:before { content: '\e809'; }
+.fo-emo-sunglasses:before { content: '\e80a'; }
+.fo-emo-displeased:before { content: '\e80b'; }
+.fo-emo-beer:before { content: '\e80c'; }
+.fo-emo-grin:before { content: '\e80d'; }
+.fo-emo-angry:before { content: '\e80e'; }
+.fo-emo-saint:before { content: '\e80f'; }
+.fo-emo-cry:before { content: '\e810'; }
+.fo-emo-wink:before { content: '\e801'; }
+.fo-emo-squint:before { content: '\e812'; }
+.fo-emo-laugh:before { content: '\e813'; }
+.fo-spin1:before { content: '\e814'; }
+.fo-spin2:before { content: '\e815'; }
+.fo-spin3:before { content: '\e816'; }
+.fo-spin4:before { content: '\e817'; }
+.fo-spin5:before { content: '\e818'; }
+.fo-spin6:before { content: '\e819'; }
+.fo-firefox:before { content: '\e81a'; }
+.fo-chrome:before { content: '\e81b'; }
+.fo-opera:before { content: '\e81c'; }
+.fo-ie:before { content: '\e81d'; }
+.fo-crown:before { content: '\e81e'; }
+.fo-crown-plus:before { content: '\e81f'; }
+.fo-crown-minus:before { content: '\e820'; }
+.fo-emo-shoot:before { content: '\e811'; }

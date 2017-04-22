@@ -1,0 +1,502 @@
+@font-face {
+	font-family: 'zm';
+	src:url('../4k-icons-pack05/icons/fonts/zm.eot');
+	src:url('../4k-icons-pack05/icons/fonts/zm.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack05/icons/fonts/zm.woff') format('woff'),
+		url('../4k-icons-pack05/icons/fonts/zm.ttf') format('truetype'),
+		url('../4k-icons-pack05/icons/fonts/zm.svg#zm') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'zm';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="zm-"] {
+*/
+.zm-facebook, .zm-twitter-old, .zm-share, .zm-feed, .zm-bird, .zm-chat, .zm-envelope, .zm-envelope-2, .zm-phone, .zm-phone-2, .zm-mouse, .zm-cd, .zm-floppy, .zm-hardware, .zm-usb, .zm-cord, .zm-socket, .zm-socket-2, .zm-socket-3, .zm-printer, .zm-music, .zm-microphone, .zm-radio, .zm-ipod, .zm-headphone, .zm-cassette, .zm-broadcast, .zm-broadcast-2, .zm-calculator, .zm-gamepad, .zm-battery, .zm-battery-full, .zm-folder, .zm-search, .zm-zoom-out, .zm-zoom-in, .zm-binocular, .zm-location, .zm-pin, .zm-file, .zm-pencil, .zm-pen, .zm-user, .zm-user-2, .zm-user-3, .zm-trashcan, .zm-cart, .zm-bag, .zm-suitcase, .zm-card, .zm-clock, .zm-timer, .zm-food, .zm-drink, .zm-mug, .zm-cup, .zm-drink-2, .zm-mug-2, .zm-lollipop, .zm-lab, .zm-sunny, .zm-droplet, .zm-umbrella, .zm-truck, .zm-car, .zm-gas-pump, .zm-factory, .zm-tree, .zm-leaf, .zm-flower, .zm-arrow-top-right, .zm-arrow-top-left, .zm-arrow-bottom-right, .zm-arrow-bottom-left, .zm-contract, .zm-enlarge, .zm-refresh, .zm-skull, .zm-bug, .zm-mine, .zm-earth, .zm-bookmark, .zm-bookmark-2, .zm-newspaper, .zm-notebook, .zm-window, .zm-server, .zm-hdd, .zm-keyboard, .zm-tv, .zm-camera, .zm-camera-2, .zm-volume, .zm-globe, .zm-planet, .zm-battery-2, .zm-battery-low, .zm-address-book, .zm-clipboard, .zm-clipboard-2, .zm-board, .zm-phone-3, .zm-mobile, .zm-ipod-2, .zm-camera-3, .zm-pictures, .zm-eye, .zm-gamepad-2, .zm-cog, .zm-shield, .zm-tag, .zm-quote, .zm-attachment, .zm-book, .zm-gift, .zm-lamp, .zm-puzzle, .zm-flag, .zm-star, .zm-heart, .zm-badge, .zm-cup-2, .zm-scissors, .zm-snowflake, .zm-cloud, .zm-lightning, .zm-night, .zm-direction, .zm-thumbs-up, .zm-thumbs-down, .zm-pointer, .zm-pointer-2, .zm-pointer-3, .zm-pointer-4, .zm-arrow-up, .zm-arrow-down, .zm-arrow-left, .zm-arrow-right, .zm-settings, .zm-support, .zm-medicine, .zm-cone, .zm-locked, .zm-unlocked, .zm-key, .zm-info, .zm-monitor, .zm-laptop, .zm-film, .zm-film-2, .zm-modem, .zm-speaker, .zm-camera-4, .zm-movie {
+	font-family: 'zm';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.zm-facebook:before {
+	content: "\e000";
+}
+.zm-twitter-old:before {
+	content: "\e001";
+}
+.zm-share:before {
+	content: "\e002";
+}
+.zm-feed:before {
+	content: "\e003";
+}
+.zm-bird:before {
+	content: "\e004";
+}
+.zm-chat:before {
+	content: "\e005";
+}
+.zm-envelope:before {
+	content: "\e006";
+}
+.zm-envelope-2:before {
+	content: "\e007";
+}
+.zm-phone:before {
+	content: "\e008";
+}
+.zm-phone-2:before {
+	content: "\e009";
+}
+.zm-mouse:before {
+	content: "\e015";
+}
+.zm-cd:before {
+	content: "\e016";
+}
+.zm-floppy:before {
+	content: "\e017";
+}
+.zm-hardware:before {
+	content: "\e018";
+}
+.zm-usb:before {
+	content: "\e019";
+}
+.zm-cord:before {
+	content: "\e01a";
+}
+.zm-socket:before {
+	content: "\e01b";
+}
+.zm-socket-2:before {
+	content: "\e01c";
+}
+.zm-socket-3:before {
+	content: "\e01d";
+}
+.zm-printer:before {
+	content: "\e01e";
+}
+.zm-music:before {
+	content: "\e02a";
+}
+.zm-microphone:before {
+	content: "\e02b";
+}
+.zm-radio:before {
+	content: "\e02c";
+}
+.zm-ipod:before {
+	content: "\e02d";
+}
+.zm-headphone:before {
+	content: "\e02e";
+}
+.zm-cassette:before {
+	content: "\e02f";
+}
+.zm-broadcast:before {
+	content: "\e030";
+}
+.zm-broadcast-2:before {
+	content: "\e031";
+}
+.zm-calculator:before {
+	content: "\e032";
+}
+.zm-gamepad:before {
+	content: "\e033";
+}
+.zm-battery:before {
+	content: "\e03f";
+}
+.zm-battery-full:before {
+	content: "\e040";
+}
+.zm-folder:before {
+	content: "\e041";
+}
+.zm-search:before {
+	content: "\e042";
+}
+.zm-zoom-out:before {
+	content: "\e043";
+}
+.zm-zoom-in:before {
+	content: "\e044";
+}
+.zm-binocular:before {
+	content: "\e045";
+}
+.zm-location:before {
+	content: "\e046";
+}
+.zm-pin:before {
+	content: "\e047";
+}
+.zm-file:before {
+	content: "\e048";
+}
+.zm-pencil:before {
+	content: "\e054";
+}
+.zm-pen:before {
+	content: "\e055";
+}
+.zm-user:before {
+	content: "\e056";
+}
+.zm-user-2:before {
+	content: "\e057";
+}
+.zm-user-3:before {
+	content: "\e058";
+}
+.zm-trashcan:before {
+	content: "\e059";
+}
+.zm-cart:before {
+	content: "\e05a";
+}
+.zm-bag:before {
+	content: "\e05b";
+}
+.zm-suitcase:before {
+	content: "\e05c";
+}
+.zm-card:before {
+	content: "\e05d";
+}
+.zm-clock:before {
+	content: "\e069";
+}
+.zm-timer:before {
+	content: "\e06a";
+}
+.zm-food:before {
+	content: "\e06b";
+}
+.zm-drink:before {
+	content: "\e06c";
+}
+.zm-mug:before {
+	content: "\e06d";
+}
+.zm-cup:before {
+	content: "\e06e";
+}
+.zm-drink-2:before {
+	content: "\e06f";
+}
+.zm-mug-2:before {
+	content: "\e070";
+}
+.zm-lollipop:before {
+	content: "\e071";
+}
+.zm-lab:before {
+	content: "\e072";
+}
+.zm-sunny:before {
+	content: "\e07e";
+}
+.zm-droplet:before {
+	content: "\e07f";
+}
+.zm-umbrella:before {
+	content: "\e080";
+}
+.zm-truck:before {
+	content: "\e081";
+}
+.zm-car:before {
+	content: "\e082";
+}
+.zm-gas-pump:before {
+	content: "\e083";
+}
+.zm-factory:before {
+	content: "\e084";
+}
+.zm-tree:before {
+	content: "\e085";
+}
+.zm-leaf:before {
+	content: "\e086";
+}
+.zm-flower:before {
+	content: "\e087";
+}
+.zm-arrow-top-right:before {
+	content: "\e093";
+}
+.zm-arrow-top-left:before {
+	content: "\e094";
+}
+.zm-arrow-bottom-right:before {
+	content: "\e095";
+}
+.zm-arrow-bottom-left:before {
+	content: "\e096";
+}
+.zm-contract:before {
+	content: "\e097";
+}
+.zm-enlarge:before {
+	content: "\e098";
+}
+.zm-refresh:before {
+	content: "\e099";
+}
+.zm-skull:before {
+	content: "\e037";
+}
+.zm-bug:before {
+	content: "\e038";
+}
+.zm-mine:before {
+	content: "\e039";
+}
+.zm-earth:before {
+	content: "\e03a";
+}
+.zm-bookmark:before {
+	content: "\e04c";
+}
+.zm-bookmark-2:before {
+	content: "\e04d";
+}
+.zm-newspaper:before {
+	content: "\e04e";
+}
+.zm-notebook:before {
+	content: "\e04f";
+}
+.zm-window:before {
+	content: "\e011";
+}
+.zm-server:before {
+	content: "\e012";
+}
+.zm-hdd:before {
+	content: "\e013";
+}
+.zm-keyboard:before {
+	content: "\e014";
+}
+.zm-tv:before {
+	content: "\e026";
+}
+.zm-camera:before {
+	content: "\e027";
+}
+.zm-camera-2:before {
+	content: "\e028";
+}
+.zm-volume:before {
+	content: "\e029";
+}
+.zm-globe:before {
+	content: "\e03b";
+}
+.zm-planet:before {
+	content: "\e03c";
+}
+.zm-battery-2:before {
+	content: "\e03d";
+}
+.zm-battery-low:before {
+	content: "\e03e";
+}
+.zm-address-book:before {
+	content: "\e050";
+}
+.zm-clipboard:before {
+	content: "\e051";
+}
+.zm-clipboard-2:before {
+	content: "\e052";
+}
+.zm-board:before {
+	content: "\e053";
+}
+.zm-phone-3:before {
+	content: "\e00a";
+}
+.zm-mobile:before {
+	content: "\e00b";
+}
+.zm-ipod-2:before {
+	content: "\e00c";
+}
+.zm-camera-3:before {
+	content: "\e01f";
+}
+.zm-pictures:before {
+	content: "\e020";
+}
+.zm-eye:before {
+	content: "\e021";
+}
+.zm-gamepad-2:before {
+	content: "\e034";
+}
+.zm-cog:before {
+	content: "\e035";
+}
+.zm-shield:before {
+	content: "\e036";
+}
+.zm-tag:before {
+	content: "\e049";
+}
+.zm-quote:before {
+	content: "\e04a";
+}
+.zm-attachment:before {
+	content: "\e04b";
+}
+.zm-book:before {
+	content: "\e05e";
+}
+.zm-gift:before {
+	content: "\e05f";
+}
+.zm-lamp:before {
+	content: "\e060";
+}
+.zm-puzzle:before {
+	content: "\e073";
+}
+.zm-flag:before {
+	content: "\e074";
+}
+.zm-star:before {
+	content: "\e075";
+}
+.zm-heart:before {
+	content: "\e076";
+}
+.zm-badge:before {
+	content: "\e077";
+}
+.zm-cup-2:before {
+	content: "\e078";
+}
+.zm-scissors:before {
+	content: "\e079";
+}
+.zm-snowflake:before {
+	content: "\e07a";
+}
+.zm-cloud:before {
+	content: "\e07b";
+}
+.zm-lightning:before {
+	content: "\e07c";
+}
+.zm-night:before {
+	content: "\e07d";
+}
+.zm-direction:before {
+	content: "\e088";
+}
+.zm-thumbs-up:before {
+	content: "\e089";
+}
+.zm-thumbs-down:before {
+	content: "\e08a";
+}
+.zm-pointer:before {
+	content: "\e08b";
+}
+.zm-pointer-2:before {
+	content: "\e08c";
+}
+.zm-pointer-3:before {
+	content: "\e08d";
+}
+.zm-pointer-4:before {
+	content: "\e08e";
+}
+.zm-arrow-up:before {
+	content: "\e08f";
+}
+.zm-arrow-down:before {
+	content: "\e090";
+}
+.zm-arrow-left:before {
+	content: "\e091";
+}
+.zm-arrow-right:before {
+	content: "\e092";
+}
+.zm-settings:before {
+	content: "\e061";
+}
+.zm-support:before {
+	content: "\e062";
+}
+.zm-medicine:before {
+	content: "\e063";
+}
+.zm-cone:before {
+	content: "\e064";
+}
+.zm-locked:before {
+	content: "\e065";
+}
+.zm-unlocked:before {
+	content: "\e066";
+}
+.zm-key:before {
+	content: "\e067";
+}
+.zm-info:before {
+	content: "\e068";
+}
+.zm-monitor:before {
+	content: "\e00d";
+}
+.zm-laptop:before {
+	content: "\e00e";
+}
+.zm-film:before {
+	content: "\e022";
+}
+.zm-film-2:before {
+	content: "\e023";
+}
+.zm-modem:before {
+	content: "\e00f";
+}
+.zm-speaker:before {
+	content: "\e010";
+}
+.zm-camera-4:before {
+	content: "\e024";
+}
+.zm-movie:before {
+	content: "\e025";
+}

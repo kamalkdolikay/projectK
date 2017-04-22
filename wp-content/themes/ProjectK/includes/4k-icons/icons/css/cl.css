@@ -1,0 +1,141 @@
+@font-face {
+	font-family: 'cl';
+	src:url('../4k-icons-pack01/icons/fonts/cl.eot');
+	src:url('../4k-icons-pack01/icons/fonts/cl.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack01/icons/fonts/cl.woff') format('woff'),
+		url('../4k-icons-pack01/icons/fonts/cl.ttf') format('truetype'),
+		url('../4k-icons-pack01/icons/fonts/cl.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'cl';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.cl-connection, .cl-volume32, .cl-comments-1, .cl-comments, .cl-magnifying-glass, .cl-add-comment-1, .cl-add-comment, .cl-download-1, .cl-download, .cl-back12, .cl-cabinet4, .cl-calculator30, .cl-calendar53, .cl-caret7, .cl-cellphone4, .cl-cellphone5, .cl-cellphone6, .cl-cloth, .cl-day7, .cl-dialogue, .cl-dialogue1, .cl-down13, .cl-down14, .cl-down15, .cl-empty21, .cl-family3, .cl-four30, .cl-halffilled, .cl-help11, .cl-help12, .cl-intersecting4, .cl-intertwined1, .cl-key31, .cl-left33, .cl-left34, .cl-left35, .cl-left36, .cl-left37, .cl-left38, .cl-line16, .cl-line17, .cl-line18, .cl-list31, .cl-lock25, .cl-lock26, .cl-looping1, .cl-man140, .cl-microphone29, .cl-microphone30, .cl-next10, .cl-connection-1, .cl-open99, .cl-organizational, .cl-pause15, .cl-pie19, .cl-pie20, .cl-pie21, .cl-play43, .cl-play44, .cl-play45, .cl-rectangular25, .cl-remote5, .cl-right31, .cl-right32, .cl-right33, .cl-right34, .cl-round40, .cl-round41, .cl-round42, .cl-round43, .cl-scissor2, .cl-scissor3, .cl-screen13, .cl-screen14, .cl-screen15, .cl-simcard1, .cl-single15, .cl-small145, .cl-song, .cl-speaker35, .cl-speaker36, .cl-speed4, .cl-square64, .cl-subtract2, .cl-telephone67, .cl-telephone68, .cl-television9, .cl-three60, .cl-threefourth, .cl-trash30, .cl-two122, .cl-two123, .cl-two124, .cl-two125, .cl-unlock4, .cl-up21, .cl-up22, .cl-volume30, .cl-volume31, .cl-open98 {
+	font-family: 'cl';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.cl-connection:before { content: '\e800'; }
+.cl-volume32:before { content: '\e863'; }
+.cl-comments-1:before { content: '\e802'; }
+.cl-comments:before { content: '\e803'; }
+.cl-magnifying-glass:before { content: '\e804'; }
+.cl-add-comment-1:before { content: '\e805'; }
+.cl-add-comment:before { content: '\e806'; }
+.cl-download-1:before { content: '\e807'; }
+.cl-download:before { content: '\e808'; }
+.cl-back12:before { content: '\e809'; }
+.cl-cabinet4:before { content: '\e80a'; }
+.cl-calculator30:before { content: '\e80b'; }
+.cl-calendar53:before { content: '\e80c'; }
+.cl-caret7:before { content: '\e80d'; }
+.cl-cellphone4:before { content: '\e80e'; }
+.cl-cellphone5:before { content: '\e80f'; }
+.cl-cellphone6:before { content: '\e810'; }
+.cl-cloth:before { content: '\e811'; }
+.cl-day7:before { content: '\e812'; }
+.cl-dialogue:before { content: '\e813'; }
+.cl-dialogue1:before { content: '\e814'; }
+.cl-down13:before { content: '\e815'; }
+.cl-down14:before { content: '\e816'; }
+.cl-down15:before { content: '\e817'; }
+.cl-empty21:before { content: '\e818'; }
+.cl-family3:before { content: '\e819'; }
+.cl-four30:before { content: '\e81a'; }
+.cl-halffilled:before { content: '\e81b'; }
+.cl-help11:before { content: '\e81c'; }
+.cl-help12:before { content: '\e81d'; }
+.cl-intersecting4:before { content: '\e81e'; }
+.cl-intertwined1:before { content: '\e81f'; }
+.cl-key31:before { content: '\e820'; }
+.cl-left33:before { content: '\e821'; }
+.cl-left34:before { content: '\e822'; }
+.cl-left35:before { content: '\e823'; }
+.cl-left36:before { content: '\e824'; }
+.cl-left37:before { content: '\e825'; }
+.cl-left38:before { content: '\e826'; }
+.cl-line16:before { content: '\e827'; }
+.cl-line17:before { content: '\e828'; }
+.cl-line18:before { content: '\e829'; }
+.cl-list31:before { content: '\e82a'; }
+.cl-lock25:before { content: '\e82b'; }
+.cl-lock26:before { content: '\e82c'; }
+.cl-looping1:before { content: '\e82d'; }
+.cl-man140:before { content: '\e82e'; }
+.cl-microphone29:before { content: '\e82f'; }
+.cl-microphone30:before { content: '\e830'; }
+.cl-next10:before { content: '\e831'; }
+.cl-connection-1:before { content: '\e801'; }
+.cl-open99:before { content: '\e833'; }
+.cl-organizational:before { content: '\e834'; }
+.cl-pause15:before { content: '\e835'; }
+.cl-pie19:before { content: '\e836'; }
+.cl-pie20:before { content: '\e837'; }
+.cl-pie21:before { content: '\e838'; }
+.cl-play43:before { content: '\e839'; }
+.cl-play44:before { content: '\e83a'; }
+.cl-play45:before { content: '\e83b'; }
+.cl-rectangular25:before { content: '\e83c'; }
+.cl-remote5:before { content: '\e83d'; }
+.cl-right31:before { content: '\e83e'; }
+.cl-right32:before { content: '\e83f'; }
+.cl-right33:before { content: '\e840'; }
+.cl-right34:before { content: '\e841'; }
+.cl-round40:before { content: '\e842'; }
+.cl-round41:before { content: '\e843'; }
+.cl-round42:before { content: '\e844'; }
+.cl-round43:before { content: '\e845'; }
+.cl-scissor2:before { content: '\e846'; }
+.cl-scissor3:before { content: '\e847'; }
+.cl-screen13:before { content: '\e848'; }
+.cl-screen14:before { content: '\e849'; }
+.cl-screen15:before { content: '\e84a'; }
+.cl-simcard1:before { content: '\e84b'; }
+.cl-single15:before { content: '\e84c'; }
+.cl-small145:before { content: '\e84d'; }
+.cl-song:before { content: '\e84e'; }
+.cl-speaker35:before { content: '\e84f'; }
+.cl-speaker36:before { content: '\e850'; }
+.cl-speed4:before { content: '\e851'; }
+.cl-square64:before { content: '\e852'; }
+.cl-subtract2:before { content: '\e853'; }
+.cl-telephone67:before { content: '\e854'; }
+.cl-telephone68:before { content: '\e855'; }
+.cl-television9:before { content: '\e856'; }
+.cl-three60:before { content: '\e857'; }
+.cl-threefourth:before { content: '\e858'; }
+.cl-trash30:before { content: '\e859'; }
+.cl-two122:before { content: '\e85a'; }
+.cl-two123:before { content: '\e85b'; }
+.cl-two124:before { content: '\e85c'; }
+.cl-two125:before { content: '\e85d'; }
+.cl-unlock4:before { content: '\e85e'; }
+.cl-up21:before { content: '\e85f'; }
+.cl-up22:before { content: '\e860'; }
+.cl-volume30:before { content: '\e861'; }
+.cl-volume31:before { content: '\e862'; }
+.cl-open98:before { content: '\e832'; }

@@ -1,0 +1,402 @@
+@font-face {
+	font-family: 'ba';
+	src:url('../4k-icons-pack01/icons/fonts/ba.eot');
+	src:url('../4k-icons-pack01/icons/fonts/ba.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack01/icons/fonts/ba.woff') format('woff'),
+		url('../4k-icons-pack01/icons/fonts/ba.ttf') format('truetype'),
+		url('../4k-icons-pack01/icons/fonts/ba.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'ba';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.ba-5, .ba-zoom11, .ba-add22, .ba-add23, .ba-add24, .ba-address5, .ba-alarm, .ba-align, .ba-align1, .ba-align2, .ba-align3, .ba-align4, .ba-align5, .ba-arrow57, .ba-arrow58, .ba-arrow59, .ba-asterisk, .ba-at1, .ba-attachment, .ba-attachment2, .ba-audio3, .ba-audio4, .ba-audio5, .ba-audio6, .ba-average1, .ba-battery10, .ba-battery11, .ba-battery12, .ba-battery13, .ba-battery14, .ba-battery15, .ba-battery16, .ba-battery5, .ba-battery6, .ba-battery7, .ba-battery8, .ba-battery9, .ba-bell2, .ba-bell3, .ba-bell4, .ba-big40, .ba-big45, .ba-big48, .ba-big53, .ba-big54, .ba-bin1, .ba-bin3, .ba-black28, .ba-black31, .ba-black32, .ba-black39, .ba-black40, .ba-boat, .ba-book4, .ba-book5, .ba-book6, .ba-bookmark, .ba-botton10, .ba-botton11, .ba-botton7, .ba-botton8, .ba-botton9, .ba-brightness3, .ba-brightness4, .ba-browser, .ba-browser1, .ba-browser11, .ba-browser19, .ba-browser2, .ba-browser3, .ba-browser4, .ba-browser5, .ba-browser6, .ba-browser7, .ba-bulb, .ba-bullet, .ba-bullhorn, .ba-calendar4, .ba-camera4, .ba-camera5, .ba-campane, .ba-cassette, .ba-center, .ba-clipboard2, .ba-clipboard3, .ba-clock3, .ba-close2, .ba-cloud10, .ba-cloud11, .ba-cloud12, .ba-cloud13, .ba-cloud9, .ba-code2, .ba-commit, .ba-compose, .ba-compose1, .ba-compose2, .ba-compose3, .ba-contract, .ba-contract1, .ba-contrast1, .ba-converge, .ba-crate, .ba-credit1, .ba-credit4, .ba-credit5, .ba-cross2, .ba-curlybrace, .ba-curlybrace1, .ba-curve2, .ba-curves, .ba-database10, .ba-database9, .ba-databases, .ba-day, .ba-day2, .ba-delete12, .ba-delete13, .ba-distribute, .ba-distribute1, .ba-distribute2, .ba-distribute3, .ba-distribute4, .ba-distribute5, .ba-document2, .ba-document3, .ba-document4, .ba-drawer, .ba-drizzle, .ba-droplet, .ba-envelope, .ba-exchange, .ba-exclude, .ba-expand2, .ba-expand6, .ba-expand7, .ba-expand8, .ba-favorite6, .ba-fivepointed2, .ba-flag2, .ba-flag3, .ba-flask, .ba-flask1, .ba-floppy, .ba-flux, .ba-fog, .ba-folder10, .ba-folder11, .ba-folder15, .ba-folder7, .ba-folder8, .ba-folder9, .ba-framework, .ba-grid, .ba-grid3, .ba-headset, .ba-heart18, .ba-heart9, .ba-helm, .ba-home15, .ba-home2, .ba-home4, .ba-image1, .ba-inbox1, .ba-inbox2, .ba-infinity2, .ba-internet3, .ba-intersect, .ba-intro, .ba-key3, .ba-layout, .ba-layout1, .ba-layout2, .ba-layout3, .ba-layout4, .ba-layout5, .ba-layout6, .ba-left19, .ba-left24, .ba-line6, .ba-7, .ba-list4, .ba-list5, .ba-list7, .ba-load, .ba-locked2, .ba-low4, .ba-mail1, .ba-mail2, .ba-mail3, .ba-map1, .ba-map2, .ba-marquee, .ba-marquee1, .ba-marquee2, .ba-marquee3, .ba-marquee5, .ba-marquee6, .ba-maximise, .ba-menu4, .ba-menu5, .ba-microphone5, .ba-minus, .ba-mizzle, .ba-new3, .ba-newspaper, .ba-newspaper1, .ba-next3, .ba-nib, .ba-nope, .ba-north, .ba-notes, .ba-old2, .ba-out1, .ba-outbox, .ba-outbox1, .ba-outgoing, .ba-outgoing1, .ba-paper6, .ba-paper8, .ba-paragrap, .ba-paragraph1, .ba-paragraph13, .ba-paragraph3, .ba-paragraph4, .ba-paragraph5, .ba-paragraph6, .ba-paragraph8, .ba-partially, .ba-pause4, .ba-pen6, .ba-pencil6, .ba-piano, .ba-pin7, .ba-pin8, .ba-plume, .ba-plus3, .ba-podcast, .ba-podcast1, .ba-polaroid, .ba-polaroid1, .ba-postage, .ba-power5, .ba-previous1, .ba-print, .ba-professional, .ba-pull, .ba-pullup, .ba-quill, .ba-rectangular, .ba-reduce, .ba-refresh1, .ba-reminder, .ba-remove, .ba-repeat, .ba-return2, .ba-return3, .ba-revert, .ba-rewind9, .ba-ripped, .ba-road2, .ba-rounded1, .ba-rounded11, .ba-rulers, .ba-safe, .ba-search, .ba-search4, .ba-seccin, .ba-send5, .ba-settings, .ba-settings2, .ba-shred, .ba-shuffle, .ba-sing, .ba-sleep1, .ba-small40, .ba-small41, .ba-small42, .ba-small43, .ba-small44, .ba-small45, .ba-small46, .ba-small47, .ba-small52, .ba-spam, .ba-spam1, .ba-speech10, .ba-speech11, .ba-speech17, .ba-speech3, .ba-speech4, .ba-speech5, .ba-speeck, .ba-spinner, .ba-spinner1, .ba-spinner3, .ba-split, .ba-split1, .ba-spool, .ba-square19, .ba-stamp, .ba-stamp1, .ba-star3, .ba-stiffy, .ba-stop3, .ba-stopwatch, .ba-store, .ba-substract, .ba-support, .ba-support2, .ba-swap, .ba-swap1, .ba-swatch, .ba-swatches, .ba-switch2, .ba-switch3, .ba-symbol2, .ba-tag3, .ba-tag4, .ba-tag5, .ba-tag7, .ba-terminal2, .ba-terminal5, .ba-terminal6, .ba-thermometer2, .ba-three12, .ba-tick1, .ba-tilde, .ba-timeline1, .ba-toggle, .ba-toggle1, .ba-top, .ba-transfer, .ba-unite, .ba-unlocked2, .ba-unwatch, .ba-upload5, .ba-user10, .ba-user11, .ba-user13, .ba-user7, .ba-user8, .ba-user9, .ba-users, .ba-video4, .ba-video8, .ba-vinyl, .ba-voicemail, .ba-wallet2, .ba-wallet3, .ba-watch1, .ba-wave, .ba-wave1, .ba-web1, .ba-web2, .ba-wifi10, .ba-wifi4, .ba-wifi8, .ba-windows4, .ba-zoom10, .ba-link6 {
+	font-family: 'ba';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.ba-5:before { content: '\e800'; }
+.ba-zoom11:before { content: '\e968'; }
+.ba-add22:before { content: '\e802'; }
+.ba-add23:before { content: '\e803'; }
+.ba-add24:before { content: '\e804'; }
+.ba-address5:before { content: '\e805'; }
+.ba-alarm:before { content: '\e806'; }
+.ba-align:before { content: '\e807'; }
+.ba-align1:before { content: '\e808'; }
+.ba-align2:before { content: '\e809'; }
+.ba-align3:before { content: '\e80a'; }
+.ba-align4:before { content: '\e80b'; }
+.ba-align5:before { content: '\e80c'; }
+.ba-arrow57:before { content: '\e80d'; }
+.ba-arrow58:before { content: '\e80e'; }
+.ba-arrow59:before { content: '\e80f'; }
+.ba-asterisk:before { content: '\e810'; }
+.ba-at1:before { content: '\e811'; }
+.ba-attachment:before { content: '\e812'; }
+.ba-attachment2:before { content: '\e813'; }
+.ba-audio3:before { content: '\e814'; }
+.ba-audio4:before { content: '\e815'; }
+.ba-audio5:before { content: '\e816'; }
+.ba-audio6:before { content: '\e817'; }
+.ba-average1:before { content: '\e818'; }
+.ba-battery10:before { content: '\e819'; }
+.ba-battery11:before { content: '\e81a'; }
+.ba-battery12:before { content: '\e81b'; }
+.ba-battery13:before { content: '\e81c'; }
+.ba-battery14:before { content: '\e81d'; }
+.ba-battery15:before { content: '\e81e'; }
+.ba-battery16:before { content: '\e81f'; }
+.ba-battery5:before { content: '\e820'; }
+.ba-battery6:before { content: '\e821'; }
+.ba-battery7:before { content: '\e822'; }
+.ba-battery8:before { content: '\e823'; }
+.ba-battery9:before { content: '\e824'; }
+.ba-bell2:before { content: '\e825'; }
+.ba-bell3:before { content: '\e826'; }
+.ba-bell4:before { content: '\e827'; }
+.ba-big40:before { content: '\e828'; }
+.ba-big45:before { content: '\e829'; }
+.ba-big48:before { content: '\e82a'; }
+.ba-big53:before { content: '\e82b'; }
+.ba-big54:before { content: '\e82c'; }
+.ba-bin1:before { content: '\e82d'; }
+.ba-bin3:before { content: '\e82e'; }
+.ba-black28:before { content: '\e82f'; }
+.ba-black31:before { content: '\e830'; }
+.ba-black32:before { content: '\e831'; }
+.ba-black39:before { content: '\e832'; }
+.ba-black40:before { content: '\e833'; }
+.ba-boat:before { content: '\e834'; }
+.ba-book4:before { content: '\e835'; }
+.ba-book5:before { content: '\e836'; }
+.ba-book6:before { content: '\e837'; }
+.ba-bookmark:before { content: '\e838'; }
+.ba-botton10:before { content: '\e839'; }
+.ba-botton11:before { content: '\e83a'; }
+.ba-botton7:before { content: '\e83b'; }
+.ba-botton8:before { content: '\e83c'; }
+.ba-botton9:before { content: '\e83d'; }
+.ba-brightness3:before { content: '\e83e'; }
+.ba-brightness4:before { content: '\e83f'; }
+.ba-browser:before { content: '\e840'; }
+.ba-browser1:before { content: '\e841'; }
+.ba-browser11:before { content: '\e842'; }
+.ba-browser19:before { content: '\e843'; }
+.ba-browser2:before { content: '\e844'; }
+.ba-browser3:before { content: '\e845'; }
+.ba-browser4:before { content: '\e846'; }
+.ba-browser5:before { content: '\e847'; }
+.ba-browser6:before { content: '\e848'; }
+.ba-browser7:before { content: '\e849'; }
+.ba-bulb:before { content: '\e84a'; }
+.ba-bullet:before { content: '\e84b'; }
+.ba-bullhorn:before { content: '\e84c'; }
+.ba-calendar4:before { content: '\e84d'; }
+.ba-camera4:before { content: '\e84e'; }
+.ba-camera5:before { content: '\e84f'; }
+.ba-campane:before { content: '\e850'; }
+.ba-cassette:before { content: '\e851'; }
+.ba-center:before { content: '\e852'; }
+.ba-clipboard2:before { content: '\e853'; }
+.ba-clipboard3:before { content: '\e854'; }
+.ba-clock3:before { content: '\e855'; }
+.ba-close2:before { content: '\e856'; }
+.ba-cloud10:before { content: '\e857'; }
+.ba-cloud11:before { content: '\e858'; }
+.ba-cloud12:before { content: '\e859'; }
+.ba-cloud13:before { content: '\e85a'; }
+.ba-cloud9:before { content: '\e85b'; }
+.ba-code2:before { content: '\e85c'; }
+.ba-commit:before { content: '\e85d'; }
+.ba-compose:before { content: '\e85e'; }
+.ba-compose1:before { content: '\e85f'; }
+.ba-compose2:before { content: '\e860'; }
+.ba-compose3:before { content: '\e861'; }
+.ba-contract:before { content: '\e862'; }
+.ba-contract1:before { content: '\e863'; }
+.ba-contrast1:before { content: '\e864'; }
+.ba-converge:before { content: '\e865'; }
+.ba-crate:before { content: '\e866'; }
+.ba-credit1:before { content: '\e867'; }
+.ba-credit4:before { content: '\e868'; }
+.ba-credit5:before { content: '\e869'; }
+.ba-cross2:before { content: '\e86a'; }
+.ba-curlybrace:before { content: '\e86b'; }
+.ba-curlybrace1:before { content: '\e86c'; }
+.ba-curve2:before { content: '\e86d'; }
+.ba-curves:before { content: '\e86e'; }
+.ba-database10:before { content: '\e86f'; }
+.ba-database9:before { content: '\e870'; }
+.ba-databases:before { content: '\e871'; }
+.ba-day:before { content: '\e872'; }
+.ba-day2:before { content: '\e873'; }
+.ba-delete12:before { content: '\e874'; }
+.ba-delete13:before { content: '\e875'; }
+.ba-distribute:before { content: '\e876'; }
+.ba-distribute1:before { content: '\e877'; }
+.ba-distribute2:before { content: '\e878'; }
+.ba-distribute3:before { content: '\e879'; }
+.ba-distribute4:before { content: '\e87a'; }
+.ba-distribute5:before { content: '\e87b'; }
+.ba-document2:before { content: '\e87c'; }
+.ba-document3:before { content: '\e87d'; }
+.ba-document4:before { content: '\e87e'; }
+.ba-drawer:before { content: '\e87f'; }
+.ba-drizzle:before { content: '\e880'; }
+.ba-droplet:before { content: '\e881'; }
+.ba-envelope:before { content: '\e882'; }
+.ba-exchange:before { content: '\e883'; }
+.ba-exclude:before { content: '\e884'; }
+.ba-expand2:before { content: '\e885'; }
+.ba-expand6:before { content: '\e886'; }
+.ba-expand7:before { content: '\e887'; }
+.ba-expand8:before { content: '\e888'; }
+.ba-favorite6:before { content: '\e889'; }
+.ba-fivepointed2:before { content: '\e88a'; }
+.ba-flag2:before { content: '\e88b'; }
+.ba-flag3:before { content: '\e88c'; }
+.ba-flask:before { content: '\e88d'; }
+.ba-flask1:before { content: '\e88e'; }
+.ba-floppy:before { content: '\e88f'; }
+.ba-flux:before { content: '\e890'; }
+.ba-fog:before { content: '\e891'; }
+.ba-folder10:before { content: '\e892'; }
+.ba-folder11:before { content: '\e893'; }
+.ba-folder15:before { content: '\e894'; }
+.ba-folder7:before { content: '\e895'; }
+.ba-folder8:before { content: '\e896'; }
+.ba-folder9:before { content: '\e897'; }
+.ba-framework:before { content: '\e898'; }
+.ba-grid:before { content: '\e899'; }
+.ba-grid3:before { content: '\e89a'; }
+.ba-headset:before { content: '\e89b'; }
+.ba-heart18:before { content: '\e89c'; }
+.ba-heart9:before { content: '\e89d'; }
+.ba-helm:before { content: '\e89e'; }
+.ba-home15:before { content: '\e89f'; }
+.ba-home2:before { content: '\e8a0'; }
+.ba-home4:before { content: '\e8a1'; }
+.ba-image1:before { content: '\e8a2'; }
+.ba-inbox1:before { content: '\e8a3'; }
+.ba-inbox2:before { content: '\e8a4'; }
+.ba-infinity2:before { content: '\e8a5'; }
+.ba-internet3:before { content: '\e8a6'; }
+.ba-intersect:before { content: '\e8a7'; }
+.ba-intro:before { content: '\e8a8'; }
+.ba-key3:before { content: '\e8a9'; }
+.ba-layout:before { content: '\e8aa'; }
+.ba-layout1:before { content: '\e8ab'; }
+.ba-layout2:before { content: '\e8ac'; }
+.ba-layout3:before { content: '\e8ad'; }
+.ba-layout4:before { content: '\e8ae'; }
+.ba-layout5:before { content: '\e8af'; }
+.ba-layout6:before { content: '\e8b0'; }
+.ba-left19:before { content: '\e8b1'; }
+.ba-left24:before { content: '\e8b2'; }
+.ba-line6:before { content: '\e8b3'; }
+.ba-7:before { content: '\e801'; }
+.ba-list4:before { content: '\e8b5'; }
+.ba-list5:before { content: '\e8b6'; }
+.ba-list7:before { content: '\e8b7'; }
+.ba-load:before { content: '\e8b8'; }
+.ba-locked2:before { content: '\e8b9'; }
+.ba-low4:before { content: '\e8ba'; }
+.ba-mail1:before { content: '\e8bb'; }
+.ba-mail2:before { content: '\e8bc'; }
+.ba-mail3:before { content: '\e8bd'; }
+.ba-map1:before { content: '\e8be'; }
+.ba-map2:before { content: '\e8bf'; }
+.ba-marquee:before { content: '\e8c0'; }
+.ba-marquee1:before { content: '\e8c1'; }
+.ba-marquee2:before { content: '\e8c2'; }
+.ba-marquee3:before { content: '\e8c3'; }
+.ba-marquee5:before { content: '\e8c4'; }
+.ba-marquee6:before { content: '\e8c5'; }
+.ba-maximise:before { content: '\e8c6'; }
+.ba-menu4:before { content: '\e8c7'; }
+.ba-menu5:before { content: '\e8c8'; }
+.ba-microphone5:before { content: '\e8c9'; }
+.ba-minus:before { content: '\e8ca'; }
+.ba-mizzle:before { content: '\e8cb'; }
+.ba-new3:before { content: '\e8cc'; }
+.ba-newspaper:before { content: '\e8cd'; }
+.ba-newspaper1:before { content: '\e8ce'; }
+.ba-next3:before { content: '\e8cf'; }
+.ba-nib:before { content: '\e8d0'; }
+.ba-nope:before { content: '\e8d1'; }
+.ba-north:before { content: '\e8d2'; }
+.ba-notes:before { content: '\e8d3'; }
+.ba-old2:before { content: '\e8d4'; }
+.ba-out1:before { content: '\e8d5'; }
+.ba-outbox:before { content: '\e8d6'; }
+.ba-outbox1:before { content: '\e8d7'; }
+.ba-outgoing:before { content: '\e8d8'; }
+.ba-outgoing1:before { content: '\e8d9'; }
+.ba-paper6:before { content: '\e8da'; }
+.ba-paper8:before { content: '\e8db'; }
+.ba-paragrap:before { content: '\e8dc'; }
+.ba-paragraph1:before { content: '\e8dd'; }
+.ba-paragraph13:before { content: '\e8de'; }
+.ba-paragraph3:before { content: '\e8df'; }
+.ba-paragraph4:before { content: '\e8e0'; }
+.ba-paragraph5:before { content: '\e8e1'; }
+.ba-paragraph6:before { content: '\e8e2'; }
+.ba-paragraph8:before { content: '\e8e3'; }
+.ba-partially:before { content: '\e8e4'; }
+.ba-pause4:before { content: '\e8e5'; }
+.ba-pen6:before { content: '\e8e6'; }
+.ba-pencil6:before { content: '\e8e7'; }
+.ba-piano:before { content: '\e8e8'; }
+.ba-pin7:before { content: '\e8e9'; }
+.ba-pin8:before { content: '\e8ea'; }
+.ba-plume:before { content: '\e8eb'; }
+.ba-plus3:before { content: '\e8ec'; }
+.ba-podcast:before { content: '\e8ed'; }
+.ba-podcast1:before { content: '\e8ee'; }
+.ba-polaroid:before { content: '\e8ef'; }
+.ba-polaroid1:before { content: '\e8f0'; }
+.ba-postage:before { content: '\e8f1'; }
+.ba-power5:before { content: '\e8f2'; }
+.ba-previous1:before { content: '\e8f3'; }
+.ba-print:before { content: '\e8f4'; }
+.ba-professional:before { content: '\e8f5'; }
+.ba-pull:before { content: '\e8f6'; }
+.ba-pullup:before { content: '\e8f7'; }
+.ba-quill:before { content: '\e8f8'; }
+.ba-rectangular:before { content: '\e8f9'; }
+.ba-reduce:before { content: '\e8fa'; }
+.ba-refresh1:before { content: '\e8fb'; }
+.ba-reminder:before { content: '\e8fc'; }
+.ba-remove:before { content: '\e8fd'; }
+.ba-repeat:before { content: '\e8fe'; }
+.ba-return2:before { content: '\e8ff'; }
+.ba-return3:before { content: '\e900'; }
+.ba-revert:before { content: '\e901'; }
+.ba-rewind9:before { content: '\e902'; }
+.ba-ripped:before { content: '\e903'; }
+.ba-road2:before { content: '\e904'; }
+.ba-rounded1:before { content: '\e905'; }
+.ba-rounded11:before { content: '\e906'; }
+.ba-rulers:before { content: '\e907'; }
+.ba-safe:before { content: '\e908'; }
+.ba-search:before { content: '\e909'; }
+.ba-search4:before { content: '\e90a'; }
+.ba-seccin:before { content: '\e90b'; }
+.ba-send5:before { content: '\e90c'; }
+.ba-settings:before { content: '\e90d'; }
+.ba-settings2:before { content: '\e90e'; }
+.ba-shred:before { content: '\e90f'; }
+.ba-shuffle:before { content: '\e910'; }
+.ba-sing:before { content: '\e911'; }
+.ba-sleep1:before { content: '\e912'; }
+.ba-small40:before { content: '\e913'; }
+.ba-small41:before { content: '\e914'; }
+.ba-small42:before { content: '\e915'; }
+.ba-small43:before { content: '\e916'; }
+.ba-small44:before { content: '\e917'; }
+.ba-small45:before { content: '\e918'; }
+.ba-small46:before { content: '\e919'; }
+.ba-small47:before { content: '\e91a'; }
+.ba-small52:before { content: '\e91b'; }
+.ba-spam:before { content: '\e91c'; }
+.ba-spam1:before { content: '\e91d'; }
+.ba-speech10:before { content: '\e91e'; }
+.ba-speech11:before { content: '\e91f'; }
+.ba-speech17:before { content: '\e920'; }
+.ba-speech3:before { content: '\e921'; }
+.ba-speech4:before { content: '\e922'; }
+.ba-speech5:before { content: '\e923'; }
+.ba-speeck:before { content: '\e924'; }
+.ba-spinner:before { content: '\e925'; }
+.ba-spinner1:before { content: '\e926'; }
+.ba-spinner3:before { content: '\e927'; }
+.ba-split:before { content: '\e928'; }
+.ba-split1:before { content: '\e929'; }
+.ba-spool:before { content: '\e92a'; }
+.ba-square19:before { content: '\e92b'; }
+.ba-stamp:before { content: '\e92c'; }
+.ba-stamp1:before { content: '\e92d'; }
+.ba-star3:before { content: '\e92e'; }
+.ba-stiffy:before { content: '\e92f'; }
+.ba-stop3:before { content: '\e930'; }
+.ba-stopwatch:before { content: '\e931'; }
+.ba-store:before { content: '\e932'; }
+.ba-substract:before { content: '\e933'; }
+.ba-support:before { content: '\e934'; }
+.ba-support2:before { content: '\e935'; }
+.ba-swap:before { content: '\e936'; }
+.ba-swap1:before { content: '\e937'; }
+.ba-swatch:before { content: '\e938'; }
+.ba-swatches:before { content: '\e939'; }
+.ba-switch2:before { content: '\e93a'; }
+.ba-switch3:before { content: '\e93b'; }
+.ba-symbol2:before { content: '\e93c'; }
+.ba-tag3:before { content: '\e93d'; }
+.ba-tag4:before { content: '\e93e'; }
+.ba-tag5:before { content: '\e93f'; }
+.ba-tag7:before { content: '\e940'; }
+.ba-terminal2:before { content: '\e941'; }
+.ba-terminal5:before { content: '\e942'; }
+.ba-terminal6:before { content: '\e943'; }
+.ba-thermometer2:before { content: '\e944'; }
+.ba-three12:before { content: '\e945'; }
+.ba-tick1:before { content: '\e946'; }
+.ba-tilde:before { content: '\e947'; }
+.ba-timeline1:before { content: '\e948'; }
+.ba-toggle:before { content: '\e949'; }
+.ba-toggle1:before { content: '\e94a'; }
+.ba-top:before { content: '\e94b'; }
+.ba-transfer:before { content: '\e94c'; }
+.ba-unite:before { content: '\e94d'; }
+.ba-unlocked2:before { content: '\e94e'; }
+.ba-unwatch:before { content: '\e94f'; }
+.ba-upload5:before { content: '\e950'; }
+.ba-user10:before { content: '\e951'; }
+.ba-user11:before { content: '\e952'; }
+.ba-user13:before { content: '\e953'; }
+.ba-user7:before { content: '\e954'; }
+.ba-user8:before { content: '\e955'; }
+.ba-user9:before { content: '\e956'; }
+.ba-users:before { content: '\e957'; }
+.ba-video4:before { content: '\e958'; }
+.ba-video8:before { content: '\e959'; }
+.ba-vinyl:before { content: '\e95a'; }
+.ba-voicemail:before { content: '\e95b'; }
+.ba-wallet2:before { content: '\e95c'; }
+.ba-wallet3:before { content: '\e95d'; }
+.ba-watch1:before { content: '\e95e'; }
+.ba-wave:before { content: '\e95f'; }
+.ba-wave1:before { content: '\e960'; }
+.ba-web1:before { content: '\e961'; }
+.ba-web2:before { content: '\e962'; }
+.ba-wifi10:before { content: '\e963'; }
+.ba-wifi4:before { content: '\e964'; }
+.ba-wifi8:before { content: '\e965'; }
+.ba-windows4:before { content: '\e966'; }
+.ba-zoom10:before { content: '\e967'; }
+.ba-link6:before { content: '\e8b4'; }

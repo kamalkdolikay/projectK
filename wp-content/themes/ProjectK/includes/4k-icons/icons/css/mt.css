@@ -1,0 +1,181 @@
+@font-face {
+	font-family: 'mt';
+	src:url('../4k-icons-pack04/icons/fonts/mt.eot');
+	src:url('../4k-icons-pack04/icons/fonts/mt.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack04/icons/fonts/mt.woff') format('woff'),
+		url('../4k-icons-pack04/icons/fonts/mt.ttf') format('truetype'),
+		url('../4k-icons-pack04/icons/fonts/mt.svg#mt') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'mt';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="mt-"] {
+*/
+.mt-sunrise, .mt-sun, .mt-moon, .mt-sun-2, .mt-windy, .mt-wind, .mt-snowflake, .mt-cloudy, .mt-cloud, .mt-weather, .mt-weather-2, .mt-weather-3, .mt-lines, .mt-cloud-2, .mt-lightning, .mt-lightning-2, .mt-rainy, .mt-rainy-2, .mt-windy-2, .mt-windy-3, .mt-snowy, .mt-snowy-2, .mt-snowy-3, .mt-weather-4, .mt-cloudy-2, .mt-cloud-3, .mt-lightning-3, .mt-sun-3, .mt-moon-2, .mt-cloudy-3, .mt-cloud-4, .mt-cloud-5, .mt-lightning-4, .mt-rainy-3, .mt-rainy-4, .mt-windy-4, .mt-windy-5, .mt-snowy-4, .mt-snowy-5, .mt-weather-5, .mt-cloudy-4, .mt-lightning-5, .mt-thermometer, .mt-compass, .mt-none, .mt-Celsius, .mt-Fahrenheit {
+	font-family: 'mt';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.mt-sunrise:before {
+	content: "\e000";
+}
+.mt-sun:before {
+	content: "\e001";
+}
+.mt-moon:before {
+	content: "\e002";
+}
+.mt-sun-2:before {
+	content: "\e003";
+}
+.mt-windy:before {
+	content: "\e004";
+}
+.mt-wind:before {
+	content: "\e005";
+}
+.mt-snowflake:before {
+	content: "\e006";
+}
+.mt-cloudy:before {
+	content: "\e007";
+}
+.mt-cloud:before {
+	content: "\e008";
+}
+.mt-weather:before {
+	content: "\e009";
+}
+.mt-weather-2:before {
+	content: "\e00a";
+}
+.mt-weather-3:before {
+	content: "\e00b";
+}
+.mt-lines:before {
+	content: "\e00c";
+}
+.mt-cloud-2:before {
+	content: "\e00d";
+}
+.mt-lightning:before {
+	content: "\e00e";
+}
+.mt-lightning-2:before {
+	content: "\e00f";
+}
+.mt-rainy:before {
+	content: "\e010";
+}
+.mt-rainy-2:before {
+	content: "\e011";
+}
+.mt-windy-2:before {
+	content: "\e012";
+}
+.mt-windy-3:before {
+	content: "\e013";
+}
+.mt-snowy:before {
+	content: "\e014";
+}
+.mt-snowy-2:before {
+	content: "\e015";
+}
+.mt-snowy-3:before {
+	content: "\e016";
+}
+.mt-weather-4:before {
+	content: "\e017";
+}
+.mt-cloudy-2:before {
+	content: "\e018";
+}
+.mt-cloud-3:before {
+	content: "\e019";
+}
+.mt-lightning-3:before {
+	content: "\e01a";
+}
+.mt-sun-3:before {
+	content: "\e01b";
+}
+.mt-moon-2:before {
+	content: "\e01c";
+}
+.mt-cloudy-3:before {
+	content: "\e01d";
+}
+.mt-cloud-4:before {
+	content: "\e01e";
+}
+.mt-cloud-5:before {
+	content: "\e01f";
+}
+.mt-lightning-4:before {
+	content: "\e020";
+}
+.mt-rainy-3:before {
+	content: "\e021";
+}
+.mt-rainy-4:before {
+	content: "\e022";
+}
+.mt-windy-4:before {
+	content: "\e023";
+}
+.mt-windy-5:before {
+	content: "\e024";
+}
+.mt-snowy-4:before {
+	content: "\e025";
+}
+.mt-snowy-5:before {
+	content: "\e026";
+}
+.mt-weather-5:before {
+	content: "\e027";
+}
+.mt-cloudy-4:before {
+	content: "\e028";
+}
+.mt-lightning-5:before {
+	content: "\e029";
+}
+.mt-thermometer:before {
+	content: "\e02a";
+}
+.mt-compass:before {
+	content: "\e02b";
+}
+.mt-none:before {
+	content: "\e02c";
+}
+.mt-Celsius:before {
+	content: "\e02d";
+}
+.mt-Fahrenheit:before {
+	content: "\e02e";
+}

@@ -1,0 +1,160 @@
+@font-face {
+	font-family: 'ec';
+	src:url('../4k-icons-pack02/icons/fonts/ec.eot');
+	src:url('../4k-icons-pack02/icons/fonts/ec.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack02/icons/fonts/ec.woff') format('woff'),
+		url('../4k-icons-pack02/icons/fonts/ec.ttf') format('truetype'),
+		url('../4k-icons-pack02/icons/fonts/ec.svg#ec') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'ec';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="ec-"] {
+*/
+.ec-download, .ec-chat, .ec-archive, .ec-user, .ec-users, .ec-archive-2, .ec-earth, .ec-location, .ec-contract, .ec-mobile, .ec-screen, .ec-mail, .ec-support, .ec-help, .ec-videos, .ec-pictures, .ec-link, .ec-search, .ec-cog, .ec-trashcan, .ec-pencil, .ec-info, .ec-article, .ec-clock, .ec-photoshop, .ec-illustrator, .ec-star, .ec-heart, .ec-bookmark, .ec-file, .ec-feed, .ec-locked, .ec-unlocked, .ec-refresh, .ec-list, .ec-share, .ec-archive-3, .ec-images, .ec-images-2, .ec-pencil-2 {
+	font-family: 'ec';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.ec-download:before {
+	content: "\e000";
+}
+.ec-chat:before {
+	content: "\e001";
+}
+.ec-archive:before {
+	content: "\e002";
+}
+.ec-user:before {
+	content: "\e003";
+}
+.ec-users:before {
+	content: "\e004";
+}
+.ec-archive-2:before {
+	content: "\e005";
+}
+.ec-earth:before {
+	content: "\e006";
+}
+.ec-location:before {
+	content: "\e007";
+}
+.ec-contract:before {
+	content: "\e008";
+}
+.ec-mobile:before {
+	content: "\e009";
+}
+.ec-screen:before {
+	content: "\e00a";
+}
+.ec-mail:before {
+	content: "\e00b";
+}
+.ec-support:before {
+	content: "\e00c";
+}
+.ec-help:before {
+	content: "\e00d";
+}
+.ec-videos:before {
+	content: "\e00e";
+}
+.ec-pictures:before {
+	content: "\e00f";
+}
+.ec-link:before {
+	content: "\e010";
+}
+.ec-search:before {
+	content: "\e011";
+}
+.ec-cog:before {
+	content: "\e012";
+}
+.ec-trashcan:before {
+	content: "\e013";
+}
+.ec-pencil:before {
+	content: "\e014";
+}
+.ec-info:before {
+	content: "\e015";
+}
+.ec-article:before {
+	content: "\e016";
+}
+.ec-clock:before {
+	content: "\e017";
+}
+.ec-photoshop:before {
+	content: "\e018";
+}
+.ec-illustrator:before {
+	content: "\e019";
+}
+.ec-star:before {
+	content: "\e01a";
+}
+.ec-heart:before {
+	content: "\e01b";
+}
+.ec-bookmark:before {
+	content: "\e01c";
+}
+.ec-file:before {
+	content: "\e01d";
+}
+.ec-feed:before {
+	content: "\e01e";
+}
+.ec-locked:before {
+	content: "\e01f";
+}
+.ec-unlocked:before {
+	content: "\e020";
+}
+.ec-refresh:before {
+	content: "\e021";
+}
+.ec-list:before {
+	content: "\e022";
+}
+.ec-share:before {
+	content: "\e023";
+}
+.ec-archive-3:before {
+	content: "\e024";
+}
+.ec-images:before {
+	content: "\e025";
+}
+.ec-images-2:before {
+	content: "\e026";
+}
+.ec-pencil-2:before {
+	content: "\e027";
+}

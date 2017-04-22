@@ -1,0 +1,132 @@
+@font-face {
+	font-family: 'wi';
+	src:url('../4k-icons-pack05/icons/fonts/wi.eot');
+	src:url('../4k-icons-pack05/icons/fonts/wi.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack05/icons/fonts/wi.woff') format('woff'),
+		url('../4k-icons-pack05/icons/fonts/wi.ttf') format('truetype'),
+		url('../4k-icons-pack05/icons/fonts/wi.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'wi';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.wi-windy-sunny-2, .wi-compass-west, .wi-sunny-1, .wi-windy-sunny-1, .wi-rainy-sunny-1, .wi-thunder, .wi-rainy-sunny2, .wi-rainy-sunny3, .wi-rainy-sunny-2, .wi-rainy-sunny-3, .wi-snowy-sunny-4, .wi-rainy-sunny, .wi-sunny-2, .wi-sunny, .wi-thunder-rainy-sunny-1, .wi-thunder-rainy-sunny, .wi-windy-2, .wi-windy-1, .wi-cloudy, .wi-windy-3, .wi-rainy-1, .wi-thunder-lightning, .wi-rainy-2, .wi-rainy-3, .wi-rainy-4, .wi-rainy-5, .wi-snowy, .wi-rainy, .wi-thunder-rainy-1, .wi-thunder-rainy, .wi-windy-4, .wi-windy-night-1, .wi-windy-night-2, .wi-rainy-night-1, .wi-thunder-night-1, .wi-rainy-night-2, .wi-rainy-night-3, .wi-rainy-night-4, .wi-rainy-night-5, .wi-snowy-night-1, .wi-rainy-night-6, .wi-thunder-rainy-night-1, .wi-thunder-rainy-night-2, .wi-night-moon, .wi-windy-5, .wi-windy-sunny, .wi-windy-night-3, .wi-rainy-night-7, .wi-thunder-night, .wi-rainy-night-8, .wi-rainy-night-9, .wi-rainy-night-10, .wi-rainy-night-11, .wi-snowy-night, .wi-rainy-night, .wi-thunder-rainy-night-3, .wi-thunder-rainy-night, .wi-celcius, .wi-download-cloud, .wi-refresh-cloud, .wi-upload-cloud, .wi-cloud, .wi-degree, .wi-south-west-arrow, .wi-south-arrow-down, .wi-fahrenheit, .wi-sunrise-sunset-1, .wi-sunrise-sunset-2, .wi-west-arrow, .wi-windy-night, .wi-arc-arrow, .wi-refresh-circle-arrow, .wi-east-arrow, .wi-rain, .wi-wind, .wi-sunrise-sunset-3, .wi-sunrise-sunset, .wi-temperature-1, .wi-temperature-2, .wi-temperature, .wi-tornado, .wi-north-east-arrow, .wi-north-arrow, .wi-compass-east, .wi-compass-north-east, .wi-compass-north-west, .wi-compass-north, .wi-compass-south-east, .wi-compass-south-west, .wi-compass-south, .wi-windy {
+	font-family: 'wi';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.wi-windy-sunny-2:before { content: '\e801'; }
+.wi-compass-west:before { content: '\e85b'; }
+.wi-sunny-1:before { content: '\e803'; }
+.wi-windy-sunny-1:before { content: '\e804'; }
+.wi-rainy-sunny-1:before { content: '\e805'; }
+.wi-thunder:before { content: '\e806'; }
+.wi-rainy-sunny2:before { content: '\e807'; }
+.wi-rainy-sunny3:before { content: '\e808'; }
+.wi-rainy-sunny-2:before { content: '\e809'; }
+.wi-rainy-sunny-3:before { content: '\e80a'; }
+.wi-snowy-sunny-4:before { content: '\e80b'; }
+.wi-rainy-sunny:before { content: '\e80c'; }
+.wi-sunny-2:before { content: '\e80d'; }
+.wi-sunny:before { content: '\e80e'; }
+.wi-thunder-rainy-sunny-1:before { content: '\e80f'; }
+.wi-thunder-rainy-sunny:before { content: '\e810'; }
+.wi-windy-2:before { content: '\e811'; }
+.wi-windy-1:before { content: '\e812'; }
+.wi-cloudy:before { content: '\e813'; }
+.wi-windy-3:before { content: '\e814'; }
+.wi-rainy-1:before { content: '\e815'; }
+.wi-thunder-lightning:before { content: '\e816'; }
+.wi-rainy-2:before { content: '\e817'; }
+.wi-rainy-3:before { content: '\e818'; }
+.wi-rainy-4:before { content: '\e819'; }
+.wi-rainy-5:before { content: '\e81a'; }
+.wi-snowy:before { content: '\e81b'; }
+.wi-rainy:before { content: '\e81c'; }
+.wi-thunder-rainy-1:before { content: '\e81d'; }
+.wi-thunder-rainy:before { content: '\e81e'; }
+.wi-windy-4:before { content: '\e81f'; }
+.wi-windy-night-1:before { content: '\e820'; }
+.wi-windy-night-2:before { content: '\e821'; }
+.wi-rainy-night-1:before { content: '\e822'; }
+.wi-thunder-night-1:before { content: '\e823'; }
+.wi-rainy-night-2:before { content: '\e824'; }
+.wi-rainy-night-3:before { content: '\e825'; }
+.wi-rainy-night-4:before { content: '\e826'; }
+.wi-rainy-night-5:before { content: '\e827'; }
+.wi-snowy-night-1:before { content: '\e828'; }
+.wi-rainy-night-6:before { content: '\e829'; }
+.wi-thunder-rainy-night-1:before { content: '\e82a'; }
+.wi-thunder-rainy-night-2:before { content: '\e82b'; }
+.wi-night-moon:before { content: '\e82c'; }
+.wi-windy-5:before { content: '\e82d'; }
+.wi-windy-sunny:before { content: '\e802'; }
+.wi-windy-night-3:before { content: '\e82f'; }
+.wi-rainy-night-7:before { content: '\e830'; }
+.wi-thunder-night:before { content: '\e831'; }
+.wi-rainy-night-8:before { content: '\e832'; }
+.wi-rainy-night-9:before { content: '\e833'; }
+.wi-rainy-night-10:before { content: '\e834'; }
+.wi-rainy-night-11:before { content: '\e835'; }
+.wi-snowy-night:before { content: '\e836'; }
+.wi-rainy-night:before { content: '\e837'; }
+.wi-thunder-rainy-night-3:before { content: '\e838'; }
+.wi-thunder-rainy-night:before { content: '\e839'; }
+.wi-celcius:before { content: '\e83a'; }
+.wi-download-cloud:before { content: '\e83b'; }
+.wi-refresh-cloud:before { content: '\e83c'; }
+.wi-upload-cloud:before { content: '\e83d'; }
+.wi-cloud:before { content: '\e83e'; }
+.wi-degree:before { content: '\e83f'; }
+.wi-south-west-arrow:before { content: '\e840'; }
+.wi-south-arrow-down:before { content: '\e841'; }
+.wi-fahrenheit:before { content: '\e842'; }
+.wi-sunrise-sunset-1:before { content: '\e843'; }
+.wi-sunrise-sunset-2:before { content: '\e844'; }
+.wi-west-arrow:before { content: '\e845'; }
+.wi-windy-night:before { content: '\e846'; }
+.wi-arc-arrow:before { content: '\e847'; }
+.wi-refresh-circle-arrow:before { content: '\e848'; }
+.wi-east-arrow:before { content: '\e849'; }
+.wi-rain:before { content: '\e84a'; }
+.wi-wind:before { content: '\e84b'; }
+.wi-sunrise-sunset-3:before { content: '\e84c'; }
+.wi-sunrise-sunset:before { content: '\e84d'; }
+.wi-temperature-1:before { content: '\e84e'; }
+.wi-temperature-2:before { content: '\e84f'; }
+.wi-temperature:before { content: '\e850'; }
+.wi-tornado:before { content: '\e851'; }
+.wi-north-east-arrow:before { content: '\e852'; }
+.wi-north-arrow:before { content: '\e853'; }
+.wi-compass-east:before { content: '\e854'; }
+.wi-compass-north-east:before { content: '\e855'; }
+.wi-compass-north-west:before { content: '\e856'; }
+.wi-compass-north:before { content: '\e857'; }
+.wi-compass-south-east:before { content: '\e858'; }
+.wi-compass-south-west:before { content: '\e859'; }
+.wi-compass-south:before { content: '\e85a'; }
+.wi-windy:before { content: '\e82e'; }

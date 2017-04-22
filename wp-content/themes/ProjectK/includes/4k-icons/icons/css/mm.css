@@ -1,0 +1,93 @@
+@font-face {
+	font-family: 'mm';
+	src:url('../4k-icons-pack03/icons/fonts/mm.eot');
+	src:url('../4k-icons-pack03/icons/fonts/mm.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack03/icons/fonts/mm.woff') format('woff'),
+		url('../4k-icons-pack03/icons/fonts/mm.ttf') format('truetype'),
+		url('../4k-icons-pack03/icons/fonts/mm.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'mm';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.mm-3d, .mm-without2, .mm-battery17, .mm-burn, .mm-camera22, .mm-camera25, .mm-cinema4, .mm-circular15, .mm-compact, .mm-contacts2, .mm-drawing2, .mm-electronic2, .mm-games1, .mm-games2, .mm-graphical, .mm-headphones1, .mm-headphones5, .mm-hearing1, .mm-laptop7, .mm-media13, .mm-media14, .mm-media15, .mm-media16, .mm-media17, .mm-mic2, .mm-mobile8, .mm-3d1, .mm-musical8, .mm-nearly, .mm-old12, .mm-pc, .mm-pendrive1, .mm-phone21, .mm-phone22, .mm-photo11, .mm-photo9, .mm-photograms, .mm-photos, .mm-piano2, .mm-radar4, .mm-radiator, .mm-radiocassette, .mm-remote1, .mm-remote4, .mm-smartphone5, .mm-sound7, .mm-speaker5, .mm-stand, .mm-super1, .mm-telephone4, .mm-vintage3, .mm-multimedia3 {
+	font-family: 'mm';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.mm-3d:before { content: '\e800'; }
+.mm-without2:before { content: '\e833'; }
+.mm-battery17:before { content: '\e802'; }
+.mm-burn:before { content: '\e803'; }
+.mm-camera22:before { content: '\e804'; }
+.mm-camera25:before { content: '\e805'; }
+.mm-cinema4:before { content: '\e806'; }
+.mm-circular15:before { content: '\e807'; }
+.mm-compact:before { content: '\e808'; }
+.mm-contacts2:before { content: '\e809'; }
+.mm-drawing2:before { content: '\e80a'; }
+.mm-electronic2:before { content: '\e80b'; }
+.mm-games1:before { content: '\e80c'; }
+.mm-games2:before { content: '\e80d'; }
+.mm-graphical:before { content: '\e80e'; }
+.mm-headphones1:before { content: '\e80f'; }
+.mm-headphones5:before { content: '\e810'; }
+.mm-hearing1:before { content: '\e811'; }
+.mm-laptop7:before { content: '\e812'; }
+.mm-media13:before { content: '\e813'; }
+.mm-media14:before { content: '\e814'; }
+.mm-media15:before { content: '\e815'; }
+.mm-media16:before { content: '\e816'; }
+.mm-media17:before { content: '\e817'; }
+.mm-mic2:before { content: '\e818'; }
+.mm-mobile8:before { content: '\e819'; }
+.mm-3d1:before { content: '\e801'; }
+.mm-musical8:before { content: '\e81b'; }
+.mm-nearly:before { content: '\e81c'; }
+.mm-old12:before { content: '\e81d'; }
+.mm-pc:before { content: '\e81e'; }
+.mm-pendrive1:before { content: '\e81f'; }
+.mm-phone21:before { content: '\e820'; }
+.mm-phone22:before { content: '\e821'; }
+.mm-photo11:before { content: '\e822'; }
+.mm-photo9:before { content: '\e823'; }
+.mm-photograms:before { content: '\e824'; }
+.mm-photos:before { content: '\e825'; }
+.mm-piano2:before { content: '\e826'; }
+.mm-radar4:before { content: '\e827'; }
+.mm-radiator:before { content: '\e828'; }
+.mm-radiocassette:before { content: '\e829'; }
+.mm-remote1:before { content: '\e82a'; }
+.mm-remote4:before { content: '\e82b'; }
+.mm-smartphone5:before { content: '\e82c'; }
+.mm-sound7:before { content: '\e82d'; }
+.mm-speaker5:before { content: '\e82e'; }
+.mm-stand:before { content: '\e82f'; }
+.mm-super1:before { content: '\e830'; }
+.mm-telephone4:before { content: '\e831'; }
+.mm-vintage3:before { content: '\e832'; }
+.mm-multimedia3:before { content: '\e81a'; }

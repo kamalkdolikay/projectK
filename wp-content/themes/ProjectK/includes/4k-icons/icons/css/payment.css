@@ -1,0 +1,110 @@
+@font-face {
+	font-family: 'payment';
+	src:url('../4k-icons-pack04/icons/fonts/payment.eot');
+	src:url('../4k-icons-pack04/icons/fonts/payment.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack04/icons/fonts/payment.woff') format('woff'),
+		url('../4k-icons-pack04/icons/fonts/payment.ttf') format('truetype'),
+		url('../4k-icons-pack04/icons/fonts/payment.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'payment';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.payment-alipay1, .payment-yandex, .payment-american15, .payment-asia2, .payment-atos1, .payment-bank7, .payment-bbb, .payment-bips1, .payment-bpay, .payment-cirrus, .payment-citibank, .payment-clickandbuy, .payment-credit59, .payment-delta1, .payment-diners1, .payment-direct, .payment-discover, .payment-dwolla1, .payment-ebay5, .payment-eco55, .payment-electronic53, .payment-eps8, .payment-euronet, .payment-eway1, .payment-gift55, .payment-google46, .payment-heartland, .payment-hsbc, .payment-izettle, .payment-jcb3, .payment-klarna1, .payment-laser1, .payment-maestro, .payment-master3, .payment-amazon4, .payment-moneygram1, .payment-neteller1, .payment-ogone, .payment-pay4, .payment-paymate1, .payment-payoneer, .payment-paypal10, .payment-paysafecard, .payment-payza, .payment-popmoney1, .payment-realex, .payment-recurly1, .payment-sage1, .payment-skrill, .payment-solo1, .payment-square90, .payment-stripe1, .payment-switch15, .payment-telecheck1, .payment-timwe1, .payment-truste1, .payment-ukash1, .payment-unionpay1, .payment-verifone1, .payment-verisign1, .payment-vindicia1, .payment-visa4, .payment-webmoney, .payment-wepay1, .payment-western, .payment-wire1, .payment-wirecard, .payment-worldpay, .payment-mondex1 {
+	font-family: 'payment';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.payment-alipay1:before { content: '\e801'; }
+.payment-yandex:before { content: '\e845'; }
+.payment-american15:before { content: '\e803'; }
+.payment-asia2:before { content: '\e804'; }
+.payment-atos1:before { content: '\e805'; }
+.payment-bank7:before { content: '\e806'; }
+.payment-bbb:before { content: '\e807'; }
+.payment-bips1:before { content: '\e808'; }
+.payment-bpay:before { content: '\e809'; }
+.payment-cirrus:before { content: '\e80a'; }
+.payment-citibank:before { content: '\e80b'; }
+.payment-clickandbuy:before { content: '\e80c'; }
+.payment-credit59:before { content: '\e80d'; }
+.payment-delta1:before { content: '\e80e'; }
+.payment-diners1:before { content: '\e80f'; }
+.payment-direct:before { content: '\e810'; }
+.payment-discover:before { content: '\e811'; }
+.payment-dwolla1:before { content: '\e812'; }
+.payment-ebay5:before { content: '\e813'; }
+.payment-eco55:before { content: '\e814'; }
+.payment-electronic53:before { content: '\e815'; }
+.payment-eps8:before { content: '\e816'; }
+.payment-euronet:before { content: '\e817'; }
+.payment-eway1:before { content: '\e818'; }
+.payment-gift55:before { content: '\e819'; }
+.payment-google46:before { content: '\e81a'; }
+.payment-heartland:before { content: '\e81b'; }
+.payment-hsbc:before { content: '\e81c'; }
+.payment-izettle:before { content: '\e81d'; }
+.payment-jcb3:before { content: '\e81e'; }
+.payment-klarna1:before { content: '\e81f'; }
+.payment-laser1:before { content: '\e820'; }
+.payment-maestro:before { content: '\e821'; }
+.payment-master3:before { content: '\e822'; }
+.payment-amazon4:before { content: '\e802'; }
+.payment-moneygram1:before { content: '\e824'; }
+.payment-neteller1:before { content: '\e825'; }
+.payment-ogone:before { content: '\e826'; }
+.payment-pay4:before { content: '\e827'; }
+.payment-paymate1:before { content: '\e828'; }
+.payment-payoneer:before { content: '\e829'; }
+.payment-paypal10:before { content: '\e82a'; }
+.payment-paysafecard:before { content: '\e82b'; }
+.payment-payza:before { content: '\e82c'; }
+.payment-popmoney1:before { content: '\e82d'; }
+.payment-realex:before { content: '\e82e'; }
+.payment-recurly1:before { content: '\e82f'; }
+.payment-sage1:before { content: '\e830'; }
+.payment-skrill:before { content: '\e831'; }
+.payment-solo1:before { content: '\e832'; }
+.payment-square90:before { content: '\e833'; }
+.payment-stripe1:before { content: '\e834'; }
+.payment-switch15:before { content: '\e835'; }
+.payment-telecheck1:before { content: '\e836'; }
+.payment-timwe1:before { content: '\e837'; }
+.payment-truste1:before { content: '\e838'; }
+.payment-ukash1:before { content: '\e839'; }
+.payment-unionpay1:before { content: '\e83a'; }
+.payment-verifone1:before { content: '\e83b'; }
+.payment-verisign1:before { content: '\e83c'; }
+.payment-vindicia1:before { content: '\e83d'; }
+.payment-visa4:before { content: '\e83e'; }
+.payment-webmoney:before { content: '\e83f'; }
+.payment-wepay1:before { content: '\e840'; }
+.payment-western:before { content: '\e841'; }
+.payment-wire1:before { content: '\e842'; }
+.payment-wirecard:before { content: '\e843'; }
+.payment-worldpay:before { content: '\e844'; }
+.payment-mondex1:before { content: '\e823'; }

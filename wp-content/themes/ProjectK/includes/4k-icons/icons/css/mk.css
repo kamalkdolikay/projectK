@@ -1,0 +1,105 @@
+@font-face {
+	font-family: 'mk';
+	src:url('../4k-icons-pack03/icons/fonts/mk.eot');
+	src:url('../4k-icons-pack03/icons/fonts/mk.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack03/icons/fonts/mk.woff') format('woff'),
+		url('../4k-icons-pack03/icons/fonts/mk.ttf') format('truetype'),
+		url('../4k-icons-pack03/icons/fonts/mk.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'mk';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.mk-aboveground-rail, .mk-warehouse, .mk-airport, .mk-art-gallery, .mk-bar, .mk-baseball, .mk-basketball, .mk-beer, .mk-belowground-rail, .mk-bicycle, .mk-bus, .mk-cafe, .mk-campsite, .mk-cemetery, .mk-cinema, .mk-college, .mk-commerical-building, .mk-credit-card, .mk-cricket, .mk-embassy, .mk-fast-food, .mk-ferry, .mk-fire-station, .mk-football, .mk-fuel, .mk-garden, .mk-giraffe, .mk-golf, .mk-grocery-store, .mk-harbor, .mk-heliport, .mk-airfield, .mk-industrial-building, .mk-library, .mk-lodging, .mk-london-underground, .mk-minefield, .mk-monument, .mk-museum, .mk-pharmacy, .mk-pitch, .mk-police, .mk-post, .mk-prison, .mk-rail, .mk-religious-christian, .mk-religious-islam, .mk-religious-jewish, .mk-restaurant, .mk-roadblock, .mk-school, .mk-shop, .mk-skiing, .mk-soccer, .mk-swimming, .mk-tennis, .mk-theatre, .mk-toilet, .mk-town-hall, .mk-trash, .mk-tree-1, .mk-tree-2, .mk-hospital {
+	font-family: 'mk';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+.mk-aboveground-rail:before { content: '\e800'; }
+.mk-warehouse:before { content: '\e83e'; }
+.mk-airport:before { content: '\e802'; }
+.mk-art-gallery:before { content: '\e803'; }
+.mk-bar:before { content: '\e804'; }
+.mk-baseball:before { content: '\e805'; }
+.mk-basketball:before { content: '\e806'; }
+.mk-beer:before { content: '\e807'; }
+.mk-belowground-rail:before { content: '\e808'; }
+.mk-bicycle:before { content: '\e809'; }
+.mk-bus:before { content: '\e80a'; }
+.mk-cafe:before { content: '\e80b'; }
+.mk-campsite:before { content: '\e80c'; }
+.mk-cemetery:before { content: '\e80d'; }
+.mk-cinema:before { content: '\e80e'; }
+.mk-college:before { content: '\e80f'; }
+.mk-commerical-building:before { content: '\e810'; }
+.mk-credit-card:before { content: '\e811'; }
+.mk-cricket:before { content: '\e812'; }
+.mk-embassy:before { content: '\e813'; }
+.mk-fast-food:before { content: '\e814'; }
+.mk-ferry:before { content: '\e815'; }
+.mk-fire-station:before { content: '\e816'; }
+.mk-football:before { content: '\e817'; }
+.mk-fuel:before { content: '\e818'; }
+.mk-garden:before { content: '\e819'; }
+.mk-giraffe:before { content: '\e81a'; }
+.mk-golf:before { content: '\e81b'; }
+.mk-grocery-store:before { content: '\e81c'; }
+.mk-harbor:before { content: '\e81d'; }
+.mk-heliport:before { content: '\e81e'; }
+.mk-airfield:before { content: '\e801'; }
+.mk-industrial-building:before { content: '\e820'; }
+.mk-library:before { content: '\e821'; }
+.mk-lodging:before { content: '\e822'; }
+.mk-london-underground:before { content: '\e823'; }
+.mk-minefield:before { content: '\e824'; }
+.mk-monument:before { content: '\e825'; }
+.mk-museum:before { content: '\e826'; }
+.mk-pharmacy:before { content: '\e827'; }
+.mk-pitch:before { content: '\e828'; }
+.mk-police:before { content: '\e829'; }
+.mk-post:before { content: '\e82a'; }
+.mk-prison:before { content: '\e82b'; }
+.mk-rail:before { content: '\e82c'; }
+.mk-religious-christian:before { content: '\e82d'; }
+.mk-religious-islam:before { content: '\e82e'; }
+.mk-religious-jewish:before { content: '\e82f'; }
+.mk-restaurant:before { content: '\e830'; }
+.mk-roadblock:before { content: '\e831'; }
+.mk-school:before { content: '\e832'; }
+.mk-shop:before { content: '\e833'; }
+.mk-skiing:before { content: '\e834'; }
+.mk-soccer:before { content: '\e835'; }
+.mk-swimming:before { content: '\e836'; }
+.mk-tennis:before { content: '\e837'; }
+.mk-theatre:before { content: '\e838'; }
+.mk-toilet:before { content: '\e839'; }
+.mk-town-hall:before { content: '\e83a'; }
+.mk-trash:before { content: '\e83b'; }
+.mk-tree-1:before { content: '\e83c'; }
+.mk-tree-2:before { content: '\e83d'; }
+.mk-hospital:before { content: '\e81f'; }

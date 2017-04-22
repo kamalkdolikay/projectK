@@ -1,0 +1,15 @@
+php_value max_execution_time 6000000
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /projectk/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /projectk/index.php [L]
+</IfModule>
+
+# END WordPress
+php_value memory_limit 128M
+php_value post_max_size 300M
+php_value upload_max_filesize 60M

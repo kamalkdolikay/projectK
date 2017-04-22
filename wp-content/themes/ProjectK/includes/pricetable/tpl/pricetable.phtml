@@ -1,0 +1,43 @@
+<?php $pt_id = RandomString(20); ?>
+<div class="pricetable" id="pt_<?php print $pt_id; ?>"><div class="pricetable-inner">
+	<?php $col_nb = 0; foreach((array) $table as $i => $column) : ?>
+	<style>#pt_<?php print $pt_id; ?> .<?php print implode('.', $column['classes']) ?> { width:<?php print $column['width'] ?>%;}
+	
+@media screen and (max-width: 600px) {# .<?php print implode('.', $column['classes']) ?> { width:100%;}}
+		</style>
+		<div class="<?php print implode(' ', $column['classes']).' pt_col_nb_'.$col_nb ?>" >
+        
+			<div class="pricetable-column-inner">
+				<div class="pricetable-header">
+					<h3 class="pricetable-name"><?php print $column['title'] ?></h3>
+                    <div class="pt_price_ctn">
+					<h4 class="pricetable-price"><?php print '<span class="pt_price">'.$column['price'].'</span>'; if(isset($column['detail'])){ print '<span class="price_details">'.$column['detail'].'</span>';	 } ?></h4></div>
+                    
+				</div>
+				
+				<div class="features">
+					<?php if(!empty($column['features'])) : ?>
+						<?php foreach($column['features'] as $j => $feature) : ?>
+							<div class="pricetable-feature <?php print $j == 0 ? 'pricetable-first' : '' ?>">
+								<?php print $feature['title'] ?>
+								<?php if(!empty($feature['sub'])) : ?>
+									<small><?php print $feature['sub'] ?></small>
+								<?php endif; ?>
+							</div>
+						<?php endforeach ?>
+					<?php endif; ?>
+				</div>
+				
+				<div class="pricetable-button-container">
+					<a href="<?php print empty($column['url']) ? '#' : $column['url'] ?>">
+						<?php print empty($column['button']) ? __('Select', 'pricetable') : $column['button'] ?>
+					</a>
+				</div>
+				
+			</div>
+		</div>
+	<?php $col_nb ++; endforeach ?>
+	
+	
+	<div class="pricetable-clear"></div>
+</div></div>

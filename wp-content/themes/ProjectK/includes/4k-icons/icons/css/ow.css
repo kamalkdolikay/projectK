@@ -1,0 +1,122 @@
+@font-face {
+	font-family: 'ow';
+	src:url('../4k-icons-pack04/icons/fonts/ow.eot');
+	src:url('../4k-icons-pack04/icons/fonts/ow.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack04/icons/fonts/ow.woff') format('woff'),
+		url('../4k-icons-pack04/icons/fonts/ow.ttf') format('truetype'),
+		url('../4k-icons-pack04/icons/fonts/ow.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'ow';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.ow-semantic-web, .ow-bitcoin-simple, .ow-opensearch, .ow-opml, .ow-ostatus, .ow-ostatus-simple, .ow-share, .ow-share-simple, .ow-oauth, .ow-feed, .ow-feed-simple, .ow-geo, .ow-microformats, .ow-openid, .ow-open-share, .ow-open-share-simple, .ow-activity, .ow-federated, .ow-open-web, .ow-dataportability, .ow-web-intents, .ow-xmpp, .ow-html5, .ow-css3, .ow-connectivity, .ow-semantics, .ow-opengraph, .ow-epub, .ow-qr, .ow-foaf, .ow-info-card, .ow-browserid, .ow-remote-storage, .ow-persona, .ow-odata, .ow-markdown, .ow-tosdr, .ow-device-access, .ow-multimedia, .ow-offline-storage, .ow-apml, .ow-git, .ow-webhooks, .ow-3deffects, .ow-osi, .ow-rdf, .ow-hatom, .ow-activity-simple, .ow-hresume, .ow-hcard-add, .ow-hcard-download, .ow-glyph-52, .ow-glyph-53, .ow-pubsubhubbub, .ow-json-ld, .ow-svg, .ow-ofl-renaming, .ow-ofl-selling, .ow-ofl-embedding, .ow-glyph-60, .ow-glyph-61, .ow-tent, .ow-copyleft, .ow-gnu, .ow-cc, .ow-cc-by-ofl-attribution, .ow-cc-nc, .ow-cc-nc-eu, .ow-cc-nc-jp, .ow-cc-sa-ofl-share, .ow-cc-nd, .ow-cc-public, .ow-cc-zero, .ow-cc-share, .ow-cc-remix, .ow-indieweb1, .ow-indieweb2, .ow-indieweb3, .ow-webfinger, .ow-bitcoin, .ow-perfintegration {
+	font-family: 'ow';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.ow-semantic-web:before { content: '\e801'; }
+.ow-bitcoin-simple:before { content: '\e852'; }
+.ow-opensearch:before { content: '\e803'; }
+.ow-opml:before { content: '\e804'; }
+.ow-ostatus:before { content: '\e805'; }
+.ow-ostatus-simple:before { content: '\e806'; }
+.ow-share:before { content: '\e807'; }
+.ow-share-simple:before { content: '\e808'; }
+.ow-oauth:before { content: '\e809'; }
+.ow-feed:before { content: '\e80a'; }
+.ow-feed-simple:before { content: '\e80b'; }
+.ow-geo:before { content: '\e80c'; }
+.ow-microformats:before { content: '\e80d'; }
+.ow-openid:before { content: '\e800'; }
+.ow-open-share:before { content: '\e80f'; }
+.ow-open-share-simple:before { content: '\e810'; }
+.ow-activity:before { content: '\e811'; }
+.ow-federated:before { content: '\e812'; }
+.ow-open-web:before { content: '\e813'; }
+.ow-dataportability:before { content: '\e814'; }
+.ow-web-intents:before { content: '\e815'; }
+.ow-xmpp:before { content: '\e816'; }
+.ow-html5:before { content: '\e817'; }
+.ow-css3:before { content: '\e818'; }
+.ow-connectivity:before { content: '\e819'; }
+.ow-semantics:before { content: '\e81a'; }
+.ow-opengraph:before { content: '\e81b'; }
+.ow-epub:before { content: '\e81c'; }
+.ow-qr:before { content: '\e81d'; }
+.ow-foaf:before { content: '\e81e'; }
+.ow-info-card:before { content: '\e81f'; }
+.ow-browserid:before { content: '\e820'; }
+.ow-remote-storage:before { content: '\e821'; }
+.ow-persona:before { content: '\e822'; }
+.ow-odata:before { content: '\e823'; }
+.ow-markdown:before { content: '\e824'; }
+.ow-tosdr:before { content: '\e825'; }
+.ow-device-access:before { content: '\e826'; }
+.ow-multimedia:before { content: '\e827'; }
+.ow-offline-storage:before { content: '\e828'; }
+.ow-apml:before { content: '\e802'; }
+.ow-git:before { content: '\e82a'; }
+.ow-webhooks:before { content: '\e82b'; }
+.ow-3deffects:before { content: '\e82c'; }
+.ow-osi:before { content: '\e82d'; }
+.ow-rdf:before { content: '\e82e'; }
+.ow-hatom:before { content: '\e82f'; }
+.ow-activity-simple:before { content: '\e830'; }
+.ow-hresume:before { content: '\e831'; }
+.ow-hcard-add:before { content: '\e832'; }
+.ow-hcard-download:before { content: '\e833'; }
+.ow-glyph-52:before { content: '\e834'; }
+.ow-glyph-53:before { content: '\e835'; }
+.ow-pubsubhubbub:before { content: '\e836'; }
+.ow-json-ld:before { content: '\e837'; }
+.ow-svg:before { content: '\e838'; }
+.ow-ofl-renaming:before { content: '\e839'; }
+.ow-ofl-selling:before { content: '\e83a'; }
+.ow-ofl-embedding:before { content: '\e83b'; }
+.ow-glyph-60:before { content: '\e83c'; }
+.ow-glyph-61:before { content: '\e83d'; }
+.ow-tent:before { content: '\e83f'; }
+.ow-copyleft:before { content: '\e840'; }
+.ow-gnu:before { content: '\e841'; }
+.ow-cc:before { content: '\e842'; }
+.ow-cc-by-ofl-attribution:before { content: '\e843'; }
+.ow-cc-nc:before { content: '\e844'; }
+.ow-cc-nc-eu:before { content: '\e845'; }
+.ow-cc-nc-jp:before { content: '\e846'; }
+.ow-cc-sa-ofl-share:before { content: '\e847'; }
+.ow-cc-nd:before { content: '\e848'; }
+.ow-cc-public:before { content: '\e849'; }
+.ow-cc-zero:before { content: '\e84a'; }
+.ow-cc-share:before { content: '\e84b'; }
+.ow-cc-remix:before { content: '\e84c'; }
+.ow-indieweb1:before { content: '\e84d'; }
+.ow-indieweb2:before { content: '\e84e'; }
+.ow-indieweb3:before { content: '\e84f'; }
+.ow-webfinger:before { content: '\e850'; }
+.ow-bitcoin:before { content: '\e851'; }
+.ow-perfintegration:before { content: '\e829'; }

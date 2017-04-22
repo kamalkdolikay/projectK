@@ -1,0 +1,103 @@
+@font-face {
+	font-family: 'place';
+	src:url('../4k-icons-pack04/icons/fonts/place.eot');
+	src:url('../4k-icons-pack04/icons/fonts/place.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack04/icons/fonts/place.woff') format('woff'),
+		url('../4k-icons-pack04/icons/fonts/place.ttf') format('truetype'),
+		url('../4k-icons-pack04/icons/fonts/place.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'place';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.place-beach3, .place-town, .place-boat12, .place-building21, .place-building22, .place-building23, .place-building24, .place-buildings5, .place-castle7, .place-church7, .place-coconut5, .place-compass44, .place-compass45, .place-compass46, .place-compass47, .place-compass49, .place-compass50, .place-factory7, .place-factory8, .place-flag31, .place-flag32, .place-heart206, .place-home84, .place-home85, .place-home86, .place-home87, .place-home88, .place-home89, .place-home90, .place-map35, .place-map36, .place-beach4, .place-map38, .place-map39, .place-map40, .place-map41, .place-map42, .place-map43, .place-map44, .place-map45, .place-map46, .place-map47, .place-map48, .place-map49, .place-map50, .place-map51, .place-map52, .place-map53, .place-map54, .place-map55, .place-map56, .place-map57, .place-map58, .place-map59, .place-map60, .place-palm9, .place-placeholder4, .place-sailboat5, .place-sunbathing, .place-sunbathing1, .place-tower15, .place-map37 {
+	font-family: 'place';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.place-beach3:before { content: '\e800'; }
+.place-town:before { content: '\e83d'; }
+.place-boat12:before { content: '\e802'; }
+.place-building21:before { content: '\e803'; }
+.place-building22:before { content: '\e804'; }
+.place-building23:before { content: '\e805'; }
+.place-building24:before { content: '\e806'; }
+.place-buildings5:before { content: '\e807'; }
+.place-castle7:before { content: '\e808'; }
+.place-church7:before { content: '\e809'; }
+.place-coconut5:before { content: '\e80a'; }
+.place-compass44:before { content: '\e80b'; }
+.place-compass45:before { content: '\e80c'; }
+.place-compass46:before { content: '\e80d'; }
+.place-compass47:before { content: '\e80e'; }
+.place-compass49:before { content: '\e80f'; }
+.place-compass50:before { content: '\e810'; }
+.place-factory7:before { content: '\e811'; }
+.place-factory8:before { content: '\e812'; }
+.place-flag31:before { content: '\e813'; }
+.place-flag32:before { content: '\e814'; }
+.place-heart206:before { content: '\e815'; }
+.place-home84:before { content: '\e816'; }
+.place-home85:before { content: '\e817'; }
+.place-home86:before { content: '\e818'; }
+.place-home87:before { content: '\e819'; }
+.place-home88:before { content: '\e81a'; }
+.place-home89:before { content: '\e81b'; }
+.place-home90:before { content: '\e81c'; }
+.place-map35:before { content: '\e81d'; }
+.place-map36:before { content: '\e81e'; }
+.place-beach4:before { content: '\e801'; }
+.place-map38:before { content: '\e820'; }
+.place-map39:before { content: '\e821'; }
+.place-map40:before { content: '\e822'; }
+.place-map41:before { content: '\e823'; }
+.place-map42:before { content: '\e824'; }
+.place-map43:before { content: '\e825'; }
+.place-map44:before { content: '\e826'; }
+.place-map45:before { content: '\e827'; }
+.place-map46:before { content: '\e828'; }
+.place-map47:before { content: '\e829'; }
+.place-map48:before { content: '\e82a'; }
+.place-map49:before { content: '\e82b'; }
+.place-map50:before { content: '\e82c'; }
+.place-map51:before { content: '\e82d'; }
+.place-map52:before { content: '\e82e'; }
+.place-map53:before { content: '\e82f'; }
+.place-map54:before { content: '\e830'; }
+.place-map55:before { content: '\e831'; }
+.place-map56:before { content: '\e832'; }
+.place-map57:before { content: '\e833'; }
+.place-map58:before { content: '\e834'; }
+.place-map59:before { content: '\e835'; }
+.place-map60:before { content: '\e836'; }
+.place-palm9:before { content: '\e837'; }
+.place-placeholder4:before { content: '\e838'; }
+.place-sailboat5:before { content: '\e839'; }
+.place-sunbathing:before { content: '\e83a'; }
+.place-sunbathing1:before { content: '\e83b'; }
+.place-tower15:before { content: '\e83c'; }
+.place-map37:before { content: '\e81f'; }

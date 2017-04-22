@@ -1,0 +1,184 @@
+@font-face {
+	font-family: 'ln';
+	src:url('../4k-icons-pack03/icons/fonts/ln.eot');
+	src:url('../4k-icons-pack03/icons/fonts/ln.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack03/icons/fonts/ln.woff') format('woff'),
+		url('../4k-icons-pack03/icons/fonts/ln.ttf') format('truetype'),
+		url('../4k-icons-pack03/icons/fonts/ln.svg#ln') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'ln';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="ln-"] {
+*/
+.ln-heart, .ln-cloud, .ln-star, .ln-tv, .ln-sound, .ln-video, .ln-trash, .ln-user, .ln-key, .ln-search, .ln-settings, .ln-camera, .ln-tag, .ln-lock, .ln-bulb, .ln-pen, .ln-diamond, .ln-display, .ln-location, .ln-eye, .ln-bubble, .ln-stack, .ln-cup, .ln-phone, .ln-news, .ln-mail, .ln-like, .ln-photo, .ln-note, .ln-clock, .ln-paperplane, .ln-params, .ln-banknote, .ln-data, .ln-music, .ln-megaphone, .ln-study, .ln-lab, .ln-food, .ln-t-shirt, .ln-fire, .ln-clip, .ln-shop, .ln-calendar, .ln-wallet, .ln-vynil, .ln-truck, .ln-world {
+	font-family: 'ln';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.ln-heart:before {
+	content: "\e000";
+}
+.ln-cloud:before {
+	content: "\e001";
+}
+.ln-star:before {
+	content: "\e002";
+}
+.ln-tv:before {
+	content: "\e003";
+}
+.ln-sound:before {
+	content: "\e004";
+}
+.ln-video:before {
+	content: "\e005";
+}
+.ln-trash:before {
+	content: "\e006";
+}
+.ln-user:before {
+	content: "\e007";
+}
+.ln-key:before {
+	content: "\e008";
+}
+.ln-search:before {
+	content: "\e009";
+}
+.ln-settings:before {
+	content: "\e00a";
+}
+.ln-camera:before {
+	content: "\e00b";
+}
+.ln-tag:before {
+	content: "\e00c";
+}
+.ln-lock:before {
+	content: "\e00d";
+}
+.ln-bulb:before {
+	content: "\e00e";
+}
+.ln-pen:before {
+	content: "\e00f";
+}
+.ln-diamond:before {
+	content: "\e010";
+}
+.ln-display:before {
+	content: "\e011";
+}
+.ln-location:before {
+	content: "\e012";
+}
+.ln-eye:before {
+	content: "\e013";
+}
+.ln-bubble:before {
+	content: "\e014";
+}
+.ln-stack:before {
+	content: "\e015";
+}
+.ln-cup:before {
+	content: "\e016";
+}
+.ln-phone:before {
+	content: "\e017";
+}
+.ln-news:before {
+	content: "\e018";
+}
+.ln-mail:before {
+	content: "\e019";
+}
+.ln-like:before {
+	content: "\e01a";
+}
+.ln-photo:before {
+	content: "\e01b";
+}
+.ln-note:before {
+	content: "\e01c";
+}
+.ln-clock:before {
+	content: "\e01d";
+}
+.ln-paperplane:before {
+	content: "\e01e";
+}
+.ln-params:before {
+	content: "\e01f";
+}
+.ln-banknote:before {
+	content: "\e020";
+}
+.ln-data:before {
+	content: "\e021";
+}
+.ln-music:before {
+	content: "\e022";
+}
+.ln-megaphone:before {
+	content: "\e023";
+}
+.ln-study:before {
+	content: "\e024";
+}
+.ln-lab:before {
+	content: "\e025";
+}
+.ln-food:before {
+	content: "\e026";
+}
+.ln-t-shirt:before {
+	content: "\e027";
+}
+.ln-fire:before {
+	content: "\e028";
+}
+.ln-clip:before {
+	content: "\e029";
+}
+.ln-shop:before {
+	content: "\e02a";
+}
+.ln-calendar:before {
+	content: "\e02b";
+}
+.ln-wallet:before {
+	content: "\e02c";
+}
+.ln-vynil:before {
+	content: "\e02d";
+}
+.ln-truck:before {
+	content: "\e02e";
+}
+.ln-world:before {
+	content: "\e02f";
+}

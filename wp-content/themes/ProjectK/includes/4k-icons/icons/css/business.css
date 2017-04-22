@@ -1,0 +1,164 @@
+@font-face {
+	font-family: 'business';
+	src:url('../4k-icons-pack01/icons/fonts/business.eot');
+	src:url('../4k-icons-pack01/icons/fonts/business.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack01/icons/fonts/business.woff') format('woff'),
+		url('../4k-icons-pack01/icons/fonts/business.ttf') format('truetype'),
+		url('../4k-icons-pack01/icons/fonts/business.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'business';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.business-ascendant5, .business-wristwatch5, .business-bars10, .business-bars11, .business-bars12, .business-bars13, .business-bars14, .business-bars15, .business-bars16, .business-bars17, .business-bars18, .business-bars19, .business-bars20, .business-bars21, .business-bird30, .business-black208, .business-briefcase14, .business-briefcase15, .business-briefcase16, .business-briefcase17, .business-briefcase18, .business-briefcase19, .business-briefcase20, .business-briefcase21, .business-briefcase22, .business-briefcase23, .business-briefcase24, .business-briefcase25, .business-briefcase26, .business-business58, .business-business62, .business-business63, .business-calendar62, .business-calendar63, .business-calendar64, .business-calendar65, .business-calendar66, .business-calendar67, .business-calendar68, .business-calendar69, .business-circle54, .business-circular85, .business-clock43, .business-clock44, .business-clock45, .business-clock46, .business-clock47, .business-clock48, .business-clock49, .business-crayon4, .business-feather10, .business-feather9, .business-first21, .business-graphic12, .business-horizontal11, .business-horizontal13, .business-increasing9, .business-ink6, .business-line23, .business-line24, .business-line25, .business-ascendant6, .business-line27, .business-line28, .business-note16, .business-note17, .business-note18, .business-note19, .business-note20, .business-note21, .business-note22, .business-note23, .business-note24, .business-note25, .business-notebook26, .business-paper79, .business-paper81, .business-paper82, .business-paper83, .business-paper84, .business-paper86, .business-paper87, .business-paper88, .business-pen27, .business-pen28, .business-pen29, .business-pen30, .business-pen31, .business-pen32, .business-pen33, .business-pen34, .business-pencil39, .business-pencil40, .business-pencil41, .business-pencil43, .business-pencil44, .business-pencil45, .business-pie24, .business-pie25, .business-pie26, .business-pie27, .business-pie28, .business-pie29, .business-pie30, .business-pie31, .business-pie32, .business-pyramid3, .business-pyramid4, .business-rising9, .business-sand3, .business-sand4, .business-sand5, .business-sand6, .business-stopwatch4, .business-stopwatch5, .business-vintage51, .business-wall17, .business-watch10, .business-watch11, .business-weekly3, .business-weekly4, .business-wristwatch4, .business-line26 {
+	font-family: 'business';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.business-ascendant5:before { content: '\e800'; }
+.business-wristwatch5:before { content: '\e87a'; }
+.business-bars10:before { content: '\e802'; }
+.business-bars11:before { content: '\e803'; }
+.business-bars12:before { content: '\e804'; }
+.business-bars13:before { content: '\e805'; }
+.business-bars14:before { content: '\e806'; }
+.business-bars15:before { content: '\e807'; }
+.business-bars16:before { content: '\e808'; }
+.business-bars17:before { content: '\e809'; }
+.business-bars18:before { content: '\e80a'; }
+.business-bars19:before { content: '\e80b'; }
+.business-bars20:before { content: '\e80c'; }
+.business-bars21:before { content: '\e80d'; }
+.business-bird30:before { content: '\e80e'; }
+.business-black208:before { content: '\e80f'; }
+.business-briefcase14:before { content: '\e810'; }
+.business-briefcase15:before { content: '\e811'; }
+.business-briefcase16:before { content: '\e812'; }
+.business-briefcase17:before { content: '\e813'; }
+.business-briefcase18:before { content: '\e814'; }
+.business-briefcase19:before { content: '\e815'; }
+.business-briefcase20:before { content: '\e816'; }
+.business-briefcase21:before { content: '\e817'; }
+.business-briefcase22:before { content: '\e818'; }
+.business-briefcase23:before { content: '\e819'; }
+.business-briefcase24:before { content: '\e81a'; }
+.business-briefcase25:before { content: '\e81b'; }
+.business-briefcase26:before { content: '\e81c'; }
+.business-business58:before { content: '\e81d'; }
+.business-business62:before { content: '\e81e'; }
+.business-business63:before { content: '\e81f'; }
+.business-calendar62:before { content: '\e820'; }
+.business-calendar63:before { content: '\e821'; }
+.business-calendar64:before { content: '\e822'; }
+.business-calendar65:before { content: '\e823'; }
+.business-calendar66:before { content: '\e824'; }
+.business-calendar67:before { content: '\e825'; }
+.business-calendar68:before { content: '\e826'; }
+.business-calendar69:before { content: '\e827'; }
+.business-circle54:before { content: '\e828'; }
+.business-circular85:before { content: '\e829'; }
+.business-clock43:before { content: '\e82a'; }
+.business-clock44:before { content: '\e82b'; }
+.business-clock45:before { content: '\e82c'; }
+.business-clock46:before { content: '\e82d'; }
+.business-clock47:before { content: '\e82e'; }
+.business-clock48:before { content: '\e82f'; }
+.business-clock49:before { content: '\e830'; }
+.business-crayon4:before { content: '\e831'; }
+.business-feather10:before { content: '\e832'; }
+.business-feather9:before { content: '\e833'; }
+.business-first21:before { content: '\e834'; }
+.business-graphic12:before { content: '\e835'; }
+.business-horizontal11:before { content: '\e836'; }
+.business-horizontal13:before { content: '\e837'; }
+.business-increasing9:before { content: '\e838'; }
+.business-ink6:before { content: '\e839'; }
+.business-line23:before { content: '\e83a'; }
+.business-line24:before { content: '\e83b'; }
+.business-line25:before { content: '\e83c'; }
+.business-ascendant6:before { content: '\e801'; }
+.business-line27:before { content: '\e83e'; }
+.business-line28:before { content: '\e83f'; }
+.business-note16:before { content: '\e840'; }
+.business-note17:before { content: '\e841'; }
+.business-note18:before { content: '\e842'; }
+.business-note19:before { content: '\e843'; }
+.business-note20:before { content: '\e844'; }
+.business-note21:before { content: '\e845'; }
+.business-note22:before { content: '\e846'; }
+.business-note23:before { content: '\e847'; }
+.business-note24:before { content: '\e848'; }
+.business-note25:before { content: '\e849'; }
+.business-notebook26:before { content: '\e84a'; }
+.business-paper79:before { content: '\e84b'; }
+.business-paper81:before { content: '\e84c'; }
+.business-paper82:before { content: '\e84d'; }
+.business-paper83:before { content: '\e84e'; }
+.business-paper84:before { content: '\e84f'; }
+.business-paper86:before { content: '\e850'; }
+.business-paper87:before { content: '\e851'; }
+.business-paper88:before { content: '\e852'; }
+.business-pen27:before { content: '\e853'; }
+.business-pen28:before { content: '\e854'; }
+.business-pen29:before { content: '\e855'; }
+.business-pen30:before { content: '\e856'; }
+.business-pen31:before { content: '\e857'; }
+.business-pen32:before { content: '\e858'; }
+.business-pen33:before { content: '\e859'; }
+.business-pen34:before { content: '\e85a'; }
+.business-pencil39:before { content: '\e85b'; }
+.business-pencil40:before { content: '\e85c'; }
+.business-pencil41:before { content: '\e85d'; }
+.business-pencil43:before { content: '\e85e'; }
+.business-pencil44:before { content: '\e85f'; }
+.business-pencil45:before { content: '\e860'; }
+.business-pie24:before { content: '\e861'; }
+.business-pie25:before { content: '\e862'; }
+.business-pie26:before { content: '\e863'; }
+.business-pie27:before { content: '\e864'; }
+.business-pie28:before { content: '\e865'; }
+.business-pie29:before { content: '\e866'; }
+.business-pie30:before { content: '\e867'; }
+.business-pie31:before { content: '\e868'; }
+.business-pie32:before { content: '\e869'; }
+.business-pyramid3:before { content: '\e86a'; }
+.business-pyramid4:before { content: '\e86b'; }
+.business-rising9:before { content: '\e86c'; }
+.business-sand3:before { content: '\e86d'; }
+.business-sand4:before { content: '\e86e'; }
+.business-sand5:before { content: '\e86f'; }
+.business-sand6:before { content: '\e870'; }
+.business-stopwatch4:before { content: '\e871'; }
+.business-stopwatch5:before { content: '\e872'; }
+.business-vintage51:before { content: '\e873'; }
+.business-wall17:before { content: '\e874'; }
+.business-watch10:before { content: '\e875'; }
+.business-watch11:before { content: '\e876'; }
+.business-weekly3:before { content: '\e877'; }
+.business-weekly4:before { content: '\e878'; }
+.business-wristwatch4:before { content: '\e879'; }
+.business-line26:before { content: '\e83d'; }

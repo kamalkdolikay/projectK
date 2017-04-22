@@ -1,0 +1,52 @@
+.siteorigin-follow > div{
+    margin-bottom: 10px;
+}
+
+.siteorigin-follow .twitter .follow-wrapper{
+    display: inline-block;
+    padding: 15px 30px;
+    background: #F0F0F0;
+}
+
+.siteorigin-follow {
+    margin-bottom: 20px;
+}
+
+.pricetable-badge {
+    position: absolute;
+    top:0;
+    right:0;
+    width: 174px;
+    height: 190px;
+
+    background: #F6F6F6;
+    border: 1px solid #DFDFDF;
+}
+
+.pricetable-badge .icon{
+    width: 45px;
+    height: 80px;
+    position: absolute;
+
+    top: 20px;
+    left: 50%;
+    
+    margin-left: -24px;
+    
+    background: url(../images/icon-large.png);
+}
+
+.pricetable-badge h3{
+    position: absolute;
+    
+    bottom: 20px;
+    left:0;
+    
+    width: 100%;
+    line-height: 1.3em;
+    font-size: 22px;
+    text-align: center;
+    color: #444;
+    
+    margin-bottom: 0;
+}

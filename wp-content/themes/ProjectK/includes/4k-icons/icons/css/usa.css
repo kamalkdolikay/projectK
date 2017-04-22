@@ -1,0 +1,199 @@
+@font-face {
+	font-family: 'usa';
+	src:url('../4k-icons-pack04/icons/fonts/usa.eot');
+	src:url('../4k-icons-pack04/icons/fonts/usa.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack04/icons/fonts/usa.woff') format('woff'),
+		url('../4k-icons-pack04/icons/fonts/usa.ttf') format('truetype'),
+		url('../4k-icons-pack04/icons/fonts/usa.svg#usa') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'usa';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="usa-"] {
+*/
+.usa-puertorico, .usa-alaska, .usa-alabama, .usa-arkansas, .usa-arizona, .usa-california, .usa-colorado, .usa-connecticut, .usa-delaware, .usa-florida, .usa-georgia, .usa-hawaii, .usa-iowa, .usa-idaho, .usa-illinois, .usa-indiana, .usa-kansas, .usa-kentucky, .usa-louisiana, .usa-massachusetts, .usa-maryland, .usa-maine, .usa-michigan, .usa-minnesota, .usa-missouri, .usa-mississippi, .usa-montana, .usa-northcarolina, .usa-northdakota, .usa-nebraska, .usa-newhampshire, .usa-newjersey, .usa-newmexico, .usa-nevada, .usa-newyork, .usa-ohio, .usa-oklahoma, .usa-oregon, .usa-pennsylvania, .usa-rhodeisland, .usa-southcarolina, .usa-southdakota, .usa-tennessee, .usa-texas, .usa-utah, .usa-virginia, .usa-vermont, .usa-washington, .usa-wisconsin, .usa-westvirginia, .usa-wyoming, .usa-districtofcolumbia, .usa-usa {
+	font-family: 'usa';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.usa-puertorico:before {
+	content: "\33";
+}
+.usa-alaska:before {
+	content: "\41";
+}
+.usa-alabama:before {
+	content: "\42";
+}
+.usa-arkansas:before {
+	content: "\43";
+}
+.usa-arizona:before {
+	content: "\44";
+}
+.usa-california:before {
+	content: "\45";
+}
+.usa-colorado:before {
+	content: "\46";
+}
+.usa-connecticut:before {
+	content: "\47";
+}
+.usa-delaware:before {
+	content: "\48";
+}
+.usa-florida:before {
+	content: "\49";
+}
+.usa-georgia:before {
+	content: "\4a";
+}
+.usa-hawaii:before {
+	content: "\4b";
+}
+.usa-iowa:before {
+	content: "\4c";
+}
+.usa-idaho:before {
+	content: "\4d";
+}
+.usa-illinois:before {
+	content: "\4e";
+}
+.usa-indiana:before {
+	content: "\4f";
+}
+.usa-kansas:before {
+	content: "\50";
+}
+.usa-kentucky:before {
+	content: "\51";
+}
+.usa-louisiana:before {
+	content: "\52";
+}
+.usa-massachusetts:before {
+	content: "\53";
+}
+.usa-maryland:before {
+	content: "\54";
+}
+.usa-maine:before {
+	content: "\55";
+}
+.usa-michigan:before {
+	content: "\56";
+}
+.usa-minnesota:before {
+	content: "\57";
+}
+.usa-missouri:before {
+	content: "\58";
+}
+.usa-mississippi:before {
+	content: "\59";
+}
+.usa-montana:before {
+	content: "\5a";
+}
+.usa-northcarolina:before {
+	content: "\61";
+}
+.usa-northdakota:before {
+	content: "\62";
+}
+.usa-nebraska:before {
+	content: "\63";
+}
+.usa-newhampshire:before {
+	content: "\64";
+}
+.usa-newjersey:before {
+	content: "\65";
+}
+.usa-newmexico:before {
+	content: "\66";
+}
+.usa-nevada:before {
+	content: "\67";
+}
+.usa-newyork:before {
+	content: "\68";
+}
+.usa-ohio:before {
+	content: "\69";
+}
+.usa-oklahoma:before {
+	content: "\6a";
+}
+.usa-oregon:before {
+	content: "\6b";
+}
+.usa-pennsylvania:before {
+	content: "\6c";
+}
+.usa-rhodeisland:before {
+	content: "\6d";
+}
+.usa-southcarolina:before {
+	content: "\6e";
+}
+.usa-southdakota:before {
+	content: "\6f";
+}
+.usa-tennessee:before {
+	content: "\70";
+}
+.usa-texas:before {
+	content: "\71";
+}
+.usa-utah:before {
+	content: "\72";
+}
+.usa-virginia:before {
+	content: "\73";
+}
+.usa-vermont:before {
+	content: "\74";
+}
+.usa-washington:before {
+	content: "\75";
+}
+.usa-wisconsin:before {
+	content: "\76";
+}
+.usa-westvirginia:before {
+	content: "\77";
+}
+.usa-wyoming:before {
+	content: "\78";
+}
+.usa-districtofcolumbia:before {
+	content: "\79";
+}
+.usa-usa:before {
+	content: "\7a";
+}

@@ -1,0 +1,258 @@
+.pricetable-clear{
+	clear:both;
+}
+
+.pricetable{
+	width: 80%;
+	margin: 0 auto;
+	
+	margin-bottom: 1em;
+	
+	background:#f0f0f0; /* Fallback color */
+	background: rgba(0,0,0,0.02);
+	
+	padding: 10px;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.pricetable .pricetable-inner{
+	position: relative;
+	border: 1px solid #d3d3d3;
+	background: #fdfcfa;
+	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	
+	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.pricetable .pricetable-column{
+	float: left;
+	line-height: 1em;
+	
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+.pricetable .pricetable-column.pricetable-featured{
+	margin: -20px 0;
+	
+	border: 1px solid #d3d3d3;
+	padding: 4px;
+	
+	background: #f6f5f1;
+	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	
+	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.pricetable .pricetable-column.pricetable-featured .pricetable-column-inner{
+	background: #fdfcfa;
+	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+/* @group Borders */
+
+.pricetable .pricetable-column.pricetable-standard {
+	border-right: 1px solid #e5e4e3;
+}
+
+.pricetable .pricetable-column.pricetable-standard.pricetable-last,
+.pricetable .pricetable-column.pricetable-standard.pricetable-before-featured{
+	border-right: none;
+}
+
+/* @end */
+
+/* @group Headers */
+
+.pricetable h3.pricetable-name,
+.pricetable h4.pricetable-price{
+	/* Override the post content height */
+	line-height: 1 !important;
+	margin: 0 !important;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.pricetable h3.pricetable-name{
+	color: #444444;
+	
+	margin: 0;
+	padding: 14px;
+	font-size: 22px;
+	text-align: center;
+	text-transform: none;
+}
+
+.pricetable .pricetable-featured h3.pricetable-name{
+	padding: 22px 14px 21px 14px;
+}
+
+.pricetable h4.pricetable-price{
+	color: #888888;
+	font-size: 14px;
+	
+	border: 1px solid #efefed;
+	border-width: 1px 0;
+	
+	background-color: #fbfaf8;
+	padding: 10px 0;
+	
+	text-align: center;
+	font-style: italic;
+}
+
+.pricetable .pricetable-featured h4.pricetable-price{
+}
+
+
+.pricetable .pricetable-header p{
+	margin: 15px;
+	color: #444444;
+	font-weight: bold;
+}
+
+/* @end */
+
+/* @group Features */
+
+.pricetable .pricetable-features{
+	position: relative;
+}
+
+.pricetable .pricetable-feature {
+	position: relative;
+	color: #444;
+	font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	margin: 0 15px;
+	border-top: 1px dashed #dedddc;
+	padding: 10px 0;
+}
+
+.pricetable .pricetable-feature small{
+	font-size: 0.9em;
+	color: #888;
+	display: block;
+	margin-top: 0.5em;
+}
+
+.pricetable .pricetable-feature:last-child{
+	border-bottom: 1px dashed #dedddc;
+}
+
+.pricetable .pricetable-feature h4{
+	line-height: 1;
+	margin: 0px;
+	color: #333;
+}
+
+.pricetable .pricetable-feature p{
+	margin: 0.5em 0em 0em 0em;
+	color: #555;
+}
+
+/* @end */
+
+/* @group Button */
+
+.pricetable .pricetable-button-container{
+	margin-top: 30px;
+	padding: 15px;
+}
+
+.pricetable .pricetable-featured .pricetable-button-container{
+	border-top: 1px solid #efefed;
+	background: #f6f5f1;
+	padding: 22px 15px 20px 15px;
+}
+
+.pricetable .pricetable-button-container a,
+.pricetable .pricetable-button-container a .pricetable-gradient,
+.pricetable .pricetable-button-container a .pricetable-noise{
+    display: block;
+    
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.pricetable .pricetable-button-container a{
+    width: 75%;
+    margin: 0 auto;
+
+    color: #252525;
+    font: italic 14px Georgia, "Times New Roman", Times, serif;
+    text-decoration: none;
+
+    border: 1px solid #c9ab42;
+    
+    display: block;
+    overflow: hidden;
+    
+    /* Soften the border */
+    -webkit-box-shadow: 0 0 1px #c9ab42;
+    -moz-box-shadow: 0 0 1px #c9ab42;
+    box-shadow: 0 0 1px #c9ab42;
+}
+
+.pricetable .pricetable-button-container a .pricetable-gradient{
+	text-align: center;
+	
+	background: rgb(243,228,175);
+	background: -moz-linear-gradient(top,  rgba(243,228,175,1) 0%, rgba(227,193,75,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(243,228,175,1)), color-stop(100%,rgba(227,193,75,1)));
+	background: -webkit-linear-gradient(top,  rgba(243,228,175,1) 0%,rgba(227,193,75,1) 100%);
+	background: -o-linear-gradient(top,  rgba(243,228,175,1) 0%,rgba(227,193,75,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(243,228,175,1) 0%,rgba(227,193,75,1) 100%);
+	background: linear-gradient(top,  rgba(243,228,175,1) 0%,rgba(227,193,75,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e4af', endColorstr='#e3c14b',GradientType=0 );
+    
+	text-shadow: 0px 0px 2px white;
+	
+	-webkit-box-shadow: inset 0px 1px 0px #FFF, 0 1px 2px rgba(0,0,0,0.15);
+	-moz-box-shadow: inset 0px 1px 0px #FFF, 0 1px 2px rgba(0,0,0,0.15);
+	box-shadow: inset 0px 1px 0px #FFF, 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.pricetable .pricetable-button-container a:hover .pricetable-gradient{
+    border-color:#d1b24a;
+    
+	background: rgb(248,236,181);
+	background: -moz-linear-gradient(top,  rgba(248,236,181,1) 0%, rgba(234,202,82,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(248,236,181,1)), color-stop(100%,rgba(234,202,82,1)));
+	background: -webkit-linear-gradient(top,  rgba(248,236,181,1) 0%,rgba(234,202,82,1) 100%);
+	background: -o-linear-gradient(top,  rgba(248,236,181,1) 0%,rgba(234,202,82,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(248,236,181,1) 0%,rgba(234,202,82,1) 100%);
+	background: linear-gradient(top,  rgba(248,236,181,1) 0%,rgba(234,202,82,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ecb5', endColorstr='#eaca52',GradientType=0 );
+}
+
+.pricetable .pricetable-button-container .pricetable-noise{
+	display: block;
+	padding: 12px 0px;
+	width: 100%;
+	
+	background: url(../images/noise.png) repeat;
+}
+
+/* Some themes add breaks to the pricetable, we dont want those */
+.pricetable br{
+    display: none;
+}
+
+/* @end */

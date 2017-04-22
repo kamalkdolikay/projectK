@@ -1,0 +1,68 @@
+@font-face {
+	font-family: 'moon';
+	src:url('../4k-icons-pack04/icons/fonts/moon.eot');
+	src:url('../4k-icons-pack04/icons/fonts/moon.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack04/icons/fonts/moon.woff') format('woff'),
+		url('../4k-icons-pack04/icons/fonts/moon.ttf') format('truetype'),
+		url('../4k-icons-pack04/icons/fonts/moon.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'moon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.moon-half-moon19, .moon-moon-new31, .moon-moon27, .moon-moon28, .moon-moon29, .moon-moon30, .moon-moon31, .moon-moon32, .moon-moon33, .moon-moon34, .moon-moon35, .moon-moon36, .moon-moon37, .moon-moon26, .moon-moon39, .moon-moon40, .moon-moon41, .moon-moon42, .moon-moon43, .moon-moon44, .moon-moon45, .moon-moon46, .moon-moon47, .moon-moon48, .moon-moon49, .moon-moon50, .moon-moon38 {
+	font-family: 'moon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.moon-half-moon19:before { content: '\e800'; }
+.moon-moon-new31:before { content: '\e81a'; }
+.moon-moon27:before { content: '\e802'; }
+.moon-moon28:before { content: '\e803'; }
+.moon-moon29:before { content: '\e804'; }
+.moon-moon30:before { content: '\e805'; }
+.moon-moon31:before { content: '\e806'; }
+.moon-moon32:before { content: '\e807'; }
+.moon-moon33:before { content: '\e808'; }
+.moon-moon34:before { content: '\e809'; }
+.moon-moon35:before { content: '\e80a'; }
+.moon-moon36:before { content: '\e80b'; }
+.moon-moon37:before { content: '\e80c'; }
+.moon-moon26:before { content: '\e801'; }
+.moon-moon39:before { content: '\e80e'; }
+.moon-moon40:before { content: '\e80f'; }
+.moon-moon41:before { content: '\e810'; }
+.moon-moon42:before { content: '\e811'; }
+.moon-moon43:before { content: '\e812'; }
+.moon-moon44:before { content: '\e813'; }
+.moon-moon45:before { content: '\e814'; }
+.moon-moon46:before { content: '\e815'; }
+.moon-moon47:before { content: '\e816'; }
+.moon-moon48:before { content: '\e817'; }
+.moon-moon49:before { content: '\e818'; }
+.moon-moon50:before { content: '\e819'; }
+.moon-moon38:before { content: '\e80d'; }

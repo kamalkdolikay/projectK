@@ -1,0 +1,101 @@
+@font-face {
+	font-family: 'ft';
+	src:url('../4k-icons-pack03/icons/fonts/ft.eot');
+	src:url('../4k-icons-pack03/icons/fonts/ft.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack03/icons/fonts/ft.woff') format('woff'),
+		url('../4k-icons-pack03/icons/fonts/ft.ttf') format('truetype'),
+		url('../4k-icons-pack03/icons/fonts/ft.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'ft';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.ft-approve3, .ft-world8, .ft-arrow128, .ft-arrow132, .ft-arrow133, .ft-arrow137, .ft-arrow138, .ft-black87, .ft-cart4, .ft-chains, .ft-checked10, .ft-chevron12, .ft-close15, .ft-close16, .ft-cloud43, .ft-comment21, .ft-contacts3, .ft-eye24, .ft-flat1, .ft-flat2, .ft-folder39, .ft-folder40, .ft-heart33, .ft-heart34, .ft-image33, .ft-internet8, .ft-key22, .ft-links3, .ft-list20, .ft-magnification2, .ft-arrow123, .ft-mail18, .ft-map3, .ft-mechanic2, .ft-menu6, .ft-microsoft4, .ft-nine1, .ft-phone23, .ft-picture3, .ft-planet5, .ft-pointer8, .ft-refresh20, .ft-refresh22, .ft-refresh27, .ft-right20, .ft-shopping22, .ft-smartphone6, .ft-speech9, .ft-tablet11, .ft-tablet25, .ft-thumb3, .ft-thumbs15, .ft-tiles, .ft-user21, .ft-view6, .ft-walk1, .ft-walk7, .ft-wheel4, .ft-window16, .ft-magnifier {
+	font-family: 'ft';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.ft-approve3:before { content: '\e800'; }
+.ft-world8:before { content: '\e83b'; }
+.ft-arrow128:before { content: '\e802'; }
+.ft-arrow132:before { content: '\e803'; }
+.ft-arrow133:before { content: '\e804'; }
+.ft-arrow137:before { content: '\e805'; }
+.ft-arrow138:before { content: '\e806'; }
+.ft-black87:before { content: '\e807'; }
+.ft-cart4:before { content: '\e808'; }
+.ft-chains:before { content: '\e809'; }
+.ft-checked10:before { content: '\e80a'; }
+.ft-chevron12:before { content: '\e80b'; }
+.ft-close15:before { content: '\e80c'; }
+.ft-close16:before { content: '\e80d'; }
+.ft-cloud43:before { content: '\e80e'; }
+.ft-comment21:before { content: '\e80f'; }
+.ft-contacts3:before { content: '\e810'; }
+.ft-eye24:before { content: '\e811'; }
+.ft-flat1:before { content: '\e812'; }
+.ft-flat2:before { content: '\e813'; }
+.ft-folder39:before { content: '\e814'; }
+.ft-folder40:before { content: '\e815'; }
+.ft-heart33:before { content: '\e816'; }
+.ft-heart34:before { content: '\e817'; }
+.ft-image33:before { content: '\e818'; }
+.ft-internet8:before { content: '\e819'; }
+.ft-key22:before { content: '\e81a'; }
+.ft-links3:before { content: '\e81b'; }
+.ft-list20:before { content: '\e81c'; }
+.ft-magnification2:before { content: '\e81d'; }
+.ft-arrow123:before { content: '\e801'; }
+.ft-mail18:before { content: '\e81f'; }
+.ft-map3:before { content: '\e820'; }
+.ft-mechanic2:before { content: '\e821'; }
+.ft-menu6:before { content: '\e822'; }
+.ft-microsoft4:before { content: '\e823'; }
+.ft-nine1:before { content: '\e824'; }
+.ft-phone23:before { content: '\e825'; }
+.ft-picture3:before { content: '\e826'; }
+.ft-planet5:before { content: '\e827'; }
+.ft-pointer8:before { content: '\e828'; }
+.ft-refresh20:before { content: '\e829'; }
+.ft-refresh22:before { content: '\e82a'; }
+.ft-refresh27:before { content: '\e82b'; }
+.ft-right20:before { content: '\e82c'; }
+.ft-shopping22:before { content: '\e82d'; }
+.ft-smartphone6:before { content: '\e82e'; }
+.ft-speech9:before { content: '\e82f'; }
+.ft-tablet11:before { content: '\e830'; }
+.ft-tablet25:before { content: '\e831'; }
+.ft-thumb3:before { content: '\e832'; }
+.ft-thumbs15:before { content: '\e833'; }
+.ft-tiles:before { content: '\e834'; }
+.ft-user21:before { content: '\e835'; }
+.ft-view6:before { content: '\e836'; }
+.ft-walk1:before { content: '\e837'; }
+.ft-walk7:before { content: '\e838'; }
+.ft-wheel4:before { content: '\e839'; }
+.ft-window16:before { content: '\e83a'; }
+.ft-magnifier:before { content: '\e81e'; }

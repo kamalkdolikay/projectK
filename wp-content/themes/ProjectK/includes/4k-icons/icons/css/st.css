@@ -1,0 +1,448 @@
+@font-face {
+	font-family: 'st';
+	src:url('../4k-icons-pack04/icons/fonts/st.eot');
+	src:url('../4k-icons-pack04/icons/fonts/st.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack04/icons/fonts/st.woff') format('woff'),
+		url('../4k-icons-pack04/icons/fonts/st.ttf') format('truetype'),
+		url('../4k-icons-pack04/icons/fonts/st.svg#st') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'st';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="st-"] {
+*/
+.st-type, .st-box, .st-archive, .st-envelope, .st-email, .st-files, .st-folder-check, .st-wifi-low, .st-wifi-mid, .st-wifi-full, .st-connection-empty, .st-connection-25, .st-arrow-down, .st-arrow-right, .st-reload, .st-refresh, .st-volume, .st-volume-increase, .st-file-settings, .st-connection-50, .st-connection-75, .st-volume-decrease, .st-mute, .st-file-add, .st-file, .st-align-left, .st-align-right, .st-connection-full, .st-list, .st-grid, .st-microphone, .st-microphone-off, .st-book, .st-checkmark, .st-align-center, .st-align-justify, .st-file-broken, .st-browser, .st-windows, .st-window, .st-folder, .st-folder-add, .st-folder-settings, .st-battery-charging, .st-battery-empty, .st-battery-25, .st-battery-50, .st-battery-75, .st-battery-full, .st-settings, .st-arrow-left, .st-arrow-up, .st-checkbox-checked, .st-checkbox, .st-paperclip, .st-download, .st-tag, .st-trashcan, .st-search, .st-zoom-in, .st-zoom-out, .st-chat, .st-chat-1, .st-chat-2, .st-chat-3, .st-comment, .st-unlocked, .st-unlocked-2, .st-users, .st-user, .st-users-2, .st-drink, .st-shorts, .st-vcard, .st-sun, .st-bill, .st-lab, .st-clipboard, .st-mug, .st-bucket, .st-select, .st-calendar, .st-bookmark, .st-user-2, .st-bullhorn, .st-coffee, .st-graph, .st-crop, .st-email-2, .st-heart, .st-enter, .st-cloud, .st-book-2, .st-star, .st-clock, .st-share, .st-screen, .st-phone, .st-phone-portrait, .st-phone-landscape, .st-tablet, .st-tablet-landscape, .st-newspaper, .st-stack, .st-map-marker, .st-map, .st-support, .st-barbell, .st-image, .st-cube, .st-bars, .st-chart, .st-pencil, .st-measure, .st-eyedropper, .st-printer, .st-home, .st-flag, .st-meter, .st-switch, .st-forbidden, .st-lock, .st-laptop, .st-camera, .st-microwave-oven, .st-credit-cards, .st-calculator, .st-bag, .st-diamond, .st-stopwatch, .st-atom, .st-syringe, .st-health, .st-bolt, .st-pill, .st-bones {
+	font-family: 'st';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.st-type:before {
+	content: "\e000";
+}
+.st-box:before {
+	content: "\e001";
+}
+.st-archive:before {
+	content: "\e002";
+}
+.st-envelope:before {
+	content: "\e003";
+}
+.st-email:before {
+	content: "\e004";
+}
+.st-files:before {
+	content: "\e005";
+}
+.st-folder-check:before {
+	content: "\e015";
+}
+.st-wifi-low:before {
+	content: "\e016";
+}
+.st-wifi-mid:before {
+	content: "\e017";
+}
+.st-wifi-full:before {
+	content: "\e018";
+}
+.st-connection-empty:before {
+	content: "\e019";
+}
+.st-connection-25:before {
+	content: "\e01a";
+}
+.st-arrow-down:before {
+	content: "\e02a";
+}
+.st-arrow-right:before {
+	content: "\e02b";
+}
+.st-reload:before {
+	content: "\e02c";
+}
+.st-refresh:before {
+	content: "\e02d";
+}
+.st-volume:before {
+	content: "\e02e";
+}
+.st-volume-increase:before {
+	content: "\e02f";
+}
+.st-file-settings:before {
+	content: "\e007";
+}
+.st-connection-50:before {
+	content: "\e01b";
+}
+.st-connection-75:before {
+	content: "\e01c";
+}
+.st-volume-decrease:before {
+	content: "\e030";
+}
+.st-mute:before {
+	content: "\e031";
+}
+.st-file-add:before {
+	content: "\e008";
+}
+.st-file:before {
+	content: "\e009";
+}
+.st-align-left:before {
+	content: "\e00a";
+}
+.st-align-right:before {
+	content: "\e00b";
+}
+.st-connection-full:before {
+	content: "\e01d";
+}
+.st-list:before {
+	content: "\e01e";
+}
+.st-grid:before {
+	content: "\e01f";
+}
+.st-microphone:before {
+	content: "\e032";
+}
+.st-microphone-off:before {
+	content: "\e033";
+}
+.st-book:before {
+	content: "\e034";
+}
+.st-checkmark:before {
+	content: "\e035";
+}
+.st-align-center:before {
+	content: "\e00c";
+}
+.st-align-justify:before {
+	content: "\e00d";
+}
+.st-file-broken:before {
+	content: "\e00e";
+}
+.st-browser:before {
+	content: "\e00f";
+}
+.st-windows:before {
+	content: "\e010";
+}
+.st-window:before {
+	content: "\e011";
+}
+.st-folder:before {
+	content: "\e012";
+}
+.st-folder-add:before {
+	content: "\e013";
+}
+.st-folder-settings:before {
+	content: "\e014";
+}
+.st-battery-charging:before {
+	content: "\e021";
+}
+.st-battery-empty:before {
+	content: "\e022";
+}
+.st-battery-25:before {
+	content: "\e023";
+}
+.st-battery-50:before {
+	content: "\e024";
+}
+.st-battery-75:before {
+	content: "\e025";
+}
+.st-battery-full:before {
+	content: "\e026";
+}
+.st-settings:before {
+	content: "\e027";
+}
+.st-arrow-left:before {
+	content: "\e028";
+}
+.st-arrow-up:before {
+	content: "\e029";
+}
+.st-checkbox-checked:before {
+	content: "\e036";
+}
+.st-checkbox:before {
+	content: "\e037";
+}
+.st-paperclip:before {
+	content: "\e038";
+}
+.st-download:before {
+	content: "\e039";
+}
+.st-tag:before {
+	content: "\e03a";
+}
+.st-trashcan:before {
+	content: "\e03b";
+}
+.st-search:before {
+	content: "\e03c";
+}
+.st-zoom-in:before {
+	content: "\e03d";
+}
+.st-zoom-out:before {
+	content: "\e03e";
+}
+.st-chat:before {
+	content: "\e03f";
+}
+.st-chat-1:before {
+	content: "\e040";
+}
+.st-chat-2:before {
+	content: "\e041";
+}
+.st-chat-3:before {
+	content: "\e042";
+}
+.st-comment:before {
+	content: "\e043";
+}
+.st-unlocked:before {
+	content: "\e054";
+}
+.st-unlocked-2:before {
+	content: "\e055";
+}
+.st-users:before {
+	content: "\e056";
+}
+.st-user:before {
+	content: "\e057";
+}
+.st-users-2:before {
+	content: "\e058";
+}
+.st-drink:before {
+	content: "\e069";
+}
+.st-shorts:before {
+	content: "\e06a";
+}
+.st-vcard:before {
+	content: "\e06b";
+}
+.st-sun:before {
+	content: "\e06c";
+}
+.st-bill:before {
+	content: "\e06d";
+}
+.st-lab:before {
+	content: "\e07e";
+}
+.st-clipboard:before {
+	content: "\e07f";
+}
+.st-mug:before {
+	content: "\e080";
+}
+.st-bucket:before {
+	content: "\e081";
+}
+.st-select:before {
+	content: "\e082";
+}
+.st-calendar:before {
+	content: "\e044";
+}
+.st-bookmark:before {
+	content: "\e045";
+}
+.st-user-2:before {
+	content: "\e059";
+}
+.st-bullhorn:before {
+	content: "\e05a";
+}
+.st-coffee:before {
+	content: "\e06e";
+}
+.st-graph:before {
+	content: "\e083";
+}
+.st-crop:before {
+	content: "\e084";
+}
+.st-email-2:before {
+	content: "\e046";
+}
+.st-heart:before {
+	content: "\e047";
+}
+.st-enter:before {
+	content: "\e048";
+}
+.st-cloud:before {
+	content: "\e049";
+}
+.st-book-2:before {
+	content: "\e04a";
+}
+.st-star:before {
+	content: "\e04b";
+}
+.st-clock:before {
+	content: "\e04c";
+}
+.st-share:before {
+	content: "\e05b";
+}
+.st-screen:before {
+	content: "\e05c";
+}
+.st-phone:before {
+	content: "\e05d";
+}
+.st-phone-portrait:before {
+	content: "\e05e";
+}
+.st-phone-landscape:before {
+	content: "\e05f";
+}
+.st-tablet:before {
+	content: "\e060";
+}
+.st-tablet-landscape:before {
+	content: "\e061";
+}
+.st-newspaper:before {
+	content: "\e070";
+}
+.st-stack:before {
+	content: "\e071";
+}
+.st-map-marker:before {
+	content: "\e072";
+}
+.st-map:before {
+	content: "\e073";
+}
+.st-support:before {
+	content: "\e074";
+}
+.st-barbell:before {
+	content: "\e076";
+}
+.st-image:before {
+	content: "\e085";
+}
+.st-cube:before {
+	content: "\e086";
+}
+.st-bars:before {
+	content: "\e087";
+}
+.st-chart:before {
+	content: "\e088";
+}
+.st-pencil:before {
+	content: "\e089";
+}
+.st-measure:before {
+	content: "\e08a";
+}
+.st-eyedropper:before {
+	content: "\e08b";
+}
+.st-printer:before {
+	content: "\e04d";
+}
+.st-home:before {
+	content: "\e04e";
+}
+.st-flag:before {
+	content: "\e04f";
+}
+.st-meter:before {
+	content: "\e050";
+}
+.st-switch:before {
+	content: "\e051";
+}
+.st-forbidden:before {
+	content: "\e052";
+}
+.st-lock:before {
+	content: "\e053";
+}
+.st-laptop:before {
+	content: "\e062";
+}
+.st-camera:before {
+	content: "\e063";
+}
+.st-microwave-oven:before {
+	content: "\e064";
+}
+.st-credit-cards:before {
+	content: "\e065";
+}
+.st-calculator:before {
+	content: "\e066";
+}
+.st-bag:before {
+	content: "\e067";
+}
+.st-diamond:before {
+	content: "\e068";
+}
+.st-stopwatch:before {
+	content: "\e077";
+}
+.st-atom:before {
+	content: "\e078";
+}
+.st-syringe:before {
+	content: "\e079";
+}
+.st-health:before {
+	content: "\e07a";
+}
+.st-bolt:before {
+	content: "\e07b";
+}
+.st-pill:before {
+	content: "\e07c";
+}
+.st-bones:before {
+	content: "\e07d";
+}

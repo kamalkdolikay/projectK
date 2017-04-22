@@ -1,0 +1,111 @@
+@font-face {
+	font-family: 'creditcard';
+	src:url('../4k-icons-pack01/icons/fonts/creditcard.eot');
+	src:url('../4k-icons-pack01/icons/fonts/creditcard.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack01/icons/fonts/creditcard.woff') format('woff'),
+		url('../4k-icons-pack01/icons/fonts/creditcard.ttf') format('truetype'),
+		url('../4k-icons-pack01/icons/fonts/creditcard.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'creditcard';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.creditcard-alipay, .creditcard-yandex1, .creditcard-american16, .creditcard-asia, .creditcard-atos, .creditcard-bank8, .creditcard-better, .creditcard-bips, .creditcard-bpay1, .creditcard-checkout, .creditcard-cirrus1, .creditcard-citibank1, .creditcard-clickandbuy1, .creditcard-credit60, .creditcard-delta, .creditcard-diners, .creditcard-direct2, .creditcard-discover1, .creditcard-dwolla, .creditcard-ebay4, .creditcard-eco54, .creditcard-electronic54, .creditcard-eps7, .creditcard-euronet1, .creditcard-eway, .creditcard-gift54, .creditcard-google47, .creditcard-heartland1, .creditcard-hsbc1, .creditcard-izettle1, .creditcard-jcb4, .creditcard-klarna, .creditcard-laser2, .creditcard-maestro1, .creditcard-mastercard5, .creditcard-amazon3, .creditcard-moneygram, .creditcard-neteller, .creditcard-ogone1, .creditcard-pay5, .creditcard-paymate, .creditcard-payoneer1, .creditcard-paypal11, .creditcard-paysafecard1, .creditcard-payza1, .creditcard-popmoney, .creditcard-realex1, .creditcard-recurly, .creditcard-sage, .creditcard-skrill1, .creditcard-solo, .creditcard-square91, .creditcard-stripe2, .creditcard-switch16, .creditcard-telecheck, .creditcard-timwe, .creditcard-truste, .creditcard-ukash, .creditcard-unionpay, .creditcard-verifone, .creditcard-verisign, .creditcard-vindicia, .creditcard-visa5, .creditcard-webmoney1, .creditcard-wepay, .creditcard-western1, .creditcard-wire, .creditcard-wirecard1, .creditcard-worldpay1, .creditcard-mondex {
+	font-family: 'creditcard';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.creditcard-alipay:before { content: '\e800'; }
+.creditcard-yandex1:before { content: '\e845'; }
+.creditcard-american16:before { content: '\e802'; }
+.creditcard-asia:before { content: '\e803'; }
+.creditcard-atos:before { content: '\e804'; }
+.creditcard-bank8:before { content: '\e805'; }
+.creditcard-better:before { content: '\e806'; }
+.creditcard-bips:before { content: '\e807'; }
+.creditcard-bpay1:before { content: '\e808'; }
+.creditcard-checkout:before { content: '\e809'; }
+.creditcard-cirrus1:before { content: '\e80a'; }
+.creditcard-citibank1:before { content: '\e80b'; }
+.creditcard-clickandbuy1:before { content: '\e80c'; }
+.creditcard-credit60:before { content: '\e80d'; }
+.creditcard-delta:before { content: '\e80e'; }
+.creditcard-diners:before { content: '\e80f'; }
+.creditcard-direct2:before { content: '\e810'; }
+.creditcard-discover1:before { content: '\e811'; }
+.creditcard-dwolla:before { content: '\e812'; }
+.creditcard-ebay4:before { content: '\e813'; }
+.creditcard-eco54:before { content: '\e814'; }
+.creditcard-electronic54:before { content: '\e815'; }
+.creditcard-eps7:before { content: '\e816'; }
+.creditcard-euronet1:before { content: '\e817'; }
+.creditcard-eway:before { content: '\e818'; }
+.creditcard-gift54:before { content: '\e819'; }
+.creditcard-google47:before { content: '\e81a'; }
+.creditcard-heartland1:before { content: '\e81b'; }
+.creditcard-hsbc1:before { content: '\e81c'; }
+.creditcard-izettle1:before { content: '\e81d'; }
+.creditcard-jcb4:before { content: '\e81e'; }
+.creditcard-klarna:before { content: '\e81f'; }
+.creditcard-laser2:before { content: '\e820'; }
+.creditcard-maestro1:before { content: '\e821'; }
+.creditcard-mastercard5:before { content: '\e822'; }
+.creditcard-amazon3:before { content: '\e801'; }
+.creditcard-moneygram:before { content: '\e824'; }
+.creditcard-neteller:before { content: '\e825'; }
+.creditcard-ogone1:before { content: '\e826'; }
+.creditcard-pay5:before { content: '\e827'; }
+.creditcard-paymate:before { content: '\e828'; }
+.creditcard-payoneer1:before { content: '\e829'; }
+.creditcard-paypal11:before { content: '\e82a'; }
+.creditcard-paysafecard1:before { content: '\e82b'; }
+.creditcard-payza1:before { content: '\e82c'; }
+.creditcard-popmoney:before { content: '\e82d'; }
+.creditcard-realex1:before { content: '\e82e'; }
+.creditcard-recurly:before { content: '\e82f'; }
+.creditcard-sage:before { content: '\e830'; }
+.creditcard-skrill1:before { content: '\e831'; }
+.creditcard-solo:before { content: '\e832'; }
+.creditcard-square91:before { content: '\e833'; }
+.creditcard-stripe2:before { content: '\e834'; }
+.creditcard-switch16:before { content: '\e835'; }
+.creditcard-telecheck:before { content: '\e836'; }
+.creditcard-timwe:before { content: '\e837'; }
+.creditcard-truste:before { content: '\e838'; }
+.creditcard-ukash:before { content: '\e839'; }
+.creditcard-unionpay:before { content: '\e83a'; }
+.creditcard-verifone:before { content: '\e83b'; }
+.creditcard-verisign:before { content: '\e83c'; }
+.creditcard-vindicia:before { content: '\e83d'; }
+.creditcard-visa5:before { content: '\e83e'; }
+.creditcard-webmoney1:before { content: '\e83f'; }
+.creditcard-wepay:before { content: '\e840'; }
+.creditcard-western1:before { content: '\e841'; }
+.creditcard-wire:before { content: '\e842'; }
+.creditcard-wirecard1:before { content: '\e843'; }
+.creditcard-worldpay1:before { content: '\e844'; }
+.creditcard-mondex:before { content: '\e823'; }

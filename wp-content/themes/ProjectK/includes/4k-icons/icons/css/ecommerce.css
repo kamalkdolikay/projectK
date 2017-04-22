@@ -1,0 +1,137 @@
+@font-face {
+	font-family: 'ecommerce';
+	src:url('../4k-icons-pack02/icons/fonts/ecommerce.eot');
+	src:url('../4k-icons-pack02/icons/fonts/ecommerce.eot?#iefix') format('embedded-opentype'),
+		url('../4k-icons-pack02/icons/fonts/ecommerce.woff') format('woff'),
+		url('../4k-icons-pack02/icons/fonts/ecommerce.ttf') format('truetype'),
+		url('../4k-icons-pack02/icons/fonts/ecommerce.svg#oi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'ecommerce';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="oi-"] {
+*/
+.ecommerce-bag19, .ecommerce-store5, .ecommerce-bag21, .ecommerce-bag22, .ecommerce-bag23, .ecommerce-bag24, .ecommerce-bag25, .ecommerce-basket10, .ecommerce-basket11, .ecommerce-basket12, .ecommerce-basket13, .ecommerce-basket14, .ecommerce-bill1, .ecommerce-black207, .ecommerce-coin11, .ecommerce-coin12, .ecommerce-coin13, .ecommerce-coins14, .ecommerce-coins15, .ecommerce-coins16, .ecommerce-coins17, .ecommerce-credit43, .ecommerce-credit44, .ecommerce-credit45, .ecommerce-credit46, .ecommerce-credit47, .ecommerce-credit48, .ecommerce-credit49, .ecommerce-credit50, .ecommerce-credit51, .ecommerce-credit52, .ecommerce-credit53, .ecommerce-credit54, .ecommerce-credit55, .ecommerce-dollar103, .ecommerce-money24, .ecommerce-money25, .ecommerce-money26, .ecommerce-money27, .ecommerce-money28, .ecommerce-money29, .ecommerce-money30, .ecommerce-money31, .ecommerce-money32, .ecommerce-money33, .ecommerce-money34, .ecommerce-money35, .ecommerce-money36, .ecommerce-bag20, .ecommerce-money38, .ecommerce-money39, .ecommerce-money40, .ecommerce-printed7, .ecommerce-receipt1, .ecommerce-receipt2, .ecommerce-receipt3, .ecommerce-receipt4, .ecommerce-receipt5, .ecommerce-receipt6, .ecommerce-receipt7, .ecommerce-receipt8, .ecommerce-shop3, .ecommerce-shop4, .ecommerce-shop5, .ecommerce-shop6, .ecommerce-shopping100, .ecommerce-shopping101, .ecommerce-shopping102, .ecommerce-shopping103, .ecommerce-shopping104, .ecommerce-shopping105, .ecommerce-shopping106, .ecommerce-shopping107, .ecommerce-shopping78, .ecommerce-shopping79, .ecommerce-shopping80, .ecommerce-shopping81, .ecommerce-shopping82, .ecommerce-shopping83, .ecommerce-shopping84, .ecommerce-shopping85, .ecommerce-shopping86, .ecommerce-shopping87, .ecommerce-shopping88, .ecommerce-shopping89, .ecommerce-shopping90, .ecommerce-shopping91, .ecommerce-shopping92, .ecommerce-shopping93, .ecommerce-shopping94, .ecommerce-shopping95, .ecommerce-shopping96, .ecommerce-shopping97, .ecommerce-shopping98, .ecommerce-shopping99, .ecommerce-money37 {
+	font-family: 'ecommerce';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.ecommerce-bag19:before { content: '\e800'; }
+.ecommerce-store5:before { content: '\e85f'; }
+.ecommerce-bag21:before { content: '\e802'; }
+.ecommerce-bag22:before { content: '\e803'; }
+.ecommerce-bag23:before { content: '\e804'; }
+.ecommerce-bag24:before { content: '\e805'; }
+.ecommerce-bag25:before { content: '\e806'; }
+.ecommerce-basket10:before { content: '\e807'; }
+.ecommerce-basket11:before { content: '\e808'; }
+.ecommerce-basket12:before { content: '\e809'; }
+.ecommerce-basket13:before { content: '\e80a'; }
+.ecommerce-basket14:before { content: '\e80b'; }
+.ecommerce-bill1:before { content: '\e80c'; }
+.ecommerce-black207:before { content: '\e80d'; }
+.ecommerce-coin11:before { content: '\e80e'; }
+.ecommerce-coin12:before { content: '\e80f'; }
+.ecommerce-coin13:before { content: '\e810'; }
+.ecommerce-coins14:before { content: '\e811'; }
+.ecommerce-coins15:before { content: '\e812'; }
+.ecommerce-coins16:before { content: '\e813'; }
+.ecommerce-coins17:before { content: '\e814'; }
+.ecommerce-credit43:before { content: '\e815'; }
+.ecommerce-credit44:before { content: '\e816'; }
+.ecommerce-credit45:before { content: '\e817'; }
+.ecommerce-credit46:before { content: '\e818'; }
+.ecommerce-credit47:before { content: '\e819'; }
+.ecommerce-credit48:before { content: '\e81a'; }
+.ecommerce-credit49:before { content: '\e81b'; }
+.ecommerce-credit50:before { content: '\e81c'; }
+.ecommerce-credit51:before { content: '\e81d'; }
+.ecommerce-credit52:before { content: '\e81e'; }
+.ecommerce-credit53:before { content: '\e81f'; }
+.ecommerce-credit54:before { content: '\e820'; }
+.ecommerce-credit55:before { content: '\e821'; }
+.ecommerce-dollar103:before { content: '\e822'; }
+.ecommerce-money24:before { content: '\e823'; }
+.ecommerce-money25:before { content: '\e824'; }
+.ecommerce-money26:before { content: '\e825'; }
+.ecommerce-money27:before { content: '\e826'; }
+.ecommerce-money28:before { content: '\e827'; }
+.ecommerce-money29:before { content: '\e828'; }
+.ecommerce-money30:before { content: '\e829'; }
+.ecommerce-money31:before { content: '\e82a'; }
+.ecommerce-money32:before { content: '\e82b'; }
+.ecommerce-money33:before { content: '\e82c'; }
+.ecommerce-money34:before { content: '\e82d'; }
+.ecommerce-money35:before { content: '\e82e'; }
+.ecommerce-money36:before { content: '\e82f'; }
+.ecommerce-bag20:before { content: '\e801'; }
+.ecommerce-money38:before { content: '\e831'; }
+.ecommerce-money39:before { content: '\e832'; }
+.ecommerce-money40:before { content: '\e833'; }
+.ecommerce-printed7:before { content: '\e834'; }
+.ecommerce-receipt1:before { content: '\e835'; }
+.ecommerce-receipt2:before { content: '\e836'; }
+.ecommerce-receipt3:before { content: '\e837'; }
+.ecommerce-receipt4:before { content: '\e838'; }
+.ecommerce-receipt5:before { content: '\e839'; }
+.ecommerce-receipt6:before { content: '\e83a'; }
+.ecommerce-receipt7:before { content: '\e83b'; }
+.ecommerce-receipt8:before { content: '\e83c'; }
+.ecommerce-shop3:before { content: '\e83d'; }
+.ecommerce-shop4:before { content: '\e83e'; }
+.ecommerce-shop5:before { content: '\e83f'; }
+.ecommerce-shop6:before { content: '\e840'; }
+.ecommerce-shopping100:before { content: '\e841'; }
+.ecommerce-shopping101:before { content: '\e842'; }
+.ecommerce-shopping102:before { content: '\e843'; }
+.ecommerce-shopping103:before { content: '\e844'; }
+.ecommerce-shopping104:before { content: '\e845'; }
+.ecommerce-shopping105:before { content: '\e846'; }
+.ecommerce-shopping106:before { content: '\e847'; }
+.ecommerce-shopping107:before { content: '\e848'; }
+.ecommerce-shopping78:before { content: '\e849'; }
+.ecommerce-shopping79:before { content: '\e84a'; }
+.ecommerce-shopping80:before { content: '\e84b'; }
+.ecommerce-shopping81:before { content: '\e84c'; }
+.ecommerce-shopping82:before { content: '\e84d'; }
+.ecommerce-shopping83:before { content: '\e84e'; }
+.ecommerce-shopping84:before { content: '\e84f'; }
+.ecommerce-shopping85:before { content: '\e850'; }
+.ecommerce-shopping86:before { content: '\e851'; }
+.ecommerce-shopping87:before { content: '\e852'; }
+.ecommerce-shopping88:before { content: '\e853'; }
+.ecommerce-shopping89:before { content: '\e854'; }
+.ecommerce-shopping90:before { content: '\e855'; }
+.ecommerce-shopping91:before { content: '\e856'; }
+.ecommerce-shopping92:before { content: '\e857'; }
+.ecommerce-shopping93:before { content: '\e858'; }
+.ecommerce-shopping94:before { content: '\e859'; }
+.ecommerce-shopping95:before { content: '\e85a'; }
+.ecommerce-shopping96:before { content: '\e85b'; }
+.ecommerce-shopping97:before { content: '\e85c'; }
+.ecommerce-shopping98:before { content: '\e85d'; }
+.ecommerce-shopping99:before { content: '\e85e'; }
+.ecommerce-money37:before { content: '\e830'; }
