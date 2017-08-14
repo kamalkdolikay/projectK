@@ -115,7 +115,7 @@ function rd_social_sc($atts, $content = null) {
       <?php //Checking if the icon is needed from the options panel ?>
       <?php if($digg !== '') : ?>
       <?php //Using the icon link from the options panel ?>
-      <div id="digg" class="<?php echo esc_attr($animation) ?>"> <a href="<?php echo esc_url($digg) ?>" target="_blank" ><i class="fa fa-digg"></i></a></div>
+      <div id="digg" class="<?php echo esc_attr($animation) ?>"> <a href="<?php echo esc_url($digg) ?>" target="_blank" ><i class="fa fa-github"></i></a></div>
       <?php $i ++; endif; ?>
       <?php //Checking if the icon is needed from the options panel ?>
       <?php if($flickr !== '') : ?>
