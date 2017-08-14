@@ -400,7 +400,7 @@ if($generated_section !== 'no'){
 <div id="behance"> <a  target="_blank" href="<?php  echo esc_url($behance);  ?>"  ><i class="fa fa-behance"></i></a></div>
         <?php } ?>
         <?php if ($digg!== '') { ?>
-<div id="digg"> <a  target="_blank" href="<?php  echo esc_url($digg);  ?>"  ><i class="fa fa-digg"></i></a></div>
+<div id="digg"> <a  target="_blank" href="<?php  echo esc_url($digg);  ?>"  ><i class="fa fa-github"></i></a></div>
         <?php } ?>
         <?php if ($flickr!== '') { ?>
  <div id="flickr"> <a  target="_blank" href="<?php  echo esc_url($flickr);  ?>"  ><i class="fa fa-flickr"></i></a></div>
