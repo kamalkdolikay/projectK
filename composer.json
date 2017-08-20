@@ -1,6 +1,16 @@
 {
+    "name": "kamal/project-k",
     "require": {
-        "hhvm": "~3.2",
-	"php": "^5.6.0"
-    }
+        "php": "^5.6"
+    },
+    "require-dev": {
+        "php": "^5.6"
+    },
+    "authors": [
+        {
+            "name": "Kamal",
+            "email": "kamaldolikay@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
 }
