@@ -18,4 +18,5 @@ return array(
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
+    'Cowsayphp\\' => array($vendorDir . '/alrik11es/cowsayphp/src'),
 );
