@@ -1,4 +1,4 @@
-#php_value max_execution_time 6000000
+php_value max_execution_time 6000000
 # BEGIN WordPress
 #<IfModule mod_rewrite.c>
 #RewriteEngine On
